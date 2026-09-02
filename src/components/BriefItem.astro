@@ -1,0 +1,48 @@
+---
+import type { BriefItem, HeroItem } from '../lib/schema'
+import ItemMeta from './ItemMeta.astro'
+
+interface Props {
+  item: BriefItem | HeroItem
+  editionDate: string
+  level?: 2 | 3
+  variant?: 'default' | 'hero' | 'paper' | 'repo'
+}
+
+const { item, editionDate, level = 3, variant = 'default' } = Astro.props
+const Tag = level === 2 ? 'h2' : 'h3'
+const body = 'body' in item ? item.body : undefined
+const alsoSee = 'also_see' in item ? item.also_see : undefined
+const paragraphs = body?.split(/\n+/).map((p) => p.trim()).filter(Boolean) ?? []
+---
+
+<article class:list={['item', variant !== 'default' && variant]}>
+  <Tag class="item-headline">
+    <a href={item.canonical_url} target="_blank" rel="noreferrer">{item.headline}</a>
+  </Tag>
+  <p class="lede">{item.lede}</p>
+  {
+    paragraphs.length > 0 && (
+      <div class="body">
+        {paragraphs.map((p) => (
+          <p>{p}</p>
+        ))}
+      </div>
+    )
+  }
+  <p class="why">{item.why_now}</p>
+  <ItemMeta item={item} editionDate={editionDate} />
+  {
+    alsoSee && alsoSee.length > 0 && (
+      <ul class="also-see">
+        {alsoSee.map((link) => (
+          <li>
+            <a href={link.url} target="_blank" rel="noreferrer">
+              같은 이야기 · {link.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    )
+  }
+</article>

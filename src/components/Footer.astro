@@ -1,0 +1,15 @@
+---
+import { withBase } from '../lib/format'
+
+interface Props {
+  archiveHref?: string
+}
+
+const base = import.meta.env.BASE_URL
+const { archiveHref = withBase('archive/', base) } = Astro.props
+---
+
+<footer class="colophon">
+  <p>이 판은 여기까지입니다. 창을 닫아도 됩니다.</p>
+  <a href={archiveHref}>지난 판 보기</a>
+</footer>

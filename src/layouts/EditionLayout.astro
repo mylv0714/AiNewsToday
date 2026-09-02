@@ -1,0 +1,51 @@
+---
+import globalCss from '../styles/global.css?raw'
+
+interface Props {
+  title: string
+}
+
+const { title } = Astro.props
+const base = import.meta.env.BASE_URL
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <title>{title}</title>
+    <link rel="icon" href={`${base}favicon.svg`} />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&display=swap"
+      rel="stylesheet"
+    />
+    <style set:html={globalCss}></style>
+    <script is:inline>
+      (function () {
+        try {
+          var stored = localStorage.getItem('theme')
+          var theme =
+            stored === 'dawn' || stored === 'light'
+              ? stored
+              : window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dawn'
+                : 'light'
+          document.documentElement.setAttribute('data-theme', theme)
+        } catch {
+          document.documentElement.setAttribute('data-theme', 'light')
+        }
+      })()
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>

@@ -1,0 +1,21 @@
+---
+import type { HeroItem } from '../lib/schema'
+import BriefItem from './BriefItem.astro'
+
+interface Props {
+  hero: HeroItem | null
+  quietNight: boolean
+  editionDate: string
+}
+
+const { hero, quietNight, editionDate } = Astro.props
+---
+
+{
+  hero && !quietNight && (
+    <section class="section" aria-labelledby="hero-label">
+      <p class="section-label" id="hero-label">오늘</p>
+      <BriefItem item={hero} editionDate={editionDate} level={2} variant="hero" />
+    </section>
+  )
+}

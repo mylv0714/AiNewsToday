@@ -1,0 +1,18 @@
+---
+import EditionLayout from '../../layouts/EditionLayout.astro'
+import EditionView from '../../components/EditionView.astro'
+import { listEditionDates, loadEdition } from '../../lib/editions'
+import { formatTitleDate } from '../../lib/format'
+
+export function getStaticPaths() {
+  return listEditionDates().map((date) => ({ params: { date } }))
+}
+
+const { date } = Astro.params
+if (!date) throw new Error('date missing')
+const edition = loadEdition(date)
+---
+
+<EditionLayout title={`Morning Brief · ${formatTitleDate(edition.date)}`}>
+  <EditionView edition={edition} />
+</EditionLayout>

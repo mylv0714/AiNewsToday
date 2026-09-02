@@ -1,0 +1,21 @@
+---
+import type { BriefItem } from '../lib/schema'
+import { formatPublished, kindLabel } from '../lib/format'
+
+interface Props {
+  item: BriefItem
+  editionDate: string
+}
+
+const { item, editionDate } = Astro.props
+---
+
+<p class="meta">
+  <span>{kindLabel[item.kind] ?? item.kind}</span>
+  <span aria-hidden="true"> · </span>
+  <span>{item.source_name}</span>
+  <span aria-hidden="true"> · </span>
+  <time datetime={item.published_at}>{formatPublished(item.published_at, editionDate)}</time>
+  <span aria-hidden="true"> · </span>
+  <a href={item.canonical_url} target="_blank" rel="noreferrer">원문</a>
+</p>

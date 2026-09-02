@@ -1,0 +1,166 @@
+{
+  "date": "2026-09-02",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "Anthropic이 긴 컨텍스트 가격을 낮췄고, 로컬 추론 쪽이 다시 분주하다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "Claude 긴 컨텍스트 입력 가격 인하",
+    "lede": "Anthropic이 200K 이상 입력 토큰 구간의 가격을 낮추고, 캐시 히트 단가도 함께 조정했다.",
+    "why_now": "오늘 긴 문서를 넣는 작업의 전제가 바뀐다.",
+    "body": "공식 가격표 기준으로 입력 토큰 장구간 단가가 내려갔다. 출력 가격은 그대로다. 프롬프트 캐시를 쓰는 워크플로라면 반복 호출 비용이 더 눈에 띄게 줄어든다. 한도나 레이트 리밋 숫자는 이 글에 없다. 적용 범위는 API와 Console 쪽이며, 소비자 앱 요금은 별도다.",
+    "kind": "announcement",
+    "source_name": "Anthropic",
+    "canonical_url": "https://www.anthropic.com/news",
+    "also_see": [
+      {
+        "title": "Pricing",
+        "url": "https://www.anthropic.com/pricing"
+      }
+    ],
+    "published_at": "2026-09-01T21:40:00+09:00"
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, 실시간 음성 지연 줄인 엔드포인트",
+      "lede": "Realtime API에 음성 왕복 지연을 낮춘 프리뷰 엔드포인트가 열렸다.",
+      "why_now": "음성 에이전트를 붙인 제품이면 오늘 문서를 열어볼 만하다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/",
+      "published_at": "2026-09-01T23:05:00+09:00"
+    },
+    {
+      "headline": "Gemini 이미지 편집, Workspace에 배포",
+      "lede": "Google이 Gemini 이미지 편집을 Docs·Slides 일부 계정에 넣기 시작했다.",
+      "why_now": "실험실 기능이 업무 도구 안으로 들어온 단계다.",
+      "kind": "announcement",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/technology/ai/",
+      "published_at": "2026-09-01T19:12:00+09:00"
+    },
+    {
+      "headline": "Meta, Llama 추론 가이드 개정",
+      "lede": "긴 컨텍스트에서 KV 캐시 메모리 추정 표를 다시 썼다.",
+      "why_now": "자체 호스팅 중인 팀이면 어제 기준으로 잡은 배치 크기를 점검할 일.",
+      "kind": "announcement",
+      "source_name": "Meta AI",
+      "canonical_url": "https://ai.meta.com/blog/",
+      "published_at": "2026-09-01T08:30:00+09:00"
+    },
+    {
+      "headline": "HF, 공개 가중치 카드에 라이선스 경고 강화",
+      "lede": "라이선스가 모호한 모델 카드 상단에 재배포 제한을 더 크게 띄운다.",
+      "why_now": "가중치를 받아 쓰는 쪽의 실수 지점을 공식적으로 인정한 변경.",
+      "kind": "announcement",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog",
+      "published_at": "2026-09-01T17:48:00+09:00"
+    },
+    {
+      "headline": "HN, 로컬 에이전트 루프 토론이 길다",
+      "lede": "도구 호출을 파일 시스템에 고정하는 설계가 하루 종일 올라와 있다.",
+      "why_now": "새 모델 발표는 아니지만, 손이 가는 쪽의 공기가 여기로 기울었다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://news.ycombinator.com/",
+      "published_at": "2026-09-02T01:20:00+09:00"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "vLLM 0.11, 스펙큘레이티브 디코딩 기본값",
+      "lede": "일부 디코더에서 스펙큘레이티브 디코딩이 기본 경로로 켜진다.",
+      "why_now": "업그레이드하면 벤치 숫자가 아니라 기본 지연이 달라질 수 있다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/vllm-project/vllm/releases",
+      "published_at": "2026-09-01T16:02:00+09:00"
+    },
+    {
+      "headline": "llama.cpp, 비전 프로젝터 메모리 패치",
+      "lede": "멀티모달 로드 시 프로젝터 가중치가 두 번 올라가던 경로를 고쳤다.",
+      "why_now": "로컬 비전 모델이 어제보다 덜 죽는다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/ggml-org/llama.cpp",
+      "published_at": "2026-09-01T11:44:00+09:00"
+    },
+    {
+      "headline": "Ollama, 모델 블롭 가비지 컬렉션 옵션",
+      "lede": "쓰지 않는 레이어를 디스크에서 지우는 플래그가 추가됐다.",
+      "why_now": "디스크를 여러 모델로 채운 개발기에서 바로 쓸 수 있는 변경.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/ollama/ollama",
+      "published_at": "2026-09-01T20:15:00+09:00"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Test-Time Training for Long-Context Recall",
+      "lede": "추론 직전에 작은 업데이트를 허용하면 장문 회상이 안정된다는 주장.",
+      "why_now": "컨텍스트를 더 넣는 대신, 읽는 쪽을 바꾸는 흐름의 연장.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2608.01234",
+      "published_at": "2026-09-01T14:00:00+09:00"
+    },
+    {
+      "headline": "Tool Use Without Tool Tokens",
+      "lede": "특수 토큰 없이 일반 텍스트 프로토콜만으로 도구 호출을 학습한다.",
+      "why_now": "토큰 설계를 못 바꾸는 오픈 가중치에 붙이기 쉬운 아이디어.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2608.04561",
+      "published_at": "2026-09-01T14:00:00+09:00"
+    },
+    {
+      "headline": "Measuring Sycophancy Under Preference Drift",
+      "lede": "사용자 취향이 바뀌는 대화에서 아첨이 언제 커지는지 측정 세트를 제안한다.",
+      "why_now": "채팅 제품을 키우는 팀이면 평가 항목에 넣을지 오늘 결정하면 된다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2608.07720",
+      "published_at": "2026-09-01T14:00:00+09:00"
+    }
+  ],
+  "github": [
+    {
+      "headline": "nari-labs/dia",
+      "lede": "대화 맥락을 유지하는 오픈 음성 생성 모델과 추론 스크립트.",
+      "why_now": "별이 하루 만에 크게 붙었다. 데모가 아니라 가중치와 서버 코드가 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/nari-labs/dia",
+      "published_at": "2026-09-01T09:10:00+09:00"
+    },
+    {
+      "headline": "stanford-cs336/assignment5-alignment",
+      "lede": "정렬 숙제 코드. DPO와 간단한 보상 모델 루프가 한 저장소에 있다.",
+      "why_now": "강의 코드가 공개되자 구현 참고용으로 퍼졌다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/stanford-cs336/assignment5-alignment",
+      "published_at": "2026-09-01T18:33:00+09:00"
+    },
+    {
+      "headline": "ggml-org/whisper.cpp",
+      "lede": "로컬 음성 인식. 이번 태그는 큰 파일 스트리밍 시 메모리 누수를 줄인다.",
+      "why_now": "오래 쓰는 저장소의 패치지만, 서버에 올려 둔 사람이면 오늘 갈아끼울 만하다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/ggml-org/whisper.cpp",
+      "published_at": "2026-09-01T13:27:00+09:00"
+    }
+  ],
+  "if_time": {
+    "headline": "추론 단가와 제품 형태가 같이 움직인다",
+    "lede": "가격표가 내려가면 멀티파일 에이전트와 음성 루프가 같은 주에 현실로 붙는 패턴을 짚은 글.",
+    "why_now": "오늘 히어로와 도구 섹션을 한 줄로 잇고 싶을 때만 읽으면 된다.",
+    "kind": "analysis",
+    "source_name": "The Batch",
+    "canonical_url": "https://www.deeplearning.ai/the-batch/",
+    "published_at": "2026-09-01T06:00:00+09:00"
+  }
+}

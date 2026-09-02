@@ -1,0 +1,27 @@
+{
+  "name": "morning-brief",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "digest": "tsx scripts/digest.ts",
+    "collect": "tsx scripts/collect.ts",
+    "edit": "tsx scripts/edit.ts"
+  },
+  "dependencies": {
+    "astro": "^5.13.2",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "dotenv": "^16.6.1",
+    "rss-parser": "^3.13.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

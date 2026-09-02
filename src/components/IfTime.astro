@@ -1,0 +1,20 @@
+---
+import type { BriefItem } from '../lib/schema'
+import BriefItem from './BriefItem.astro'
+
+interface Props {
+  item: BriefItem | null
+  editionDate: string
+}
+
+const { item, editionDate } = Astro.props
+---
+
+{
+  item && (
+    <section class="section" aria-labelledby="if-time-label">
+      <h2 class="section-label" id="if-time-label">커피가 남았다면</h2>
+      <BriefItem item={item} editionDate={editionDate} />
+    </section>
+  )
+}

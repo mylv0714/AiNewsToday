@@ -1,0 +1,36 @@
+---
+import type { Edition } from '../lib/schema'
+import { formatKoreanDate } from '../lib/format'
+import ThemeToggle from './ThemeToggle.astro'
+import Hero from './Hero.astro'
+import Overnight from './Overnight.astro'
+import Tools from './Tools.astro'
+import Papers from './Papers.astro'
+import Github from './Github.astro'
+import IfTime from './IfTime.astro'
+import Footer from './Footer.astro'
+
+interface Props {
+  edition: Edition
+}
+
+const { edition } = Astro.props
+---
+
+<article class="page">
+  <header class="masthead">
+    <p class="brand">Morning Brief</p>
+    <ThemeToggle />
+    <h1 class="date">{formatKoreanDate(edition.date)}</h1>
+    <span class="edition-meta">{edition.reading_minutes}분 판</span>
+    <p class="one-liner">{edition.one_liner}</p>
+  </header>
+
+  <Hero hero={edition.hero} quietNight={edition.quiet_night} editionDate={edition.date} />
+  <Overnight items={edition.overnight} editionDate={edition.date} />
+  <Tools items={edition.tools} editionDate={edition.date} />
+  <Papers items={edition.papers} editionDate={edition.date} />
+  <Github items={edition.github} editionDate={edition.date} />
+  <IfTime item={edition.if_time} editionDate={edition.date} />
+  <Footer />
+</article>

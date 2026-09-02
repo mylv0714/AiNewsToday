@@ -1,0 +1,22 @@
+---
+import EditionLayout from '../layouts/EditionLayout.astro'
+import EditionView from '../components/EditionView.astro'
+import { loadTodayOrLatest } from '../lib/editions'
+import { formatTitleDate } from '../lib/format'
+
+const edition = loadTodayOrLatest()
+---
+
+<EditionLayout title={edition ? `Morning Brief · ${formatTitleDate(edition.date)}` : 'Morning Brief'}>
+  {
+    edition ? (
+      <EditionView edition={edition} />
+    ) : (
+      <main class="empty">
+        <p class="brand">Morning Brief</p>
+        <h1 class="date">아직 판이 없습니다.</h1>
+        <p class="one-liner">npm run digest 로 오늘 판을 만들면 됩니다.</p>
+      </main>
+    )
+  }
+</EditionLayout>

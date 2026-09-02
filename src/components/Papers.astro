@@ -1,0 +1,25 @@
+---
+import type { BriefItem } from '../lib/schema'
+import { papersHeading } from '../lib/format'
+import BriefItem from './BriefItem.astro'
+
+interface Props {
+  items: BriefItem[]
+  editionDate: string
+}
+
+const { items, editionDate } = Astro.props
+---
+
+{
+  items.length > 0 && (
+    <section class="section" aria-labelledby="papers-label">
+      <h2 class="section-label" id="papers-label">
+        {papersHeading(items.length)}
+      </h2>
+      {items.map((item) => (
+        <BriefItem item={item} editionDate={editionDate} variant="paper" />
+      ))}
+    </section>
+  )
+}

@@ -1,0 +1,27 @@
+---
+const current = Astro.props.current as 'light' | 'dawn' | undefined
+---
+
+<button class="theme-toggle" type="button" data-theme-toggle>
+  {current === 'dawn' ? '낮' : '새벽'}
+</button>
+
+<script>
+  const button = document.querySelector('[data-theme-toggle]')
+  if (button instanceof HTMLButtonElement) {
+    const read = () =>
+      document.documentElement.getAttribute('data-theme') === 'dawn' ? 'dawn' : 'light'
+
+    const paint = () => {
+      button.textContent = read() === 'dawn' ? '낮' : '새벽'
+    }
+
+    paint()
+    button.addEventListener('click', () => {
+      const next = read() === 'dawn' ? 'light' : 'dawn'
+      document.documentElement.setAttribute('data-theme', next)
+      localStorage.setItem('theme', next)
+      paint()
+    })
+  }
+</script>
