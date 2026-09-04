@@ -39,10 +39,10 @@ npm run digest
 
 `.github/workflows/daily.yml`이 **UTC 21:15 (KST 06:15)** 에 수집·편집·빌드·Pages 배포를 한다. `main` 푸시에도 빌드한다.
 
-Secrets는 `LLM_API_KEY`만 있으면 되고, `LLM_BASE_URL` / `LLM_MODEL`은 선택. Pages 소스는 **GitHub Actions**.
+Secrets는 `LLM_API_KEY`만 있으면 되고, `LLM_BASE_URL` / `LLM_MODEL`은 선택. Pages 소스는 **GitHub Actions**.  
+  
+여기 Pages에선 무료api_key를 발급해주는 gemini flash 3.6을 사용하고있다
 
-## 문서
+## Pages
 
-- [docs/PRODUCT.md](docs/PRODUCT.md) — 왜 만드는가
-- [prompts/MORNING_EDITOR.md](prompts/MORNING_EDITOR.md) — 매일 판을 닫는 편집장 프롬프트
-
+[https://mylv0714.github.io/AiNewsToday/](https://mylv0714.github.io/AiNewsToday/)

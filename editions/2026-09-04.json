@@ -2,179 +2,119 @@
   "date": "2026-09-04",
   "timezone": "Asia/Seoul",
   "reading_minutes": 9,
-  "one_liner": "요약 모델에 실패해 원문 제목만 모았습니다.",
+  "one_liner": "엔비디아의 허깅페이스 인수와 OpenAI의 GPT-6 Astra 공개로 AI 생태계 판도가 크게 뒤흔들렸다.",
   "quiet_night": false,
   "hero": {
-    "headline": "Daybreak for Frontline Defenders: $1B to",
-    "lede": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-    "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+    "headline": "엔비디아, 허깅페이스 129억 달러에 인수 합의",
+    "lede": "엔비디아가 오픈소스 AI 생태계의 거점인 허깅페이스를 약 129억 3,000만 달러에 인수하기로 공식 발표했다.",
+    "why_now": "빅테크의 자체 AI 반도체 수직통합에 대응해 오픈소스 AI 워크플로우 전반의 주도권을 쥐려는 포석이다.",
     "kind": "announcement",
-    "source_name": "OpenAI",
-    "canonical_url": "https://openai.com/index/daybreak-for-frontline-defenders",
-    "published_at": "2026-09-03T13:15:00.000Z",
-    "body": "OpenAI introduces Daybreak for Frontline Defenders. A $1 billion commitment expands access to frontier cyber AI, training, and support for essential services.",
-    "also_see": []
+    "source_name": "NVIDIA",
+    "canonical_url": "https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face",
+    "published_at": "2026-09-03T11:56:49.000Z",
+    "body": "엔비디아는 허깅페이스의 기존 Hub 플랫폼을 독립적이고 하드웨어 중립적인 상태로 유지하면서 인프라 지원을 강화할 계획이다. 현재 1,800만 명 이상의 개발자가 이용하는 최대 오픈소스 AI 허브가 엔비디아의 영향력 아래 들어가게 된다. 최근 주요 폐쇄형 AI 연구소들이 독자 칩 설계로 기울자, 엔비디아가 소프트웨어 유통 창구를 직접 선점한 것으로 분석된다.",
+    "also_see": [
+      {
+        "title": "Nvidia to acquire Hugging Face",
+        "url": "https://www.cnbc.com/2026/09/03/nvidia-agrees-to-buy-hugging-face-for-almost-13-billion-ai-expansion.html"
+      }
+    ]
   },
   "overnight": [
     {
-      "headline": "Legora reviewed 41 documents in minutes ",
-      "lede": "Legora used GPT-6 Astra to review 41 documents in minutes, find all four planted errors, and improve performance by nearly 40% in this financial-review workflow.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/legora-financial-statement-review-with-astra",
-      "published_at": "2026-09-03T12:00:00.000Z"
-    },
-    {
-      "headline": "Playco cut manual fixes 50% prototyping ",
-      "lede": "Using GPT-6 Astra, Playco built three themed game prototypes from one grey box foundation and reported 50% fewer manual fixes than with the previous model.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/playco-game-prototyping-with-astra",
-      "published_at": "2026-09-03T12:00:00.000Z"
-    },
-    {
-      "headline": "Safety overview: GPT-6 Astra",
-      "lede": "GPT-6 Astra is our most capable broadly deployed model and our first to reach the Critical level of cybersecurity capability under our Preparedness Framework.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/safety-overview-gpt-6-astra",
-      "published_at": "2026-09-03T00:00:00.000Z"
-    },
-    {
-      "headline": "ATV Big Air Tour turned 3 days of work i",
-      "lede": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/atv-big-air-tour",
-      "published_at": "2026-09-02T12:00:00.000Z"
-    },
-    {
-      "headline": "How AI-native companies turn workflows i",
-      "lede": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/ai-native-company-workflows",
-      "published_at": "2026-09-01T17:00:00.000Z"
-    },
-    {
-      "headline": "Path to Astra: critical capabilities and",
-      "lede": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "OpenAI, 플래그십 모델 GPT-6 Astra 공개",
+      "lede": "OpenAI가 코딩, 수학, 사이버보안 능력을 향상시킨 신규 모델 GPT-6 Astra 배포를 시작했다.",
+      "why_now": "자사 자체 안전 프레임워크에서 최초로 사이버보안 능력이 Critical 등급에 도달했다고 공식 명시했다.",
       "kind": "release",
       "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/path-to-astra",
-      "published_at": "2026-09-01T13:00:00.000Z"
-    }
-  ],
-  "tools": [
-    {
-      "headline": "How law firm Gilbert + Tobin governs and",
-      "lede": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/gilbert-tobin",
-      "published_at": "2026-09-01T01:00:00.000Z"
+      "canonical_url": "https://openai.com/index/gpt-6-astra",
+      "published_at": "2026-09-03T18:41:05.000Z"
     },
     {
-      "headline": "OpenAI supports California’s bill to adv",
-      "lede": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "published_at": "2026-08-31T07:00:00.000Z"
-    },
-    {
-      "headline": "Polimill builds Japan's next-generation ",
-      "lede": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/polimill",
-      "published_at": "2026-08-31T07:00:00.000Z"
-    },
-    {
-      "headline": "A milestone in expanding access to AI",
-      "lede": "ChatGPT Ads reaches $1 billion in annualized revenue run rate and expands globally, supporting broader access to AI through free and affordable options.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads",
-      "published_at": "2026-08-31T04:00:00.000Z"
-    },
-    {
-      "headline": "Introducing WeatherNext 3, our most adva",
-      "lede": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "구글 딥마인드, 기상 예측 모델 WeatherNext 3 공개",
+      "lede": "구글 딥마인드가 정밀도를 더욱 높인 글로벌 기상 예측 AI 모델 WeatherNext 3를 발표했다.",
+      "why_now": "기후 예측 분야에서 기존 글로벌 수치예보 모델 대비 정확도와 해상도를 끌어올렸다.",
       "kind": "release",
       "source_name": "DeepMind",
       "canonical_url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model",
       "published_at": "2026-09-03T15:02:08.000Z"
+    },
+    {
+      "headline": "엔비디아, 로컬 에이전트 실행 환경 RTX Spark 발표",
+      "lede": "엔비디아가 마이크로소프트와 협력하여 로컬 PC 환경에서 AI 에이전트를 가속하는 RTX Spark 솔루션을 선보였다.",
+      "why_now": "클라우드 의존도를 줄이고 온디바이스 에이전트 생태계를 10월부터 본격 확산하려는 목적이다.",
+      "kind": "announcement",
+      "source_name": "NVIDIA",
+      "canonical_url": "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark",
+      "published_at": "2026-09-03T16:00:59.000Z"
     }
   ],
+  "tools": [],
   "papers": [
     {
-      "headline": "A Common Measure of Communication for Sp",
-      "lede": "A Common Measure of Communication for Speech Brain-Computer Interfaces",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "Repo-To-Skill: 깃허브 저장소를 에이전트 스킬로 전환",
+      "lede": "GitHub 저장소 내 도메인 지식과 실행 패턴을 자동 추출하여 자율 AI 에이전트의 실행 가능한 스킬 모듈로 증류하는 기법을 제안한다.",
+      "why_now": "코드 생성 수준을 넘어 오픈소스 프로젝트의 운영 노하우를 에이전트에 직접 주입하는 접근법이다.",
       "kind": "paper",
-      "source_name": "arXiv",
-      "canonical_url": "https://arxiv.org/abs/2609.02887v1",
-      "published_at": "2026-09-02T17:59:46.000Z"
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.02749",
+      "published_at": "2026-09-03T00:00:00.000Z"
     },
     {
-      "headline": "Discriminative World Models for Web Agen",
-      "lede": "Discriminative World Models for Web Agents",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "HarnessDev: 에이전트 실행 환경을 스스로 진화시키는 LLM",
+      "lede": "모델 가중치는 동결한 채 외부 실행 인프라(Harness)를 LLM이 직접 수정·최적화하도록 만드는 자가 진화 프레임워크 연구다.",
+      "why_now": "모델 재학습 없이도 실행 하네스 변경만으로 에이전트의 작업 성공률을 개선할 수 있음을 보여준다.",
       "kind": "paper",
-      "source_name": "arXiv",
-      "canonical_url": "https://arxiv.org/abs/2609.02885v1",
-      "published_at": "2026-09-02T17:59:40.000Z"
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.01437",
+      "published_at": "2026-09-03T00:00:00.000Z"
     },
     {
-      "headline": "Graph Machine: Towards Better Pretrainin",
-      "lede": "Graph Machine: Towards Better Pretraining via Edges",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "LatentPress: 연속 메모리 토큰 기반 컨텍스트 압축",
+      "lede": "긴 대화와 문서를 텍스트나 이미지가 아닌 연속적인 메모리 토큰 형태의 잠재 표현으로 압축하여 디코더가 바로 읽도록 설계했다.",
+      "why_now": "긴 문맥 처리 시 매 토큰 생성마다 전역 컨텍스트를 재스캔하는 비용 부담을 단축시킨다.",
       "kind": "paper",
-      "source_name": "arXiv",
-      "canonical_url": "https://arxiv.org/abs/2609.02881v1",
-      "published_at": "2026-09-02T17:56:41.000Z"
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.01507",
+      "published_at": "2026-09-04T00:00:00.000Z"
     }
   ],
   "github": [
     {
-      "headline": "2akouwu/reverify",
-      "lede": "AI makes things up when it reads a binary. Reverify checks its every claim against the real bytes, so you see what's actually true — AI-assisted reverse engineering you can trust. ",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "nodeterm: AI 코딩 에이전트용 노드 기반 터미널",
+      "lede": "tmux 기반 터미널 및 병렬 에이전트 세션을 무한 캔버스 위의 노드로 배치하여 시각적으로 제어하는 오프라인/서버 도구다.",
+      "why_now": "여러 코딩 에이전트를 동시에 띄워두고 작업 상태를 관리하는 프론트엔드 인터페이스를 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/eneskirca/nodeterm",
+      "published_at": "2026-09-04T05:48:31.000Z"
+    },
+    {
+      "headline": "moli: AI 에이전트 전용 Rust 경량 헤드리스 브라우저",
+      "lede": "AI 에이전트의 고속 웹 탐색 및 자동화를 위해 Rust 기반으로 제작된 경량 헤드리스 브라우저 엔진이다.",
+      "why_now": "기존의 무거운 브라우저 오케스트레이션 도구 대비 빠른 반응성과 낮은 리소스 사용량을 목표로 한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/lexmount/moli",
+      "published_at": "2026-09-04T05:48:15.000Z"
+    },
+    {
+      "headline": "reverify: 바이너리 읽는 에이전트의 환각 방지 도구",
+      "lede": "AI 에이전트가 제출한 바이너리 분석 주장을 실제 바이트 검증 도구로 대조하여 환각을 차단하는 MCP 서버 겸 CLI 도구다.",
+      "why_now": "저수준 이진 파일 분석 작업 시 언어 모델의 근거 없는 추측을 사실 기반으로 정정해준다.",
       "kind": "repo",
       "source_name": "GitHub",
       "canonical_url": "https://github.com/2akouwu/reverify",
-      "published_at": "2026-08-31T01:02:18.000Z"
-    },
-    {
-      "headline": "useagenthq/useagent",
-      "lede": "The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs. Run",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "repo",
-      "source_name": "GitHub",
-      "canonical_url": "https://github.com/useagenthq/useagent",
-      "published_at": "2026-08-29T21:14:31.000Z"
-    },
-    {
-      "headline": "Human-Agent-Society/reef",
-      "lede": "Continual learning infra for self-improving agents",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "repo",
-      "source_name": "GitHub",
-      "canonical_url": "https://github.com/Human-Agent-Society/reef",
-      "published_at": "2026-08-31T01:39:18.000Z"
+      "published_at": "2026-09-04T05:02:17.000Z"
     }
   ],
-  "if_time": null
+  "if_time": {
+    "headline": "코딩 에이전트 1.7만 회 실행 분석: 선호 도구 조사",
+    "lede": "Claude, Codex, Cursor 등 코딩 에이전트들이 실제 작업 도중 어떤 외부 CLI와 도구를 설치해 사용하는지 통계를 정리했다.",
+    "why_now": "개발 환경에 에이전트를 배치할 때 사전에 준비해야 할 툴체인 우선순위를 파악하는 데 유용하다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://armature.tech/blog/which-tools-coding-agents-install",
+    "published_at": "2026-09-03T21:20:34.000Z"
+  }
 }

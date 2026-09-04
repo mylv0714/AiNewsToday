@@ -187,40 +187,58 @@ function finalizeEdition(date: string, parsed: z.infer<typeof llmEditionSchema>)
   })
 }
 
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms))
+}
+
 async function completeChat(system: string, user: string): Promise<string> {
   const key = process.env.LLM_API_KEY
   if (!key) throw new Error('LLM_API_KEY missing')
 
   const base = (process.env.LLM_BASE_URL || 'https://api.openai.com/v1').replace(/\/$/, '')
   const model = process.env.LLM_MODEL || 'gpt-4o-mini'
-  const response = await fetch(`${base}/chat/completions`, {
-    method: 'POST',
-    headers: {
-      Authorization: `Bearer ${key}`,
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      model,
-      temperature: 0.3,
-      messages: [
-        { role: 'system', content: system },
-        { role: 'user', content: user },
-      ],
-    }),
-    signal: AbortSignal.timeout(90_000),
+  const payload = JSON.stringify({
+    model,
+    temperature: 0.3,
+    messages: [
+      { role: 'system', content: system },
+      { role: 'user', content: user },
+    ],
   })
 
-  if (!response.ok) {
+  let lastError = 'LLM request failed'
+  for (let i = 0; i < 4; i++) {
+    const response = await fetch(`${base}/chat/completions`, {
+      method: 'POST',
+      headers: {
+        Authorization: `Bearer ${key}`,
+        'Content-Type': 'application/json',
+      },
+      body: payload,
+      signal: AbortSignal.timeout(90_000),
+    })
+
+    if (response.ok) {
+      const data = (await response.json()) as {
+        choices?: { message?: { content?: string } }[]
+      }
+      const content = data.choices?.[0]?.message?.content
+      if (!content) throw new Error('LLM returned empty content')
+      return content
+    }
+
     const body = await response.text()
-    throw new Error(`LLM ${response.status}: ${body.slice(0, 400)}`)
+    lastError = `LLM ${response.status}: ${body.slice(0, 400)}`
+    if ((response.status === 429 || response.status === 503) && i < 3) {
+      const wait = 5_000 * (i + 1)
+      console.warn(`[edit] ${response.status}, retry in ${wait}ms`)
+      await sleep(wait)
+      continue
+    }
+    throw new Error(lastError)
   }
 
-  const data = (await response.json()) as {
-    choices?: { message?: { content?: string } }[]
-  }
-  const content = data.choices?.[0]?.message?.content
-  if (!content) throw new Error('LLM returned empty content')
-  return content
+  throw new Error(lastError)
 }
 
 export async function editEdition(date: string, candidates: Candidate[]): Promise<Edition> {
@@ -242,7 +260,9 @@ export async function editEdition(date: string, candidates: Candidate[]): Promis
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error)
       console.warn(`[edit] attempt ${attempt + 1} failed:`, message)
-      user += `\n\n이전 출력이 스키마 검증에 실패했다. JSON 객체만, 스키마를 지켜서 다시 출력하라. 오류: ${message}`
+      if (!message.startsWith('LLM ')) {
+        user += `\n\n이전 출력이 스키마 검증에 실패했다. JSON 객체만, 스키마를 지켜서 다시 출력하라. 오류: ${message}`
+      }
     }
   }
 
