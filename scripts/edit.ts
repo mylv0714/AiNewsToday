@@ -57,8 +57,9 @@ function buildUserMessage(date: string, items: Candidate[]): string {
     JSON.stringify(items, null, 2),
     '',
     '각 후보 필드:',
-    '- id, title, url, source, published_at, snippet, extra (stars, points, authors 등)',
+    '- id, title, url, source, published_at, snippet, extra (score, tier, stars, points, upvotes, authors 등)',
     '',
+    '후보는 이미 품질 점수 순이다. 위쪽을 우선하되, 같은 사건은 하나로 묶고 아래쪽 노이즈는 버려라.',
     '규칙: 후보에 없는 사실을 창작하지 말 것. 필요 없으면 버려도 된다.',
     '출력: 스키마를 만족하는 JSON 객체 하나.',
   ].join('\n')
@@ -80,9 +81,14 @@ function parseJsonObject(text: string): unknown {
   }
 }
 
+function isPaperSource(source: string): boolean {
+  const lower = source.toLowerCase()
+  return lower.includes('arxiv') || lower.includes('papers')
+}
+
 function guessKind(candidate: Candidate): Kind {
   const source = candidate.source.toLowerCase()
-  if (source.includes('arxiv')) return 'paper'
+  if (isPaperSource(source)) return 'paper'
   if (source === 'github') return 'repo'
   const blob = `${candidate.title} ${candidate.snippet}`.toLowerCase()
   if (blob.includes('release') || blob.includes('릴리스')) return 'release'
@@ -106,11 +112,9 @@ function asItem(candidate: Candidate, kind: Kind): BriefItem | null {
 }
 
 export function fallbackEdition(date: string, candidates: Candidate[]): Edition {
-  const papers = candidates.filter((c) => c.source.toLowerCase().includes('arxiv'))
+  const papers = candidates.filter((c) => isPaperSource(c.source))
   const repos = candidates.filter((c) => c.source.toLowerCase() === 'github')
-  const rest = candidates.filter(
-    (c) => !c.source.toLowerCase().includes('arxiv') && c.source.toLowerCase() !== 'github',
-  )
+  const rest = candidates.filter((c) => !isPaperSource(c.source) && c.source.toLowerCase() !== 'github')
 
   const overnight = rest
     .slice(0, 8)

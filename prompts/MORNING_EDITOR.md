@@ -133,8 +133,9 @@
 {{items}}
 
 각 후보 필드:
-- id, title, url, source, published_at, snippet, extra (stars, points, authors 등)
+- id, title, url, source, published_at, snippet, extra (score, tier, stars, points, upvotes, authors 등)
 
+후보는 이미 품질 점수 순이다. 위쪽을 우선하되, 같은 사건은 하나로 묶고 아래쪽 노이즈는 버려라.
 규칙: 후보에 없는 사실을 창작하지 말 것. 필요 없으면 버려도 된다.
 출력: 스키마를 만족하는 JSON 객체 하나.
 ```
