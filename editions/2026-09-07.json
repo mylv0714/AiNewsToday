@@ -1,0 +1,115 @@
+{
+  "date": "2026-09-07",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI가 자사 내부 코딩 에이전트 실무 데이터를 공개하고, 구글은 기상 예측 및 음악 생성 모델을 선보였다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, 코딩 에이전트 연구 가속화 데이터 공개",
+    "lede": "OpenAI가 자사 내부 AI 연구에 코딩 에이전트를 도입한 후 얻은 실험 속도와 업무 복잡도 변화 수치를 공개했다.",
+    "why_now": "개발용 에이전트가 단일 개발자를 넘어 프론티어 AI 연구소 내부 워크플로를 어떻게 재편하는지 보여주는 첫 공식 리포트다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "published_at": "2026-09-06T08:00:00.000Z",
+    "body": "OpenAI는 내부 연구진이 코딩 에이전트를 적극 활용하면서 연구 실험 회전율과 데이터 처리 능력이 크게 향상되었다고 밝혔다. 기존 연구 파이프라인에서 단순 코딩과 리팩토링 및 데이터 준비 작업이 자동화되어 연구 주기 자체가 대폭 단축되었다. 내부 데이터에 따르면 에이전트 사용량이 증가함에 따라 연구원 개인이 처리 가능한 실험의 복잡도 역시 함께 상승했다. 다만 고차원 가설 설정이나 안전성 검증 등 핵심 판단 영역에서는 여전히 인간 연구원의 제어가 필수적이라고 덧붙였다.",
+    "also_see": [
+      {
+        "title": "An Alien Mind",
+        "url": "https://openai.com/index/an-alien-mind"
+      },
+      {
+        "title": "OpenAI developer claims Astra boosted productivity",
+        "url": "https://the-decoder.com/openai-developer-claims-astra-boosted-productivity-so-much-it-pulled-some-plans-forward-by-six-months"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "구글, 위성 데이터 직접 학습 기상 모델 발표",
+      "lede": "구글이 기존 물리 심뮬레이션을 없애고 실시간 위성 데이터로 직접 기상을 예측하는 WeatherNext 3를 공개했다.",
+      "why_now": "물리 계산 방식을 탈피해 5km 고해상도 시가지 단위 예보를 1시간 단위로 출력하는 새로운 기상 예보 방식을 선보였다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/googles-weathernext-3-ditches-physics-simulations-and-learns-weather-directly-from-live-satellite-data",
+      "published_at": "2026-09-06T10:36:35.000Z"
+    },
+    {
+      "headline": "구글, 음악 생성 모델 Lyria 3.5 제미나이 탑재",
+      "lede": "구글이 정식 라이선스 데이터로 학습시킨 음악 생성 모델 Lyria 3.5를 Gemini 앱과 API로 정식 출시했다.",
+      "why_now": "외부 전용 도구였던 음악 생성 모델을 제미나이 생태계 및 개발자 API로 즉시 활용할 수 있게 내장했다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/google-brings-ai-music-generation-directly-into-the-gemini-app-with-its-new-lyria-3-5-model",
+      "published_at": "2026-09-06T09:56:24.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "Compile by Training: 자연어 명세의 신경망 변환",
+      "lede": "대형 교사 모델을 활용해 자연어 기능 명세를 로컬에서 즉시 실행되는 경량 신경망 함수로 컴파일하는 기법이다.",
+      "why_now": "반복적인 텍스트 함수 처리 시 원격 API 호출 비용과 네트워크 지연을 획기적으로 줄이는 로컬 대체안을 제공한다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.04199",
+      "published_at": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "headline": "Terminal-Universe: 에이전트 궤적의 환경화",
+      "lede": "축적된 터미널 에이전트 실행 로그를 다시 인터랙티브한 실행 및 검증 가능 환경으로 재구성하는 프레임워크다.",
+      "why_now": "일회성 실행 기록에 불과했던 에이전트 궤적 데이터를 에이전트 사후 학습용 평가 환경으로 대폭 재활용한다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.04148",
+      "published_at": "2026-09-04T00:00:00.000Z"
+    },
+    {
+      "headline": "Random Attention: 추론 시 KV 캐시 비우기 재고",
+      "lede": "긴 추론 체인에서 복잡한 토큰 중요도 평가 대신 무작위 선택 기반 캐시 축소가 뛰어난 성능을 유지함을 보였다.",
+      "why_now": "심도 높은 추론 시 병목이 되는 KV 캐시 메모리 부담을 고도의 연산 없이 극도로 단축할 수 있음을 입증했다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.03430",
+      "published_at": "2026-09-04T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "HarnessRouter: 에이전트 하네스 단일 API 프록시",
+      "lede": "Codex, Claude Code 등 파편화된 에이전트 하네스를 호스팅 및 스트리밍 가능한 단일 호환 API로 묶어준다.",
+      "why_now": "에이전트 실행 환경 통일을 위한 오픈 표준 규격(UHP)을 적용해 자체 인프라 구축을 단순화한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/HarnessRouter/harnessrouter",
+      "published_at": "2026-09-06T22:32:11.000Z"
+    },
+    {
+      "headline": "moli: Rust 기반 AI 에이전트용 헤드리스 브라우저",
+      "lede": "AI 에이전트의 브라우징 작업을 위해 Rust로 제작된 경량·고속 헤드리스 브라우저 엔진이다.",
+      "why_now": "기존 무거운 브라우저 자동화 도구 대신 에이전트 환경에 맞춘 최소 자원 탑재용 엔진을 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/lexmount/moli",
+      "published_at": "2026-09-06T20:27:35.000Z"
+    },
+    {
+      "headline": "reverify: 도구 기반 AI 할루시네이션 검증기",
+      "lede": "AI의 제안을 확정적 도구와 기준 데이터로 대조 검증해 환각을 차단하는 MCP 서버 겸 CLI 도구다.",
+      "why_now": "리버스 엔지니어링이나 정밀 작업에서 컨텍스트 리셋 후에도 검증된 사실만을 유지하도록 돕는다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/2akouwu/reverify",
+      "published_at": "2026-09-06T18:18:57.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "정신의학계, AI 관련 정신증 임상 진단 검토",
+    "lede": "챗봇과의 과도한 상호작용이 독자적인 정신증을 유발하는지 임상 진단 도입 여부를 학계가 논의하기 시작했다.",
+    "why_now": "사용자 중심 AI의 정서적 에코 챔버 부작용에 대한 사회적 및 의료적 경각심이 공식화되는 시점이다.",
+    "kind": "analysis",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/chatbots-built-an-echo-chamber-of-one-and-now-psychiatry-has-to-decide-if-ai-psychosis-exists",
+    "published_at": "2026-09-06T11:57:12.000Z"
+  }
+}
