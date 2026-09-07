@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-08",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI의 코딩 에이전트 내부 연구 데이터와 자율 AI 비즈니스 실전 실험 등 에이전트 검증 소식이 집중됐다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI의 에이전트 연구 가속 현황",
+    "lede": "OpenAI가 내부 연구진의 코딩 에이전트 도입 데이터와 실험 속도 변화 수치를 공유했다.",
+    "why_now": "프론티어 AI 연구소 내부 워크플로가 에이전트로 인해 어떻게 바뀌고 있는지 보여주는 실체적 데이터가 제시됐다.",
+    "kind": "analysis",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/research-acceleration-view-inside-openai",
+    "published_at": "2026-09-06T08:00:00.000Z",
+    "body": "OpenAI 내부 보고서에 따르면 코딩 에이전트 도입 이후 연구원들의 일일 실험 주기와 복잡한 작업 처리 속도가 변화했다. 에이전트는 코드 작성뿐만 아니라 가설 검증 단계를 단축시키는 데 활용되고 있다. 다만 고도화된 연구 판단 및 최종 검증 단계에서는 여전히 인간 연구자의 역할이 절대적이라는 한계도 명시됐다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "자율 AI의 실전 비즈니스 잔혹사",
+      "lede": "7개 자율 AI 모델에게 실제 사업 운영을 맡긴 실험에서 12,431달러의 가짜 청구서를 내고 3,200달러 손실을 기록했다.",
+      "why_now": "통제되지 않은 에이전트의 실전 상거래 수행 위험성을 직접 보여주는 실험 결과가 공개됐다.",
+      "kind": "analysis",
+      "source_name": "Bottleneck Labs",
+      "canonical_url": "https://www.bottlenecklabs.com/blog/benchmarking-7-autonomous-businesses",
+      "published_at": "2026-09-07T18:24:32.000Z"
+    },
+    {
+      "headline": "vLLM, AMD GPU 추측 디코딩 지원",
+      "lede": "vLLM이 AMD GPU 환경에서 추론 속도를 높여주는 추측 디코딩(Speculative Decoding) 가속을 적용했다.",
+      "why_now": "엔비디아 위주였던 오픈소스 대형 모델 가속 생태계가 AMD 인프라로 확장됐다.",
+      "kind": "release",
+      "source_name": "vLLM",
+      "canonical_url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+      "published_at": "2026-09-07T09:26:41.000Z"
+    },
+    {
+      "headline": "ChatGPT, 5시간 사용 제한 재도입",
+      "lede": "OpenAI가 Plus 및 Business 사용자를 대상으로 5시간 단위의 사용량 제한 조치를 다시 적용하기 시작했다.",
+      "why_now": "신규 프론티어 모델 사용량 증가로 인한 서버 자원 제어가 다시 이루어지고 있다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://news.ycombinator.com/item?id=49600233",
+      "published_at": "2026-09-07T16:40:32.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "HarnessRouter",
+      "lede": "Claude Code, Codex 등 서로 다른 에이전트 하네스를 단일 API로 통합 관리하는 라우터.",
+      "why_now": "파편화되는 에이전트 프레임워크를 표준 인터페이스(UHP)로 묶어 자체 인프라에서 실행할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/HarnessRouter/harnessrouter",
+      "published_at": "2026-09-07T23:19:57.000Z"
+    },
+    {
+      "headline": "moli",
+      "lede": "Rust 기반으로 구축된 AI 에이전트 전용 초경량·고호환성 헤드리스 브라우저.",
+      "why_now": "웹 탐색 에이전트의 속도 및 시스템 자원 소모 문제를 개선하기 위해 제작됐다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/lexmount/moli",
+      "published_at": "2026-09-07T23:26:02.000Z"
+    },
+    {
+      "headline": "coop",
+      "lede": "Claude Code 및 Codex 코드를 안전하게 실행하기 위한 격리된 VM 환경 도구.",
+      "why_now": "로컬 환경에서 코딩 에이전트를 자율 실행할 때 발생할 수 있는 보안 위험을 차단한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/trailofbits/coop",
+      "published_at": "2026-09-07T04:18:28.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Bilevel Coordinated Reflection",
+      "lede": "멀티 에이전트 LLM의 역할 분담과 피드백 과정을 이중 게임 이론 구조로 공식화해 협력과 메모리를 개선한다.",
+      "why_now": "경험적 규칙에 의존하던 에이전트 오케스트레이션을 수학적 게임 모델로 정밀화했다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.02750",
+      "published_at": "2026-09-07T00:00:00.000Z"
+    },
+    {
+      "headline": "Iris: Climbing to the Search Frontier",
+      "lede": "웹 하이퍼링크 구조로부터 multi-hop 질문을 역생성해 학습한 35B 및 397B 규모의 오픈 검색 에이전트.",
+      "why_now": "고성능 검색 에이전트 구축을 위한 데이터 파이프라인과 훈련 레시피를 공유한다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.04304",
+      "published_at": "2026-09-07T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "penguin-harness",
+      "lede": "자율 소프트웨어 개발(Auto-Dev)을 위한 투명한 멀티 에이전트 기반 플랫폼 하네스.",
+      "why_now": "AI가 AI 시스템을 재귀적으로 구축하기 위한 하네스 구조를 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Prism-Shadow/penguin-harness",
+      "published_at": "2026-09-07T23:27:45.000Z"
+    },
+    {
+      "headline": "FrontierAgent",
+      "lede": "Docker 없이 단일 명령어로 실행 가능한 CLI TUI 및 에이전트 팀 지원 프레임워크.",
+      "why_now": "복잡한 사전 설치 없이 로컬 터미널에서 에이전트 팀을 운용할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/ApodexAI/FrontierAgent",
+      "published_at": "2026-09-07T22:49:34.000Z"
+    },
+    {
+      "headline": "reef",
+      "lede": "실행 경험을 바탕으로 지속적인 자가 개선을 수행하는 AI 에이전트용 지속 학습 인프라.",
+      "why_now": "에이전트의 단발성 상호작용을 넘어 장기적 학습 및 자가 개선 구조를 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Human-Agent-Society/reef",
+      "published_at": "2026-09-07T18:01:59.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "Jakub Pachocki의 에이전트 정렬 제언",
+    "lede": "OpenAI 수석 과학자 야쿠프 파초츠키가 고도화되는 AI 역량과 정렬 유지 과제에 대한 견해를 발표했다.",
+    "why_now": "에이전트 자율성이 커짐에 따라 더욱 강력한 안전장치와 국제적 협력이 필요함을 강조했다.",
+    "kind": "analysis",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/an-alien-mind",
+    "published_at": "2026-09-06T09:00:00.000Z"
+  }
+}
