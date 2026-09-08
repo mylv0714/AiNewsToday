@@ -1,0 +1,147 @@
+{
+  "date": "2026-09-09",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "OpenAI의 나비에-스토크스 난제 증명 발표와 잡음, 딥마인드의 AlphaGenome Atlas 공개가 아침을 열었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, 나비에-스토크스 난제 해법 및 Lean 증명 공개",
+    "lede": "OpenAI가 밀레니엄 문제 중 하나인 나비에-스토크스 방정식의 AI 생성 해법과 Lean 정식 증명을 발표했다.",
+    "why_now": "주요 학술적 난제에 대한 AI 증명 제출과 함께 연구 과정에서의 공동 연구자 배제 논란이 불거졌다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/navier-stokes-solution",
+    "published_at": "2026-09-08T10:00:00.000Z",
+    "body": "OpenAI는 AI 모델이 작성한 나비에-스토크스 방정식 관련 서술 및 Lean 형식 언어 증명을 공개했다. 이번 발표는 수학적 검증 가능성을 제시했다는 평가를 받는 한편, 연구 과정에서 Anthropic 소속 공동 연구자를 배제하도록 압박했다는 주장이 제기되며 논란이 불거졌다. 단순 벤치마크 점수를 넘어 난제 해결 도구로서 AI의 가능성과 연구 윤리 이슈를 동시에 보여준다.",
+    "also_see": [
+      {
+        "title": "OpenAI fought dirty on career-making math problem",
+        "url": "https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "딥마인드, 게놈 변이 지도 AlphaGenome Atlas 공개",
+      "lede": "구글 딥마인드가 인간 게놈 전체의 90억 개 단일 염기 변이 효과를 예측한 AlphaGenome Atlas를 발표했다.",
+      "why_now": "유전자 변이가 분자 수준에 미치는 영향을 전수 조사하여 유전체 질병 연구의 기반을 제공한다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+      "published_at": "2026-09-08T14:00:15.000Z"
+    },
+    {
+      "headline": "OpenAI, 이미지 생성 모델 ChatGPT Images 2.5 출시",
+      "lede": "OpenAI가 스케치와 참고 사진을 정교하게 맞춤형 이미지로 변환하는 ChatGPT Images 2.5를 발표했다.",
+      "why_now": "아이디어 구상 및 스케치 기반 이미지 정제 작업을 더 정밀하게 지원한다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/introducing-chatgpt-images-2-5",
+      "published_at": "2026-09-08T11:30:00.000Z"
+    },
+    {
+      "headline": "OpenAI, 양자컴퓨팅 실험에 GPT-5.6 Sol 적용 사례 공개",
+      "lede": "MIT 연구진이 GPT-5.6 Sol과 Codex를 활용해 양자컴퓨팅 실험 및 큐비트 보정을 자율 수행한 사례가 공개되었다.",
+      "why_now": "AI 코딩 모델이 첨단 물리학 실험 장비 제어 및 결과 분석까지 수행 영역을 넓히고 있다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/codex-quantum-computing-experiments",
+      "published_at": "2026-09-08T17:00:00.000Z"
+    },
+    {
+      "headline": "메타, 토큰 남발 부작용에 개발자 AI 사용량 평가 폐지",
+      "lede": "메타가 개발자 인사 평가에서 단순 AI 사용량(토큰 소비) 측정을 제외하기로 결정했다.",
+      "why_now": "정량적 AI 사용 지표가 불필요한 토큰 남발을 유발하자 실질적 생산성 중심 평가로 전환했다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/meta-drops-ai-usage-from-engineer-performance-reviews-after-tokenmaxxing-backfires",
+      "published_at": "2026-09-08T14:27:40.000Z"
+    },
+    {
+      "headline": "리브레오피스, AI 미탑재 선언 후 다운로드 최고치 기록",
+      "lede": "오픈소스 오피스 소프트웨어 리브레오피스가 AI 기능을 탑재하지 않는다고 밝힌 뒤 다운로드 수가 최고치를 기록했다.",
+      "why_now": "무분별한 AI 기능 추가에 피로감을 느낀 사용자층의 대안 선택 흐름을 보여준다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai",
+      "published_at": "2026-09-08T14:05:57.000Z"
+    },
+    {
+      "headline": "메타, 개인용 AI 에이전트 Muse 주요 기능 공개",
+      "lede": "메타의 개인용 AI 에이전트 Muse의 주요 기능과 동작 역량이 공개되었다.",
+      "why_now": "빅테크 간 개인 맞춤형 에이전트 서비스 주도권 경쟁이 본격화되고 있다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://ai.meta.com/muse",
+      "published_at": "2026-09-08T19:25:00.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "Discrete Diffusion 기반 LLM 병렬 토큰 생성",
+      "lede": "이산 디퓨전 모델을 결합하여 순차적 토큰 예측 병목을 해소하고 여러 토큰을 병렬 생성하는 기법을 제안한다.",
+      "why_now": "기존 자기회귀 방식의 속도 한계를 품질 손실 없이 극복하기 위한 대안 연구다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.04010",
+      "published_at": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "headline": "FlowBalance: 검증기 기반 추론 모델 자가 개선",
+      "lede": "온폴리시 추론 경험과 외부 검증기를 활용해 모델의 과잉 확신과 자가 학습 편향을 방지하는 알고리즘을 선보인다.",
+      "why_now": "추론 모델의 자가 개선 과정에서 발생하는 가짜 확신과 왜곡 현상을 줄여준다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.03241",
+      "published_at": "2026-09-08T00:00:00.000Z"
+    },
+    {
+      "headline": "게임이론 기반 다중 에이전트 협력 모델",
+      "lede": "오케스트레이터와 작업 에이전트 간 상호작용을 2단계 협력 게임으로 정의하고 시스템 성과를 최적화한다.",
+      "why_now": "다중 에이전트 시스템의 모호한 역할 분담 및 협력 구조를 체계적으로 정립한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.02750",
+      "published_at": "2026-09-07T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "코딩 에이전트를 위해 리포지토리 맥락 탐색 및 변경 영향 범위를 정밀 분석하는 C++23 CLI 및 MCP 서버.",
+      "why_now": "코드 전체를 읽지 않고 맥락을 파악해 에이전트의 토큰 소비와 오작동을 줄인다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-09-08T23:14:41.000Z"
+    },
+    {
+      "headline": "lexmount/moli",
+      "lede": "Rust 언어로 개발된 AI 에이전트 전용 가볍고 빠른 경량 헤드리스 브라우저.",
+      "why_now": "에이전트의 웹 탐색 및 자동화 수행 시 리소스 사용을 줄이고 호환성을 확보한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/lexmount/moli",
+      "published_at": "2026-09-08T23:09:57.000Z"
+    },
+    {
+      "headline": "ApodexAI/FrontierAgent",
+      "lede": "터미널 TUI 환경에서 ReAct 및 에이전트 팀 모드를 지원하는 에이전트 프레임워크.",
+      "why_now": "복잡한 사전 설정이나 Docker 의존성 없이 단일 명령어 실행 환경을 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/ApodexAI/FrontierAgent",
+      "published_at": "2026-09-08T21:07:57.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "빅테크 기업들의 국방부 AI 무기 계약 실태",
+    "lede": "OpenAI, Anthropic, Google 등 주요 AI 기업들이 미 국방부와 맺은 기밀 계약 세부사항이 폭로되었다.",
+    "why_now": "안전 가이드라인 강조와 달리 군사 분야 실무 도입이 가속화되고 있음을 보여준다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://theintercept.com/2026/09/08/military-ai-weapons-contracts-openai-anthropic-google",
+    "published_at": "2026-09-08T14:05:06.000Z"
+  }
+}
