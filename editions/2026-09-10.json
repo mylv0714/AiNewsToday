@@ -1,0 +1,138 @@
+{
+  "date": "2026-09-10",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI가 업무 특화 모델 GPT-6 Astra를 발표했고, 에이전트 개발 도구 및 AI 안전성 이슈가 이어졌다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, 업무용 모델 GPT-6 Astra 공개",
+    "lede": "OpenAI가 고도화된 추론과 computer use 능력을 갖춘 업무 특화 모델 GPT-6 Astra를 발표했다.",
+    "why_now": "OpenAI가 기업용 시장을 겨냥한 차세대 플래그십 모델을 전격 공개했다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/gpt-6-astra-next-generation-work",
+    "published_at": "2026-09-09T11:00:00.000Z",
+    "body": "OpenAI가 비즈니스 환경에 특화된 차세대 프론티어 모델 'GPT-6 Astra'를 공개했다. 이 모델은 고도화된 추론 능력과 함께 화면을 인식하고 직접 작동하는 computer use 기능을 지원한다. 또한 문서 작성과 디자인 판단 능력을 개선하여 대규모 업무 자동화의 경제성을 높이는 데 초점을 맞추었다. 상세한 모델 파라미터나 구체적인 배포 시기는 차후 단계적으로 안내될 예정이다.",
+    "also_see": [
+      {
+        "title": "GPT-6 Astra, Looped Transformers, and Hidden Reasoning",
+        "url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "폴 크리스티아노, OpenAI 재단 이사회 합류",
+      "lede": "정렬 연구 분야 전문가 폴 크리스티아노가 OpenAI 재단 이사회 및 안전·보안 위원회에 합류했다.",
+      "why_now": "최근 내부 안전성 논란 속에서 지배구조 및 안전 관리 체계를 정비하는 조치가 이뤄졌다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "published_at": "2026-09-09T17:00:00.000Z"
+    },
+    {
+      "headline": "수노, 음반사와 협업한 v6 음악 모델 출시",
+      "lede": "수노가 워너뮤직, BMG 등과 협력하여 제작한 v6 모델을 공개하고 기존 구형 모델 운영을 중단했다.",
+      "why_now": "주요 레이블과의 정식 저작권 협력 기반으로 오디오 모델 생태계가 세대교체되었다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/suno-launches-v6-music-models-built-with-warner-bmg-and-believe",
+      "published_at": "2026-09-09T14:06:57.000Z"
+    },
+    {
+      "headline": "IBM, 오픈소스 시계열 AI 모델 Granite 공개",
+      "lede": "IBM 연구소가 상업적 이용이 가능한 라이선스로 시계열 예측 모델 PatchTST-FM-r2를 공개했다.",
+      "why_now": "기업 현장에서 시계열 데이터 분석에 직접 활용 가능한 오픈소스 모델이 배포되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/ibm-research/ibm-releases-sota-granite-time-series",
+      "published_at": "2026-09-09T15:36:24.000Z"
+    },
+    {
+      "headline": "앤트로픽 연구원 퇴사 및 안전성 경고",
+      "lede": "앤트로픽 전 연구원이 개발 과정의 위험 관리에 우려를 표하며 사직서를 제출하고 대외 경고에 나섰다.",
+      "why_now": "프론티어 AI 기업 내부 연구원들의 위험 경고가 외신을 통해 잇따라 보도되고 있다.",
+      "kind": "analysis",
+      "source_name": "Politico",
+      "canonical_url": "https://www.politico.eu/article/anthropic-openai-researcher-jacob-coxon-warns-ai-could-kill-humans",
+      "published_at": "2026-09-09T08:43:27.000Z"
+    },
+    {
+      "headline": "딥마인드, 인간 게놈 DNA 변화 예측 지도 공개",
+      "lede": "구글 딥마인드가 인간 게놈 내 90억 개 단일 염기 변이의 영향을 예측한 AlphaGenome Atlas를 공개했다.",
+      "why_now": "알파폴드에 이어 게놈 변이 예측 분야의 대규모 데이터셋이 대중에 개방되었다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome",
+      "published_at": "2026-09-08T14:00:15.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "NeoHorse-1",
+      "lede": "에이전트 환경에서 시스템 성능을 관찰하고 학습으로 환류하는 포스트 트레이닝 아키텍처 연구.",
+      "why_now": "재귀적 자기 개선(RSI)을 프론티어 모델에 적용하기 위한 실질적 구조를 제시한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.08183",
+      "published_at": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "headline": "AuK Technical Report",
+      "lede": "자연어 지시어 단일 인터페이스로 음성 생성과 편집을 통합한 오픈소스 파운데이션 모델.",
+      "why_now": "30억 개 이상의 음성 인스턴스를 바탕으로 세밀한 오디오 제어를 구현했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.08936",
+      "published_at": "2026-09-09T00:00:00.000Z"
+    },
+    {
+      "headline": "On-Policy Reverse Distillation",
+      "lede": "약한 감독자 모델로부터 강력한 모델이 효율적으로 추가 학습하도록 돕는 역증류 기법.",
+      "why_now": "포스트 트레이닝 비용을 줄이면서 약-강 일반화 효과를 다루는 방법론을 제안한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.08798",
+      "published_at": "2026-09-09T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "코딩 에이전트가 전체 코드를 읽지 않고 컨텍스트를 시그니처 단위로 검색하는 C++23 기반 CLI 도구.",
+      "why_now": "에이전트의 토큰 소모량과 컨텍스트 부하를 줄이기 위한 지식 검색 도구가 공개되었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-09-09T23:01:42.000Z"
+    },
+    {
+      "headline": "lexmount/moli",
+      "lede": "AI 에이전트 구동에 맞춰 제작된 Rust 기반의 경량·고호환 헤드리스 브라우저.",
+      "why_now": "에이전트의 웹 탐색 작업을 지원하기 위한 전용 경량 브라우저 런타임이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/lexmount/moli",
+      "published_at": "2026-09-09T23:06:21.000Z"
+    },
+    {
+      "headline": "eneskirca/nodeterm",
+      "lede": "캔버스 상에서 터미널 세션과 코딩 에이전트를 노드 형태로 배치하여 관리하는 터미널 매니저.",
+      "why_now": "다중 에이전트 작업을 시각적 노드로 제어할 수 있는 작업 환경을 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/eneskirca/nodeterm",
+      "published_at": "2026-09-09T16:13:14.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "OpenAI의 나비에-스토크스 문제 해법 논란",
+    "lede": "OpenAI가 밀레니엄 문제인 나비에-스토크스 방정식의 AI 생성 해법을 공개한 후 학계 검증 논쟁이 이어지고 있다.",
+    "why_now": "AI가 제시한 수학적 증명의 검증 가능성과 신뢰성을 두고 논의가 가열되고 있다.",
+    "kind": "analysis",
+    "source_name": "Science",
+    "canonical_url": "https://www.science.org/content/article/how-ai-math-breakthrough-ignited-controversy",
+    "published_at": "2026-09-09T10:25:41.000Z"
+  }
+}
