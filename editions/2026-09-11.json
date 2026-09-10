@@ -1,0 +1,180 @@
+{
+  "date": "2026-09-11",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 10,
+  "one_liner": "요약 모델에 실패해 원문 제목만 모았습니다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "How a researcher uses Codex and ChatGPT ",
+    "lede": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+    "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
+    "published_at": "2026-09-10T16:00:00.000Z",
+    "body": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "3 ways to prep for your next big race wi",
+      "lede": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips",
+      "published_at": "2026-09-10T16:00:00.000Z"
+    },
+    {
+      "headline": "Now everyone can put data to work",
+      "lede": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/put-data-to-work",
+      "published_at": "2026-09-10T15:00:00.000Z"
+    },
+    {
+      "headline": "Introducing ChatGPT for Financial Servic",
+      "lede": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/introducing-chatgpt-financial-services",
+      "published_at": "2026-09-10T07:00:00.000Z"
+    },
+    {
+      "headline": "Expanding AI access and cyber defense fo",
+      "lede": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/expanding-ai-access-us-government",
+      "published_at": "2026-09-10T07:00:00.000Z"
+    },
+    {
+      "headline": "Introducing the Agents API",
+      "lede": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/introducing-the-agents-api",
+      "published_at": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "headline": "Build more natural voice experiences wit",
+      "lede": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "published_at": "2026-09-10T00:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "Measuring tactical intelligence targetin",
+      "lede": "Measuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+      "published_at": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "headline": "Paul Christiano joins OpenAI Foundation ",
+      "lede": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
+      "published_at": "2026-09-09T17:00:00.000Z"
+    },
+    {
+      "headline": "NVIDIA Brings Real-Time AI to Broadcast,",
+      "lede": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology and business communities are coming together to turn ideas into action and discuss innovations acr",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "NVIDIA",
+      "canonical_url": "https://blogs.nvidia.com/blog/ibc-news-2026",
+      "published_at": "2026-09-09T16:00:42.000Z"
+    },
+    {
+      "headline": "Get ready for the game with new football",
+      "lede": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/products-and-platforms/products/search/football-features-google-search",
+      "published_at": "2026-09-09T16:00:00.000Z"
+    },
+    {
+      "headline": "Recreating a 70-year love story frame by",
+      "lede": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film",
+      "published_at": "2026-09-09T16:00:00.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Show-Harness: Just a VLM Agent Can Play ",
+      "lede": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harne",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.10522",
+      "published_at": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "headline": "AgentGrad: Intervention-guided Prompt Op",
+      "lede": "Large language model (LLM)-based multi-agent systems (MAS) achieve strong performance by employing specialized multiple agents, yet their performance depends on the prompt design o",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.08572",
+      "published_at": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "headline": "Programmable World Model",
+      "lede": "Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing prog",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.10540",
+      "published_at": "2026-09-10T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Find what you want without reading the repo, then check you built what you meant — blast radi",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-09-10T23:06:18.000Z"
+    },
+    {
+      "headline": "HarnessRouter/harnessrouter",
+      "lede": "HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, PI, DSH, and more through one API",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/HarnessRouter/harnessrouter",
+      "published_at": "2026-09-10T23:01:17.000Z"
+    },
+    {
+      "headline": "Prism-Shadow/penguin-harness",
+      "lede": "🐧 Harness for RSI. Let AI Build AI. Multi-Agent Auto-Dev Platform. Everything is Transparent.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Prism-Shadow/penguin-harness",
+      "published_at": "2026-09-10T22:55:03.000Z"
+    }
+  ],
+  "if_time": null
+}
