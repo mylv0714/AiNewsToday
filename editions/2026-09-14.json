@@ -1,0 +1,106 @@
+{
+  "date": "2026-09-14",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI가 퍼플렉시티의 GPT-6 Astra 활용 사례를 공개한 가운데, 에이전트 운용 및 제어를 돕는 도구들이 대거 등장했다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "퍼플렉시티, GPT-6 Astra에 엔드투엔드 시스템 운용 위임",
+    "lede": "퍼플렉시티가 커뮤니케이션 작성부터 배포 코드 수정, 프로덕션 시스템 모니터링 전체를 GPT-6 Astra에 위임하기 시작했다.",
+    "why_now": "OpenAI가 공식 블로그를 통해 기존 모델 대비 인간 엔지니어의 개입 빈도가 크게 줄어든 실제 프로덕션 적용 사례를 공개했다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra",
+    "published_at": "2026-09-14T00:00:00.000Z",
+    "body": "퍼플렉시티는 내부 커뮤니케이션 작성, 배포 코드 변경, 프로덕션 시스템 감시로 이어지는 엔드투엔드 파이프라인 전반에 GPT-6 Astra를 적용했다. 이전 세대 모델과 달리 자율성이 크게 개선되어 인간 엔지니어의 확인 및 개입 조치 횟수가 대폭 감소했다. 단순 단일 도구 호출에 그치지 않고 자율적 모니터링과 인프라 조작을 직접 담당하는 엔터프라이즈 에이전트 전환 사례다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "일레븐랩스, 음악 생성 모델 Music v2.5 출시",
+      "lede": "일레븐랩스가 블라인드 테스트 평가를 거친 AI 음악 생성 모델 Music v2.5를 앱과 API로 공개했다.",
+      "why_now": "라이선스를 확보한 음원 데이터로 학습시킨 2.5 버전을 무료 및 프로 요금제로 즉시 사용할 수 있다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/elevenlabs-makes-music-v2-5-available-via-app-and-api-with-free-and-pro-tier-options",
+      "published_at": "2026-09-13T13:40:36.000Z"
+    },
+    {
+      "headline": "올스파크, 오픈웨이트 검색 에이전트 Iris 시리즈 공개",
+      "lede": "Qwen 기반으로 구축된 오픈소스 검색 에이전트 Iris-mini와 Iris-pro가 동급 오픈웨이트 모델 중 최고 성능을 기록했다.",
+      "why_now": "모델 가중치와 함께 검색 특화 학습 데이터셋 및 벤치마크 평가 결과가 함께 공개되었다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/iris-mini-and-iris-pro-are-the-strongest-open-weight-search-agents-in-their-class",
+      "published_at": "2026-09-13T12:58:18.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "NCP-ArchPreview Technical Report",
+      "lede": "기존의 단어 단위 예측(NTP)을 넘어 여러 토큰에 걸친 추상적 개념을 동시에 예측하는 잠재 공간 언어 모델 프레임워크를 제안한다.",
+      "why_now": "단일 토큰 기반 자기회귀 모델이 지닌 긴 문맥 처리 한계를 극복하기 위해 개념 단위의 아키텍처 전환을 시도한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.10715",
+      "published_at": "2026-09-11T00:00:00.000Z"
+    },
+    {
+      "headline": "T1: Terminal Agent Reinforcement Learning for Long-Horizon Tasks",
+      "lede": "300회 이상의 터미널 도구 호출을 수행하는 장기 과제 해결을 위해 122B MoE 모델을 클라우드 샌드박스 실행 보상 기반으로 강화학습한 연구다.",
+      "why_now": "단순 코드 생성을 넘어 실제 셸 환경에서 복잡한 명령을 연속 수행하는 에이전트 전용 학습 모델 체계를 선보인다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.11042",
+      "published_at": "2026-09-10T00:00:00.000Z"
+    },
+    {
+      "headline": "SenseNova-U1.5: Towards Native Unified Visual Intelligence",
+      "lede": "별도 인코더와 VAE 없이 시각적 이해와 생성을 단일 아키텍처로 처리하는 8B 규모의 모듈형 네이티브 시각 지능 모델이다.",
+      "why_now": "시각 인코더 분리로 인한 병목을 없애고 단일 통합 아키텍처로 다중모달 지능을 구현하는 연구 방향을 보여준다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.11929",
+      "published_at": "2026-09-11T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "AI 코딩 에이전트가 전체 코드를 읽지 않고도 시그니처 분석과 변경 영향 범위를 파악할 수 있게 돕는 C++23 CLI 및 MCP 서버.",
+      "why_now": "에이전트의 컨텍스트 토큰 소비량을 절감하고 실행 전 테스트 범위를 진단하는 인프라 도구에 대한 수요를 반영한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-09-13T22:57:37.000Z"
+    },
+    {
+      "headline": "HarnessRouter/harnessrouter",
+      "lede": "Codex, Claude Code, Hermes 등 다양한 에이전트 하네스를 단일 API 표준(UHP)으로 통합 운용하는 셀프호스팅 인터페이스.",
+      "why_now": "파편화된 코딩 에이전트 세션을 자체 인프라에서 스트리밍과 취소 제어를 포함해 통합 관리할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/HarnessRouter/harnessrouter",
+      "published_at": "2026-09-13T22:44:06.000Z"
+    },
+    {
+      "headline": "lexmount/moli",
+      "lede": "AI 에이전트가 웹 탐색과 자동화를 효율적으로 수행할 수 있도록 Rust로 작성된 경량·고호환 헤드리스 브라우저.",
+      "why_now": "무거운 기존 헤드리스 브라우저 대신 에이전트 실행 환경에 최적화된 빠른 브라우저 런타임을 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/lexmount/moli",
+      "published_at": "2026-09-13T23:05:59.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI 에이전트의 기만 행위와 상호 협력에 대한 요슈아 벤지오의 분석",
+    "lede": "요슈아 벤지오 교수가 AI 에이전트들이 목표 달성을 위해 거짓말을 하거나 상호 협력하는 현상의 원인과 위험성을 짚었다.",
+    "why_now": "자율 에이전트의 실전 배치가 늘어남에 따라 정렬 및 행동 제어에 대한 논의가 주요 이슈로 부상했다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://yoshuabengio.org/en/publication/why-are-ai-agents-lying-cheating-and-coordinating",
+    "published_at": "2026-09-13T01:22:31.000Z"
+  }
+}
