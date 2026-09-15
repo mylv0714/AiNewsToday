@@ -1,0 +1,124 @@
+{
+  "date": "2026-09-16",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "구글이 저렴한 실시간 음성 AI Gemini 3.8 Live를 공개하고, 에이전트 일관성과 온디바이스 실행을 다룬 소식이 이어졌다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "구글, 음성 AI 'Gemini 3.8 Live' 공개",
+    "lede": "구글 딥마인드가 음성 대화 전용 모델 Gemini 3.8 Live와 확장 추론 기능을 포함한 Extended Thinking 버전을 출시했다.",
+    "why_now": "음성간(speech-to-speech) 리더보드 1위에 오르는 동시에 OpenAI 경쟁 모델 대비 낮은 가격을 제시했다.",
+    "kind": "announcement",
+    "source_name": "DeepMind",
+    "canonical_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+    "published_at": "2026-09-15T17:05:57.000Z",
+    "body": "이번 모델은 시간당 1.38달러의 API 가격으로 제공되어 기존 OpenAI GPT-Live-1보다 비용 효율성을 크게 높였다. 함께 공개된 Extended Thinking 버전은 텍스트 추론 모델처럼 대화 중 복잡한 문제 해결을 위한 단계별 추론 과정을 음성 응답에 결합한다. 개발자는 API를 통해 실시간 음성 에이전트 서비스 구축에 즉시 적용할 수 있다.",
+    "also_see": [
+      {
+        "title": "Gemini 3.8 Live and 3.8 Live Extended Thinking (Hacker News)",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-gemini-3-8-live-extended-thinking"
+      },
+      {
+        "title": "Google launches Gemini 3.8 Live (The Decoder)",
+        "url": "https://the-decoder.com/google-launches-gemini-3-8-live-to-take-on-openais-gpt-live-1-at-a-fraction-of-the-cost"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "윈도우용 Perplexity 로컬 에이전트 출시",
+      "lede": "엔비디아 RTX 기반 윈도우 PC에서 멀티스텝 작업 계획과 실행을 로컬로 처리하는 Perplexity Portable Computer가 출시되었다.",
+      "why_now": "민감한 데이터를 외부 서버에 전송하지 않고 온디바이스에서 에이전트를 가동할 수 있게 되었다.",
+      "kind": "release",
+      "source_name": "NVIDIA",
+      "canonical_url": "https://blogs.nvidia.com/blog/local-ai-perplexity-windows-pcs",
+      "published_at": "2026-09-14T15:00:52.000Z"
+    },
+    {
+      "headline": "시리 백엔드로 클로드·챗GPT 연동 가능성",
+      "lede": "애플 내부 시스템 코드 분석 결과 시리의 백엔드 LLM을 외부 AI 모델로 교체할 수 있는 구조가 확인되었다.",
+      "why_now": "애플이 자체 온디바이스 AI 외에 타사 모델과의 유연한 결합을 준비 중임을 보여준다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude",
+      "published_at": "2026-09-14T12:01:32.000Z"
+    },
+    {
+      "headline": "IBM, 에이전트 일관성 평가 도구 공개",
+      "lede": "IBM Research가 반복 실행 시 AI 에이전트의 작업 결과 일관성을 정량 측정하고 유도하는 ALTK Evolve 프레임워크를 발표했다.",
+      "why_now": "단일 성공률을 넘어 서비스 배포에 필요한 에이전트의 재현성 검증 지표를 제시한다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+      "published_at": "2026-09-15T16:00:44.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "Vidu S2: Real-Time Interactive, Editable, and Spatial Video Generation",
+      "lede": "실시간 720p 영상 생성 및 수정, 공간 비디오 생성을 지원하는 실시간 상호작용 비디오 디퓨전 모델 Vidu S2를 제안한다.",
+      "why_now": "기존 비디오 디퓨전 모델의 높은 제어 난이도와 시간 경과에 따른 일관성 저하 문제를 실시간 제어로 개선하고자 한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.11638",
+      "published_at": "2026-09-15T00:00:00.000Z"
+    },
+    {
+      "headline": "ZGCM-1: A Fully Open and Extremely Efficient Foundation Model for Math and Agentic Search",
+      "lede": "내부 추론과 외부 도구 사용을 결합해 소형 파라미터 한계를 극복하도록 설계된 7B 오픈 모델 ZGCM-1을 공개했다.",
+      "why_now": "모든 웹 데이터를 암기하는 대신 능동적 검색 및 추론 절차 고도화로 높은 자율 검색 성과를 낼 수 있음을 보여준다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.13356",
+      "published_at": "2026-09-15T00:00:00.000Z"
+    },
+    {
+      "headline": "Atria Dawn: The Dawn of Agentic Superintelligence",
+      "lede": "과학 연구 및 엔지니어링 워크플로우 자동화를 목표로 개발된 파운데이션 에이전트 언어 모델 Atria Dawn Preview를 제시한다.",
+      "why_now": "에이전트가 다음 세대 에이전트 개발 과정에 직접 참여하는 자율 개선 시스템 구상을 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.15818",
+      "published_at": "2026-09-15T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "lexmount/moli",
+      "lede": "Rust 언어로 작성되어 빠르고 가벼운 AI 에이전트 전용 헤드리스 브라우저 엔진.",
+      "why_now": "에이전트의 웹 브라우징 작업을 위해 높은 호환성과 최적화된 리소스 사용률을 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/lexmount/moli",
+      "published_at": "2026-09-15T23:23:33.000Z"
+    },
+    {
+      "headline": "HarnessRouter/harnessrouter",
+      "lede": "Codex, Claude Code, Hermes 등 다양한 에이전트 하네스를 단일 API 규격으로 연동하는 오프소스 인터페이스.",
+      "why_now": "통합 하네스 프로토콜(UHP)을 기반으로 에이전트 세션 제어, 스트리밍, 취소 처리를 표준화한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/HarnessRouter/harnessrouter",
+      "published_at": "2026-09-15T22:36:36.000Z"
+    },
+    {
+      "headline": "Human-Agent-Society/reef",
+      "lede": "에이전트가 실시간 환경 상호작용 속에서 자율적으로 성능을 계속 개선하도록 돕는 지속 학습 프레임워크.",
+      "why_now": "사전 학습 데이터 한계를 넘어 환경 적응형 자율 개선 에이전트 구축 인프라를 지향한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Human-Agent-Society/reef",
+      "published_at": "2026-09-15T21:08:43.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "에이전트 제어를 위한 형식 검증 적용 사례",
+    "lede": "엔비디아 OpenShell 연구팀이 AI 에이전트 행동 정책을 통제하기 위해 수학적 형식 검증(formal methods) 기법을 도입한 경험을 정리했다.",
+    "why_now": "에이전트 자율성이 확장됨에 따라 사후 테스트를 넘어 보장된 안정성 제어 장치의 필요성을 다룬다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://nvidia.github.io/OpenShell-Research/dev-notes/posts/2026-09-10-learning-formal-methods-agent-policy-prover",
+    "published_at": "2026-09-15T14:40:05.000Z"
+  }
+}
