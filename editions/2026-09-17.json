@@ -1,0 +1,129 @@
+{
+  "date": "2026-09-17",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "클로드의 제품 통합과 Gemini 3.8 Live 발표가 아침을 열었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "앤트로픽, 클로드 챗과 코워크 하나로 통합",
+    "lede": "앤트로픽이 대화형 인터페이스인 Claude Chat과 에이전트 작업 공간인 Cowork를 단일 제품으로 합쳤다.",
+    "why_now": "작업의 성격에 따라 클로드가 직접 단순 대화와 에이전트 워크플로우 실행 여부를 판단하도록 전환했다.",
+    "kind": "announcement",
+    "source_name": "Anthropic",
+    "canonical_url": "https://claude.com/blog/cowork-is-now-claude",
+    "published_at": "2026-09-16T16:26:25.000Z",
+    "body": "그동안 별도 인터페이스로 분리되어 있던 클로드의 주요 기능들이 하나의 서비스로 일치되었다. 사용자가 프롬프트를 입력하면 모델이 상황을 판단해 즉각적인 답변을 줄지, 혹은 장기 실행 에이전트 워크플로우를 가동할지 결정한다. 이와 함께 문서 제작 도구인 Claude Docs와 발표 자료 생성 기능인 Claude Slides도 내장되었다. 기존의 모드 선택 부담을 줄이고 에이전트 작업 실행 방식을 단순화한 조치다.",
+    "also_see": [
+      {
+        "title": "Anthropic merges Claude Chat, Cowork, and more into a single product",
+        "url": "https://the-decoder.com/anthropic-merges-claude-chat-cowork-and-more-into-a-single-product"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "Gemini 3.8 Live 및 Extended Thinking 공개",
+      "lede": "구글 딥마인드가 실시간 음성 대화와 추론 성능을 결합한 Gemini 3.8 Live를 발표했다.",
+      "why_now": "음성 인터랙션 중에도 확장 추론 모드를 작동시켜 복잡한 대화 맥락을 단계별로 처리한다.",
+      "kind": "release",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/introducing-gemini-3-8-live-and-3-8-live-extended-thinking",
+      "published_at": "2026-09-15T17:05:57.000Z"
+    },
+    {
+      "headline": "OpenAI, 모델 정렬 오작동 제보 체계 공개",
+      "lede": "OpenAI가 모델 정렬(misalignment) 문제의 추적·조사·공개를 위한 공개 프레임워크와 6건의 사례 보고서를 공개했다.",
+      "why_now": "예상치 못한 모델의 오작동 및 이탈 행동을 표준화된 체계로 외부와 공유하기 위함이다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/model-misalignment-reporting-framework",
+      "published_at": "2026-09-16T17:00:00.000Z"
+    },
+    {
+      "headline": "Mistral과 Mozilla의 프라이빗 AI 브라우징",
+      "lede": "미스트랄 AI와 모질라가 다국어 및 로컬 프라이버시 처리를 강화한 브라우저 AI 통합 협업을 발표했다.",
+      "why_now": "사용자 데이터를 외부로 전송하지 않고 브라우저 내에서 직접 맥락을 처리하는 방식을 지향한다.",
+      "kind": "announcement",
+      "source_name": "Mistral AI",
+      "canonical_url": "https://mistral.ai/news/mistral-x-mozilla",
+      "published_at": "2026-09-16T08:08:57.000Z"
+    },
+    {
+      "headline": "Google DeepMind, AGI 연구소 DMI 설립",
+      "lede": "구글 딥마인드가 AGI의 사회적 영향과 거버넌스 및 제어 리스크를 전담 연구할 DeepMind Institute를 설립했다.",
+      "why_now": "기술 발전 속도에 맞춰 학제간 전문가들이 참여하는 안전 표준 및 통제 프레임워크를 정립한다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://institute.deepmind.com/",
+      "published_at": "2026-09-16T14:32:11.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "Continual Learning Mechanisms Compose for Long-Horizon Memorization",
+      "lede": "지속적 지도 미세조정(SFT) 환경에서 과거 샘플을 보존하지 않고도 100개의 과제를 장기 암기할 수 있는 메커니즘을 분석했다.",
+      "why_now": "새롭게 유입되는 지식을 이전 기억의 붕괴 없이 모델에 축적시키는 지속 학습 구조를 제시한다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.06986",
+      "published_at": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "headline": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+      "lede": "기존 LLM의 자가 개선 한계를 평가는 지표를 도입하고, AI가 스스로 코드를 개선하는 재귀적 자가 개선(RSI) 로드맵을 제안했다.",
+      "why_now": "단발성 피드백을 넘어 에이전트가 자체 개선 루프를 주도하기 위한 지향점을 다룬다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.11873",
+      "published_at": "2026-09-16T00:00:00.000Z"
+    },
+    {
+      "headline": "StepAudio 3 Realtime Technical Report",
+      "lede": "실시간 음성 소통을 위해 '듣기-대화-생각-행동' 루프 구조를 적용한 음성-언어 파운데이션 모델 StepAudio 3 Realtime을 제시했다.",
+      "why_now": "동시 다중 스트림 모델링을 통해 대화 중간 개입 시에도 끊김 없는 고성능 추론 및 응답을 지원한다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.14005",
+      "published_at": "2026-09-16T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "코딩 에이전트가 전체 코드를 읽지 않고도 파급력과 테스트 항목을 70% 이상 가벼운 시그니처로 파악하도록 돕는 C++23 CLI 및 MCP 서버.",
+      "why_now": "에이전트의 컨텍스트 토큰 소비량을 획기적으로 줄이고 정확한 코드 탐색을 지원한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-09-16T23:32:36.000Z"
+    },
+    {
+      "headline": "lexmount/moli",
+      "lede": "AI 에이전트를 위한 Rust 기반의 초경량·고호환성 헤드리스 브라우저 실행 엔진.",
+      "why_now": "에이전트의 웹 브라우징 및 자동화 수행 시 리소스 사용을 극소화한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/lexmount/moli",
+      "published_at": "2026-09-16T23:19:05.000Z"
+    },
+    {
+      "headline": "mikehasa/agentacct",
+      "lede": "Claude Code, Codex 등 코딩 에이전트의 단계별 도구 사용, 파일 변경, 소비 토큰 및 비용을 로컬에서 투명하게 기록하는 대시보드.",
+      "why_now": "에이전트의 오작동과 불필요한 토큰 지출을 오프라인 대시보드로 손쉽게 추적한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mikehasa/agentacct",
+      "published_at": "2026-09-16T22:28:42.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "LLM 코드 폭주에 PS5 Linux 메인테이너 사임",
+    "lede": "PS5 Linux 프로젝트 리더가 LLM이 생성한 무분별하고 검증되지 않은 코드 기여 폭주를 이유로 메인테이너 직을 사임했다.",
+    "why_now": "AI 코딩 도구 보급으로 저품질 코드 기여가 급증하면서 오픈소스 유지보수자의 피로도가 극에 달했음을 보여준다.",
+    "kind": "analysis",
+    "source_name": "FRVR",
+    "canonical_url": "https://frvr.com/blog/news/ps5-linux-lead-quits-as-open-source-projects-have-become-a-bunch-of-noobs-using-llms-that-they-dont-even-understand",
+    "published_at": "2026-09-16T14:30:36.000Z"
+  }
+}
