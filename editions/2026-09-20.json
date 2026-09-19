@@ -1,0 +1,105 @@
+{
+  "date": "2026-09-20",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "주요 모델 발표는 없었으며, 에이전트 연동 도구와 하네스 관련 논문·저장소를 주로 다루었다.",
+  "quiet_night": true,
+  "hero": null,
+  "overnight": [
+    {
+      "headline": "Claude Code, AGENTS.md 표준 호환 지원",
+      "lede": "Claude Code가 프로젝트 내 Claude.md가 없는 경우 AGENTS.md를 자동으로 읽도록 업데이트되었다.",
+      "why_now": "에이전트 설정 파일의 파편화를 줄이고 공통 표준 지원을 강화하기 위한 조치이다.",
+      "kind": "release",
+      "source_name": "Claude Code Docs",
+      "canonical_url": "https://code.claude.com/docs/en/changelog",
+      "published_at": "2026-09-18T21:00:32.000Z"
+    },
+    {
+      "headline": "Unity, Claude Code·Codex 공식 플러그인 출시",
+      "lede": "Unity가 AI 에이전트의 구버전 API 참조 및 잘못된 코드 생성을 방지하는 공식 플러그인을 공개했다.",
+      "why_now": "최신 엔진 버전과의 호환성을 확보하고 개발 에이전트의 오류율을 줄이기 위함이다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/unity-launches-official-plugins-for-claude-code-and-openai-codex-to-stop-ai-agents-from-using-outdated-tutorials",
+      "published_at": "2026-09-19T13:31:46.000Z"
+    },
+    {
+      "headline": "Qwen3.8-Omni-Flash 출시 및 벤치마크 공개",
+      "lede": "Qwen이 오디오 및 비디오 통합 처리가 가능한 에이전트용 멀티모달 모델을 발표했다.",
+      "why_now": "Gemini Flash급 멀티모달 성능을 유지하면서 API 단가를 낮추어 경쟁력을 확보했다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/qwen3-8-omni-flash-undercuts-gemini-flash-pricing-while-matching-its-multimodal-benchmarks",
+      "published_at": "2026-09-19T14:30:57.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "DeepSeek, KV 캐시 압축 효율 극대화 연구 공개",
+      "lede": "DeepSeek-V4.1-Flash 논문이 긴 문맥 처리 시 KV 캐시의 메모리 및 대역폭 부담을 줄이는 기술을 제시한다.",
+      "why_now": "에이전트의 입력 토큰 길이가 길어짐에 따라 대용량 컨텍스트 처리 효율이 핵심 과제로 떠올랐다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.19969",
+      "published_at": "2026-09-18T00:00:00.000Z"
+    },
+    {
+      "headline": "온폴리시 증류 시 답변 과도 현상 분석",
+      "lede": "학생 모델과 교사 모델 간 EOS 토큰 예측 불일치가 증류 과정의 답변 길이를 크게 늘린다는 점을 지목한다.",
+      "why_now": "모델 지능 전달 효율을 저해하는 토큰 낭비 현상을 구조적으로 해명하려는 시도이다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.20511",
+      "published_at": "2026-09-18T00:00:00.000Z"
+    },
+    {
+      "headline": "에이전트 자율 연구 루프의 토큰 효율적 확장 방법",
+      "lede": "SoL-Pi 논문은 재귀적 자기 개선 워크플로우에서 하네스 계층을 통해 토큰 소비를 절감하는 방안을 제안한다.",
+      "why_now": "장시간 작동하는 자율 코딩 및 연구 에이전트의 컴퓨팅 비용 관리가 필수적이기 때문이다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.20519",
+      "published_at": "2026-09-18T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire: 에이전트용 컨텍스트 탐색 CLI",
+      "lede": "전체 파일 본문을 읽지 않고도 C++23 기반으로 영향 범위와 시그니처를 빠르게 분석해 맥락 사용량을 줄인다.",
+      "why_now": "에이전트가 코드를 변경하기 전에 효율적으로 컨텍스트를 파악하도록 지원한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-09-19T22:50:33.000Z"
+    },
+    {
+      "headline": "HarnessRouter/harnessrouter: 에이전트 하네스 통합 백엔드",
+      "lede": "Codex, Claude Code 등 다양한 에이전트 실행 환경을 단일 오픈 API 표준으로 묶어 세션과 스트리밍을 제어한다.",
+      "why_now": "여러 에이전트 도구를 통일된 인프라에서 자호스팅 형태로 관리하려는 수요에 응답한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/HarnessRouter/harnessrouter",
+      "published_at": "2026-09-19T21:07:57.000Z"
+    },
+    {
+      "headline": "MemTensor/memmy-agent: 에이전트 공용 로컬 메모리 허브",
+      "lede": "Claude Code, Codex 등 서로 다른 코딩 에이전트가 하나의 기억과 맥락을 공유하도록 만드는 로컬 허브이다.",
+      "why_now": "도구별로 파편화되는 에이전트의 컨텍스트 지속성 문제를 로컬 환경에서 해결한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/MemTensor/memmy-agent",
+      "published_at": "2026-09-19T18:39:57.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "Gemini AI, 보안 침투 테스트 중 기업 시스템 자체 돌파",
+    "lede": "구글 Gemini가 모의 침투 테스트 과정에서 세 개 기업의 시스템을 우회 및 침투했다는 결과가 보도되었다.",
+    "why_now": "자율 에이전트의 보안 분석 능력 향상과 동시에 잠재적 위험성을 보여주는 사례이다.",
+    "kind": "analysis",
+    "source_name": "BBC News",
+    "canonical_url": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo",
+    "published_at": "2026-09-19T06:09:23.000Z"
+  }
+}
