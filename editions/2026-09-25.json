@@ -1,0 +1,180 @@
+{
+  "date": "2026-09-25",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "요약 모델에 실패해 원문 제목만 모았습니다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "Introducing Gemini 3.8 Live with Live Av",
+    "lede": "Introducing Gemini 3.8 Live with Live Avatar",
+    "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+    "kind": "announcement",
+    "source_name": "DeepMind",
+    "canonical_url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+    "published_at": "2026-09-24T16:20:39.000Z",
+    "body": "Introducing Gemini 3.8 Live with Live Avatar",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "Accelerating vision-language models with",
+      "lede": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "published_at": "2026-09-24T14:08:57.000Z"
+    },
+    {
+      "headline": "Project Swap: What happens when agents t",
+      "lede": "Project Swap: What happens when agents trade for us?",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/research/project-swap",
+      "published_at": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "headline": "How to Use NVIDIA Warp and MjWarp to Acc",
+      "lede": "How to Use NVIDIA Warp and MjWarp to Accelerate Robotics Simulation and Learning Workflows",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/nvidia/how-to-use-nvidia-warp-and-mjwarp",
+      "published_at": "2026-09-23T18:41:40.000Z"
+    },
+    {
+      "headline": "Google Beam expands with new regions, pa",
+      "lede": "We’re expanding Google Beam to five new countries, and partnering with Industrious for an extended network.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/research/google-beam-expansion",
+      "published_at": "2026-09-23T18:00:00.000Z"
+    },
+    {
+      "headline": "Offloaded inference for real-world physi",
+      "lede": "Robots are getting smarter, but how can their hardware match that growth? New Microsoft Research findings show that moving AI inference beyond the robot can improve task success, b",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/offloaded-inference-for-real-world-physical-ai-robotics",
+      "published_at": "2026-09-23T16:01:36.000Z"
+    },
+    {
+      "headline": "Advancing Private AI Compute with secure",
+      "lede": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
+      "published_at": "2026-09-23T16:00:57.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "Gemini 3.8 text-to-speech says hello",
+      "lede": "Gemini 3.8 text-to-speech says hello",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+      "published_at": "2026-09-23T15:25:14.000Z"
+    },
+    {
+      "headline": "OpenAI extends cyber access to Ukraine f",
+      "lede": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+      "published_at": "2026-09-23T13:00:00.000Z"
+    },
+    {
+      "headline": "Sam Altman’s remarks at the United Natio",
+      "lede": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+      "published_at": "2026-09-23T12:00:00.000Z"
+    },
+    {
+      "headline": "Harvey turns legal context into stronger",
+      "lede": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+      "published_at": "2026-09-23T12:00:00.000Z"
+    },
+    {
+      "headline": "How invideo improves color grading 3x wi",
+      "lede": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+      "published_at": "2026-09-23T12:00:00.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "SpeakerMem-R1: Speaker-Centered Dual-Tra",
+      "lede": "Long-term conversational memory in multi-party settings requires more than retrieving relevant content from long-term conversations: it must distinguish who said what, whom each st",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.26780",
+      "published_at": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "headline": "Spatial-Interactor: Learning Spatial Rea",
+      "lede": "Spatial reasoning is essential for vision-language models (VLMs) to understand and act in the physical world. Reasoning in dynamic environments requires VLMs to perceive local stat",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.23038",
+      "published_at": "2026-09-24T00:00:00.000Z"
+    },
+    {
+      "headline": "HappyWorld-Bench",
+      "lede": "Evaluating world models requires assessing both the quality of the worlds they generate and their consistency and responsiveness under exploration, interaction, and modification. W",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.24308",
+      "published_at": "2026-09-24T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "lexmount/moli",
+      "lede": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/lexmount/moli",
+      "published_at": "2026-09-24T23:46:14.000Z"
+    },
+    {
+      "headline": "yetone/magpie",
+      "lede": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/yetone/magpie",
+      "published_at": "2026-09-24T23:31:38.000Z"
+    },
+    {
+      "headline": "whitecircle/halo",
+      "lede": "Halo is an open-source framework built by White Circle for training large language and multimodal models",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/whitecircle/halo",
+      "published_at": "2026-09-24T23:02:39.000Z"
+    }
+  ],
+  "if_time": null
+}
