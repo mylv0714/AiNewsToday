@@ -1,0 +1,180 @@
+{
+  "date": "2026-09-26",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "요약 모델에 실패해 원문 제목만 모았습니다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "Proaction boosts sales 60% and saves 75+",
+    "lede": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+    "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/proaction",
+    "published_at": "2026-09-25T19:00:00.000Z",
+    "body": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "Yes, Claude can do Nine Loops",
+      "lede": "Yes, Claude can do Nine Loops",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "published_at": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "headline": "Introducing Gemini 3.8 Live with Live Av",
+      "lede": "Introducing Gemini 3.8 Live with Live Avatar",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar",
+      "published_at": "2026-09-24T16:20:39.000Z"
+    },
+    {
+      "headline": "Accelerating vision-language models with",
+      "lede": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "published_at": "2026-09-24T14:08:57.000Z"
+    },
+    {
+      "headline": "Ollaya – Ollama for open-source, Jev-sty",
+      "lede": "HN 296 points, 88 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://ollaya.dev/",
+      "published_at": "2026-09-25T18:33:50.000Z"
+    },
+    {
+      "headline": "U.S. appeals court upholds designation o",
+      "lede": "HN 355 points, 661 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+      "published_at": "2026-09-25T15:29:25.000Z"
+    },
+    {
+      "headline": "Project Swap: What happens when agents t",
+      "lede": "Project Swap: What happens when agents trade for us?",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/research/project-swap",
+      "published_at": "2026-09-24T00:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "Claude discovers a novel enzyme system w",
+      "lede": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+      "published_at": "2026-09-23T00:00:00.000Z"
+    },
+    {
+      "headline": "Revealing the details of how OpenAI agen",
+      "lede": "HN 107 points, 70 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://swarmtraces.org/",
+      "published_at": "2026-09-25T21:09:27.000Z"
+    },
+    {
+      "headline": "Too AI; Didn't Read",
+      "lede": "HN 102 points, 95 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.tai-dr.com/",
+      "published_at": "2026-09-25T20:37:56.000Z"
+    },
+    {
+      "headline": "Meta's Muse appears to use an OpenAI mod",
+      "lede": "HN 99 points, 42 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://mouse.dev/blog/muse-special",
+      "published_at": "2026-09-25T18:18:06.000Z"
+    },
+    {
+      "headline": "Jevmem – automatic project memory for Cl",
+      "lede": "HN 60 points, 40 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://github.com/Avinash-jetwani/jevmem",
+      "published_at": "2026-09-25T16:04:04.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Training Object Permanence in World Mode",
+      "lede": "Object permanence and solidity are hallmarks of human cognitive priors. Recent studies show that video generation models, a paradigmatic class of current world models, have begun t",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.28654",
+      "published_at": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "headline": "Your Transformer Can Hold Two Thoughts a",
+      "lede": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.29845",
+      "published_at": "2026-09-25T00:00:00.000Z"
+    },
+    {
+      "headline": "WanPE: Towards Cinematic Prompt Enhancem",
+      "lede": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.30221",
+      "published_at": "2026-09-25T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "lexmount/moli",
+      "lede": "Best headless browser for AI agents. Lite, Fast, High-Compatibility. Built in Rust",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/lexmount/moli",
+      "published_at": "2026-09-25T23:21:44.000Z"
+    },
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Find what you want without reading the repo, then check you built what you meant — blast radi",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-09-25T22:54:04.000Z"
+    },
+    {
+      "headline": "panxunying/ai-coding-welfare",
+      "lede": "AI Coding 福利站导航：免费白嫖 Claude Code / Codex 的中转站与公益站合集，含额度、模型、价格自动更新与一键配置脚本",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/panxunying/ai-coding-welfare",
+      "published_at": "2026-09-25T21:36:36.000Z"
+    }
+  ],
+  "if_time": null
+}
