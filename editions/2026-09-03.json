@@ -1,146 +1,64 @@
 {
   "date": "2026-09-03",
   "timezone": "Asia/Seoul",
-  "reading_minutes": 10,
-  "one_liner": "요약 모델에 실패해 원문 제목만 모았습니다.",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI의 보안 기준 임계치 도달 모델 Astra 발표와 의료 데이터 연동 소식이 전해졌다.",
   "quiet_night": false,
   "hero": {
-    "headline": "ATV Big Air Tour turned 3 days of work i",
-    "lede": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
-    "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-    "kind": "announcement",
+    "headline": "OpenAI Astra, 사이버 보안 임계치 도달",
+    "lede": "OpenAI 모델 Astra가 준비도 프레임워크의 사이버 보안 임계값을 처음으로 충족했다.",
+    "why_now": "고성능 모델에 적용되는 강화된 출시 안전장치의 첫 적용 사례다.",
+    "kind": "release",
     "source_name": "OpenAI",
-    "canonical_url": "https://openai.com/index/atv-big-air-tour",
-    "published_at": "2026-09-02T12:00:00.000Z",
-    "body": "ATV Big Air Tour uses ChatGPT Work to speed up marketing, merchandising, and more. It even turned merchandise photos into an inventory website in 15 minutes.",
+    "canonical_url": "https://openai.com/index/path-to-astra",
+    "published_at": "2026-09-01T13:00:00.000Z",
+    "body": "OpenAI는 Astra 모델이 준비도 프레임워크(Preparedness Framework)상 핵심 사이버 보안 능력 임계치에 도달했다고 발표했다. 이에 따라 해당 모델에는 강화된 위험 완화 조치와 엄격한 안전 통제가 적용된다. 이번 조치는 향후 차세대 모델의 안전성 검증 및 출시 가이드라인을 설정하는 주요 기준이 될 전망이다.",
     "also_see": []
   },
   "overnight": [
     {
-      "headline": "How AI-native companies turn workflows i",
-      "lede": "Basis, Clay, and Exa Labs use AI agents to improve onboarding, account management, and developer integrations. See what enterprise leaders can apply.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/ai-native-company-workflows",
-      "published_at": "2026-09-01T17:00:00.000Z"
-    },
-    {
-      "headline": "Path to Astra: critical capabilities and",
-      "lede": "Astra is the first OpenAI model to meet the Critical cybersecurity capability threshold under the Preparedness Framework, with stronger safeguards for release.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/path-to-astra",
-      "published_at": "2026-09-01T13:00:00.000Z"
-    },
-    {
-      "headline": "Healthcare organizations can now connect",
-      "lede": "ChatGPT can now connect to trusted healthcare data, helping clinicians securely access patient context, medical research, and more.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "ChatGPT, 의료 기록 직접 연동 지원",
+      "lede": "의료 기관이 환자 전자의무기록 및 연구 데이터를 ChatGPT에 안전하게 연결할 수 있게 되었다.",
+      "why_now": "임상 현장에서 환자의 전후 맥락을 인지하는 AI 활용이 가능해졌다.",
       "kind": "announcement",
       "source_name": "OpenAI",
       "canonical_url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
       "published_at": "2026-09-01T12:00:00.000Z"
     },
     {
-      "headline": "How law firm Gilbert + Tobin governs and",
-      "lede": "See how Gilbert + Tobin combines CEO-led commitment, rigorous governance, and human accountability to scale ChatGPT Enterprise and Codex across the firm.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/gilbert-tobin",
-      "published_at": "2026-09-01T01:00:00.000Z"
-    },
-    {
-      "headline": "OpenAI supports California’s bill to adv",
-      "lede": "OpenAI supports California SB 1119, advancing strong, age-appropriate AI safeguards for teens while preserving opportunities to learn, create, and explore.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety",
-      "published_at": "2026-08-31T07:00:00.000Z"
-    },
-    {
-      "headline": "Polimill builds Japan's next-generation ",
-      "lede": "Polimill uses OpenAI GPT models and Codex to help municipalities search and use administrative knowledge while accelerating development.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/polimill",
-      "published_at": "2026-08-31T07:00:00.000Z"
-    }
-  ],
-  "tools": [
-    {
-      "headline": "Our decision on Cursor following its acq",
-      "lede": "Our decision to wind down our contract providing OpenAI models to Cursor following its acquisition by SpaceX.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
-      "published_at": "2026-08-28T06:00:00.000Z"
-    },
-    {
-      "headline": "Supporting Thailand’s next generation of",
-      "lede": "OpenAI and Thailand’s MHESI launch an eight-week accelerator helping 10 health, wellness, and education startups turn AI prototypes into trusted products.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand",
-      "published_at": "2026-08-28T02:00:00.000Z"
-    },
-    {
-      "headline": "Better answers, broader thinking: What s",
-      "lede": "A randomized study of more than 1,000 students examines ChatGPT, critical thinking, originality, and student performance on a real-world university assignment.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training",
-      "published_at": "2026-08-27T09:00:00.000Z"
-    },
-    {
-      "headline": "Expanding OpenAI’s presence in Brazil",
-      "lede": "OpenAI is expanding its presence in Brazil, deepening engagement with developers, businesses, and communities to support AI adoption across the country.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/expanding-our-presence-in-brazil",
-      "published_at": "2026-08-27T03:00:00.000Z"
-    },
-    {
-      "headline": "Proactive cyber defense for governments ",
-      "lede": "Proactive cyber defense for governments and enterprises",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "구글 딥마인드, 선제적 사이버 방어 발표",
+      "lede": "정부 및 기업을 위한 선제적 사이버 보안 방어 전략 체계가 공개되었다.",
+      "why_now": "AI 기반 보안 위협 확산에 맞춰 기관용 방어 지침을 제시한다.",
       "kind": "release",
       "source_name": "DeepMind",
       "canonical_url": "https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises",
       "published_at": "2026-09-02T16:24:24.000Z"
     }
   ],
+  "tools": [],
   "papers": [
     {
-      "headline": "Beyond Scores: Understanding LLM-as-a-Ju",
-      "lede": "Beyond Scores: Understanding LLM-as-a-Judge Mechanisms in Summarization Evaluation",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "LLM 평가자의 요약 판별 메커니즘 분석",
+      "lede": "텍스트 요약 평가 시 LLM을 평가자로 활용할 때 발생하는 내부 메커니즘과 편향을 분석한 논문이다.",
+      "why_now": "자동 요약 평가 방식의 신뢰성과 판단 기준을 정밀하게 검증한다.",
       "kind": "paper",
       "source_name": "arXiv",
       "canonical_url": "https://arxiv.org/abs/2609.01604v1",
       "published_at": "2026-09-01T17:59:49.000Z"
     },
     {
-      "headline": "Efficient SWE Agent Benchmarking via Tra",
-      "lede": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "경로 인지 기반 소프트웨어 에이전트 평가",
+      "lede": "소프트웨어 엔지니어링 에이전트의 실행 경로를 추적해 효율적으로 평가하는 방식을 제안한다.",
+      "why_now": "단순 결과 비교를 넘어 에이전트의 문제 해결 능력을 비용 효율적으로 측정한다.",
       "kind": "paper",
       "source_name": "arXiv",
       "canonical_url": "https://arxiv.org/abs/2609.01603v1",
       "published_at": "2026-09-01T17:59:46.000Z"
     },
     {
-      "headline": "Adaptive Critical Token-Aware Retrieval ",
-      "lede": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "코드 생성을 위한 핵심 토큰 인지 검색",
+      "lede": "리포지토리 수준의 코드 생성에서 핵심 토큰을 적응형으로 검색하는 구조를 제안한다.",
+      "why_now": "대규모 코드베이스 전반의 맥락 검색 정확도와 코드 생성 효율을 높인다.",
       "kind": "paper",
       "source_name": "arXiv",
       "canonical_url": "https://arxiv.org/abs/2609.01601v1",
@@ -149,32 +67,40 @@
   ],
   "github": [
     {
-      "headline": "Nanako0129/sepia",
-      "lede": "De-AI writing skill for any Agent Skills-compatible agent (77+ via the Skills CLI), with native plugins for Claude Code, Codex, Grok Build, and Antigravity. Narrative-architecture ",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "useagenthq/useagent",
+      "lede": "클라우드 환경에서 업무 웹사이트 및 보고서를 자동 작성하는 오픈소스 팀 에이전트다.",
+      "why_now": "팀 내 커스텀 툴과 컨텍스트를 연결해 독립된 가상 환경에서 작업을 처리한다.",
       "kind": "repo",
       "source_name": "GitHub",
-      "canonical_url": "https://github.com/Nanako0129/sepia",
-      "published_at": "2026-08-28T05:56:49.000Z"
+      "canonical_url": "https://github.com/useagenthq/useagent",
+      "published_at": "2026-08-29T21:14:31.000Z"
     },
     {
       "headline": "Player-YN/PawWork_ZhuaZhua",
-      "lede": "Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "lede": "브라우저 화면을 직접 선택해 편집 가능한 오피스 문서로 추출해 주는 웹 에이전트다.",
+      "why_now": "별도 서버 없이 브라우저 상에서 로컬 키 기반으로 동작한다.",
       "kind": "repo",
       "source_name": "GitHub",
       "canonical_url": "https://github.com/Player-YN/PawWork_ZhuaZhua",
       "published_at": "2026-08-28T10:56:56.000Z"
     },
     {
-      "headline": "useagenthq/useagent",
-      "lede": "The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs. Run",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "Nanako0129/sepia",
+      "lede": "Claude Code 및 Codex 등 주요 에이전트에서 탈-AI 스타일 문체를 적용하는 플러그인이다.",
+      "why_now": "기존 Agent Skills 표준 규격과 연동되어 자연스러운 문장 작성을 지원한다.",
       "kind": "repo",
       "source_name": "GitHub",
-      "canonical_url": "https://github.com/useagenthq/useagent",
-      "published_at": "2026-08-29T21:14:31.000Z"
+      "canonical_url": "https://github.com/Nanako0129/sepia",
+      "published_at": "2026-08-28T05:56:49.000Z"
     }
   ],
-  "if_time": null
+  "if_time": {
+    "headline": "OpenAI, Cursor 계약 중단 결정",
+    "lede": "OpenAI가 SpaceX에 인수된 Cursor와의 모델 공급 계약을 단계적으로 중단하기로 밝혔다.",
+    "why_now": "개발 도구 시장 생태계 변화와 모델 공급망 영향도를 보여준다.",
+    "kind": "release",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
+    "published_at": "2026-08-28T06:00:00.000Z"
+  }
 }

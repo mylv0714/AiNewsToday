@@ -1,137 +1,69 @@
 {
   "date": "2026-09-11",
   "timezone": "Asia/Seoul",
-  "reading_minutes": 10,
-  "one_liner": "요약 모델에 실패해 원문 제목만 모았습니다.",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI가 에이전트 구축을 위한 관리형 API와 실시간 음성 모델을 일제히 공개했다.",
   "quiet_night": false,
   "hero": {
-    "headline": "How a researcher uses Codex and ChatGPT ",
-    "lede": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-    "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+    "headline": "OpenAI, 클라우드 에이전트 구축용 Agents API 출시",
+    "lede": "OpenAI가 오케스트레이션과 세션 관리를 통합한 클라우드 에이전트 호스팅 서비스 Agents API를 공개했다.",
+    "why_now": "에이전트 제어 루프와 인프라를 직접 구축하지 않고 표준 규격 API로 클라우드 에이전트를 배포할 수 있게 되었다.",
     "kind": "announcement",
     "source_name": "OpenAI",
-    "canonical_url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
-    "published_at": "2026-09-10T16:00:00.000Z",
-    "body": "César de la Fuente’s lab uses Codex and ChatGPT to search living and extinct genomes for antimicrobial candidates to fight drug-resistant infections.",
-    "also_see": []
+    "canonical_url": "https://openai.com/index/introducing-the-agents-api",
+    "published_at": "2026-09-10T00:00:00.000Z",
+    "body": "기존에는 에이전트의 실행 상태 유지와 툴 호출 루프를 개발자가 커스텀 서버에서 직접 관리해야 했다. Agents API는 Codex 하네스를 기반으로 장기 세션 관리, 도구 연동, 오케스트레이션을 단일 관리형 서비스로 제공한다. 함께 공개된 실시간 음성 API 및 기업용 Data agent와 결합하여 에이전트 개발 프레임워크의 표준화가 가속화될 것으로 보인다.",
+    "also_see": [
+      {
+        "title": "Now everyone can put data to work",
+        "url": "https://openai.com/index/put-data-to-work"
+      }
+    ]
   },
   "overnight": [
     {
-      "headline": "3 ways to prep for your next big race wi",
-      "lede": "Search can help runners get race-day ready with registration alerts, tailored training plans, and more.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "Google AI",
-      "canonical_url": "https://blog.google/products-and-platforms/products/search/running-race-training-tips",
-      "published_at": "2026-09-10T16:00:00.000Z"
-    },
-    {
-      "headline": "Now everyone can put data to work",
-      "lede": "Meet the Data agent in ChatGPT Work. Connect company data, uncover insights, and build interactive dashboards with AI using natural language.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "실시간 대화 지원하는 GPT-Live-1 API 공개",
+      "lede": "OpenAI가 맞춤형 음성과 전화 연동을 지원하는 풀듀플렉스 실시간 음성 모델 GPT-Live-1을 API로 출시했다.",
+      "why_now": "음성 인터페이스 구축 시 응답 지연과 지시 이행 성능이 개선된 음성 모델을 즉시 적용할 수 있다.",
       "kind": "announcement",
       "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/put-data-to-work",
-      "published_at": "2026-09-10T15:00:00.000Z"
+      "canonical_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
+      "published_at": "2026-09-10T00:00:00.000Z"
     },
     {
-      "headline": "Introducing ChatGPT for Financial Servic",
-      "lede": "Introducing ChatGPT for Financial Services, combining built-in financial data and GPT-6 Astra for research, modeling, and client-ready materials.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "GPT-6 Astra 탑재 ChatGPT 금융 전용 플랜 출시",
+      "lede": "OpenAI가 금융 데이터와 GPT-6 Astra를 결합한 금융 서비스 전용 ChatGPT 플랜을 발표했다.",
+      "why_now": "금융 리서치 및 모델링 작업에 전문화된 전용 데이터와 모델을 엔터프라이즈 환경에서 활용할 수 있게 되었다.",
       "kind": "announcement",
       "source_name": "OpenAI",
       "canonical_url": "https://openai.com/index/introducing-chatgpt-financial-services",
       "published_at": "2026-09-10T07:00:00.000Z"
     },
     {
-      "headline": "Expanding AI access and cyber defense fo",
-      "lede": "OpenAI and GSA will offer eligible federal, state, local, and tribal governments $0 license fees, 50% off usage, and expanded cyber defense support.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/expanding-ai-access-us-government",
-      "published_at": "2026-09-10T07:00:00.000Z"
-    },
-    {
-      "headline": "Introducing the Agents API",
-      "lede": "Build and launch cloud agents with the Agents API, a managed service powered by the Codex harness for orchestration, long-running sessions, and tool use.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/introducing-the-agents-api",
-      "published_at": "2026-09-10T00:00:00.000Z"
-    },
-    {
-      "headline": "Build more natural voice experiences wit",
-      "lede": "GPT‑Live‑1 brings natural, full-duplex voice conversations to the API, with stronger instruction following, custom voices, and telephony support.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "announcement",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/introducing-gpt-live-1-in-the-api",
-      "published_at": "2026-09-10T00:00:00.000Z"
-    }
-  ],
-  "tools": [
-    {
-      "headline": "Measuring tactical intelligence targetin",
-      "lede": "Measuring tactical intelligence targeting and conventional weapons capabilities of AI models",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "Anthropic, AI 모델의 군사 전술 지능 측정 결과 발표",
+      "lede": "Anthropic이 주요 AI 모델의 재래식 무기 활용 및 전술 지능 역량을 평가한 연구 결과를 공개했다.",
+      "why_now": "프론티어 모델이 가질 수 있는 안보 위험 요소를 정량화하는 측정 기준이 제시되었다.",
       "kind": "release",
       "source_name": "Anthropic",
       "canonical_url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
       "published_at": "2026-09-10T00:00:00.000Z"
-    },
-    {
-      "headline": "Paul Christiano joins OpenAI Foundation ",
-      "lede": "Paul Christiano joins the OpenAI Foundation Board and its Safety and Security Committee, bringing experience in AI alignment, safety, and standards.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "OpenAI",
-      "canonical_url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
-      "published_at": "2026-09-09T17:00:00.000Z"
-    },
-    {
-      "headline": "NVIDIA Brings Real-Time AI to Broadcast,",
-      "lede": "At the IBC conference, running Sept. 11-14 in Amsterdam, the creative, technology and business communities are coming together to turn ideas into action and discuss innovations acr",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "NVIDIA",
-      "canonical_url": "https://blogs.nvidia.com/blog/ibc-news-2026",
-      "published_at": "2026-09-09T16:00:42.000Z"
-    },
-    {
-      "headline": "Get ready for the game with new football",
-      "lede": "Track live game feeds, explore detailed stats, and get custom fantasy recommendations directly in Search this season.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "Google AI",
-      "canonical_url": "https://blog.google/products-and-platforms/products/search/football-features-google-search",
-      "published_at": "2026-09-09T16:00:00.000Z"
-    },
-    {
-      "headline": "Recreating a 70-year love story frame by",
-      "lede": "Discover how filmmakers and Google DeepMind used AI to recreate a couple's unrecorded past in the short film \"Love, Rendered.\"",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
-      "kind": "release",
-      "source_name": "Google AI",
-      "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film",
-      "published_at": "2026-09-09T16:00:00.000Z"
     }
   ],
+  "tools": [],
   "papers": [
     {
-      "headline": "Show-Harness: Just a VLM Agent Can Play ",
-      "lede": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harne",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "Show-Harness: Just a VLM Agent Can Play",
+      "lede": "비전 언어 모델(VLM)의 시각 지능을 로봇 액추에이터 제어로 전환하기 위한 하네스 구조를 제안한다.",
+      "why_now": "별도의 복잡한 정책 모델 없이 일반 VLM을 직접 로봇 제어 에이전트로 연결하는 방법을 다룬다.",
       "kind": "paper",
       "source_name": "Hugging Face Papers",
       "canonical_url": "https://arxiv.org/abs/2609.10522",
       "published_at": "2026-09-10T00:00:00.000Z"
     },
     {
-      "headline": "AgentGrad: Intervention-guided Prompt Op",
-      "lede": "Large language model (LLM)-based multi-agent systems (MAS) achieve strong performance by employing specialized multiple agents, yet their performance depends on the prompt design o",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "headline": "AgentGrad: Intervention-guided Prompt Optimization",
+      "lede": "개입 기반 프롬프트 최적화를 통해 다중 에이전트 시스템의 협업 성능을 자동 개선하는 기법을 제시한다.",
+      "why_now": "수동 프롬프트 튜닝 없이 에이전트 간 역할 분담과 메시지 수신 구조를 자동 최적화한다.",
       "kind": "paper",
       "source_name": "Hugging Face Papers",
       "canonical_url": "https://arxiv.org/abs/2609.08572",
@@ -139,8 +71,8 @@
     },
     {
       "headline": "Programmable World Model",
-      "lede": "Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing prog",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "lede": "비디오 월드 모델에서 일관된 상태 유지와 규칙 강제를 가능하게 하는 프로그래밍 가능 프레임워크를 제안한다.",
+      "why_now": "상호작용형 비디오 생성 시 상태 지속성이 깨지는 문제를 해결하려 시도한다.",
       "kind": "paper",
       "source_name": "Hugging Face Papers",
       "canonical_url": "https://arxiv.org/abs/2609.10540",
@@ -150,8 +82,8 @@
   "github": [
     {
       "headline": "redhat-et/ripwire",
-      "lede": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Find what you want without reading the repo, then check you built what you meant — blast radi",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "lede": "코딩 에이전트가 전체 코드를 읽지 않고 컨텍스트를 검색할 수 있게 돕는 C++23 기반 MCP 서버.",
+      "why_now": "코드베이스 검색 시 토큰 소모를 줄이고 영향 범위를 효율적으로 파악할 수 있다.",
       "kind": "repo",
       "source_name": "GitHub",
       "canonical_url": "https://github.com/redhat-et/ripwire",
@@ -159,8 +91,8 @@
     },
     {
       "headline": "HarnessRouter/harnessrouter",
-      "lede": "HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, PI, DSH, and more through one API",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "lede": "Codex, Claude Code, Hermes 등 다양한 에이전트 하네스를 단일 API로 통합 연동하는 셀프호스팅 라우터.",
+      "why_now": "이종 에이전트 프레임워크를 하나의 인터페이스 아래 표준화하여 제어할 수 있다.",
       "kind": "repo",
       "source_name": "GitHub",
       "canonical_url": "https://github.com/HarnessRouter/harnessrouter",
@@ -168,13 +100,21 @@
     },
     {
       "headline": "Prism-Shadow/penguin-harness",
-      "lede": "🐧 Harness for RSI. Let AI Build AI. Multi-Agent Auto-Dev Platform. Everything is Transparent.",
-      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "lede": "다중 에이전트의 자동 개발 프로세스를 투명하게 추적하고 관리하는 플랫폼.",
+      "why_now": "AI 기반 자동 개발 과정의 실행 경로와 상태 변경을 투명하게 관찰할 수 있다.",
       "kind": "repo",
       "source_name": "GitHub",
       "canonical_url": "https://github.com/Prism-Shadow/penguin-harness",
       "published_at": "2026-09-10T22:55:03.000Z"
     }
   ],
-  "if_time": null
+  "if_time": {
+    "headline": "OpenAI, 미국 공공 부문 대상 AI 이용 수수료 감면 발표",
+    "lede": "OpenAI가 미국 총무청(GSA)과 협력하여 자격 기준을 충족하는 정부 기관에 라이선스 수수료 면제 및 50% 사용료 할인을 제공한다.",
+    "why_now": "공공 기관의 프론티어 AI 도입 장벽과 사이버 방어 인프라 구축 비용이 낮아졌다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/expanding-ai-access-us-government",
+    "published_at": "2026-09-10T07:00:00.000Z"
+  }
 }
