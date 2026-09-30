@@ -1,0 +1,133 @@
+{
+  "date": "2026-09-30",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "OpenAI가 DevDay 2026에서 저비용 모델 GPT-6.1 Sol과 에이전트 플랫폼을 대거 발표했다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, GPT-6.1 Sol 및 에이전트 Dots 공개",
+    "lede": "OpenAI가 개발자 행사 DevDay 2026에서 기존 Astra 대비 가격을 5분의 1로 낮춘 GPT-6.1 Sol 모델과 상시 작동형 에이전트 Dots를 발표했다.",
+    "why_now": "DevDay 2026 행사를 통해 신규 개발자용 모델과 에이전트 전용 아키텍처를 대거 공개했다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/introducing-gpt-6-1-sol",
+    "published_at": "2026-09-29T10:00:00.000Z",
+    "body": "GPT-6.1 Sol은 플래그십 모델 Astra에 준하는 코딩 및 컴퓨터 사용 성능을 유지하면서 API 입력 및 출력 토큰 가격을 5분의 1 수준으로 인하했다. 함께 선보인 Dots는 사용자의 명시적 요청 없이도 클라우드 환경에서 배경 작업을 지속 처리하는 상시 작동형 에이전트다. 이에 더해 ChatGPT 역시 단판성 대화창을 넘어 공유 워크스페이스와 외부 MCP 연동을 갖춘 작업 환경으로 확장되었다.",
+    "also_see": [
+      {
+        "title": "DevDay 2026 Recap",
+        "url": "https://openai.com/index/devday-2026-recap"
+      },
+      {
+        "title": "Introducing dots",
+        "url": "https://openai.com/index/introducing-dots"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "NVIDIA, 정형 데이터 예측용 Kumo Tabular 공개",
+      "lede": "NVIDIA가 정형 데이터 예측 성능과 계산 효율성을 강화한 Kumo Tabular 모델을 공개했다.",
+      "why_now": "정형 데이터 머신러닝 영역에서 정확도와 연산 속도 간의 균형을 맞춘 전용 가중치를 배포했다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/nvidia/kumo-tabular",
+      "published_at": "2026-09-29T15:30:38.000Z"
+    },
+    {
+      "headline": "MS, 생물학 다중 스케일 연구 AI Quine 발표",
+      "lede": "마이크로소프트 연구소가 생물학의 다중 스케일과 모달리티를 통합 탐색하는 초기 연구용 월드 모델 Quine을 발표했다.",
+      "why_now": "파편화된 생물학 데이터를 통합하여 계산 과학적으로 검색할 수 있는 연구 체계를 제시했다.",
+      "kind": "announcement",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology",
+      "published_at": "2026-09-29T14:00:02.000Z"
+    },
+    {
+      "headline": "MCP 에이전트를 위한 소스 인지 검증 방법론",
+      "lede": "MCP 에이전트의 단순 사실 검증을 넘어 정보의 정확한 출처까지 검증하는 소스 인지형 검증 구조가 제시되었다.",
+      "why_now": "에이전트가 참조하는 데이터 원천의 신뢰도를 실시간 평가하는 메커니즘을 적용했다.",
+      "kind": "analysis",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/MultiverseComputingCAI/getting-the-source-right-not-just-the-fact-source",
+      "published_at": "2026-09-29T13:07:00.000Z"
+    },
+    {
+      "headline": "Hcompany, 컴퓨터 조작 모델 Holo4 공개",
+      "lede": "Hcompany가 소프트웨어 및 OS 직접 조작용 범용 에이전트 구동을 위한 Holo4 모델을 선보였다.",
+      "why_now": "컴퓨터 사용 에이전트 구축을 위한 오픈 모델 생태계가 점차 다양해지고 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/Hcompany/holo4",
+      "published_at": "2026-09-28T09:44:05.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "VisionHOPE: 비전 백본의 자기 수정 학습 체계",
+      "lede": "이미지 처리 중 내부 학습기를 적응시켜 비전 연산 자체를 자기 수정형 구조로 만드는 새로운 백본을 제안한다.",
+      "why_now": "기존 ViT 및 TTT 구조를 확장하여 이미지 인식 및 적응 능력을 강화하는 시도다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.33325",
+      "published_at": "2026-09-29T00:00:00.000Z"
+    },
+    {
+      "headline": "코드 에이전트 RL을 위한 그룹별 세부 보상 평가법",
+      "lede": "실행 테스트 성공 여부만 반영하던 강화학습 보상 방식 대신, 구현 품질과 요구사항 준수도를 정밀히 평가하는 세부 보상 기법을 다룬다.",
+      "why_now": "코드 에이전트 학습 시 단순 이분법적 보상 문제로 발생하는 세부 요구사항 미반영 한계를 개선한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.32577",
+      "published_at": "2026-09-29T00:00:00.000Z"
+    },
+    {
+      "headline": "비전 인코더가 없는 멀티모달 모델의 스케일링 법칙",
+      "lede": "별도의 비전 인코더 없이 픽셀 데이터를 직접 학습하는 멀티모달 모델의 스케일링 특성을 다각도로 검증한다.",
+      "why_now": "인코더 제거를 통한 모델 단순화가 연산 효율과 최종 성능 측면에서 가지는 한계를 수치화했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.35457",
+      "published_at": "2026-09-29T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "코딩 에이전트가 코드 전체를 다 읽지 않고도 시그니처 분석과 변경 영향을 파악하도록 돕는 C++23 기반 CLI 및 MCP 서버다.",
+      "why_now": "에이전트의 컨텍스트 소모량을 줄이고 코드 변경 시 파급 효과를 미리 검증할 수 있게 지원한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-09-29T18:55:34Z"
+    },
+    {
+      "headline": "BitMiracle-AI/Dormice",
+      "lede": "유휴 상태 비용 없이 정적 샌드박스를 지속 실행할 수 있는 자체 호스팅형 에이전트 실행 환경을 제공한다.",
+      "why_now": "E2B 호환 구조를 갖추어 에이전트용 코드 실행 격리 환경을 저렴하게 구축하도록 돕는다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/BitMiracle-AI/Dormice",
+      "published_at": "2026-09-29T17:41:03Z"
+    },
+    {
+      "headline": "memorax-ai/memorax-code",
+      "lede": "프로젝트 맥락과 엔지니어링 지식을 지속 가능한 메모리로 저장하여 코딩 에이전트 작업에 반영하는 플러그인이다.",
+      "why_now": "단발성 프롬프트 전달을 넘어 코딩 에이전트에 저장소 수준 지식 체계를 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/memorax-ai/memorax-code",
+      "published_at": "2026-09-29T16:18:46Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI 코드 생성의 핵심은 아키텍처와 의도 파악이다",
+    "lede": "AI 코딩 도구 확산 과정에서 문제의 본질은 코드 생성이 아닌 전체 시스템 구조와 제품 의도 파악의 부재라는 점을 지적한다.",
+    "why_now": "자동화 도구가 늘어나는 시점에서 개발자가 유지해야 할 소프트웨어 설계 및 의도 이해 능력의 가치를 논한다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.ssp.sh/brain/the-problem-is-not-the-ai-code-but-nobody-knows-anything-anymore",
+    "published_at": "2026-09-28T16:11:42.000Z"
+  }
+}
