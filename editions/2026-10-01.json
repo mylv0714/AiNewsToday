@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-01",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "구글의 차세대 모델 Gemini 4 Argon 공개와 OpenAI의 모델 추출 차단 발표가 아침을 열었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "구글, Gemini 4 Argon 공개",
+    "lede": "구글 DeepMind가 7개월 만에 차세대 프런티어 모델 Gemini 4 Argon을 발표했다.",
+    "why_now": "주요 AI 진영 간 프런티어 모델 경쟁 구도를 다시 뒤흔드는 발표다.",
+    "kind": "announcement",
+    "source_name": "DeepMind",
+    "canonical_url": "https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence",
+    "published_at": "2026-09-30T20:01:45.000Z",
+    "body": "Gemini 4 Argon은 가격 대비 높은 속도와 추론 성능을 목표로 설계된 구글의 신형 모델이다. 독립적 테스트에 따르면 기존 대표 모델들과 어깨를 견주며 낮은 토큰 가격을 제시하지만, 작업 완수를 위해 소비하는 토큰 양이 다소 많은 한계도 관측된다. 한편 구글은 기존 Gems 시스템을 Anthropic 기반 표준인 Skills 형식으로 일체 전환하는 업데이트도 병행했다.",
+    "also_see": [
+      {
+        "title": "Gemini 4 Argon (High): Intelligence, Performance and Price Analysis",
+        "url": "https://artificialanalysis.ai/models/gemini-4-argon"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, 조직적 모델 추출 차단",
+      "lede": "OpenAI가 시스템 추론 능력을 무단 디스틸레이션하려는 공격 캠페인을 적발하고 차단 조치했다.",
+      "why_now": "최상위 모델의 독자적 추론 자산을 보호하기 위한 방어망 강화 조치를 공식화했다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign",
+      "published_at": "2026-09-30T10:30:00.000Z"
+    },
+    {
+      "headline": "DeepMind, SynthID Bio 공개",
+      "lede": "구글 DeepMind가 생물학적 기능을 유지하면서 AI 생성 단백질을 식별하는 워터마킹 기술을 발표했다.",
+      "why_now": "AI 바이오 물질의 안전성 확보와 식별 표준 수립을 위한 연구 성과다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/introducing-synthid-bio",
+      "published_at": "2026-09-30T15:03:07.000Z"
+    },
+    {
+      "headline": "구글, Gems 대신 Skills 도입",
+      "lede": "Gemini의 맞춤형 프롬프트 기능인 Gems가 에이전트 표준 스펙 기반의 Skills로 전환된다.",
+      "why_now": "프롬프트 재사용 형식을 에이전트 호환 표준으로 통일하려는 시장 흐름을 반영했다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/google-drops-gems-for-skills-joining-openai-and-anthropic-in-the-shift-to-agent-ready-prompt-formats",
+      "published_at": "2026-09-30T18:16:04.000Z"
+    },
+    {
+      "headline": "OpenAI·Synopsys, 칩 설계 AI 개발",
+      "lede": "OpenAI와 Synopsys가 EDA 툴을 스스로 조작해 반도체를 설계하는 GPT-Synopsys 모델을 공동 개발한다.",
+      "why_now": "하드웨어 설계 도메인으로 에이전트 모델의 적용 범위가 확대되고 있다.",
+      "kind": "announcement",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/openai-and-synopsys-team-up-to-build-an-ai-model-that-designs-chips-like-a-seasoned-engineer",
+      "published_at": "2026-09-30T19:12:30.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "온폴리시 디스틸레이션 스케일링 법칙",
+      "lede": "강화학습 기반 언어모델의 온폴리시 디스틸레이션이 모델 규모 간 추론 능력을 전이하는 스케일링 특성을 구명했다.",
+      "why_now": "동일 모델 계열 내 약한 교사에서 강한 학생으로의 정밀한 능력 전이 구조를 실증했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.32722",
+      "published_at": "2026-09-30T00:00:00.000Z"
+    },
+    {
+      "headline": "옴니 모달리티 에이전트 스킬 프레임워크",
+      "lede": "텍스트·음성·3D·코드 파편화를 해결하기 위해 옴니 네이티브 에이전트 스킬 레이어를 제안한다.",
+      "why_now": "전문 모델을 단순히 조합할 때 발생하는 입출력 병목을 극복하기 위한 방법론이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.31847",
+      "published_at": "2026-09-30T00:00:00.000Z"
+    },
+    {
+      "headline": "청크 KV 캐시 압축의 주기적 약점",
+      "lede": "긴 컨텍스트 추론을 위한 청크 단위 KV 캐시 압축 시 토큰의 상대 위치에 따른 주기적 정확도 저하 현상을 밝혔다.",
+      "why_now": "초장문 컨텍스트 압축 연산 시 오차를 방지하기 위한 구조적 원인을 제시한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.36322",
+      "published_at": "2026-09-30T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "ripwire: 에이전트 전용 맥락 탐색 CLI",
+      "lede": "코드베이스 전체를 읽지 않고 변경 영향 범위와 실행할 테스트만 정밀 추출하는 C++23 기반 MCP 서버.",
+      "why_now": "코딩 에이전트에 전달되는 컨텍스트 바이트 수를 70% 이상 줄여 비용을 최적화한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-09-30T23:46:36.000Z"
+    },
+    {
+      "headline": "agent-memory: 로컬 마크다운 기억장치",
+      "lede": "평문 마크다운을 진실 기반으로 사용해 Claude Code와 Codex가 공유하는 에이전트 장기 기억 런타임.",
+      "why_now": "외부 API 호출 없이 로컬 단에서 독립된 기억 검색 및 관리 레이어를 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/tigerless-labs/agent-memory",
+      "published_at": "2026-09-30T16:36:36.000Z"
+    },
+    {
+      "headline": "awesome-jev: 정적 타입 AI 의사결정 모음",
+      "lede": "TypeSafe AI의 System One 모델 Jev 기반 타입 세이프 의사결정 프로젝트와 연동 자료집.",
+      "why_now": "LLM 출력의 구조적 타입 보장과 안정적 의사결정 통합 생태계를 모아두었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/yibie/awesome-jev",
+      "published_at": "2026-09-30T19:19:59.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "우주 기상 손상 예보 AI 시스템",
+    "lede": "태양풍 폭풍 도달 30~60분 전에 지상 전력망 손상 예상 위치를 예측하는 머신러닝 시스템 연구가 공개됐다.",
+    "why_now": "AI 기반 시뮬레이션을 물리 국가 기반시설 방어에 실용화한 사례다.",
+    "kind": "analysis",
+    "source_name": "Microsoft Research",
+    "canonical_url": "https://www.microsoft.com/en-us/research/blog/forecasting-space-weather-risks-on-power-grids",
+    "published_at": "2026-09-30T16:00:00.000Z"
+  }
+}
