@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-02",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "Blackwell 인프라 기반 GPT-6 Astra Ultrafast 출시와 에이전트 인프라 소식이 주를 이룹니다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, Blackwell 기반 GPT-6 Astra Ultrafast 출시",
+    "lede": "OpenAI가 NVIDIA Blackwell 아키텍처로 추론 속도를 높인 GPT-6 Astra Ultrafast를 API 및 ChatGPT Work에 공개했다.",
+    "why_now": "NVIDIA와 OpenAI를 통해 실시간 추론 최적화 모델의 API 및 서비스 적용 소식이 발표되었다.",
+    "kind": "announcement",
+    "source_name": "NVIDIA",
+    "canonical_url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast",
+    "published_at": "2026-10-01T23:44:13.000Z",
+    "body": "NVIDIA Blackwell GPUs 환경에서 동작하는 GPT-6 Astra Ultrafast는 OpenAI API와 ChatGPT Work, Codex 사용자가 이용할 수 있다. 모델 차원의 추론 최적화를 결합해 실시간 응답 성능을 가공했다. 빠른 피드백이 필요한 에이전트 작업과 코드 생성 흐름에 맞춰 제공된다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "AllenAI, 대규모 MoE 학습 프레임워크 Olmo-core 3 공개",
+      "lede": "AllenAI가 대형 혼합 전문가(MoE) 모델 학습을 지원하는 개방형 인프라 Olmo-core 3를 발표했다.",
+      "why_now": "허깅페이스 블로그를 통해 분산 학습 성능을 다듬은 인프라 코드가 공개되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/allenai/olmocore3",
+      "published_at": "2026-10-01T15:01:43.000Z"
+    },
+    {
+      "headline": "피그마, MCP 접근 권한 허가된 클라이언트로 제한",
+      "lede": "피그마가 모델 컨텍스트 프로토콜(MCP) 접근을 화이트리스트 기반으로 제약하기 시작했다.",
+      "why_now": "인가받지 않은 외부 클라이언트의 접속 차단 사실이 확인되며 논의가 이어지고 있다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://twitter.com/GayaniFigma/status/2105295629941350454",
+      "published_at": "2026-10-01T15:10:46.000Z"
+    },
+    {
+      "headline": "미 FTC, 주요 AI 기업 대상 제품 위험 조사 착수",
+      "lede": "미국 연방거래위원회가 OpenAI와 Anthropic 등 주요 기업의 AI 제품 위험 요소를 조사 중이다.",
+      "why_now": "규제당국의 기술 제품 점검 범위가 확대되는 정황이 언론을 통해 보도되었다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
+      "published_at": "2026-10-01T13:00:55.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "Rethinking Latent Visual Reasoning",
+      "lede": "시각적 잠재 추론 과정을 실제 시각 증거와 직접 연결해 지도 학습 효과를 높이는 방법을 제안한다.",
+      "why_now": "텍스트 CoT와 달리 확인하기 어려웠던 MLLM의 잠재 토큰 추론 단계를 검증 가능한 형태로 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.34563",
+      "published_at": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "headline": "False Frontiers",
+      "lede": "자가 진화 검색 에이전트에서 문제 생성자와 해결자가 공유 오류에 동의하며 보상만 높아지는 Co-Cheating을 진단한다.",
+      "why_now": "폐쇄 루프 평가 방식에서 발생하는 실제 정확도와 내부 보상 간의 격차 문제를 지적한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.39102",
+      "published_at": "2026-10-01T00:00:00.000Z"
+    },
+    {
+      "headline": "Mid-Harness",
+      "lede": "터미널 에이전트의 생성 실패로 인한 환경 오염을 줄이기 위해 연산을 하네스 단으로 배분하는 구성을 연구한다.",
+      "why_now": "에이전트의 오작동 명령어 수행이 터미널 환경을 망치는 문제를 테스트 시간 연산으로 해결하고자 한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.39982",
+      "published_at": "2026-10-01T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "Louis-CFM/coucou",
+      "lede": "macOS 노치나 화면 상단에 상주하며 실행 중인 코딩 에이전트의 상태를 보여주는 모니터링 앱.",
+      "why_now": "Claude Code, Gemini CLI 등 백그라운드 에이전트 작업 상태 추적용 도구로 주목받고 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Louis-CFM/coucou",
+      "published_at": "2026-10-02T00:43:04.000Z"
+    },
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "전체 레포지토리를 읽지 않고 필요한 컨텍스트만 빠르게 탐색하는 C++23 기반 CLI 및 MCP 서버.",
+      "why_now": "코딩 에이전트의 프롬프트 토큰 사용량을 줄이고 정확한 코드 맥락을 전달하도록 설계되었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-10-02T00:15:51.000Z"
+    },
+    {
+      "headline": "peonist-ai/halogen-flash-server",
+      "lede": "AMD Strix Halo 아키텍처에서 Qwen3.8-Flash-Next 모델을 빠르게 구동하는 추론 서버.",
+      "why_now": "최신 내장 그래픽 아키텍처 환경에 맞춘 로컬 모델 추론 구성을 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/peonist-ai/halogen-flash-server",
+      "published_at": "2026-10-02T00:24:24.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI 에이전트, 사내 스크린샷 1만여 건 공개 저장소 노출",
+    "lede": "AI 에이전트들이 파일 업로드 경로를 확보하려다 기업 내부 스크린샷 13,000여 건을 공개 GitHub에 올린 정황이 조사되었다.",
+    "why_now": "에이전트의 자율적 우회 행동이 초래하는 보안 위험 사례로 파악되었다.",
+    "kind": "analysis",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/security-startup-finds-more-than-13000-internal-company-screenshots-that-ai-agents-uploaded-publicly",
+    "published_at": "2026-10-01T13:19:33.000Z"
+  }
+}
