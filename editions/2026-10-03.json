@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-03",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "OpenAI의 GPT-6 프로덕션 가이드 공개와 에이전트 전용 오픈소스 도구들이 주를 이룬 아침이다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, GPT-6 패밀리 모델 선정 및 운용 가이드 공개",
+    "lede": "OpenAI가 엔터프라이즈 환경에서 GPT-6 모델군을 선택하고 추론 노력을 조정하는 실무 가이드를 배포했다.",
+    "why_now": "작업 유형별 모델 선택 기준과 엔지니어링 지침을 공식 정리하여 프로덕션 적용 전제를 명확히 했다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/practical-guide-building-gpt-6",
+    "published_at": "2026-10-02T16:15:00.000Z",
+    "body": "OpenAI는 프로덕션 시스템 구축 시 GPT-6 모델 선택, 추론 노력(Reasoning Effort) 튜닝, 프롬프트 및 스킬 조정 방법론을 명시했다. 에이전트 도구 조율과 워크플로 배치 가이드도 함께 포함되었다. 이에 맞춰 엔비디아도 블랙웰 아키텍처 기반에서 GPT-6 Astra Ultrafast 추론을 최적화한 방식을 공개했다.",
+    "also_see": [
+      {
+        "title": "How NVIDIA GPUs Help Accelerate OpenAI’s GPT-6 Astra Ultrafast",
+        "url": "https://blogs.nvidia.com/blog/gpus-openai-gpt-6-astra-ultrafast"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "앨런 AI, 보고서 생성 전용 모델 AstaBrief 공개",
+      "lede": "앨런 인공지능 연구소가 허깅페이스에 가벼운 보고서 생성 모델 AstaBrief를 오픈소스로 공개했다.",
+      "why_now": "문장 요약 및 리포트 작성에 특화된 모델을 오픈소스 생태계에 제공한다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/allenai/astabrief",
+      "published_at": "2026-10-02T15:19:50.000Z"
+    },
+    {
+      "headline": "애플, AI 에이전트 위험 대비 macOS 권한 통제 강화",
+      "lede": "애플이 AI 에이전트의 자동화 동작으로 인한 위험을 줄이기 위해 macOS의 '전체 디스크 접근' 제어를 강화한다.",
+      "why_now": "로컬 코딩 에이전트의 파일 시스템 접근 권한 관리가 OS 차원의 이슈로 부상했다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://techcrunch.com/2026/10/02/apple-says-its-tightening-macos-full-disk-access-controls-due-to-new-risks-from-ai-agents",
+      "published_at": "2026-10-02T19:03:03.000Z"
+    },
+    {
+      "headline": "서비스나우, 기업용 에이전트 학습용 합성 데이터 도구 발표",
+      "lede": "서비스나우 AI 팀이 엔터프라이즈 에이전트 훈련을 위한 합성 데이터 생성 프레임워크 AutoSynthData를 공개했다.",
+      "why_now": "실무 도메인 에이전트 구축 시 부족한 데이터 문제를 합성 방식으로 해결하려는 시도다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/ServiceNow-AI/autosynthdata",
+      "published_at": "2026-10-02T04:01:31.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "OneStreamer: 스트리밍 비디오의 실시간 기억과 응답 통합",
+      "lede": "비디오 스트리밍 대화 시 미래 태스크에 필요한 정보를 수집하고 필요한 시점에 즉시 응답하는 구조를 제시한다.",
+      "why_now": "실시간 지각을 저해하지 않으면서 재사용 가능한 기억 단계를 결합하는 방안을 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.01762",
+      "published_at": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "headline": "언어모델 지식 증류 시 롤아웃 정책의 영향 연구",
+      "lede": "온폴리시와 오프폴리시 학습이 증류 과정에서 파라미터 업데이트 역학과 망각 현상에 미치는 차이를 비교한다.",
+      "why_now": "SFT와 RL의 복합 변수를 분리하여 지식 증류 시 최적의 롤아웃 전략을 정립하려는 연구다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.35259",
+      "published_at": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "headline": "디퓨전 언어모델을 위한 E-MoE 구조",
+      "lede": "적은 단계의 디노이징 과정에서 품질 저하를 막기 위해 continuous Gaussian latent와 MoE를 결합한 E-MoE를 제안한다.",
+      "why_now": "자가회귀 방식 대비 속도 우위를 지닌 마스크 기반 디퓨전 모델의 실용성을 개선한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.37533",
+      "published_at": "2026-10-02T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "ripwire: 코딩 에이전트용 C++23 MCP 서버",
+      "lede": "코드베이스 원문 전체를 읽지 않고 구조와 변경 영향도를 분석하는 외부 의존성 없는 CLI 및 MCP 서버다.",
+      "why_now": "컨텍스트 토큰 소비를 줄이면서 코딩 에이전트의 작업 정확도를 높이도록 돕는다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-10-02T20:45:01.000Z"
+    },
+    {
+      "headline": "agent-memory: 마크다운 기반 에이전트 장기 기억 런타임",
+      "lede": "Claude Code와 Codex 등 여러 에이전트 도구가 하나의 로컬 마크다운 기억 저장소를 공유하게 만든다.",
+      "why_now": "외부 API 키 없이 로컬 랭킹 검색과 독립된 관리 레이어로 에이전트 기억을 관리한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/tigerless-labs/agent-memory",
+      "published_at": "2026-10-02T16:21:12.000Z"
+    },
+    {
+      "headline": "DSHA: 모바일 환경용 DeepSeek Harness 실행기",
+      "lede": "루팅이나 Termux 설치 없이 안드로이드 디바이스 상에서 우분투 기반 DeepSeek Harness 환경을 실행한다.",
+      "why_now": "모바일 디바이스에서 온디바이스 에이전트 테스트 환경 구축을 단순화한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/DSH-APP/DSHA",
+      "published_at": "2026-10-02T17:52:33.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "비대칭 정보 게임 스트라테고에서 AI의 최고 플레이어 승리",
+    "lede": "보드판 정보가 일부 숨겨진 게임인 스트라테고에서 AI가 경량 연산 자원으로 인간 선수를 상대로 승리했다.",
+    "why_now": "완전 정보 게임을 넘어 비대칭적 탐색 공간에서 효율적 연산으로 의사결정을 내리는 기술적 가능성을 제시한다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget",
+    "published_at": "2026-10-02T14:11:24.000Z"
+  }
+}
