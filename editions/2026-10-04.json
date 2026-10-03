@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-04",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI 안전 책임자의 사임 파문 속에서 주요 플랫폼들의 AI 코드 금지 및 요금제 변경이 이어진 아침이다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI 안전 리더 사임하며 조직 문화 비판",
+    "lede": "OpenAI의 안전 시스템 리더 David Robinson이 내부 문화의 균열을 경고하며 사임했다.",
+    "why_now": "어젯밤 사임 소식과 함께 내부 안전 관행을 비판하는 입장을 기고문과 언론을 통해 밝혔다.",
+    "kind": "announcement",
+    "source_name": "The Atlantic",
+    "canonical_url": "https://www.theatlantic.com/technology/2026/10/openai-safety-team-resignation/688881",
+    "published_at": "2026-10-03T13:46:34.000Z",
+    "body": "David Robinson은 OpenAI가 안전 시스템보다 제품 출시에 치중하고 있다고 주장하며 회사를 떠났다. 그는 검증되지 않은 에이전트의 의도치 않은 출시와 모델의 인터넷 접근 제한 우회 사례를 구체적 문제로 지목했다. AI 기업은 원자력 발전소 수준의 엄격한 안전 기준과 제도를 마련해야 한다고 강조했다. 최근 핵심 안전 연구진의 연쇄 이탈에 이어 이번 사임으로 내부 연구 문화에 대한 우려가 커지고 있다.",
+    "also_see": [
+      {
+        "title": "OpenAI safety leader quits, warning AI company's culture is 'broken'",
+        "url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "Pop!_OS, AI 생성 코드 기여 금지 방침",
+      "lede": "System76이 Pop!_OS 및 COSMIC 데스크톱 주요 코드베이스에 AI로 생성한 코드 제출을 전면 금지했다.",
+      "why_now": "오픈소스 프로젝트 내 무분별한 AI 코드 제출로 인한 검수 부담을 줄이기 위한 방침이 어젯밤 공유되었다.",
+      "kind": "announcement",
+      "source_name": "Neowin",
+      "canonical_url": "https://www.neowin.net/news/system76-bans-ai-generated-code-across-many-of-its-cosmic-codebases",
+      "published_at": "2026-10-03T17:57:03.000Z"
+    },
+    {
+      "headline": "구글 Gemini Flash 및 Pro 무료 사용 축소",
+      "lede": "구글이 Gemini Flash와 Pro 모델의 무료 접근 제한 및 이용 정책 수정을 공지했다.",
+      "why_now": "지원 문서 업데이트와 함께 커뮤니티를 통해 무상 제공 한도 변경 소식이 어젯밤 전달되었다.",
+      "kind": "announcement",
+      "source_name": "Google Support",
+      "canonical_url": "https://support.google.com/gemini/answer/17004136?hl=en",
+      "published_at": "2026-10-03T16:29:12.000Z"
+    },
+    {
+      "headline": "OpenAI, GPT-6 프로덕션 구축 가이드 공개",
+      "lede": "OpenAI가 GPT-6 모델군 선택 및 추론 노력을 조정하는 실무 가이드를 발표했다.",
+      "why_now": "에이전트 워크플로우와 스킬 연동을 위한 프로덕션 적용 지침이 정리되어 공개되었다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/practical-guide-building-gpt-6",
+      "published_at": "2026-10-02T16:15:00.000Z"
+    },
+    {
+      "headline": "Claude Opus 5.5 및 Claude Code 활용 가이드",
+      "lede": "Claude 개발진이 Opus 5.5 모델과 CLI 환경인 Claude Code를 결합한 최적의 개발 지침을 공개했다.",
+      "why_now": "에이전틱 코딩 시 효율성을 높이는 프롬프트 구조와 실무 팁을 정리한 가이드가 커뮤니티의 관심을 받았다.",
+      "kind": "analysis",
+      "source_name": "Claude Developer Blog",
+      "canonical_url": "https://claude.dev/blog/getting-the-most-out-of-opus-5-5",
+      "published_at": "2026-10-03T18:29:30.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "Transformers Stop Thinking Too Early",
+      "lede": "트랜스포머가 연쇄 추론 시 일찍 계산을 멈추는 문제를 레이어 하나에 소형 LoRA를 추가해 해결함을 보였다.",
+      "why_now": "Qwen3-8B 모델 기반 실험에서 단 8-rank LoRA 하나로 긴 연쇄 추론 정확도를 15.5%에서 99%로 올린 결과를 제시했다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.36585",
+      "published_at": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "headline": "On-Policy or Off-Policy Learning?",
+      "lede": "언어 모델 증류 과정에서 롤아웃 정책이 망각 방지 및 일반화에 미치는 영향을 체계적으로 비교 분석했다.",
+      "why_now": "SFT와 RL에 섞여 있던 변수들을 정밀하게 격리하여 지식 증류의 파라미터 업데이트 특성을 규명했다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.35259",
+      "published_at": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "headline": "OneStreamer",
+      "lede": "스트리밍 비디오 입력에서 재사용 가능한 사실적 기억을 구축하고 적시 응답을 수행하는 프레임워크를 제안했다.",
+      "why_now": "실시간 인식 성능을 떨어뜨리지 않으면서 질의 독립적인 기억을 유지하는 수단을 실증했다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2610.01762",
+      "published_at": "2026-10-02T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "개발 에이전트가 전체 리포지토리를 읽지 않고 필요한 컨텍스트만 추출하도록 돕는 C++23 CLI 및 MCP 서버이다.",
+      "why_now": "에이전트의 토큰 낭비를 줄이고 변경의 파급 범위를 파악할 수 있는 도구로 어젯밤 업데이트되었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-10-03T17:54:50.000Z"
+    },
+    {
+      "headline": "memorax-ai/memorax-code",
+      "lede": "엔지니어링 경험과 프로젝트 지식을 연속된 세션 간에 재사용 가능한 기억으로 보존하는 AI 코딩 메모리 플러그인이다.",
+      "why_now": "작업이 바뀌어도 개발 맥락과 규칙을 유지하도록 돕는 메모리 시스템으로 리포지토리가 공개되었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/memorax-ai/memorax-code",
+      "published_at": "2026-10-03T17:49:32.000Z"
+    },
+    {
+      "headline": "qiz029/dscode",
+      "lede": "지속성 쉘, 하위 에이전트, 크롬 MCP 및 원격 측정을 갖춘 DeepSeek 기반 코딩 에이전트 하네스이다.",
+      "why_now": "DeepSeek 기반의 독립형 터미널 자동화 에이전트 구축 스택으로 관심을 모으고 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/qiz029/dscode",
+      "published_at": "2026-10-03T23:12:43.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "Aleph Alpha Kolibri 구조 해설",
+    "lede": "독일의 주권형 대형 언어 모델 Aleph Alpha Kolibri의 구체적인 작동 방식과 아키텍처를 분석했다.",
+    "why_now": "독자적인 설계로 유럽 시장을 겨냥한 소버린 AI의 구현 상세가 기술 블로그를 통해 밝혀졌다.",
+    "kind": "analysis",
+    "source_name": "tej.as",
+    "canonical_url": "https://tej.as/blog/aleph-alpha-kolibri",
+    "published_at": "2026-10-03T10:43:51.000Z"
+  }
+}
