@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-05",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "주요 프론티어 모델 발표 없이 조용한 주말이었다. 에이전트 탐색 도구와 연구 논문을 중심으로 정리했다.",
+  "quiet_night": true,
+  "hero": null,
+  "overnight": [
+    {
+      "headline": "미국 행정부, 국가안보 중심 AI 전담 기구 창설",
+      "lede": "트럼프 행정부가 국가정보국(DNI) 주도로 주요 AI 기업 및 기간시설 운영자와 협력하는 전담 조직을 창설했다.",
+      "why_now": "정부 주도의 국가안보 AI 정책 구체화 행보를 보여준다.",
+      "kind": "announcement",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence",
+      "published_at": "2026-10-04T17:41:58.000Z"
+    },
+    {
+      "headline": "구글, 자가 개선 AI의 시험문제 암기 방지 기법 공개",
+      "lede": "구글 연구진이 자가 개선 에이전트의 벤치마크 암기 현상을 억제하는 RRSI 기법을 공개했다.",
+      "why_now": "미확인 과제에서의 에이전트 일반화 성능을 개선하는 실용적 기법이다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests",
+      "published_at": "2026-10-04T12:40:37.000Z"
+    },
+    {
+      "headline": "OpenAI 안전 책임자 사임과 조직 문화 경고",
+      "lede": "OpenAI의 주요 안전 리더가 조직 문화의 균열을 언급하며 사임했다.",
+      "why_now": "주요 AI 기업 내부의 안전 우선순위 후퇴 논란이 지속되고 있음을 보여준다.",
+      "kind": "analysis",
+      "source_name": "The Guardian",
+      "canonical_url": "https://www.theguardian.com/technology/2026/oct/03/openai-safety-leader-quits-warning-ai-companys-culture-is-broken",
+      "published_at": "2026-10-03T22:18:13.000Z"
+    },
+    {
+      "headline": "NASA와 IBM, 달 탐사 파운데이션 모델 공개",
+      "lede": "17년간 축적된 달 궤도선 데이터 200만 건을 학습한 오픈소스 달 과학 AI 모델이 공개됐다.",
+      "why_now": "특화 과학 관측 영역에서의 오픈소스 파운데이션 모델 활용 사례다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/nasa-and-ibms-open-source-lunar-model-turns-17-years-of-orbiter-data-into-a-foundation-for-lunar-science",
+      "published_at": "2026-10-04T10:10:12.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "macOS용 온디바이스 미디어 AI 검색 SCM",
+      "lede": "macOS 환경에서 로컬 사진과 비디오 프레임을 온디바이스 AI로 검색하는 도구다.",
+      "why_now": "개인 미디어 라이브러리를 외부 전송 없이 로컬에서 검색할 수 있다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/allenv0/SCM",
+      "published_at": "2026-10-04T09:24:52.000Z"
+    },
+    {
+      "headline": "DSH-APP/DSHA",
+      "lede": "안드로이드 기기에서 ROOT 권한 없이 우분투 환경을 구성해 DeepSeek Harness를 실행하는 도구다.",
+      "why_now": "모바일 단말에서 직접 에이전트 실행 환경을 구성할 수 있다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/DSH-APP/DSHA",
+      "published_at": "2026-10-04T16:50:52.000Z"
+    },
+    {
+      "headline": "QingYunA/answer-me-with-html",
+      "lede": "에이전트가 복잡한 답변을 단일 페이지 HTML 문장으로 생성하도록 유도하는 스킬이다.",
+      "why_now": "텍스트 출력 대신 구조화된 가독성 높은 결과물을 얻는 용도다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/QingYunA/answer-me-with-html",
+      "published_at": "2026-10-04T16:39:46.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Transformers Stop Thinking Too Early, and a Tiny LoRA Fixes It",
+      "lede": "트랜스포머가 맥락 참조를 일정 깊이 이상 확장하지 못하는 한계를 단 하나의 조기 레이어 rank-8 LoRA로 개선한 연구다.",
+      "why_now": "기존 가중치를 모두 동결한 채 소형 어댑터만으로 길고 복잡한 추론 연쇄 정확도를 향상시킨다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.36585",
+      "published_at": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "headline": "On-Policy or Off-Policy Learning? A Systematic Study of Distillation Dynamics",
+      "lede": "언어 모델 증류 과정에서 온폴리시와 오프폴리시 롤아웃이 파라미터 업데이트와 일반화에 미치는 영향을 비교 분석한 연구다.",
+      "why_now": "지도 미세조정과 강화학습 간 롤아웃 영향을 격리해 효과적인 증류 전략 수립 기준을 제공한다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.35259",
+      "published_at": "2026-10-02T00:00:00.000Z"
+    },
+    {
+      "headline": "Prefill-Free Cross-Family KV Cache Transfer for Heterogeneous Multi-Agent LLMs",
+      "lede": "서로 다른 모델 가문으로 구성된 다중 에이전트 시스템에서 프리필 과정 없이 KV 캐시를 이전하는 기법을 제안한 연구다.",
+      "why_now": "이종 에이전트 간 통신 시 발생하는 중복 맥락 처리 병목을 크게 줄인다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.32259",
+      "published_at": "2026-10-02T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "코딩 에이전트가 코드베이스 전체를 읽지 않고도 변경 영향도와 테스트 대상을 탐색할 수 있는 C++23 기반 CLI 및 MCP 서버다.",
+      "why_now": "컨텍스트 사용량을 줄이면서 오프체인 방식으로 영향 범위를 추적하는 도구다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-10-04T23:17:04.000Z"
+    },
+    {
+      "headline": "whitecircle/halo",
+      "lede": "대형 언어 모델 및 멀티모달 모델 학습을 지원하는 오픈소스 트레이닝 프레임워크다.",
+      "why_now": "분산 환경에서 커스텀 모델 훈련을 시도할 때 활용할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/whitecircle/halo",
+      "published_at": "2026-10-04T22:32:22.000Z"
+    },
+    {
+      "headline": "nanaism/yomiyasu",
+      "lede": "AI가 생성한 일본어 문장을 보다 자연스러운 맥락과 표현으로 다듬어주는 에이전트 스킬이다.",
+      "why_now": "다국어 결과물 품질 후처리를 보완하는 목적의 도구다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/nanaism/yomiyasu",
+      "published_at": "2026-10-04T16:18:24.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI 위험성 평가를 둘러싼 시각 차이",
+    "lede": "메타의 얀 르쿤 교수가 AI로 인한 인류 위협 주장은 현실성이 없다며 대립각을 세웠다.",
+    "why_now": "AI 위험론과 기술 실용주의 간 업계의 선명한 시각차를 보여준다.",
+    "kind": "analysis",
+    "source_name": "Fortune",
+    "canonical_url": "https://fortune.com/2026/10/01/ai-godfather-yann-lecun-has-zero-concerns-about-human-extinction-says-anthropic-ceo-dario-amodei-is-deuded",
+    "published_at": "2026-10-03T17:44:29.000Z"
+  }
+}
