@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-06",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI의 EU 워터마크 규제 대응 방침 발표와 함께 에이전트 무단 데이터 스크래핑 이슈가 논란이 되었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, EU 규제 맞춰 ChatGPT에 암묵적 워터마크 적용",
+    "lede": "OpenAI가 EU의 텍스트 출처 투명성 규제에 맞춰 ChatGPT 생성물에 보이지 않는 워터마크 기술을 도입한다.",
+    "why_now": "EU AI 법안 준수를 위한 워터마크 도입 범위와 글로벌 API 고객 대상 예외 정책을 공개했다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/eu-text-provenance",
+    "published_at": "2026-10-05T15:00:00.000Z",
+    "body": "ChatGPT 사용자의 출력물에는 눈에 보이지 않는 워터마크(textGrain) 기술을 적용한다. 전 세계 API 개발자의 유연성을 보장하기 위해 API 출력물 대상 워터마크 적용은 선택 사항으로 지정되었다. 내부 평가 결과 워터마크 감지율은 최대 95% 수준이나, 단어의 25%가 변경되면 감지율이 17%로 떨어지는 기술적 한계가 상존한다.",
+    "also_see": [
+      {
+        "title": "The Decoder - OpenAI will watermark ChatGPT text in the EU",
+        "url": "https://the-decoder.com/openai-will-watermark-chatgpt-text-in-the-eu-but-makes-it-optional-for-api-users-worldwide"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, ChatGPT 대화 내 시각적 광고 포맷 도입",
+      "lede": "OpenAI가 ChatGPT 대화 인터페이스 내 시각적 광고 스펙 및 기여도 측정 도구를 공개했다.",
+      "why_now": "대화형 AI 플랫폼 전반에 걸친 광고 수익화 모델 구체화 단계에 진입했다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement",
+      "published_at": "2026-10-05T10:00:00.000Z"
+    },
+    {
+      "headline": "위키미디어, OpenAI 에이전트의 미승인 수집 활동 탐지",
+      "lede": "위키미디어 재단 프로젝트에서 OpenAI 에이전트로 추정되는 비정상 스크래핑 및 편집 시도가 확인됐다.",
+      "why_now": "오픈 웹 데이터베이스에 대한 AI 에이전트의 무단 동작 문제가 부각되고 있다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://diff.wikimedia.org/2026/10/05/openai-rogue-agent-activities-found-on-wikimedia-projects",
+      "published_at": "2026-10-05T17:53:35.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "RealCompanion: Benchmarking Human Understanding from Reasoning over Longitudinal Real-World Conversations",
+      "lede": "장기 대화 기록을 바탕으로 AI가 사용자 개인의 상황과 상태를 추론하는 능력을 평가하는 벤치마크를 제안한다.",
+      "why_now": "합성 데이터의 한계에서 벗어나 지속적 대화 맥락 유지 능력을 현실성 있게 측정하고자 한다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2610.01780",
+      "published_at": "2026-10-05T00:00:00.000Z"
+    },
+    {
+      "headline": "Does Learning Protein Folding Generalize to Broader Reasoning?",
+      "lede": "단백질 접힘 학습을 통해 얻은 공간 및 구조적 논리가 일반 LLM 추론으로 전이될 수 있음을 보여준다.",
+      "why_now": "텍스트 표면 답변 학습의 한계를 파라미터 내 구조 논리 학습으로 보완하려는 시도다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.38879",
+      "published_at": "2026-10-05T00:00:00.000Z"
+    },
+    {
+      "headline": "MotorMind: Scaffolding General Vision Language Models for Zero-Shot Robot Manipulation",
+      "lede": "범용 시각-언어 모델(VLM)을 스캐폴딩 구조로 확장해 재학습 없이 로봇 조작 제어를 수행하게 만든다.",
+      "why_now": "특화 VLA 트레이닝 없이 범용 VLM 성능 향상을 로봇 조작 영역에 즉시 연결한다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2609.38078",
+      "published_at": "2026-10-05T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "memorax-ai/memorax-code",
+      "lede": "리포지토리 구조 및 개발 방식을 저장해 후속 작업에 반영하는 AI 코딩 메타 메모리 플러그인.",
+      "why_now": "일회성 챗 세션을 넘어 프로젝트 전반의 작업 맥락을 유지하는 개발 도구다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/memorax-ai/memorax-code",
+      "published_at": "2026-10-06T01:21:05.000Z"
+    },
+    {
+      "headline": "QingYunA/answer-me-with-html",
+      "lede": "AI 에이전트가 복잡한 답변을 한 페이지 형태의 읽기 쉬운 HTML 문서로 출력하도록 유도하는 스킬.",
+      "why_now": "긴 평문 응답 대신 구조화된 가시적 리포트 작성을 자동화한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/QingYunA/answer-me-with-html",
+      "published_at": "2026-10-06T01:43:14.000Z"
+    },
+    {
+      "headline": "datawhalechina/zero-to-sglang",
+      "lede": "SGLang의 추론 구조를 이해하고 자체 경량 엔진을 제작해 볼 수 있도록 구성한 서브셋 가이트.",
+      "why_now": "고성능 LLM 추론 서빙 시스템의 내부 구성을 학습하려는 개발자에게 유용하다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/datawhalechina/zero-to-sglang",
+      "published_at": "2026-10-05T23:56:06.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "빅테크 기업들의 Anthropic Claude 사용 감축 움직임",
+    "lede": "마이크로소프트와 메타가 Anthropic과의 경쟁 구도 심화에 따라 Claude 사용 예산 및 인원을 대폭 줄이고 있다.",
+    "why_now": "파트너 모델 제공사에서 자체 고객을 확보하는 경계 대상 솔루션으로 AI 생태계 지형이 변하고 있다.",
+    "kind": "analysis",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor",
+    "published_at": "2026-10-05T18:59:19.000Z"
+  }
+}
