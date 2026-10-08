@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-08",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI의 GPT-6 출시 및 인터랙티브 UI 적용과 앤트로픽의 Claude Haiku 5.5 공개가 아침을 열었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, GPT-6 출시 및 인터랙티브 UI 적용",
+    "lede": "OpenAI가 ChatGPT에 GPT-6를 글로벌 출시하며 답변을 차트, 버튼, 미니 앱 등 시각적·상호작용형 인터페이스로 제공하는 Intelligent UI를 도입했다.",
+    "why_now": "추론 과정 중에도 답변을 실시간 생성하도록 개선해 체감 대기 시간을 44% 줄이고 기존 텍스트 중심 인터페이스에서 벗어났다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/gpt-6-for-everyone",
+    "published_at": "2026-10-07T00:00:00.000Z",
+    "body": "이번 업데이트로 ChatGPT는 텍스트 위주 출력을 넘어 인터랙티브 위젯 형태의 응답을 기본 제공한다. 사용자는 모델이 생성한 차트를 직접 조작하거나 버튼을 눌러 추가 동작을 실행할 수 있다. 유료 사용자는 GPT-6 Sol, 무료 사용자는 GPT-6 Luna 모델을 제공받는다. 답변 속도 개선과 함께 인터페이스 차원의 상호작용 방식 변화가 함께 이루어졌다.",
+    "also_see": [
+      {
+        "title": "The Decoder",
+        "url": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "앤트로픽, Claude Haiku 5.5 공개",
+      "lede": "앤트로픽이 토큰 가격을 최대 90% 인하하고 컴퓨터 제어 성능을 대폭 개선한 Claude Haiku 5.5를 출시했다.",
+      "why_now": "경량 모델 시장에서 가성비를 강화하고 OSWorld 컴퓨터 사용 벤치마크 점수를 기존 15.7%에서 72.4%로 끌어올렸다.",
+      "kind": "release",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "published_at": "2026-10-07T18:01:32.000Z"
+    },
+    {
+      "headline": "엔비디아·MS, 윈도우 PC용 에이전트 협력",
+      "lede": "엔비디아와 마이크로소프트가 윈도우 PC 환경에서 온디바이스 AI 에이전트를 구동하기 위한 RTX Spark 하드웨어·소프트웨어 공동 개발 계획을 발표했다.",
+      "why_now": "클라우드 의존도를 줄이고 로컬 PC 자원을 활용해 에이전트를 직접 실행하는 환경을 구축하려는 시도다.",
+      "kind": "announcement",
+      "source_name": "NVIDIA",
+      "canonical_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
+      "published_at": "2026-10-07T18:45:28.000Z"
+    },
+    {
+      "headline": "MS, 에이전트 강화학습 프레임워크 공개",
+      "lede": "마이크로소프트 리서치가 기존 에이전트 시스템을 재구축하지 않고도 RL 학습에 연결할 수 있는 3,500줄 분량의 경량 프레임워크 Agent Lightning v1.0을 공개했다.",
+      "why_now": "복잡한 도구 사용과 실행 환경을 포함하는 에이전트의 강화학습 파이프라인 구축 난이도를 낮췄다.",
+      "kind": "release",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
+      "published_at": "2026-10-07T16:00:00.000Z"
+    },
+    {
+      "headline": "구글, 경량 멀티모달 임베딩 모델 출시",
+      "lede": "구글 딥마인드가 텍스트와 이미지를 함께 처리할 수 있는 오픈 경량 임베딩 모델 EmbeddingGemma 2를 발표했다.",
+      "why_now": "온디바이스 및 로컬 RAG 검색 환경에 적합한 멀티모달 임베딩 선택지가 새로 추가되었다.",
+      "kind": "release",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model",
+      "published_at": "2026-10-06T19:57:04.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "구글, AI 기반 게임 플랫폼 Playground 공개",
+      "lede": "구글이 사용자가 사용자 정의 게임을 직접 생성하고 플레이하며 공유할 수 있는 실험적 AI 게임 플랫폼 Playground를 선보였다.",
+      "why_now": "프롬프트와 인터랙티브 요소를 결합해 게임 로직을 실행하는 플랫폼 실현 가능성을 실험한다.",
+      "kind": "announcement",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform",
+      "published_at": "2026-10-07T12:00:00.000Z"
+    },
+    {
+      "headline": "Liquid AI, 엣지용 멀티모달 모델 open d1 공개",
+      "lede": "Liquid AI가 Hugging Face를 통해 엣지 기기에서 동작하도록 설계된 멀티모달 오픈 의사결정 모델 open d1을 출시했다.",
+      "why_now": "소형 디바이스 기반 온디바이스 멀티모달 추론 옵션이 확장되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "published_at": "2026-10-07T16:54:33.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "토크나이저가 다른 모델 간 온폴리시 증류 재검토",
+      "lede": "학생과 교사 모델의 토크나이저가 다를 때 시퀀스·어휘 정렬 범위 확대가 항상 학습 개선으로 이어지지 않음을 밝힌 연구다.",
+      "why_now": "서로 다른 구조를 가진 모델 간 지식 증류 시 정렬 범위보다 감독의 신뢰성이 더 중요함을 보여준다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.08448",
+      "published_at": "2026-10-07T00:00:00.000Z"
+    },
+    {
+      "headline": "MoE 모델의 FP4 강화학습용 롤아웃 양자화",
+      "lede": "MoE 언어 모델의 RL 학습 중 롤아웃 생성 시 발생하는 계산 오버헤드를 줄이기 위한 FP4 양자화 인식 재학습 기법 TRACE를 제안한다.",
+      "why_now": "대형 추론 및 MoE 모델의 파인튜닝 비용을 저정밀도 연산으로 효율화하는 방안을 제시한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.07767",
+      "published_at": "2026-10-07T00:00:00.000Z"
+    },
+    {
+      "headline": "코딩 에이전트의 정적 분석 체커 작성 능력 평가",
+      "lede": "단순 패치 생성을 넘어 레포지토리 수준에서 정적 분석 체커 로직을 직접 구현하고 수정하는 에이전트 벤치마크 CheckerBench를 공개했다.",
+      "why_now": "단발성 코드 수정이 아닌 장기적인 개발 도구 제작 능력을 검증하는 평가 기준을 제공한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.07557",
+      "published_at": "2026-10-07T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "코딩 에이전트에 본문 대비 74.7% 적은 용량의 구조화된 컨텍스트를 제공하는 C++23 기반 CLI 및 MCP 서버.",
+      "why_now": "전체 저장소를 직접 읽지 않고도 영향 범위와 실행할 테스트를 추출해 에이전트의 토큰 소모를 줄인다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-10-07T23:50:14.000Z"
+    },
+    {
+      "headline": "nokia-applied-research/AnyJev",
+      "lede": "추가 학습 없이 일반 LLM을 타입 안전한 의사결정 및 확률 출력 모델 형태로 변환해 주는 프레임워크.",
+      "why_now": "정형 구조체 출력이 필요한 에이전트 구축 환경에서 기존 모델을 바로 활용할 수 있게 지원한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/nokia-applied-research/AnyJev",
+      "published_at": "2026-10-07T19:40:07.000Z"
+    },
+    {
+      "headline": "undefined-ui/second-brain-os",
+      "lede": "Claude Code와 Obsidian 환경에서 스스로 지식베이스를 정리하도록 설계된 에이전트 스크립트 및 시작 템플릿 모음.",
+      "why_now": "개인 지식 관리 도구와 에이전트 CLI를 직접 결합해 노트를 자동 정돈한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/undefined-ui/second-brain-os",
+      "published_at": "2026-10-07T19:16:09.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "메타·MS, 사내 Claude 사용 제한 조치",
+    "lede": "메타와 마이크로소프트가 보안 통제 및 자사 서비스 활용 촉진을 이유로 임직원들의 앤트로픽 Claude 사용량을 줄이는 조치를 취했다.",
+    "why_now": "빅테크 기업들이 외부 모델 의존도를 관리하고 사내 데이터 유출 위험을 통제하려는 흐름을 보여준다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.rswebsols.com/news/meta-and-microsoft-take-steps-to-reduce-employee-usage-of-claude-ai",
+    "published_at": "2026-10-07T18:49:40.000Z"
+  }
+}
