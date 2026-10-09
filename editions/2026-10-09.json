@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-09",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "요약 모델에 실패해 원문 제목만 모았습니다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "How Oracle turns days of work into minut",
+    "lede": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+    "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/oracle",
+    "published_at": "2026-10-08T16:00:00.000Z",
+    "body": "Across recruiting, engineering, and operations, Oracle turns specialist knowledge into fast, repeatable workflows with ChatGPT Work and Codex.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "Pollo AI turns creative ideas into campa",
+      "lede": "With GPT-5.6, GPT-6 Astra, and GPT‑Image‑2.5, Pollo AI helps creators turn bold ideas into detailed images and cinematic video ads.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/pollo-ai",
+      "published_at": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "headline": "LegalOn halves Codex costs while maintai",
+      "lede": "LegalOn cut estimated daily Codex costs by 65% while maintaining development speed. It matched Astra, Sol, and Luna to tasks and managed budgets strategically.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/legalon-halves-codex-costs",
+      "published_at": "2026-10-08T12:00:00.000Z"
+    },
+    {
+      "headline": "Disrupting AI-enabled “false front” oper",
+      "lede": "OpenAI disrupted two AI-enabled influence operations that used false-front journalists and a think tank to spread geopolitical messaging.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations",
+      "published_at": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "headline": "The model that didn't exist, so you made",
+      "lede": "The model that didn't exist, so you made it yourself",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/building-with-ml-intern",
+      "published_at": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "headline": "2026 Usage Policy update",
+      "lede": "2026 Usage Policy update",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "published_at": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "headline": "Building on our commitment to American s",
+      "lede": "Building on our commitment to American scientific discovery",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "published_at": "2026-10-08T00:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "The missing map of the sky",
+      "lede": "The missing map of the sky",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+      "published_at": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "headline": "Launching an opt-in vulnerability-findin",
+      "lede": "Launching an opt-in vulnerability-finding service for open-source software",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "published_at": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "headline": "NVIDIA, Microsoft Kick Off a New Beginni",
+      "lede": "At a Microsoft event in San Francisco on Wednesday, Jensen Huang and Satya Nadella outlined how NVIDIA and Microsoft are co-engineering hardware and software for AI agents to run o",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "NVIDIA",
+      "canonical_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event",
+      "published_at": "2026-10-07T18:45:28.000Z"
+    },
+    {
+      "headline": "Multimodal open d1 decision models for t",
+      "lede": "Multimodal open d1 decision models for the edge",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/LiquidAI/open-d1",
+      "published_at": "2026-10-07T16:54:33.000Z"
+    },
+    {
+      "headline": "Agent Lightning v1.0: A 3,500-Line Light",
+      "lede": "Training AI agents with reinforcement learning can be challenging because their tools, context, and decision-making are managed by complex frameworks. Agent Lightning connects exis",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
+      "published_at": "2026-10-07T16:00:00.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "STEPQuant: When and Where Errors Matter ",
+      "lede": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving. Direc",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.38169",
+      "published_at": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "headline": "UltraText Bench: A Comprehensive Bilingu",
+      "lede": "Dense visual text requires image generators to reproduce long strings across multiple regions with correct placement and legibility. As short-string rendering improves, evaluation ",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.09823",
+      "published_at": "2026-10-08T00:00:00.000Z"
+    },
+    {
+      "headline": "VepAgent: Bridging Causal-Transition via",
+      "lede": "Multimodal Large Language Models (MLLMs) have demonstrated remarkable potential in video understanding, yet their reliance on retrospective summarization and text-centric priors of",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.06293",
+      "published_at": "2026-10-08T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "The ripgrep of AI context: a zero-dependency C++23 CLI + MCP server for coding agents. Find what you want without reading the repo, then check you built what you meant — blast radi",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-10-09T01:10:03.000Z"
+    },
+    {
+      "headline": "jiwoochris/artex-ko",
+      "lede": "ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/jiwoochris/artex-ko",
+      "published_at": "2026-10-09T00:58:16.000Z"
+    },
+    {
+      "headline": "DSH-APP/DSHA",
+      "lede": "免 ROOT 免 Termux，在手机上跑 DeepSeek Harness。完整 Ubuntu 环境 + proroot 零 ptrace 开销 · AI 输出实时上屏 · ADB 直连 · 数据不丢",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/DSH-APP/DSHA",
+      "published_at": "2026-10-09T00:27:45.000Z"
+    }
+  ],
+  "if_time": null
+}
