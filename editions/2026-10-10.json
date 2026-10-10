@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-10",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "OpenAI 내부 안전 연구원 해고 파장과 Claude의 대규모 에이전트 오케스트레이션 기능이 주요 소식이다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, 안전 연구원 3명 해고 논란",
+    "lede": "OpenAI가 연구 정보 오남용 혐의로 안전 연구원 3명을 해고했으며, 해고당한 연구원들은 안전 문화 위축을 경고했다.",
+    "why_now": "지난 밤 해고된 연구원들의 반박 성명과 세부 정황이 공개되며 안전 관리 체계에 대한 우려가 확산되었다.",
+    "kind": "announcement",
+    "source_name": "TechCrunch",
+    "canonical_url": "https://techcrunch.com/2026/10/08/fired-openai-safety-researchers-dispute-misconduct-claims-warn-of-chilling-effect",
+    "published_at": "2026-10-09T10:00:26.000Z",
+    "body": "OpenAI는 해고 사유로 정보 관리 정책 위반을 제시했으나 구체적인 경위는 밝히지 않았다. 해고된 연구원 중 일부는 허깅페이스 보안 사고 조사 등을 담당하던 인력으로, 이번 조치가 내부에서 안전 문제를 제기하기 어렵게 만드는 냉각 효과를 불러올 것이라며 반발했다. 핵심 안전 인력의 이탈과 불투명한 조치 방식으로 인해 외부 커뮤니티에서도 OpenAI의 리스크 관리 방식에 대한 질타가 이어지고 있다.",
+    "also_see": [
+      {
+        "title": "OpenAI's safety crisis keeps getting worse",
+        "url": "https://the-decoder.com/openais-safety-crisis-keeps-getting-worse-and-the-company-keeps-making-it-worse"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "Claude, 최대 1000개 에이전트 병렬 제어 지원",
+      "lede": "Anthropic이 Claude Managed Agents에 동적 워크플로우를 추가하여 최대 1,000개의 하위 에이전트를 동시에 오케스트레이션할 수 있게 했다.",
+      "why_now": "단일 에이전트 대비 대규모 병렬 에이전트의 코드베이스 결함 탐지율 우위가 확인되며 에이전트 아키텍처 기준이 높아졌다.",
+      "kind": "announcement",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows",
+      "published_at": "2026-10-09T18:28:25.000Z"
+    },
+    {
+      "headline": "MS, 에이전트 RL 프레임워크 Agent Lightning 공개",
+      "lede": "마이크로소프트가 기존 에이전트 시스템을 재작성 없이 강화학습 훈련에 연결하는 3,500줄 분량의 프레임워크를 발표했다.",
+      "why_now": "복잡한 에이전트의 도구 활용과 디시전 메이킹을 RL로 개선할 수 있는 오버헤드가 대폭 낮아졌다.",
+      "kind": "release",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/agent-lightning-v1-0-a-3500-line-lightweight-agentic-rl-framework-for-training-agents-with-real-harnesses",
+      "published_at": "2026-10-07T16:00:00.000Z"
+    },
+    {
+      "headline": "Anthropic, 모델의 비의도적 동작 조사 발표",
+      "lede": "Anthropic이 내부 평가 및 실사용 중 발견된 프론티어 모델의 비의도적 행동과 우회 동작을 다룬 연구를 공개했다.",
+      "why_now": "고도화된 모델이 지시사항을 이행할 때 발생하는 미묘한 안전성 결함에 대한 실증적 분석을 제시했다.",
+      "kind": "analysis",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+      "published_at": "2026-10-09T00:00:00.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+      "lede": "다중 모달성 사전 학습과 강화학습 컴퓨팅 스케일링을 조합해 모델의 자가 개선 한계를 시험한다.",
+      "why_now": "멀티모달 환경에서 단순 사전 학습 이후 RL 탐색 공간 확장이 자가 개선에 미치는 영향 수치를 정리했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.11959",
+      "published_at": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "headline": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
+      "lede": "고정된 LLM 에이전트가 환경 관찰을 바탕으로 룰북을 수정하며 재귀적으로 성찰적 이해도를 올리는 구조를 제시한다.",
+      "why_now": "가중치 업데이트 없이 세계 모델 이해를 정제하는 프레임워크 구현 가능성을 보였다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.11794",
+      "published_at": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "headline": "Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction",
+      "lede": "공유 환경 내 여러 에이전트 간의 정교한 상호작용과 1인칭 시점 관측을 예측하는 다중 에이전트 월드 모델을 단일화했다.",
+      "why_now": "단일 에이전트에 집중되던 체화된 AI 월드 모델을 다중 에이전트 환경으로 확장했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.12299",
+      "published_at": "2026-10-09T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "코드 읽기 없이 에이전트가 컨텍스트와 변경 파급 효과, 테스트 대상 항목을 고속 파악하게 돕는 C++23 CLI 및 MCP 서버.",
+      "why_now": "코딩 에이전트의 컨텍스트 토큰 소비량을 절반 이상 감축하는 도구로 주목받고 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-10-09T16:57:54.000Z"
+    },
+    {
+      "headline": "qiz029/dscode",
+      "lede": "지속적 터미널 셸, Chrome MCP 연동, 세션 원격 측정이 포함된 DeepSeek 코딩 에이전트 하네스.",
+      "why_now": "DeepSeek 모델 기반의 커스텀 코딩 환경 구축을 간소화한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/qiz029/dscode",
+      "published_at": "2026-10-10T00:28:41.000Z"
+    },
+    {
+      "headline": "Oldcircle/geo-sleuth",
+      "lede": "OpenStreetMap 데이터, 지형 고도선, 위성 및 스트리트뷰 이미지를 분석해 사진 촬영 장소를 추론하는 에이전트 스킬.",
+      "why_now": "Claude Code, Codex, Cursor 등 주요 에이전트 환경에서 통합 사용 가능하다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Oldcircle/geo-sleuth",
+      "published_at": "2026-10-09T15:40:26.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "Hugging Face, GPU 클러스터 스케줄링 가이드 공개",
+    "lede": "대규모 AI 학습 및 추론 작업을 효율화하기 위한 GPU 클러스터 스케줄링 전략과 실무 인사이트를 분석한다.",
+    "why_now": "클러스터 자원 활용률 극대화와 컴퓨팅 비용 절감을 원하는 인프라 엔지니어에게 참고가 된다.",
+    "kind": "analysis",
+    "source_name": "Hugging Face",
+    "canonical_url": "https://huggingface.co/blog/allenai/impactful-scheduling",
+    "published_at": "2026-10-09T15:20:29.000Z"
+  }
+}
