@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "arXiv가 AI 논문 폭증에 대응해 저자당 월 2건 투고 제한을 도입하고, 다중 에이전트의 효율성에 대한 검증 논의가 이어졌다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "arXiv, AI 논문 제출 저자당 월 2건으로 제한",
+    "lede": "프리프린트 플랫폼 arXiv가 AI 생성 논문의 급증에 대응하기 위해 저자 1인당 월간 제출 건수를 2건으로 제한한다.",
+    "why_now": "최근 2년간 월간 제출량이 2배 증가하고 cs.AI 분야 제출이 6배 이상 폭증하며 운영 부담이 한계에 도달했기 때문이다.",
+    "kind": "announcement",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/arxiv-caps-submissions-at-two-per-month-as-ai-paper-flood-overwhelms-the-preprint-server",
+    "published_at": "2026-10-11T09:17:32.000Z",
+    "body": "arXiv 조사에 따르면 일부 저자가 생성형 AI를 활용해 저품질 논문을 대량 투고하면서 시스템 및 심사 부담을 가중시키고 있다. 이에 따라 2026년 10월부터 모든 저자를 대상으로 월 2건의 제출 상한선 규정이 공식 적용된다. 이는 학술 프리프린트 생태계에서 AI 기반 대량 생성을 억제하기 위해 도입된 첫 대규모 투고 제한 조치다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "다중 에이전트 구성을 통한 성능 향상 폭 제한적",
+      "lede": "Vals AI와 Anthropic의 연구에 따르면 에이전트 수를 늘릴 때 토큰 비용은 최대 5.1배 증가하지만 성능 향상은 정체된다.",
+      "why_now": "단순한 에이전트 확장 구조가 실제 운영 환경에서 높은 비용 대비 효율을 내지 못한다는 분석 결과가 공유되었다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds",
+      "published_at": "2026-10-11T15:39:26.000Z"
+    },
+    {
+      "headline": "10분의 AI 활용이 작업 지속력을 저하",
+      "lede": "UC 버클리 연구팀이 단 10분간 AI 보조 도구를 사용하는 것만으로도 어려운 문제에 지속적으로 매달리는 의지가 감소한다는 실증 연구를 발표했다.",
+      "why_now": "AI 도구 사용이 작업자의 인지적 과제 해결 지속성에 미치는 직접적 영향이 확인되었다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://vcresearch.berkeley.edu/news/using-ai-just-10-minutes-erodes-your-ability-persist-hard-things",
+      "published_at": "2026-10-11T10:47:21.000Z"
+    },
+    {
+      "headline": "5천억 토큰 사용해 FPS 게임 전체 디컴파일 시도",
+      "lede": "AI 에이전트에 5천억 토큰 분량의 연산을 투입하여 1인칭 슈팅 게임의 코드 베이스를 완전히 디컴파일하는 실험 사례가 공개되었다.",
+      "why_now": "대규모 컨텍스트 기반 에이전트를 고난도 리버스 엔지니어링 실무에 적용한 구체적 수치가 공유되었다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://momo5502.com/posts/2026-10-09-game-decompilation",
+      "published_at": "2026-10-11T02:02:38.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "MiMo-V2.6: Scaling Reinforcement Learning Towards Self-Improvement",
+      "lede": "다중 모달 사전 학습과 강화학습 연산 스케일링을 결합하여 모델 자가 개선 능력을 향상시킨 옴니모달 모델 연구이다.",
+      "why_now": "강화학습 탐색 공간 확보를 위한 중간 학습 코퍼스 확장 방식을 제시한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.11959",
+      "published_at": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "headline": "REMORY: Learning Residual Memory for Context Compaction",
+      "lede": "장기 작업 에이전트의 텍스트 요약 손실을 보완하기 위해 소프트 메모리 토큰을 학습하고 보충하는 신경망 구조이다.",
+      "why_now": "제한된 컨텍스트 윈도우 내에서 의사결정 정확도를 보장하기 위한 새로운 메모리 압축 방식을 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.11287",
+      "published_at": "2026-10-09T00:00:00.000Z"
+    },
+    {
+      "headline": "Memento 3: Model-Based Recursive Self-Improvement through Reflective Rulebooks",
+      "lede": "동결된 LLM 에이전트가 새로운 환경의 상호작용 결과를 통해 룰북을 수정하고 자가 개선을 수행하는 프레임워크다.",
+      "why_now": "관측이 불완전한 상태에서 에이전트의 세계 모델 예측을 재귀적으로 교정하는 방안을 제안한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.11794",
+      "published_at": "2026-10-09T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "코딩 에이전트가 전체 리포지토리를 읽지 않고도 맥락을 찾고 변경 범위를 검증할 수 있도록 지원하는 C++23 CLI 및 MCP 서버이다.",
+      "why_now": "에이전트의 컨텍스트 읽기 오버헤드를 줄이기 위한 경량화 탐색 도구로 공개되었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-10-11T22:54:49.000Z"
+    },
+    {
+      "headline": "autonomous-ai/openharness",
+      "lede": "코딩 에이전트부터 CAD, 회로 설계, 로보틱스까지 통합 제어할 수 있는 멀티 에이전트 실행 하네스이다.",
+      "why_now": "단일 명령 체계로 다양한 엔지니어링 도메인의 에이전트를 오케스트레이션할 수 있게 구축되었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/autonomous-ai/openharness",
+      "published_at": "2026-10-12T00:26:32.000Z"
+    },
+    {
+      "headline": "qiz029/dscode",
+      "lede": "영구 셸 환경, 하위 에이전트 지원, Chrome MCP 제어를 포함하는 DeepSeek 기반 코딩 에이전트 하네스이다.",
+      "why_now": "DeepSeek 모델 라인업을 자율 코딩 개발 환경에 세분화해 연결하는 실행기를 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/qiz029/dscode",
+      "published_at": "2026-10-11T19:55:40.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "토큰 단가 하락이 이끄는 컴퓨팅 수요 증가",
+    "lede": "a16z 데이터에 따르면 AI 토큰 단가가 지속적으로 하락함에도 불구하고 H100 대여 가격은 유지되거나 상승하는 제번스의 역설 현상이 나타나고 있다.",
+    "why_now": "AI 인프라 시장에서 단가 절감이 전체 컴퓨팅 수요를 가속화하는 원리를 보여준다.",
+    "kind": "analysis",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/cheaper-ai-tokens-are-driving-more-demand-and-thats-jensen-huangs-best-case-scenario",
+    "published_at": "2026-10-11T09:49:59.000Z"
+  }
+}
