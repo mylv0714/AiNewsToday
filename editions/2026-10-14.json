@@ -1,0 +1,180 @@
+{
+  "date": "2026-10-14",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "요약 모델에 실패해 원문 제목만 모았습니다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "Developing Gemini 4 Argon responsibly an",
+    "lede": "Developing Gemini 4 Argon responsibly and safely",
+    "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+    "kind": "announcement",
+    "source_name": "DeepMind",
+    "canonical_url": "https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely",
+    "published_at": "2026-10-13T19:43:07.000Z",
+    "body": "Developing Gemini 4 Argon responsibly and safely",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "Run fast, private agents on-device with ",
+      "lede": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "published_at": "2026-10-13T17:05:48.000Z"
+    },
+    {
+      "headline": "Gemini 4 Argon for Robotics",
+      "lede": "Gemini 4 Argon for Robotics",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/gemini-4-argon-for-robotics",
+      "published_at": "2026-10-13T16:01:58.000Z"
+    },
+    {
+      "headline": "Gemini 4 Argon: Built to solve your hard",
+      "lede": "Gemini 4 Argon: Built to solve your hardest problems",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/introducing-gemini-4-argon",
+      "published_at": "2026-10-13T16:01:52.000Z"
+    },
+    {
+      "headline": "Gemini 4 Argon: Built to solve your hard",
+      "lede": "We’re giving developers, enterprises, scientists, and consumers access to Gemini 4 Argon, our latest frontier model.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
+      "published_at": "2026-10-13T16:00:00.000Z"
+    },
+    {
+      "headline": "All Systems Go: Global PC App Ecosystem ",
+      "lede": "NVIDIA RTX Spark is a new beginning for the PC — a reinvention combining the capabilities of a gaming PC, a creative studio and a personal AI supercomputer into a single superchip.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "NVIDIA",
+      "canonical_url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates",
+      "published_at": "2026-10-13T12:00:49.000Z"
+    },
+    {
+      "headline": "Higgsfield takes AI video from 1 minute ",
+      "lede": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/higgsfield-longer-videos-voice",
+      "published_at": "2026-10-13T12:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "Simulating student learning for better A",
+      "lede": "StudentSim is a research system for evaluating and improving AI tutoring tools before they are tested with learners. It models how individuals may engage with tutors, giving feedba",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/simulating-student-learning-for-better-ai-tutoring",
+      "published_at": "2026-10-12T16:00:00.000Z"
+    },
+    {
+      "headline": "OpenAI engineer arrested in bugging of e",
+      "lede": "HN 355 points, 326 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://sfstandard.com/2026/10/13/openai-engineer-arrested-alleged-bugging-executive-conference-room",
+      "published_at": "2026-10-13T20:23:55.000Z"
+    },
+    {
+      "headline": "Gemini 4 Argon",
+      "lede": "HN 933 points, 721 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://deepmind.google/models/gemini",
+      "published_at": "2026-10-13T16:03:16.000Z"
+    },
+    {
+      "headline": "Redesigning source control at Anthropic",
+      "lede": "HN 494 points, 490 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "published_at": "2026-10-13T15:49:56.000Z"
+    },
+    {
+      "headline": "I posted to HN, and then my website was ",
+      "lede": "HN 230 points, 143 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.sammystraus.com/",
+      "published_at": "2026-10-13T15:25:50.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "GroundingPI: A Grounding Foundation Mode",
+      "lede": "Precise grounding matters. It specifies which object is the target and where that object is, even in clutter and for tiny objects, and it has to be fast enough for closed-loop cont",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2609.39601",
+      "published_at": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "headline": "Thinking Inertia: LLMs Keep Thinking Whe",
+      "lede": "Large Language Models (LLMs) increasingly ship with explicit \"thinking modes\", yet their counterpart, \"no-thinking\", has received far less attention. We study LLMs' no-thinking beh",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.11765",
+      "published_at": "2026-10-13T00:00:00.000Z"
+    },
+    {
+      "headline": "AgentSWE: Can Coding Agents Build the Ag",
+      "lede": "As the production of software passes into the hands of software itself, coding agents are increasingly commissioned to build agents fitted to their users' own workflows. This deleg",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.13361",
+      "published_at": "2026-10-13T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "peonist-ai/halogen-flash-server",
+      "lede": "The fastest way to run Qwen3.8-Flash-Next on Strix Halo (gfx1151)",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/peonist-ai/halogen-flash-server",
+      "published_at": "2026-10-14T00:15:40.000Z"
+    },
+    {
+      "headline": "autonomous-ai/openharness",
+      "lede": "The ultimate harness for coding agents and beyond. All your agents. All your machines. One command center. Start with code, then follow your curiosity and build across disciplines:",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/autonomous-ai/openharness",
+      "published_at": "2026-10-14T00:15:28.000Z"
+    },
+    {
+      "headline": "jiwoochris/artex-global",
+      "lede": "ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/jiwoochris/artex-global",
+      "published_at": "2026-10-14T00:13:13.000Z"
+    }
+  ],
+  "if_time": null
+}
