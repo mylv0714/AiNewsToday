@@ -51,8 +51,8 @@ jobs:
         env:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
-          LLM_MODEL: ${{ secrets.LLM_MODEL }}
-          LLM_FALLBACK_MODELS: ${{ secrets.LLM_FALLBACK_MODELS }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || secrets.LLM_MODEL }}
+          LLM_FALLBACK_MODELS: ${{ vars.LLM_FALLBACK_MODELS || secrets.LLM_FALLBACK_MODELS }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force }}" = "true" ]; then
