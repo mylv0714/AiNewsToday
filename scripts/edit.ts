@@ -77,8 +77,18 @@ function parseJsonObject(text: string): unknown {
   } catch {
     const start = stripped.indexOf('{')
     const end = stripped.lastIndexOf('}')
-    if (start >= 0 && end > start) return JSON.parse(stripped.slice(start, end + 1))
-    throw new Error('model did not return JSON')
+    if (start < 0 || end <= start) throw new Error('model did not return JSON')
+    const body = stripped.slice(start, end + 1)
+    try {
+      return JSON.parse(body)
+    } catch (error) {
+      // lite 모델은 `},\n}` 같은 꼬리 쉼표를 자주 남긴다.
+      try {
+        return JSON.parse(body.replace(/,(\s*[}\]])/g, '$1'))
+      } catch {
+        throw error
+      }
+    }
   }
 }
 
@@ -198,14 +208,21 @@ function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
-async function completeChat(system: string, user: string, deadline: number): Promise<string> {
+// models는 앞에서부터 쓰고, 포기한 모델은 빼낸다. 스키마 재시도 때 이미 503으로 포기한 모델을 다시 부르지 않기 위해서다.
+async function completeChat(
+  system: string,
+  user: string,
+  deadline: number,
+  models: string[],
+): Promise<string> {
   const key = process.env.LLM_API_KEY
   if (!key) throw new Error('LLM_API_KEY missing')
 
   const base = (process.env.LLM_BASE_URL || 'https://api.openai.com/v1').replace(/\/$/, '')
 
   let lastError = 'LLM request failed'
-  for (const model of llmModels()) {
+  while (models.length > 0) {
+    const model = models[0]!
     const payload = JSON.stringify({
       model,
       temperature: 0.3,
@@ -259,6 +276,7 @@ async function completeChat(system: string, user: string, deadline: number): Pro
       await backoff(model, i, response.headers.get('retry-after'), deadline, lastError)
     }
     console.warn(`[edit] giving up on ${model}`)
+    models.shift()
   }
 
   throw new LlmUnavailableError(lastError)
@@ -395,10 +413,11 @@ export async function editEdition(date: string, candidates: Candidate[]): Promis
   }
 
   const deadline = Date.now() + llmBudgetMs()
+  const models = llmModels()
   for (let attempt = 0; attempt < 3; attempt++) {
     let content: string
     try {
-      content = await completeChat(system, user, deadline)
+      content = await completeChat(system, user, deadline, models)
     } catch (error) {
       // completeChat이 이미 재시도·모델 전환을 다 했다. 같은 걸 또 부르지 않는다.
       console.warn('[edit] LLM unavailable:', error instanceof Error ? error.message : String(error))
