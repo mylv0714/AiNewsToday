@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "Meta의 816B 오픈 멀티모달 모델 공개와 8GB VRAM에서 작동하는 FLUX.3 출시가 오픈소스 생태계를 확장했다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "Meta, 816B 멀티모달 오픈 모델 'Muse Spark Open' 공개",
+    "lede": "Meta가 텍스트, 이미지, 비디오, 오디오를 통합 처리하는 8160억 파라미터 오픈 가중치 모델 Muse Spark Open을 공개했다.",
+    "why_now": "오픈소스 프런티어 멀티모달 영역에서 대규모 MoE 모델 선택지가 공식 추가되었다.",
+    "kind": "release",
+    "source_name": "Hugging Face",
+    "canonical_url": "https://huggingface.co/blog/meta-muse-spark-open",
+    "published_at": "2026-10-15T00:00:00.000Z",
+    "body": "Muse Spark Open은 최대 100만 토큰의 컨텍스트 창을 제공하며 텍스트와 이미지, 비디오, 오디오 입출력을 지원한다. 8160억 파라미터 규모의 MoE(Mixture-of-Experts) 아키텍처로 설계되어 효율적인 추론을 도모한다. 벤치마크 테스트에서 주요 오픈 가중치 모델들과 대등한 성능을 기록했으며 Hugging Face를 통해 가중치가 공개되었다.",
+    "also_see": [
+      {
+        "title": "Muse Spark Open is Meta's answer to Qwen, GLM, and Kimi in the open-weight race",
+        "url": "https://the-decoder.com/muse-spark-open-is-metas-answer-to-qwen-glm-and-kimi-in-the-open-weight-race"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "8GB VRAM에서 작동하는 'FLUX.3 Image Klein' 공개",
+      "lede": "Black Forest Labs가 5.6B 파라미터 규모의 4K 이미지 생성 오픈 모델 FLUX.3 Image Klein을 출시했다.",
+      "why_now": "Diffusers 라이브러리에 통합되어 개인 GPU 환경에서 고해상도 제어 생태계가 확장되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/flux-3",
+      "published_at": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "headline": "OpenAI, 연구용 'GPT-Rosalind Academic Plan' 발표",
+      "lede": "OpenAI가 대학 학술 연구실을 대상으로 GPT-Rosalind 스폰서 접근 권한을 제공하는 프로그램을 발표했다.",
+      "why_now": "바이오 및 생명과학 연구 기관에 최신 AI 도구 접근을 확장하는 정책 개편이다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
+      "published_at": "2026-10-15T19:00:00.000Z"
+    },
+    {
+      "headline": "IBM, 단일 엔드포인트 모델 'Granite Switch 4.1' 출시",
+      "lede": "IBM이 대화, 의사결정, 음성 처리를 단일 엔드포인트에서 지원하는 Granite Switch 4.1을 공개했다.",
+      "why_now": "멀티모달 서비스 구축 시 개별 API 호출 복잡성을 줄이는 선택지가 마련되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "published_at": "2026-10-15T20:34:01.000Z"
+    },
+    {
+      "headline": "구글 딥마인드, 항균 펩타이드 탐색용 'Antigravity' 공개",
+      "lede": "구글 딥마인드가 과학 연구 플랫폼 Google Antigravity를 이용해 신규 항균 펩타이드 발굴 속도를 높인 성과를 공유했다.",
+      "why_now": "AI 기반 신약 및 바이오 탐색 플랫폼의 실용화 사례가 가시화되었다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
+      "published_at": "2026-10-15T16:08:03.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "Cortex: Consolidating Context into Parametric Memory",
+      "lede": "컨텍스트 제거 후에도 모델이 수득한 성능 향상을 내부 파라미터 메모리로 통합하는 고정화 기법을 제안한다.",
+      "why_now": "긴 프롬프트 컨텍스트에 대한 의존도를 낮추고 지속적 학습을 도모하는 방안을 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.20399",
+      "published_at": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "headline": "RuleTrek: Benchmarking Agentic Rule Reasoning in Complex Scenarios",
+      "lede": "분산된 다중 파일 시나리오에서 에이전트의 도메인 특화 규칙 추론 능력을 평가하는 벤치마크를 제안한다.",
+      "why_now": "단일 사실 기반 평가를 넘어 복잡한 실무 규칙 적용 능력을 검증할 기준이 제시되었다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.19698",
+      "published_at": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "headline": "The Thinking Leakage in Reinforcement Learning for LLMs",
+      "lede": "비생각 모드 강화학습 시 관찰되는 성능 향상이 누출된 생각 과정에 기인한다는 사실을 분석한다.",
+      "why_now": "최근 추론 모델 강화학습 기법에서 측정되는 성능 향상의 원인을 검증한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.14270",
+      "published_at": "2026-10-15T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "C++23 기반의 저손실 코드 컨텍스트 검색 CLI 및 MCP 서버 도구이다.",
+      "why_now": "에이전트의 전체 리포지토리 로딩 비용을 줄이고 변경 영향을 빠르게 파악하도록 돕는다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-10-15T22:00:46.000Z"
+    },
+    {
+      "headline": "kajisho5/ffmpeg-skill",
+      "lede": "Claude Code, Cursor 등 코딩 에이전트를 위한 MCP 기반 로컬 비디오 편집 도구 모음이다.",
+      "why_now": "외부 API 호출 없이 로컬 환경에서 에이전트가 영상 편집 작업을 직접 수행한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kajisho5/ffmpeg-skill",
+      "published_at": "2026-10-15T23:32:02.000Z"
+    },
+    {
+      "headline": "onehumanbeing/esp32-iphone-agent",
+      "lede": "$7 ESP32 보드를 활용해 AI 비전 모델이 실물 iPhone을 직접 조작하도록 설계한 프로젝트이다.",
+      "why_now": "별도 개발자 계정이나 탈옥 없이 비전 모델 기반의 실물 기기 제어를 구현한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+      "published_at": "2026-10-15T14:59:03.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI 에이전트의 보안 사고 위험에 관한 시각 분석",
+    "lede": "프런티어 AI 에이전트의 해킹 및 제어 이탈 문제는 모델 자체보다 기본 보안 격리의 부재 때문이라는 분석이다.",
+    "why_now": "에이전트 도입이 확대되는 시점에서 운영 인프라의 기본 보안 점검 필요성을 지적한다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.csoonline.com/article/4234854/ai-agents-arent-going-rogue-frontier-labs-are-skipping-security-basics.html",
+    "published_at": "2026-10-14T17:45:23.000Z"
+  }
+}
