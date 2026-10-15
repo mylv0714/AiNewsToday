@@ -3,6 +3,9 @@ name: Daily edition
 on:
   schedule:
     - cron: '15 21 * * *'
+    # 폴백 판이면 요약을 다시 시도한다. 정상 판이면 digest가 건너뛴다. (KST 12:00, 16:00)
+    - cron: '0 3 * * *'
+    - cron: '0 7 * * *'
   push:
     branches: [main, master]
   workflow_dispatch:
@@ -24,7 +27,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 30
     env:
       SITE_URL: https://${{ github.repository_owner }}.github.io
       NPM_CONFIG_AUDIT: 'false'
@@ -49,6 +52,7 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          LLM_FALLBACK_MODELS: ${{ secrets.LLM_FALLBACK_MODELS }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.force }}" = "true" ]; then

@@ -39,7 +39,7 @@
 - 조용한 날이면 `one_liner`에 그 사실을 담는다. 예: `큰 발표는 없었다. 논문과 저장소만 골라 두었다.`
 - 금지에 가까운 말: 혁신적, 판을 갈다, 충격, 마침내, game-changing, must-read, 혁명.
 - 펀딩 소문, 토큰 가격, 프롬프트 모음, 채용, 웨비나, 인플루언서 리캡은 넣지 않는다.
-- 분량 상한: briefing 7, tools 5, papers 3, github 3. 넘기지 않는다. 부족하면 빈 배열.
+- 분량 상한: overnight 7, tools 5, papers 3, github 3. 넘기지 않는다. 부족하면 빈 배열.
 
 
 
@@ -69,7 +69,7 @@
 
 ### 논문 항목
 
-제목은 원문. lede는 “이 논문이 주장하는 것”이지 저자 나열이 아니다. 왜 지금인지를 벤치마크 자랑이 아니라 문제 의식 한 줄로.
+제목은 원문 그대로 `headline`에 넣는다 (`title` 필드를 따로 만들지 않는다). lede는 “이 논문이 주장하는 것”이지 저자 나열이 아니다. 왜 지금인지를 벤치마크 자랑이 아니라 문제 의식 한 줄로.
 
 ---
 
@@ -120,6 +120,8 @@
   }
 }
 ```
+
+`tools`, `papers`, `github`의 원소도 `overnight` 원소와 **똑같은 7개 필드**(`headline`, `lede`, `why_now`, `kind`, `source_name`, `canonical_url`, `published_at`)를 모두 가진다. `title`, `url`, `summary` 같은 다른 이름을 쓰지 않는다. `kind`는 보통 tools=`release`, papers=`paper`, github=`repo`.
 
 `hero`와 `if_time`은 없으면 `null`. 배열은 없으면 `[]`.
 

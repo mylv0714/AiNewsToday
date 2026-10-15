@@ -7,6 +7,7 @@ import { clampReadingMinutes } from '../src/lib/reading'
 import {
   briefItemSchema,
   editionSchema,
+  kinds,
   type BriefItem,
   type Candidate,
   type Edition,
@@ -111,6 +112,12 @@ function asItem(candidate: Candidate, kind: Kind): BriefItem | null {
   }
 }
 
+export const FALLBACK_ONE_LINER = '요약 모델에 실패해 원문 제목만 모았습니다.'
+
+export function isFallbackEdition(edition: Pick<Edition, 'one_liner'>): boolean {
+  return edition.one_liner === FALLBACK_ONE_LINER
+}
+
 export function fallbackEdition(date: string, candidates: Candidate[]): Edition {
   const papers = candidates.filter((c) => isPaperSource(c.source))
   const repos = candidates.filter((c) => c.source.toLowerCase() === 'github')
@@ -135,7 +142,7 @@ export function fallbackEdition(date: string, candidates: Candidate[]): Edition 
     date,
     timezone: 'Asia/Seoul',
     reading_minutes: 8,
-    one_liner: '요약 모델에 실패해 원문 제목만 모았습니다.',
+    one_liner: FALLBACK_ONE_LINER,
     quiet_night: hero == null,
     hero,
     overnight,
@@ -191,54 +198,190 @@ function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms))
 }
 
-async function completeChat(system: string, user: string): Promise<string> {
+async function completeChat(system: string, user: string, deadline: number): Promise<string> {
   const key = process.env.LLM_API_KEY
   if (!key) throw new Error('LLM_API_KEY missing')
 
   const base = (process.env.LLM_BASE_URL || 'https://api.openai.com/v1').replace(/\/$/, '')
-  const model = process.env.LLM_MODEL || 'gpt-4o-mini'
-  const payload = JSON.stringify({
-    model,
-    temperature: 0.3,
-    messages: [
-      { role: 'system', content: system },
-      { role: 'user', content: user },
-    ],
-  })
 
   let lastError = 'LLM request failed'
-  for (let i = 0; i < 4; i++) {
-    const response = await fetch(`${base}/chat/completions`, {
-      method: 'POST',
-      headers: {
-        Authorization: `Bearer ${key}`,
-        'Content-Type': 'application/json',
-      },
-      body: payload,
-      signal: AbortSignal.timeout(90_000),
+  for (const model of llmModels()) {
+    const payload = JSON.stringify({
+      model,
+      temperature: 0.3,
+      messages: [
+        { role: 'system', content: system },
+        { role: 'user', content: user },
+      ],
     })
 
-    if (response.ok) {
-      const data = (await response.json()) as {
-        choices?: { message?: { content?: string } }[]
-      }
-      const content = data.choices?.[0]?.message?.content
-      if (!content) throw new Error('LLM returned empty content')
-      return content
-    }
+    for (let i = 0; i < TRIES_PER_MODEL; i++) {
+      const remaining = deadline - Date.now()
+      if (remaining <= 0) throw new LlmUnavailableError(`budget exhausted, last: ${lastError}`)
 
-    const body = await response.text()
-    lastError = `LLM ${response.status}: ${body.slice(0, 400)}`
-    if ((response.status === 429 || response.status === 503) && i < 3) {
-      const wait = 5_000 * (i + 1)
-      console.warn(`[edit] ${response.status}, retry in ${wait}ms`)
-      await sleep(wait)
-      continue
+      let response: Response
+      try {
+        response = await fetch(`${base}/chat/completions`, {
+          method: 'POST',
+          headers: {
+            Authorization: `Bearer ${key}`,
+            'Content-Type': 'application/json',
+          },
+          body: payload,
+          signal: AbortSignal.timeout(Math.min(REQUEST_TIMEOUT_MS, remaining)),
+        })
+      } catch (error) {
+        // 네트워크 오류·타임아웃은 503과 같이 취급한다.
+        lastError = `${model}: ${error instanceof Error ? error.message : String(error)}`
+        await backoff(model, i, null, deadline, lastError)
+        continue
+      }
+
+      if (response.ok) {
+        const data = (await response.json()) as {
+          choices?: { message?: { content?: string }; finish_reason?: string }[]
+        }
+        const choice = data.choices?.[0]
+        if (choice?.message?.content) return choice.message.content
+        lastError = `${model}: empty content (finish_reason=${choice?.finish_reason ?? 'none'})`
+        await backoff(model, i, null, deadline, lastError)
+        continue
+      }
+
+      const body = await response.text()
+      lastError = `${model} ${response.status}: ${body.slice(0, 400)}`
+      if (response.status === 401 || response.status === 403) throw new LlmUnavailableError(lastError)
+      if (!RETRYABLE_STATUS.has(response.status)) {
+        // 400/404 등은 모델 이름 문제일 수 있으니 다음 모델로 넘어간다.
+        console.warn(`[edit] ${lastError}`)
+        break
+      }
+      await backoff(model, i, response.headers.get('retry-after'), deadline, lastError)
     }
-    throw new Error(lastError)
+    console.warn(`[edit] giving up on ${model}`)
   }
 
-  throw new Error(lastError)
+  throw new LlmUnavailableError(lastError)
+}
+
+const RETRYABLE_STATUS = new Set([429, 500, 502, 503, 504])
+const REQUEST_TIMEOUT_MS = 180_000
+const TRIES_PER_MODEL = 5
+const DEFAULT_BUDGET_MS = 12 * 60_000
+
+class LlmUnavailableError extends Error {}
+
+function llmModels(): string[] {
+  const primary = process.env.LLM_MODEL || 'gpt-4o-mini'
+  const extra = (process.env.LLM_FALLBACK_MODELS || '')
+    .split(',')
+    .map((model) => model.trim())
+    .filter(Boolean)
+  return [...new Set([primary, ...extra])]
+}
+
+async function backoff(
+  model: string,
+  attempt: number,
+  retryAfter: string | null,
+  deadline: number,
+  reason: string,
+): Promise<void> {
+  if (attempt >= TRIES_PER_MODEL - 1) return
+  const header = Number(retryAfter)
+  const wait =
+    Number.isFinite(header) && header > 0
+      ? Math.min(header * 1000, 120_000)
+      : Math.min(10_000 * 2 ** attempt, 90_000) + Math.floor(Math.random() * 5_000)
+  if (Date.now() + wait >= deadline) throw new LlmUnavailableError(`budget exhausted, last: ${reason}`)
+  console.warn(`[edit] ${reason.slice(0, 120).replace(/\s+/g, ' ')} — retry ${model} in ${wait}ms`)
+  await sleep(wait)
+}
+
+const sectionKinds = {
+  hero: 'announcement',
+  overnight: 'announcement',
+  tools: 'release',
+  papers: 'paper',
+  github: 'repo',
+  if_time: 'analysis',
+} as const satisfies Record<string, Kind>
+
+function firstString(...values: unknown[]): string | undefined {
+  for (const value of values) {
+    if (typeof value === 'string' && value.trim()) return value.trim()
+  }
+  return undefined
+}
+
+function hostname(url: string | undefined): string | undefined {
+  if (!url) return undefined
+  try {
+    return new URL(url).hostname.replace(/^www\./, '')
+  } catch {
+    return undefined
+  }
+}
+
+// 모델이 papers/github에서 title·url 같은 다른 필드명을 쓰거나 kind를 빼먹는 일이 잦다.
+// 판 전체를 버리지 않도록 흔한 이탈은 고치고, 고칠 수 없는 항목만 떨군다.
+function normalizeItem(
+  raw: unknown,
+  fallbackKind: Kind,
+  byUrl: Map<string, Candidate>,
+  date: string,
+): unknown {
+  if (!raw || typeof raw !== 'object') return raw
+  const item = raw as Record<string, unknown>
+  const url = firstString(item.canonical_url, item.url, item.link)
+  const candidate = url ? byUrl.get(url) : undefined
+  return {
+    ...item,
+    headline: firstString(item.headline, item.title, candidate?.title),
+    lede: firstString(item.lede, item.summary, item.description),
+    why_now: firstString(item.why_now, item.why),
+    kind: kinds.includes(item.kind as Kind) ? item.kind : fallbackKind,
+    source_name: firstString(item.source_name, item.source, candidate?.source, hostname(url)),
+    canonical_url: url,
+    published_at: firstString(item.published_at, candidate?.published_at, date),
+  }
+}
+
+function normalizeLlmEdition(json: unknown, candidates: Candidate[], date: string): unknown {
+  if (!json || typeof json !== 'object' || Array.isArray(json)) return json
+  const raw = json as Record<string, unknown>
+  const byUrl = new Map(candidates.map((c) => [c.url, c]))
+  const out: Record<string, unknown> = { ...raw }
+  if (out.overnight == null && Array.isArray(raw.briefing)) out.overnight = raw.briefing
+
+  for (const section of ['overnight', 'tools', 'papers', 'github'] as const) {
+    if (!Array.isArray(out[section])) continue
+    out[section] = (out[section] as unknown[]).flatMap((value, index) => {
+      const result = llmItemSchema.safeParse(normalizeItem(value, sectionKinds[section], byUrl, date))
+      if (result.success) return [result.data]
+      const fields = result.error.issues.map((issue) => issue.path.join('.')).join(', ')
+      console.warn(`[edit] drop ${section}[${index}]: ${fields}`)
+      return []
+    })
+  }
+
+  if (raw.hero && typeof raw.hero === 'object') {
+    const hero = normalizeItem(raw.hero, sectionKinds.hero, byUrl, date) as Record<string, unknown>
+    out.hero = { ...hero, body: firstString(hero.body, hero.lede) }
+  }
+
+  if (raw.if_time && typeof raw.if_time === 'object') {
+    const result = llmItemSchema.safeParse(normalizeItem(raw.if_time, sectionKinds.if_time, byUrl, date))
+    if (!result.success) console.warn('[edit] drop if_time')
+    out.if_time = result.success ? result.data : null
+  }
+
+  return out
+}
+
+function llmBudgetMs(): number {
+  const value = Number(process.env.LLM_BUDGET_MS)
+  return Number.isFinite(value) && value > 0 ? value : DEFAULT_BUDGET_MS
 }
 
 export async function editEdition(date: string, candidates: Candidate[]): Promise<Edition> {
@@ -251,18 +394,24 @@ export async function editEdition(date: string, candidates: Candidate[]): Promis
     return fallbackEdition(date, candidates)
   }
 
-  for (let attempt = 0; attempt < 2; attempt++) {
+  const deadline = Date.now() + llmBudgetMs()
+  for (let attempt = 0; attempt < 3; attempt++) {
+    let content: string
     try {
-      const content = await completeChat(system, user)
-      const json = parseJsonObject(content)
-      const parsed = llmEditionSchema.parse(json)
+      content = await completeChat(system, user, deadline)
+    } catch (error) {
+      // completeChat이 이미 재시도·모델 전환을 다 했다. 같은 걸 또 부르지 않는다.
+      console.warn('[edit] LLM unavailable:', error instanceof Error ? error.message : String(error))
+      break
+    }
+
+    try {
+      const parsed = llmEditionSchema.parse(normalizeLlmEdition(parseJsonObject(content), candidates, date))
       return finalizeEdition(date, parsed)
     } catch (error) {
       const message = error instanceof Error ? error.message : String(error)
-      console.warn(`[edit] attempt ${attempt + 1} failed:`, message)
-      if (!message.startsWith('LLM ')) {
-        user += `\n\n이전 출력이 스키마 검증에 실패했다. JSON 객체만, 스키마를 지켜서 다시 출력하라. 오류: ${message}`
-      }
+      console.warn(`[edit] attempt ${attempt + 1} failed schema:`, message.slice(0, 1500))
+      user += `\n\n이전 출력이 스키마 검증에 실패했다. JSON 객체만, 스키마를 지켜서 다시 출력하라. 오류: ${message.slice(0, 1500)}`
     }
   }
 
