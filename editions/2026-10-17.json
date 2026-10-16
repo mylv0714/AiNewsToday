@@ -1,0 +1,161 @@
+{
+  "date": "2026-10-17",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "중국의 대형 오픈웨이트 AI 모델 수출 통제 움직임과 함께, 웹 조작·코드 검증 분야의 실무 적용 논의가 이어진 아침이다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "중국, 오픈웨이트 AI 모델 수출 통제 추진",
+    "lede": "중국 정부가 2조 파라미터 또는 10^26 FLOPs 이상 대규모 오픈웨이트 모델과 23개 주요 AI 기술의 수출 통제를 강화하는 방안을 추진한다.",
+    "why_now": "가중치와 소스코드 수출을 사전 등록 절차로 묶어 거대 AI 모델의 해외 유출을 통제하려는 방안이 가시화되었다.",
+    "kind": "announcement",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/china-plans-to-tighten-export-controls-on-open-weight-models-and-23-key-ai-technologies",
+    "published_at": "2026-10-16T17:42:47.000Z",
+    "body": "중국 상무부 등이 발표한 계획안에 따르면 10^26 FLOPs 이상 연산량 및 2조 파라미터급 모델의 가중치, 소스코드, 학습 기법이 새로운 규제 대상에 포함된다. 등록제 형식을 통한 패스트트랙 규정이 존재하여 모든 오픈소스 공개가 즉시 막히는 것은 아니지만, 대형 모델의 해외 배포 절차가 한층 엄격해질 전망이다. 그간 글로벌 오픈소스 AI 생태계의 주요 축을 담당했던 중국산 대형 오픈웨이트 모델 공급망에 직접적인 영향이 예상된다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "ChatGPT, 웹 브라우저 탭 읽고 조작하는 에이전트로 확장",
+      "lede": "OpenAI가 ChatGPT Chrome 확장 프로그램을 업데이트하여 열려 있는 브라우저 탭을 읽고 양식을 작성하는 등 직접 조작할 수 있게 했다.",
+      "why_now": "모든 요금제 사용자를 대상으로 컴퓨터 사용(Computer Use) 기반의 웹 제어 기능을 보급하기 시작했다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/chatgpt-becomes-a-full-chrome-browser-assistant-that-reads-and-acts-on-your-open-tabs",
+      "published_at": "2026-10-16T18:10:27.000Z"
+    },
+    {
+      "headline": "AI 리뷰어가 찾아낸 버그 폭주로 Postgres 19 출시 연기",
+      "lede": "AI 기반 코드 리뷰 도구가 사람이 해결 가능한 수치 이상의 버그를 감지해 내면서 Postgres 19 정식 일정이 지연되었다.",
+      "why_now": "소프트웨어 개발 현장에서 AI 검증 도구 도입이 주요 오픈소스 프로젝트의 출시 주기를 지연시키는 사례가 나타났다.",
+      "kind": "analysis",
+      "source_name": "The Register",
+      "canonical_url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+      "published_at": "2026-10-16T15:55:40.000Z"
+    },
+    {
+      "headline": "Meta, 멀티모달 MoE 모델 Muse Spark Open 공개",
+      "lede": "Meta가 오픈웨이트 프론티어 멀티모달 혼합 전문가(MoE) 모델인 Muse Spark Open을 공개했다.",
+      "why_now": "대규모 멀티모달 오픈 모델 가중치가 Hugging Face를 통해 배포되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "published_at": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "headline": "501B 규모 오픈 모델 Beam 공개",
+      "lede": "커스텀 및 확장 배포가 가능한 5010억 파라미터 대형 오픈 모델 Beam이 Hugging Face에 공개되었다.",
+      "why_now": "온프레미스 및 프라이빗 클라우드 환경에 직접 구성할 수 있는 대형 오픈 모델 선택지가 추가되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/reflection-beam",
+      "published_at": "2026-10-16T00:00:00.000Z"
+    },
+    {
+      "headline": "Google Gemini 4 Argon, ARC-AGI-3 벤치마크 평가 논란",
+      "lede": "Gemini 4 Argon이 ARC-AGI-3 벤치마크 전용 설정에서 97.5%를 기록했으나 표준 프레임워크에서는 49.8%로 급락했다.",
+      "why_now": "테스트 하네스와 평가 방식에 따라 프론티어 AI 모델의 성과 편차가 크게 벌어지는 현상이 확인되었다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/googles-gemini-4-argon-is-closer-to-the-ai-frontier-than-any-google-model-in-months",
+      "published_at": "2026-10-16T15:03:46.000Z"
+    },
+    {
+      "headline": "Claude Code 팀이 공개한 내부 코드 리뷰 방식",
+      "lede": "Anthropic의 Claude Code 팀이 자동화 도구와 엔지니어의 개입을 결합해 내부 코드 리뷰를 처리하는 프로세스를 설명했다.",
+      "why_now": "AI 에이전트를 개발하는 주체가 자체 코드베이스 관리에 에이전트를 적용하는 구체적인 실무 패턴이 공유되었다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+      "published_at": "2026-10-16T19:04:47.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "IBM, 단일 엔드포인트 제공 Granite Switch 4.1 공개",
+      "lede": "IBM이 대화, 의사결정, 음성 처리를 단일 엔드포인트에서 구동하는 Granite Switch 4.1을 발표했다.",
+      "why_now": "통합 멀티모달 서비스 구축을 단순화하는 엔드포인트 모델이 공개되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "published_at": "2026-10-15T20:34:01.000Z"
+    },
+    {
+      "headline": "Diffusers 라이브러리에 FLUX.3 Image Klein 추가",
+      "lede": "이미지 생성 파이프라인 강화를 위해 FLUX.3 Image Klein 모델이 Hugging Face Diffusers에 탑재되었다.",
+      "why_now": "파이썬 오픈소스 환경에서 직접 FLUX.3 경량 파이프라인을 호출해 활용할 수 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/flux-3",
+      "published_at": "2026-10-15T00:00:00.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "OpenGCUA: Toward a Fully Open Stack for Generalist Computer Use",
+      "lede": "시각적 GUI와 프로그램 인터페이스를 복합적으로 활용하는 범용 컴퓨터 사용 에이전트(GCUA) 오픈 스택을 제안한다.",
+      "why_now": "단순 화면 조작을 넘어 시각 인터페이스와 프로그래밍 인터페이스를 조율하는 에이전트 구조를 정립하고자 한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.22200",
+      "published_at": "2026-10-16T00:00:00.000Z"
+    },
+    {
+      "headline": "FDE-Gym: The Last Mile of AI Delivery",
+      "lede": "불명확한 요구사항과 라이브 시스템 제약을 처리해야 하는 엔지니어링 실무 환경을 모사한 95개 종단간 벤치마크를 제시한다.",
+      "why_now": "잘 정리된 티켓 처리 중심의 평가에서 벗어나 모호한 현실적 요구사항 수용 능력을 측정하는 기준이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.22350",
+      "published_at": "2026-10-16T00:00:00.000Z"
+    },
+    {
+      "headline": "Self-Evolving Agent Harness",
+      "lede": "모델 가중치를 고정한 채 프롬프트, 메모리, 워크플로우 등 소프트웨어 구조를 피드백 기반으로 자동 수정 및 진화시킨다.",
+      "why_now": "재학습 비용 없이 프레임워크 차원에서 에이전트 성능을 지속 개선하기 위한 피드백 루프를 제시한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.18813",
+      "published_at": "2026-10-16T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "redhat-et/ripwire",
+      "lede": "전체 코드를 다 읽지 않고도 변경 범위와 테스트 대상을 파악하도록 돕는 C++23 기반 코딩 에이전트 맥락 검색 CLI 및 MCP 서버.",
+      "why_now": "코딩 에이전트의 토큰 비용을 줄이기 위해 함수 서명 위주로 70% 이상 데이터를 절감하는 분석 도구가 공개되었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-10-16T22:41:21.000Z"
+    },
+    {
+      "headline": "mw00/project-maya",
+      "lede": "321B 파라미터 MoE 모델인 GLM-5.3-Flash를 개별 GPU 환경에서 직접 호스팅하도록 돕는 호스팅 엔진 및 API 서버.",
+      "why_now": "단일 카드부터 최대 16개 GPU 환경까지 OpenAI 및 Anthropic 호환 API 서버를 로컬에 구동할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-10-16T22:22:14.000Z"
+    },
+    {
+      "headline": "onehumanbeing/esp32-iphone-agent",
+      "lede": "7달러짜리 ESP32 보드와 AirPlay, USB HID를 이용해 외부 비전 모델이 실물 iPhone을 제어하게 만드는 물리 하드웨어 에이전트 스택.",
+      "why_now": "별도의 개발자 계정이나 탈옥 없이 실물 모바일 기기 자동화 제어 환경을 저비용으로 구축한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+      "published_at": "2026-10-16T19:59:18.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "실제 노동 시간의 90%는 기존 AI 벤치마크 범위 밖",
+    "lede": "미국 내 실제 근로 시간의 90%가 현존하는 주요 AI 벤치마크 평가 항목에 포함되지 않는 업무에 쓰인다는 연구가 발표되었다.",
+    "why_now": "AI 모델의 높은 벤치마크 점수가 실제 산업 현장의 생산성 향상으로 직결되지 않는 이유를 짚어준다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.mercor.com/research/labor-index/benchmark-map",
+    "published_at": "2026-10-16T17:08:38.000Z"
+  }
+}
