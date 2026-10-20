@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-20",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "OpenAI의 저자원 언어 코딩 평가 공개와 함께 에이전트 인프라 및 추론 효율화 관련 도구들이 잇따라 발표되었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, 저자원 언어 코딩 성능 개선 발표",
+    "lede": "OpenAI가 저자원 프로그래밍 언어 및 COBOL 마이그레이션을 위한 새로운 평가 지표와 코딩 성능 개선책을 발표했다.",
+    "why_now": "기업 레거시 코드베이스 전환에 AI 에이전트를 도입하기 위한 구체적 평가 체계가 공개되었다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/low-resource-programming-languages",
+    "published_at": "2026-10-19T12:00:00.000Z",
+    "body": "OpenAI는 ChatGPT의 코딩 성능을 주류 언어를 넘어 저자원 언어 및 레거시 코드로 확장하는 연구 결과를 공개했다. 이번 평가에는 일반 소프트웨어 엔지니어링 과제뿐만 아니라 SQLite 패치와 COBOL 마이그레이션이 포함된다. 학습 데이터가 부족한 환경에서도 마이그레이션 정확도를 높이기 위한 정밀 평가 지표를 제시한다. 비주류 언어 및 오랫동안 축적된 공공·금융 레거시 시스템을 현대화하려는 시도에 유용한 기준이 될 것으로 보인다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "Hugging Face, AWS Trainium용 TorchNeuron 지원 강화",
+      "lede": "Hugging Face 모델을 AWS Trainium 칩에서 쉽게 실행할 수 있도록 통합된 TorchNeuron 라이브러리가 공개되었다.",
+      "why_now": "클라우드 인프라 비용 절감을 위한 전용 가속기 지원 도구의 접근성이 개선되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/hf-torchneuron",
+      "published_at": "2026-10-19T00:00:00.000Z"
+    },
+    {
+      "headline": "Inception Labs, 대규모 디퓨전 모델 Mercury 3 공개",
+      "lede": "Inception Labs가 스케일을 확장한 디퓨전 기반 신규 모델 Mercury 3을 공개했다.",
+      "why_now": "대규모 디퓨전 아키텍처 기반 생성 모델 라인업이 하나 더 추가되었다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+      "published_at": "2026-10-19T17:27:11.000Z"
+    },
+    {
+      "headline": "MiniMax, 초저가 경량 모델 M3.1 Flash 출시",
+      "lede": "MiniMax가 이전 버전 대비 성능을 크게 올리고 비용은 절반으로 낮춘 M3.1 Flash를 공개했다.",
+      "why_now": "경량화 코딩 및 추론 모델 분야에서 단가 대비 성능 경쟁이 계속되고 있다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/minimax-m3-1-flash-shows-chinas-ai-price-race-has-no-floor-in-sight",
+      "published_at": "2026-10-19T18:22:30.000Z"
+    },
+    {
+      "headline": "Kling AI 4.0 공개, 입체 음향 및 Flash 플랜 추가",
+      "lede": "Kling AI가 입체 음향과 다국어 립싱크를 지원하는 비디오 생성 모델 4.0과 경량 Flash 버전을 공개했다.",
+      "why_now": "미디어 생성 모델에서 멀티모달 동기화 성능과 생성 속도 경쟁이 가속화되고 있다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant",
+      "published_at": "2026-10-19T17:36:26.000Z"
+    },
+    {
+      "headline": "AI 특유 문체 정제된 Qwen3-4B 파인튜닝 모델 공개",
+      "lede": "AI 생성문 특유의 상투적 문체와 패턴을 제거하도록 정제된 Qwen3-4B 변형 모델이 등장했다.",
+      "why_now": "생성 결과물의 자연스러움을 높이기 위한 문체 정제 기법이 오픈소스 튜닝에 반영되고 있다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://100toolkit.com/blog/deslop-model",
+      "published_at": "2026-10-19T13:00:47.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "redhat-et/ripwire, 에이전트용 초경량 CLI 컨텍스트 색인기",
+      "lede": "C++23 기반의 초경량 CLI 및 MCP 서버로 코딩 에이전트에 필요한 코드베이스 컨텍스트를 정밀하게 추출한다.",
+      "why_now": "코딩 에이전트의 프롬프트 토큰 낭비를 줄이기 위한 전용 컨텍스트 탐색 도구가 공개되었다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/redhat-et/ripwire",
+      "published_at": "2026-10-19T23:29:17.000Z"
+    },
+    {
+      "headline": "LiCinCan/blender-ai-mcp-addon, Blender 전용 MCP 도구",
+      "lede": "Blender 3D 환경과 다양한 LLM 및 MCP 서버를 연결하여 씬 관리와 스크립팅을 돕는 애드온이다.",
+      "why_now": "3D 파이프라인 소프트웨어에 MCP 표준 기반 자동화 환경이 접목되고 있다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+      "published_at": "2026-10-19T23:10:09.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Learning to Think and Explore in 3D World",
+      "lede": "시각-언어 모델(VLM)이 복잡한 3D 표현 입력 없이 단일 이미지 렌더링만으로 3D 공간을 능동적으로 탐색하도록 학습시키는 방안을 제시한다.",
+      "why_now": "인간처럼 단일 시점 이미지 입력을 바탕으로 환경과 상호작용하는 3D 공간 탐색 방식이 제안되었다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.21783",
+      "published_at": "2026-10-19T00:00:00.000Z"
+    },
+    {
+      "headline": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
+      "lede": "실시간 금융 시장 환경에서 단순 결과물이 아닌 에이전트의 연속적인 의사결정 과정을 평가하는 벤치마크를 제시한다.",
+      "why_now": "변동성 높은 동적 환경에서 작동하는 AI 에이전트의 행동 프로세스 정밀 평가 체계가 정립되었다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.09872",
+      "published_at": "2026-10-19T00:00:00.000Z"
+    },
+    {
+      "headline": "LEV: Thinking Fast and Deep with Looped Decision Models",
+      "lede": "텍스트 생성 없이 루프 연산을 통해 질문 난이도에 따라 연산량을 가변 조절하는 의사결정 모델 구조를 제안한다.",
+      "why_now": "텍스트 생성을 거치지 않고 직접 확률을 계산하는 시스템 1 방식 추론 모델의 고도화 연구다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.20951",
+      "published_at": "2026-10-19T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "autonomous-ai/openharness, 범용 에이전트 제어 플랫폼",
+      "lede": "소프트웨어 코딩부터 CAD, 회로 설계, 로보틱스까지 다방면의 에이전트를 제어하는 오픈소스 하네스다.",
+      "why_now": "단일 영역 코딩 에이전트를 넘어 이종 공학 도구를 다루는 에이전트 통합 제어판이 등장했다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/autonomous-ai/openharness",
+      "published_at": "2026-10-20T00:17:27.000Z"
+    },
+    {
+      "headline": "feder-cr/git-ai, AI 에이전트 전용 Git 확장도구",
+      "lede": "AI 에이전트의 자동화된 코드 수정 및 버전 관리 작업에 맞추어 설계된 Git 인터페이스다.",
+      "why_now": "사람 대상의 전통적인 Git 커맨드를 에이전트 연동 워크플로우에 최적화하려는 접근이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/feder-cr/git-ai",
+      "published_at": "2026-10-19T19:59:24.000Z"
+    },
+    {
+      "headline": "mw00/project-maya, 대형 MoE 로컬 추론 서빙 엔진",
+      "lede": "GLM-5.3-Flash 및 DeepSeek-V4.1-Flash 등 초대형 MoE 모델을 로컬 GPU 환경에서 자체 실행하도록 지원한다.",
+      "why_now": "최신 수백억~수천억 파라미터급 오픈 MoE 모델을 사설 인프라에서 서빙하기 위한 도구다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-10-19T16:55:31.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "신경망 해석 가능성에 관한 새로운 연구 주장의 등장",
+    "lede": "Goodfire 연구원 닉 카마라타가 신경망의 다의성 해소와 해석 가능성에 대한 상반된 주장을 담은 보고서를 공개하며 화제를 모았다.",
+    "why_now": "블랙박스 모델 내부 메커니즘을 규명하고 정렬 성능을 개선하기 위한 연구계의 논의가 활발해지고 있다.",
+    "kind": "analysis",
+    "source_name": "MIT Tech Review",
+    "canonical_url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world",
+    "published_at": "2026-10-19T17:45:55.000Z"
+  }
+}
