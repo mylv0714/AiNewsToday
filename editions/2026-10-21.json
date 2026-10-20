@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-21",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "DeepSeek의 추론 엔진 공개와 음성 AI 스택 경쟁, Anthropic의 손실 규모 발표가 이끈 아침.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "DeepSeek, 추론 엔진 DeepInfer 오픈소스 공개",
+    "lede": "DeepSeek가 자사 모델의 추론 속도를 높이고 구동 비용을 절감하는 고성능 추론 프레임워크 DeepInfer를 공개했다.",
+    "why_now": "DeepSeek-V4.1-Flash 등 대형 MoE 모델을 자체 인프라에서 효율적으로 실행할 수 있는 핵심 서빙 솔루션을 풀었다.",
+    "kind": "release",
+    "source_name": "GitHub",
+    "canonical_url": "https://github.com/deepseek-ai/DeepInfer",
+    "published_at": "2026-10-20T09:08:54.000Z",
+    "body": "vLLM을 기반으로 구축된 DeepInfer는 DeepSeek의 대규모 언어 모델을 고속으로 구동하는 추론 전용 프레임워크다. 이 엔진은 연산 효율성을 최적화하여 자원 소비와 운영 비용을 줄이는 데 초점을 맞추었다. 자체 서버 및 독립형 GPU 인프라 구축을 원하는 개발자를 위해 엔진, 양자화 도구, API 인터페이스를 제공한다. 자사 모델 구동 인프라를 직접 공개함에 따라 상용 API 제공업체들에 대한 가격 경쟁 압박이 커질 전망이다.",
+    "also_see": [
+      {
+        "title": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model",
+        "url": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, 바이오 R&D 기업 Orchestra Bio 인수",
+      "lede": "OpenAI가 신약 개발 및 임상 연구 운영 지원을 위해 Orchestra Bio를 인수했다.",
+      "why_now": "바이오제약 R&D 파이프라인 전반에 AI 기반 프로세스를 통합 적용하려는 움직임이다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+      "published_at": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "headline": "Mistral AI, 음성 에이전트 스택 Voxtral 3 출시",
+      "lede": "Mistral AI가 음성 인식, 합성 및 에이전트 SDK를 하나로 묶은 Voxtral 3를 공개했다.",
+      "why_now": "50개 이상의 언어를 지원하며 음성 대화 중 외부 도구 호출이 가능한 스택을 제공한다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/mistral-ai-launches-voxtral-3-a-full-voice-agent-stack-that-listens-thinks-and-talks-in-real-time",
+      "published_at": "2026-10-20T17:17:55.000Z"
+    },
+    {
+      "headline": "ElevenLabs, 대화형 음성 모델 Eleven Realtime 공개",
+      "lede": "ElevenLabs가 실시간 대화 서비스를 위해 응답 속도를 낮춘 신규 음성 대 음성 모델을 발표했다.",
+      "why_now": "v1 Max 기준 응답 지연 시간을 0.57초로 줄여 즉각적인 반응성을 확보했다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations",
+      "published_at": "2026-10-20T19:03:15.000Z"
+    },
+    {
+      "headline": "Anthropic, 2026년 상반기 800억 달러 순손실 기록",
+      "lede": "Anthropic의 상반기 공시 자료를 통해 800억 달러 규모의 순손실이 확인되었다.",
+      "why_now": "프런티어 모델 훈련 및 대규모 인프라 운영에 따른 과도한 비용 부담이 수치로 나타났다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.reuters.com/business/anthropic-recorded-net-loss-over-80-billion-first-half-this-year-wsj-reports-2026-10-20",
+      "published_at": "2026-10-20T20:09:46.000Z"
+    },
+    {
+      "headline": "Hugging Face, TorchTPU 네이티브 연동 지원",
+      "lede": "Hugging Face 생태계에서 구글 TPU 기반 모델 학습과 추론을 다룰 수 있는 TorchTPU가 통합되었다.",
+      "why_now": "GPU 이외의 가속 하드웨어 선택지를 넓히고 실행 환경 설정을 단순화한다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/hf-torchtpu",
+      "published_at": "2026-10-20T00:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "AnyLanguageModel 1.0 출시",
+      "lede": "애플 플랫폼 환경에서 로컬 언어 모델을 구동하기 위한 통합 프레임워크 1.0 버전이 배포되었다.",
+      "why_now": "macOS 및 iOS 기기 내부에서 온디바이스 모델을 직접 실행하고 앱과 연동할 수 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+      "published_at": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "headline": "PyTorch 2.15 내 MPS 백엔드 기능 확장",
+      "lede": "PyTorch 2.15 업데이트를 통해 애플 실리콘용 MPS(Metal Performance Shaders) 지원 범위가 넓어졌다.",
+      "why_now": "Mac 환경에서 가속 연산 적용 범위와 메모리 효율이 크게 늘어났다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "published_at": "2026-10-20T00:00:00.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "MemT-1.0: Towards Memory-Native Evolution",
+      "lede": "정보의 축적과 활용을 모델 내부 연산 메커니즘으로 내재화한 메모리 네이티브 구조를 제안한다.",
+      "why_now": "외부 검색이나 고정 컨텍스트의 한계를 넘어서는 지속 학습 아키텍처를 설계하려는 시도다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.26825",
+      "published_at": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "headline": "Scaling Parameter-Efficient Fine-Tuning for Brain Encoding",
+      "lede": "제한된 뇌 신경 데이터 환경에서 미세조정 기법(PEFT)을 활용해 인코딩 성능을 제고하는 방안을 다룬다.",
+      "why_now": "고비용 신경 데이터 부족 문제로 대형 모델의 전체 미세조정이 어렵던 한계를 극복하고자 했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.26802",
+      "published_at": "2026-10-20T00:00:00.000Z"
+    },
+    {
+      "headline": "Holi-World: Building Holistic World Intelligence from Human-Ego Experience",
+      "lede": "인간의 1인칭 시점 비디오 데이터를 통해 공간 구조와 상호작용 지식을 학습하는 월드 모델 구축법을 소개한다.",
+      "why_now": "비디오 데이터로부터 대규모 3차원 환경 인식과 시공간 맥락 지능을 추출하는 기법을 보여준다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.26549",
+      "published_at": "2026-10-20T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "kajisho5/ffmpeg-skill",
+      "lede": "코딩 에이전트를 위해 42개의 FFmpeg 스킬과 MCP 서버를 제공하는 로컬 비디오 편집 도구다.",
+      "why_now": "Claude Code나 Cursor 등에서 외부 클라우드 연동 없이 영상 편집 작업을 수행할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kajisho5/ffmpeg-skill",
+      "published_at": "2026-10-20T23:05:45.000Z"
+    },
+    {
+      "headline": "mw00/project-maya",
+      "lede": "GLM-5.3-Flash 및 DeepSeek-V4.1-Flash 모델을 개별 GPU에서 직접 연동할 수 있는 추론 서버 프로젝트다.",
+      "why_now": "NVIDIA 및 AMD 그래픽 카드를 모두 지원하며 OpenAI 호환 API 환경을 구성해 준다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-10-20T19:13:01.000Z"
+    },
+    {
+      "headline": "memorax-ai/memorax-code",
+      "lede": "개발 노하우 및 리포지토리 지식을 학습해 후속 작업에 재활용하도록 돕는 AI 코딩 전용 메모리 플러그인이다.",
+      "why_now": "세션이 변경되어도 이전 작업 맥락과 코드베이스에 대한 이해를 지속 유지하도록 만든다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/memorax-ai/memorax-code",
+      "published_at": "2026-10-20T17:57:15.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "가짜 통계를 활용한 LLM 인용 유도 실증",
+    "lede": "웹상에 가짜 수치를 공개해 생성형 AI가 이를 출처로 수집하고 답변에 인용하게 만든 사례 보고다.",
+    "why_now": "검색 기반 생성(RAG) 환경과 수집 파이프라인의 데이터 오염 취약점을 직관적으로 나타낸다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+    "published_at": "2026-10-20T13:06:22.000Z"
+  }
+}
