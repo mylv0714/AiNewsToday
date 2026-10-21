@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI 모델의 구글 클라우드 입점과 AI 에이전트의 제로데이 취약점 탐지가 어젯밤의 주요 소식이다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI 모델, 구글 클라우드 마켓플레이스 탑재",
+    "lede": "OpenAI와 구글 클라우드가 파트너십을 맺고 제미나이 모델 가든 및 마켓플레이스에 OpenAI 프런티어 모델과 코덱스 워크플로를 제공한다.",
+    "why_now": "구글 클라우드 인프라 사용자도 별도 복잡한 이관 없이 OpenAI의 모델 및 코덱스 엔진을 직접 불러올 수 있게 되었다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/openai-models-google-cloud",
+    "published_at": "2026-10-21T12:00:00.000Z",
+    "body": "경쟁 관계였던 두 빅테크가 엔터프라이즈 멀티클라우드 수요에 대응하기 위해 협력을 결정했다. 이번 협력으로 구글 클라우드 마켓플레이스 이용자는 제미나이 모델 가든(Gemini's Model Garden) 내에서 OpenAI 프런티어 모델과 Codex 워크플로를 직접 배포할 수 있다. 이를 통해 구글 클라우드 크레딧 활용 및 통합 빌링이 가능해지며 엔터프라이즈 환경에서의 AI 모델 도입 선택지가 확대되었다. 다만 기존 인프라와의 결합 과정에서 발생하는 데이터 격리 정책 및 거버넌스 범위는 각 기업별 설정 검증이 필요하다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "프런티어 AI, PHP 취약점 발견 및 Patch the Planet 발족",
+      "lede": "OpenAI의 GPT-5.6 Sol과 구글 Gemini 4 Argon이 수백만 웹사이트에 영향을 미치는 PHP의 원격 코드 실행 취약점을 자율적으로 탐지했다.",
+      "why_now": "OpenAI는 보안 연구자와 유지 관리자를 연결해 오픈소스 취약점에 공동 대응하는 Patch the Planet 이니셔티브를 발표했다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities",
+      "published_at": "2026-10-21T07:00:00.000Z"
+    },
+    {
+      "headline": "엔비디아, GTC 베를린서 오픈 모델 Nemotron 3 공개",
+      "lede": "엔비디아가 유럽의 소버린 AI 확산을 위해 Nemotron 3 오픈 모델과 로컬 에이전트용 RTX Spark 하드웨어 스택을 공개했다.",
+      "why_now": "개인용 PC부터 엔터프라이즈 엣지 인프라까지 커버하는 로컬 AI 구축 생태계를 정면으로 제안한다.",
+      "kind": "announcement",
+      "source_name": "NVIDIA",
+      "canonical_url": "https://blogs.nvidia.com/blog/open-models-europe-industry",
+      "published_at": "2026-10-21T10:00:07.000Z"
+    },
+    {
+      "headline": "OpenAI, ChatGPT 광고 서비스 26개국 확장",
+      "lede": "OpenAI가 대화 맥락을 해석해 응답과 광고를 분리하는 LLM 기반 광고 스택 기술과 함께 광고 서비스 대상 국가를 확대했다.",
+      "why_now": "10만 개 이상의 광고주 확보를 계기로 대화형 인공지능의 본격적인 수익화 체계 구축에 나섰다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "published_at": "2026-10-21T13:00:00.000Z"
+    },
+    {
+      "headline": "IBM, 음성 인식·번역 모델 Granite Speech 5.0 공개",
+      "lede": "IBM이 경량화된 파라미터로 음성 전사, 번역, 화자 추정을 수행하는 Granite Speech 5.0을 출시했다.",
+      "why_now": "허깅페이스를 통해 공개되어 기존 경량 음성 처리 파이프라인에 즉시 교체 적용해 테스트할 수 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "published_at": "2026-10-21T14:58:18.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "VocabX, SLM 어휘 특화로 추론 비용 77% 절감",
+      "lede": "도메인 특화 소형 언어 모델의 어휘집을 재구성하여 동일 성능에서 추론 토큰 비용을 크게 줄이는 접근법이 공개되었다.",
+      "why_now": "실무 서비스에 소형 모델을 적용할 때 발생하는 연산 리소스 소모를 유의미하게 절감하는 방안을 제시한다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/Dharma-AI/vocabx-vocabulary-specialization",
+      "published_at": "2026-10-21T17:35:36.000Z"
+    },
+    {
+      "headline": "NVIDIA Kumo Relational, 무학습 관계형 추론 지원",
+      "lede": "관계형 데이터베이스 상에서 별도 모델 재학습 없이 지도학습급 예측 추론을 실행하는 라이브러리가 공개되었다.",
+      "why_now": "RDB 데이터를 ML 파이프라인으로 변환하고 가공하던 전처리 부담을 축소할 수 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/nvidia/kumo-relational",
+      "published_at": "2026-10-21T18:26:30.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Matrix-Game 4.0: Harnessing Video Models for Real-Time Playable Game Worlds",
+      "lede": "비디오 생성 모델의 그래픽 연산과 실시간 실행 가능 게임 엔진을 분리하여 저지연 상호작용이 가능한 가상 환경을 구축한다.",
+      "why_now": "비디오 생성 기술의 영속적 상태 변화 한계를 상호작용 가능한 프레임워크 구조로 해결하고자 한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.27999",
+      "published_at": "2026-10-21T00:00:00.000Z"
+    },
+    {
+      "headline": "Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience",
+      "lede": "인간과 다양한 로봇의 1인칭 시점 데이터를 통합 학습하여 보행과 조작 행동 결과를 함께 예측하는 세계 모델을 제안한다.",
+      "why_now": "이종 로봇 간의 서로 다른 행동 공간 문제를 다중 모달 감독 학습으로 극복하는 가능성을 보여준다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.26855",
+      "published_at": "2026-10-21T00:00:00.000Z"
+    },
+    {
+      "headline": "PAR: Progress-Aligned Recurrence for Length Generalization in State Tracking",
+      "lede": "순환형 언어 모델의 반복 추론 과정에서 각 단계가 문제 해결 진행도에 맞게 상태를 업데이트하도록 정렬하는 구조를 제시한다.",
+      "why_now": "루프 반복 횟수를 늘려도 긴 상태 추적 문제에 일반화되지 않던 난제를 반복 상태 스케일 안정화로 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.27628",
+      "published_at": "2026-10-21T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "Ephemeral-AI-Lab/layerfs",
+      "lede": "공유된 히스토리 위에서 에이전트별 임시 워크스페이스와 체크포인트 분기·병합을 제공하는 AI 코딩 에이전트용 가상 파일시스템이다.",
+      "why_now": "복사본 작성 없이 여러 코딩 에이전트가 병렬로 작동하고 변경 사항을 안전하게 통합할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Ephemeral-AI-Lab/layerfs",
+      "published_at": "2026-10-21T12:51:12.000Z"
+    },
+    {
+      "headline": "kajisho5/ffmpeg-skill",
+      "lede": "코딩 에이전트가 로컬 환경에서 비디오 편집을 수행하도록 42개 FFmpeg 도구 규격과 MCP 서버를 제공하는 프로젝트다.",
+      "why_now": "클라우드 서비스 연결이나 외부 API 키 없이 CLI 기반 에이전트가 영상 처리 작업을 제어할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kajisho5/ffmpeg-skill",
+      "published_at": "2026-10-21T23:41:10.000Z"
+    },
+    {
+      "headline": "mw00/project-maya",
+      "lede": "GLM-5.3-Flash, DeepSeek-V4.1-Flash 등 초대형 MoE 모델을 로컬 GPU 환경에서 구동하는 분산 추론 엔진이다.",
+      "why_now": "OpenAI 및 Anthropic 규격 호환 API를 지원하여 자체 인프라 내 초대형 모델 배포 테스트가 유용하다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-10-21T19:49:28.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI 에이전트의 버그 수정 시 무분별한 코드 변경 검증",
+    "lede": "코딩 에이전트가 지정된 버그를 해결하는 과정에서 의도하지 않은 사이드 이펙트나 보이지 않는 코드 수정을 유발하는 위험성을 분석한다.",
+    "why_now": "자율 코딩 도구 사용이 늘어남에 따라 테스트 통과 여부 외에 코드베이스 변경 내역에 대한 정밀 검증 필요성이 제기된다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://blog.trailofbits.com/2026/10/21/your-ai-agent-fixed-the-bug-but-what-else-did-it-change",
+    "published_at": "2026-10-21T16:03:32.000Z"
+  }
+}
