@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-23",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "앤스로픽이 Agent Skills 오픈 표준을 재단에 기증했고, OpenAI와 엔비디아가 각각 개발자용 신규 API와 안전 런타임을 공개했다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "앤스로픽, Agent Skills 표준 재단 기증",
+    "lede": "앤스로픽이 70개 이상의 에이전트 플랫폼에서 채택된 특화 지식·워크플로 오픈 표준 Agent Skills를 Agentic AI 재단에 기증했다.",
+    "why_now": "에이전트 상호운용성 표준의 주도권을 중립 재단으로 이관하여 생태계 확산을 가속화하기 위함이다.",
+    "kind": "announcement",
+    "source_name": "Anthropic",
+    "canonical_url": "https://www.anthropic.com/news/product",
+    "published_at": "2026-10-22T00:00:00.000Z",
+    "body": "앤스로픽이 에이전트에 전문 지식과 작업 순서를 부여하는 개방형 표준 Agent Skills를 Agentic AI 재단에 이전했다. 이 표준은 ChatGPT, Cursor, GitHub Copilot 등 70개 이상의 에이전트 플랫폼에 이미 적용되어 있다. 특정 기업 독점 방식에서 벗어나 생태계 공통의 상호운용성을 확보하려는 목적이다. 다만 이관 이후 각 플랫폼별 확장 구현 과정에서 파편화가 발생하지 않는지 지켜볼 필요가 있다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, 빠르고 저렴한 Decisions API 출시",
+      "lede": "OpenAI가 애플리케이션 내 응답 속도를 높이고 비용을 절감하기 위해 특정 판단에 특화된 Decisions API를 공개했다.",
+      "why_now": "전체 LLM 호출 대신 경량화된 의사결정 레이어를 적용하려는 앱 개발 수요가 늘어났기 때문이다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/decisions-api",
+      "published_at": "2026-10-22T19:00:00.000Z"
+    },
+    {
+      "headline": "MS·HF, DB 채점 기반 RL 수련 도구 ThinkingBox 공개",
+      "lede": "마이크로소프트와 허깅페이스가 데이터베이스 채점 결과를 강화학습 보상으로 환원해 에이전트를 학습시키는 ThinkingBox를 발표했다.",
+      "why_now": "에이전트의 데이터베이스 탐색 및 실행 정확도를 체계적으로 끌어올리기 위한 강화학습 프레임워크가 필요해졌다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "published_at": "2026-10-22T22:24:34.000Z"
+    },
+    {
+      "headline": "엔비디아, 자율 에이전트용 안전 런타임 OpenShell 공개",
+      "lede": "엔비디아가 복수의 자율 AI 에이전트를 격리된 환경에서 안전하게 구동하는 오픈소스 런타임 OpenShell을 공개했다.",
+      "why_now": "기업 환경에서 자율 에이전트 도입 시 발생하는 실행 권한 및 보안 제어 문제를 해결하기 위함이다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/NVIDIA/OpenShell",
+      "published_at": "2026-10-22T17:44:06.000Z"
+    },
+    {
+      "headline": "AllenAI, 글로벌 임베딩 모델 OlmoEarth v1.3 공개",
+      "lede": "앨런 인공지능 연구소가 지구 표면 전체 관측 데이터를 다루는 글로벌 공간 임베딩 모델 OlmoEarth v1.3을 공개했다.",
+      "why_now": "위성 및 기상 관측 데이터를 정밀 분석하기 위한 오픈 인프라 수요에 대응하기 위함이다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "published_at": "2026-10-22T16:11:31.000Z"
+    },
+    {
+      "headline": "구글 딥마인드, 전 세계 10m 단위 산림 지도 공개",
+      "lede": "구글 딥마인드가 전 세계 육지의 매 10m 구역을 세부 산림 유형으로 분류한 글로벌 지도를 발표했다.",
+      "why_now": "단순 피복율 측정을 넘어 기후 변화 대응 및 생태계 관리에 필요한 정밀 데이터셋을 제공한다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types",
+      "published_at": "2026-10-22T14:30:24.000Z"
+    },
+    {
+      "headline": "MS 연구소, 에이전트 시각화 언어 Flint 공개",
+      "lede": "마이크로소프트 연구소가 AI 에이전트가 인터랙티브 차트 및 시각화를 생성하고 탐색할 수 있는 전용 언어 Flint-interactive를 발표했다.",
+      "why_now": "에이전트가 정적 이미지 출력에 그치지 않고 사용자와 함께 데이터를 인터랙티브하게 분석하도록 돕는다.",
+      "kind": "release",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
+      "published_at": "2026-10-22T16:00:00.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "StreamEval: Evaluating Interactive Streaming Video Generation Models",
+      "lede": "대화, 아바타 연기, 세계 생성 등 5개 과제에서 실시간 인터랙티브 스트리밍 비디오 생성 모델의 성능을 평가하는 통합 벤치마크를 제안한다.",
+      "why_now": "스트리밍 비디오 생성 기술이 상호작용 가능한 영역으로 확장됨에 따라 새로운 측정 기준이 필요해졌다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.28402",
+      "published_at": "2026-10-22T00:00:00.000Z"
+    },
+    {
+      "headline": "SpatialScout: Can VLM Agents Actively Explore and Map 3D Scenes?",
+      "lede": "비전-언어 모델 에이전트가 3D 공간을 능동적으로 탐색하며 계측 맵을 구성할 수 있는지 평가하는 SpatialScout 벤치마크를 소개한다.",
+      "why_now": "기존 정적 3D 질의응답 방식으로는 에이전트의 능동적 탐색 및 공간 지도 구성 능력을 검증하기 어렵다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.26659",
+      "published_at": "2026-10-22T00:00:00.000Z"
+    },
+    {
+      "headline": "Right Screen, Wrong Transition: World Models as Verifiers for GUI Agents",
+      "lede": "GUI 에이전트의 안전성을 단일 화면이 아닌 상태 전이 수준에서 검증하기 위해 월드 모델을 검증기로 도입하는 방안을 제시한다.",
+      "why_now": "정상적인 화면이라도 부적절한 작업 흐름에서 나타나는 우회 공격을 막기 위해서는 전이 과정의 기댓값 검증이 필수적이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.11942",
+      "published_at": "2026-10-22T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "Ephemeral-AI-Lab/layerfs",
+      "lede": "기존 이력을 복사하지 않고 각 에이전트에 독립적인 가상 파일시스템 작업공간을 부여해 병렬 변경과 머지를 지원하는 저장소이다.",
+      "why_now": "여러 에이전트가 동일 파일시스템을 공유하며 동시 작업을 수행할 때 복사 비용과 충돌을 막아준다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Ephemeral-AI-Lab/layerfs",
+      "published_at": "2026-10-22T20:33:20.000Z"
+    },
+    {
+      "headline": "mw00/project-maya",
+      "lede": "GLM-5.3-Flash 및 DeepSeek-V4.1-Flash 등 대형 MoE 모델을 개인 GPU에서 로컬로 구동하도록 지원하는 추론 엔지니어링 도구이다.",
+      "why_now": "자체 인프라에서 단일 GPU부터 대형 노드까지 오픈 MoE 모델을 직접 서빙할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-10-22T23:17:09.000Z"
+    },
+    {
+      "headline": "Leonxlnx/earshot",
+      "lede": "코딩 에이전트가 오디오 피드백을 듣고 소리를 검토·생성할 수 있도록 돕는 CPU 전용 오픈소스 도구이다.",
+      "why_now": "추가 GPU 자원 없이 코딩 에이전트에 음성 및 사운드 인터페이스를 연동할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Leonxlnx/earshot",
+      "published_at": "2026-10-22T23:12:59.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI가 발견한 PHP 원격 코드 실행 취약점 PHP2Shell",
+    "lede": "보안 기업 Wiz가 AI 도구를 활용해 PHP 코어 내부에서 치명적인 원격 코드 실행 취약점을 찾아내 수정을 완료했다.",
+    "why_now": "AI가 복잡한 오픈소스 코어 시스템의 고위험 보안 취약점을 직접 발견하는 실질적 사례를 보여준다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.wiz.io/blog/php2shell-php-rce",
+    "published_at": "2026-10-21T13:43:19.000Z"
+  }
+}
