@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-24",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "Anthropic의 에이전트 스킬 오픈 표준 기증과 OpenAI의 인프라·보안 정책 공개가 주요 소식이다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "Anthropic, 에이전트 스킬 오픈 표준 기증",
+    "lede": "Anthropic이 AI 에이전트의 전문 지식과 워크플로우를 정의하는 오픈 표준인 Agent Skills를 Agentic AI 재단에 기증했다.",
+    "why_now": "ChatGPT, Cursor, GitHub Copilot 등 70개 이상의 에이전트 플랫폼이 참여하며 에이전트 도구 생태계의 표준화가 가속화되고 있다.",
+    "kind": "announcement",
+    "source_name": "Anthropic",
+    "canonical_url": "https://www.anthropic.com/news/product",
+    "published_at": "2026-10-22T00:00:00.000Z",
+    "body": "Anthropic은 에이전트에 특화된 지식과 수행 규칙을 전달하는 오픈 규격 Agent Skills의 관리를 독립 단체인 Agentic AI Foundation으로 이관했다. 현재 ChatGPT, Cursor, GitHub Copilot, VS Code를 포함한 70여 개 플랫폼이 해당 표준을 채택했다. 단일 플랫폼에 종속되지 않는 공통 규격이 마련됨에 따라 개발자는 한 번 작성한 에이전트 스킬을 여러 도구에서 그대로 재사용할 수 있다. 이번 기증은 에이전트 개발 생태계의 파편화를 방지하고 상호운용성을 확보하기 위한 주요 기업들의 협력 형태다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, 10억 사용자 대응 스토리지 구조 공개",
+      "lede": "OpenAI가 ChatGPT 사용자 scaling을 위해 Habitat 글로벌 캐싱과 Azure Cosmos DB를 연동한 2차 기술 블로그를 작성했다.",
+      "why_now": "대규모 에이전트 및 사용자 트래픽 처리 과정에서 12배 빠른 읽기 성능을 달성한 멀티테넌트 설계 실무를 공유했다.",
+      "kind": "analysis",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+      "published_at": "2026-10-23T17:00:00.000Z"
+    },
+    {
+      "headline": "OpenAI, 프론티어 모델 학습 보안 환경 강화",
+      "lede": "OpenAI가 차세대 파운데이션 모델 학습 및 평가를 위해 오프라인 통제 환경과 고연산 레드티밍 인프라를 구축했다.",
+      "why_now": "고성능 모델 개발 과정에서 가중치 유출 및 가상 격리 환경 탈출 위험을 선제적으로 차단하기 위한 통제안이다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+      "published_at": "2026-10-23T10:00:00.000Z"
+    },
+    {
+      "headline": "스웨덴 정부, ChatGPT 및 Claude 사용 금지",
+      "lede": "스웨덴 정부가 데이터 보안 및 정보 유출 방지를 이유로 정부 청사 내 주요 상용 생성형 AI 상용 서비스 이용을 통제했다.",
+      "why_now": "유럽 내 공공기관들이 기밀 데이터 처리 시 외산 상용 AI 플랫폼 사용을 전면 차단하는 규제 흐름이 구체화되고 있다.",
+      "kind": "analysis",
+      "source_name": "Sveriges Radio",
+      "canonical_url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+      "published_at": "2026-10-23T11:39:54.000Z"
+    },
+    {
+      "headline": "NVIDIA Cosmos, 월드 모델 훈련 도구 출시",
+      "lede": "NVIDIA가 물리 AI 구축을 지원하는 Cosmos 플랫폼에 학습 도구, 시뮬레이션 체크포인트, 데이터 팩토리 블루프린트를 추가했다.",
+      "why_now": "현실 세계를 시뮬레이션하는 오픈 월드 모델의 가중치와 인프라 템플릿을 공개하여 로봇 공학 개발 접근성을 높였다.",
+      "kind": "release",
+      "source_name": "NVIDIA",
+      "canonical_url": "https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models",
+      "published_at": "2026-10-22T05:00:27.000Z"
+    },
+    {
+      "headline": "OpenAI, 경량 분기용 Decisions API 출시",
+      "lede": "OpenAI가 앱 내 서비스 로직 분기 및 고속 판단 작업에 적합한 저비용 Decisions API를 제공한다.",
+      "why_now": "긴 텍스트 생성 대신 빠른 지연 시간과 낮은 비용으로 실시간 응답을 처리하려는 개발 요구를 반영했다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/decisions-api",
+      "published_at": "2026-10-22T19:00:00.000Z"
+    },
+    {
+      "headline": "Uber, 전 직원 3만 명 대상 ChatGPT Work 도입",
+      "lede": "Uber가 데이터 분석, 워크플로우 자동화, 문서 생성을 위해 전사 조직에 ChatGPT Work를 적용한다.",
+      "why_now": "테크 기업 중심의 대규모 엔터프라이즈 AI 통합 사례가 점차 확대되는 양상이다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/uber-chatgpt-work-rollout",
+      "published_at": "2026-10-22T00:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "kajisho5/ffmpeg-skill",
+      "lede": "Claude Code, Cursor, Codex 등 에이전트가 로컬에서 비디오 편집을 수행하도록 돕는 42개 FFmpeg 도구 계약 및 MCP 서버.",
+      "why_now": "외부 API나 클라우드 연동 없이 에이전트가 영상 자르기, 자막 추가, 음량 조절을 직접 실행할 수 있다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kajisho5/ffmpeg-skill",
+      "published_at": "2026-10-23T22:56:09.000Z"
+    },
+    {
+      "headline": "Ephemeral-AI-Lab/layerfs",
+      "lede": "공유 커밋 기록 위에 에이전트별 독립 가상 파일시스템 작업공간을 제공하는 스토리지 레이어.",
+      "why_now": "병렬로 실행되는 에이전트들이 파일 베이스 복사 없이 독립 체크포인트를 병합하거나 되돌릴 수 있게 지원한다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Ephemeral-AI-Lab/layerfs",
+      "published_at": "2026-10-23T21:10:55.000Z"
+    },
+    {
+      "headline": "Torch NeuronX 모델 지원 현황",
+      "lede": "AWS Trainium 및 Inferentia 환경에서 구동 가능한 AI 모델 라이브러리와 구동 여부를 확인할 수 있는 대시보드.",
+      "why_now": "대체 가속기 기반 학습 및 추론 도입 시 모델 호환성을 신속하게 파악할 수 있도록 돕는다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "published_at": "2026-10-23T00:00:00.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Deep Search in Real-World Web Environments",
+      "lede": "실제 웹 환경의 다양한 구조와 이종 데이터 포맷 속에서 Deep Search 에이전트의 심층 조사 성능을 검증한 연구.",
+      "why_now": "정적 벤치마크 평가를 벗어나 실제 웹 생태계에서 에이전트가 겪는 자율 탐색 및 정보 수집 한계를 분석했다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2610.30181",
+      "published_at": "2026-10-23T00:00:00.000Z"
+    },
+    {
+      "headline": "WeVisOne-VL: Unified Visual Perception from Objects to Pixels",
+      "lede": "구조화된 토큰 예측을 활용하여 객체 수준과 픽셀 수준 시각 인식을 단일 프레임워크로 통합한 VLM 연구.",
+      "why_now": "세밀한 위치 지정과 영역 탐색 과제에서 기존 멀티모달 모델이 가진 시각 정밀도 제약을 개선하고자 했다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2610.31329",
+      "published_at": "2026-10-23T00:00:00.000Z"
+    },
+    {
+      "headline": "IQuest-Q1: Advancing Foundation Capabilities for Agentic CLI Systems",
+      "lede": "터미널 환경에서의 자율 명령 실행 및 코드 제어에 특화된 320B 파라미터 규모의 희소 MoE 기반 파운데이션 모델.",
+      "why_now": "CLI 시스템 제어 능력을 향상시키기 위해 특화된 학습 데이터 커리큘럼 기반의 파운데이션 모델 구조를 제시했다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2610.30949",
+      "published_at": "2026-10-23T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code, Codex 등 터미널 에이전트 화면을 브라우저와 모바일에서 모니터링하고 제어하는 오픈소스 클라이언트.",
+      "why_now": "원격 SSH 연결과 푸시 알림을 제공하여 백그라운드에서 실행되는 에이전트 상태를 상시 관리하도록 돕는다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-10-23T23:44:28.000Z"
+    },
+    {
+      "headline": "autonomous-ai/openharness",
+      "lede": "코딩 작업을 넘어 CAD, 회로 설계, 로봇 제어 등 다방면의 에이전트 및 하드웨어를 제어하는 통합 하네스.",
+      "why_now": "단일 대시보드 명령 체계로 복수의 로컬/원격 기기 및 에이전트 오케스트레이션을 구현했다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/autonomous-ai/openharness",
+      "published_at": "2026-10-23T23:27:52.000Z"
+    },
+    {
+      "headline": "mw00/project-maya",
+      "lede": "GLM-5.3-Flash, DeepSeek-V4.1-Flash 등 초대형 MoE 모델을 자체 GPU 인프라에서 구동하는 로컬 인퍼런스 엔진.",
+      "why_now": "단일 GPU부터 16개 GPU 환경까지 OpenAI 및 Anthropic 호환 API 포맷으로 서빙할 수 있도록 구성했다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-10-23T19:32:16.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI 추론 탄소 배출량의 지역별 격차",
+    "lede": "동일한 AI 모델 추론 요청이라도 데이터센터가 위치한 전력망 에너지원에 따라 탄소 배출량이 최대 8.5배 차이 난다는 분석.",
+    "why_now": "AI 인프라 확장 과정에서 데이터센터 입지 선정이 기업의 탄소 발자국 절감 및 ESG 평가의 주요 변수로 떠올랐다.",
+    "kind": "analysis",
+    "source_name": "Berget AI",
+    "canonical_url": "https://berget.ai/en/blog/per-request-co2-press-release",
+    "published_at": "2026-10-23T06:41:11.000Z"
+  }
+}
