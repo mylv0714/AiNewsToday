@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-27",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI의 GPT-6.1 Terra 발표와 Anthropic의 SEC 상장신청서 제출이 주요 소식이다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, 컴퓨터 제어 모델 GPT-6.1 Terra 공개",
+    "lede": "OpenAI가 기존 모델 대비 API 가격을 절반으로 낮추고 컴퓨터 제어 성능을 강화한 GPT-6.1 Terra를 공개했다.",
+    "why_now": "가성비를 앞세운 중형 모델로 에이전트 구축 및 데스크톱 자동화 비용 부담을 줄여준다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/introducing-gpt-6-1-terra",
+    "published_at": "2026-10-26T00:00:00.000Z",
+    "body": "GPT-6.1 Terra는 에이전틱 컴퓨터 사용을 보편화하기 위해 설계된 모델이다. 이전 세대 대비 API 가격을 50% 인하하면서도 대형 모델 수준의 성능을 유지한다. 가성비를 극대화하여 일상적인 연산 작업과 소프트웨어 자동화 워크플로우에 최적화되었다.",
+    "also_see": [
+      {
+        "title": "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models",
+        "url": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "Anthropic, 미 증권거래위원회에 상장신청서 제출",
+      "lede": "Anthropic이 미국 증권거래위원회(SEC)에 기업공개(IPO)를 위한 증권신고서를 제출했다.",
+      "why_now": "주요 AI 기술 기업 중 최초로 공식 상장 절차에 진입했다.",
+      "kind": "announcement",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/s1-sec",
+      "published_at": "2026-10-26T00:00:00.000Z"
+    },
+    {
+      "headline": "Greptile, GPT-6 Astra로 버그 탐지 확장",
+      "lede": "Greptile이 GPT-6 Astra를 활용해 코드 리뷰를 넘어 사용자 워크플로우 테스트까지 버그 탐지를 확장했다.",
+      "why_now": "에이전트의 적용 영역이 단순 코드 검수에서 엔드투엔드 시스템 테스트로 진화했다.",
+      "kind": "analysis",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/greptile-code-review-codex-astra",
+      "published_at": "2026-10-26T22:00:00.000Z"
+    },
+    {
+      "headline": "CodeRabbit, GPT-6.1 Sol로 코드 보안 강화",
+      "lede": "CodeRabbit이 GPT-6.1 Sol을 사용해 복잡한 코드베이스의 보안 위험을 조사하는 에이전트를 구축했다.",
+      "why_now": "정교해진 에이전트를 통한 자동화 보안 검토 흐름을 반영한다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "published_at": "2026-10-26T13:45:00.000Z"
+    },
+    {
+      "headline": "OpenAI, 학계와 학술 검증 협력 강화",
+      "lede": "OpenAI가 Kakeya 추측과 지수 시간 가설 등 복잡한 학술 문제 연구에서 모델 성과를 학계와 공유했다.",
+      "why_now": "프론티어 모델의 학술 연구 기여 가능성과 외부 검증 방식을 제시했다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "published_at": "2026-10-26T14:30:00.000Z"
+    },
+    {
+      "headline": "OpenAI, 165개 업무 활동의 ChatGPT 사용 패턴 공개",
+      "lede": "OpenAI가 전 세계 100여 개국의 업무 활동 데이터 분석을 다룬 OpenAI Signals 보고서를 발표했다.",
+      "why_now": "직무별, 국가별 생성형 AI 실질 활용 양상을 데이터로 확인할 수 있다.",
+      "kind": "analysis",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "published_at": "2026-10-26T10:00:00.000Z"
+    },
+    {
+      "headline": "OpenAI, Codex Ultrafast로 장애 조사 시간 단축",
+      "lede": "OpenAI 엔지니어링 팀이 Codex Ultrafast를 도입해 내부 장애 분석 시간을 수분으로 줄였다.",
+      "why_now": "코드 에이전트가 개발 자동화뿐만 아니라 시스템 운영 및 장애 대응으로 확대되고 있음을 보여준다.",
+      "kind": "analysis",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/openai-cut-incident-investigation",
+      "published_at": "2026-10-26T07:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "Hob, 로컬 온디바이스 에이전트 클라이언트",
+      "lede": "클로드 코워크와 ChatGPT를 대체할 수 있는 로컬 온디바이스 오픈소스 워크스페이스다.",
+      "why_now": "오프라인 환경 및 프라이버시 중심 에이전트 구동을 지원한다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/FrigadeHQ/hob",
+      "published_at": "2026-10-26T16:12:29.000Z"
+    },
+    {
+      "headline": "Tracely-ai, 에이전트 전용 트레이스 기반 CI/CD",
+      "lede": "에이전트 실행 트레이스를 분석해 회귀 테스트를 자동화하는 CI/CD 도구다.",
+      "why_now": "에이전트의 비확정적 동작으로 인한 성능 저하를 PR 단계에서 사전에 막는다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/jwuthri-cloud/Tracely-ai",
+      "published_at": "2026-10-26T18:09:41.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Reading, Writing, Sharing, and Interacting with the World through Video",
+      "lede": "비디오 파운데이션 모델과 비디오 월드 모델 연구를 통합적인 관점에서 정리한 서베이 논문이다.",
+      "why_now": "비디오 관측과 시각적 세계의 동적 변화 사이의 관계를 체계화한다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2610.31668",
+      "published_at": "2026-10-26T00:00:00.000Z"
+    },
+    {
+      "headline": "UserArena: Benchmarking Interactive User Simulation for Long-Horizon Shopping Agents",
+      "lede": "쇼핑 에이전트의 장기적 대화 및 행동 양상을 평가하는 상호작용 벤치마크다.",
+      "why_now": "사용자 모사를 통해 장기 대화 환경에서의 에이전트 정책을 검증한다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2610.30932",
+      "published_at": "2026-10-26T00:00:00.000Z"
+    },
+    {
+      "headline": "RSIHub: A Composable Framework for Agent-Evolution Methods",
+      "lede": "실행 피드백을 통해 프롬프트와 스킬을 개선하는 에이전트 진화 프레임워크다.",
+      "why_now": "에이전트 자율 진화 연구에 재사용 가능한 공통 인프라를 제공한다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2610.32253",
+      "published_at": "2026-10-26T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "Ephemeral-AI-Lab/layerfs",
+      "lede": "베이스 복사 없이 다중 에이전트에 독립적인 파일시스템 워크스페이스를 제공하는 도구다.",
+      "why_now": "에이전트 간 병렬 작업 및 변경 사항의 체크포인트 관리를 가능하게 한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Ephemeral-AI-Lab/layerfs",
+      "published_at": "2026-10-27T00:00:29.000Z"
+    },
+    {
+      "headline": "mw00/project-maya",
+      "lede": "GLM-5.3-Flash 및 DeepSeek-V4.1-Flash 모델을 자체 GPU에서 구동하는 추론 엔진이다.",
+      "why_now": "단일 GPU부터 16개 카드의 엔비디아 및 AMD 환경에서 대형 MoE 모델의 로컬 구동을 지원한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-10-26T17:08:31.000Z"
+    },
+    {
+      "headline": "google/elephant-goldfish-model",
+      "lede": "LLM 기반 명세서 중심 개발을 다루는 구글의 오픈소스 방법론이다.",
+      "why_now": "명세서 작성을 통해 LLM 소프트웨어 개발의 정확도와 지속가능성을 높인다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/google/elephant-goldfish-model",
+      "published_at": "2026-10-27T00:19:08.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI가 작성한 글을 피곤하게 만드는 6가지 패턴",
+    "lede": "NYU와 UT 오스틴 연구진이 LLM 출력물에서 인간이 읽기 힘들어하는 6가지 언어적 패턴을 제시했다.",
+    "why_now": "코드와 수학 학습 데이터 비중 확대가 언어적 가독성에 미친 영향을 지적한다.",
+    "kind": "analysis",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/researchers-find-six-patterns-that-make-AI-text-so-exhausting-to-read",
+    "published_at": "2026-10-26T17:50:15.000Z"
+  }
+}
