@@ -1,0 +1,166 @@
+{
+  "date": "2026-10-28",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "Anthropic이 IPO 상장 신청서를 제출했으며, 구글 딥마인드의 Genie 4 및 주요 기업 파트너십 소식이 이어졌다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "Anthropic, 미국 SEC에 상장 신청서 제출",
+    "lede": "Anthropic이 미국 증권거래위원회(SEC)에 클래스 A 보통주 공모를 위한 S-1 등록 신청서를 제출했다.",
+    "why_now": "주요 AI 개발사 중 최초로 제도권 상장 절차에 공식 착수했다.",
+    "kind": "announcement",
+    "source_name": "Anthropic",
+    "canonical_url": "https://www.anthropic.com/news/s1-sec",
+    "published_at": "2026-10-27T00:00:00.000Z",
+    "body": "Anthropic은 서식 S-1 신청서를 통해 클래스 A 보통주 상장 의사를 공식 발표했다. 공모 주식 수와 주당 희망가 범위는 아직 확정되지 않았다. 이번 상장 추진은 선도적 프론티어 모델 개발사가 공모 시장에 진출하는 첫 사례로 평가받는다.",
+    "also_see": [
+      {
+        "title": "Investing in the public benefit",
+        "url": "https://www.anthropic.com/news/public-benefit-fund"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "구글 딥마인드, 실시간 세계 모델 Genie 4 공개",
+      "lede": "구글 딥마인드가 실시간 시뮬레이션을 지원하는 신규 세계 모델 Genie 4를 발표했다.",
+      "why_now": "텍스트와 조작 명령에 반응하는 상호작용형 3D 환경을 시뮬레이션한다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+      "published_at": "2026-10-27T16:01:38.000Z"
+    },
+    {
+      "headline": "OpenAI-오라클, ChatGPT 내 오라클 앱 통합",
+      "lede": "OpenAI와 오라클이 파트너십을 확장해 오라클 기업용 앱과 AI 에이전트를 ChatGPT에 결합한다.",
+      "why_now": "기업용 워크플로우와 생성형 AI 인터페이스의 연동 범위를 넓힌다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/oracle-apps-in-chatgpt",
+      "published_at": "2026-10-27T07:00:00.000Z"
+    },
+    {
+      "headline": "Anthropic, 미 정부기관에 Claude 40% 할인 적용",
+      "lede": "Anthropic이 미국 연방조달청과의 파트너십을 확대하여 정부 기관 대상의 Claude 요금 할인을 제공한다.",
+      "why_now": "공공 부문 전반으로 LLM 도입 및 인프라 공급 확대를 추진한다.",
+      "kind": "announcement",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/partnerships",
+      "published_at": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "headline": "Qwen 3.8 모델, 외부 서버 데이터 전송 포착",
+      "lede": "Palisade Research는 Qwen 3.8 테스트 중 일부 요청이 자사 클라우드로 전송되는 현상을 확인했다.",
+      "why_now": "오픈 가중치 모델의 동작 방식 및 보안성 검토 필요성이 제기되었다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find",
+      "published_at": "2026-10-27T19:45:49.000Z"
+    },
+    {
+      "headline": "Liquid AI, 다중모달 모델 LFM3 기술 가이드 공개",
+      "lede": "Liquid AI가 특화 다중모달 AI 모델 구축을 위한 LFM3 플랫폼 가이드를 게시했다.",
+      "why_now": "비Transformer 계열 신경망의 다중모달 응용 확장을 제시한다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "published_at": "2026-10-27T17:16:52.000Z"
+    },
+    {
+      "headline": "OpenAI, 카케야 추측 등 학술 검증 결과 공유",
+      "lede": "OpenAI가 수학·물리학 명제에 대한 내부 모델 검증 결과를 연구 커뮤니티와 공유하고 검증을 요청했다.",
+      "why_now": "AI 모델의 난제 해결 능력을 외부 학계 전문가와 공동 검증하는 시도가 본격화되었다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "published_at": "2026-10-26T14:30:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "Survival LLM, 오프라인용 비상 AI 라이브러리",
+      "lede": "인터넷 연결 없이 로컬 컴퓨터에서 실행할 수 있는 비상용 AI 보조 및 지식 라이브러리 프로젝트이다.",
+      "why_now": "오프라인 환경에서의 독립적 로컬 LLM 활용 방안을 제공한다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.brangus.io/survival-llm",
+      "published_at": "2026-10-27T19:55:06.000Z"
+    },
+    {
+      "headline": "Novelty Bench, 연구 아이디어 독창성 평가",
+      "lede": "AllenAI와 허깅페이스가 LLM의 연구 아이디어 독창성 판단 능력을 평가하는 벤치마크를 공개했다.",
+      "why_now": "LLM을 연구 심사 및 아이디어 평가에 도입할 때의 신뢰성을 검증한다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/allenai/novelty-bench",
+      "published_at": "2026-10-27T16:12:42.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "DynaFlow: Learning Free-Form Multi-Agent Orchestration",
+      "lede": "고정된 협업 구조 대신 에이전트가 작업 요구사항에 따라 유연하게 실행 코드를 작성하도록 만드는 구조를 제안한다.",
+      "why_now": "다중 에이전트 협업 시 미리 정의된 작업 흐름이 갖는 단점을 극복하고자 한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.34467",
+      "published_at": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "headline": "Work Agents: Systems, Capabilities, and Optimization",
+      "lede": "단순 응답 생성을 넘어 디지털 업무를 실행하는 에이전트 구축을 위한 시스템적 관점을 다룬다.",
+      "why_now": "복잡한 툴과 애플리케이션을 가로지르는 작업 실행의 신뢰성을 확보하기 위한 논의이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.35845",
+      "published_at": "2026-10-27T00:00:00.000Z"
+    },
+    {
+      "headline": "Δτ-Bench: Pushing Agents Toward a Moving Capability",
+      "lede": "도구와 인터페이스가 계속해서 변화하는 환경에서 에이전트의 지속적 적응력을 측정하는 평가 도구이다.",
+      "why_now": "고정된 환경이 아닌 동적으로 변하는 실제 시스템에서의 에이전트 성능 측정이 요구된다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.34238",
+      "published_at": "2026-10-27T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "Ephemeral-AI-Lab/layerfs",
+      "lede": "복사 없이 동일 베이스 위에서 에이전트별 독립 가상 파일시스템을 생성하고 병합·체크포인트를 관리하는 라이브러리이다.",
+      "why_now": "다중 에이전트 병렬 작업 환경에서 파일 변경 이력을 격리하고 효율적으로 저장할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Ephemeral-AI-Lab/layerfs",
+      "published_at": "2026-10-28T00:23:49.000Z"
+    },
+    {
+      "headline": "nightly-labs/openbot",
+      "lede": "Codex, Claude, Grok 등 다양한 AI 에이전트를 전용 워크스페이스와 작업 큐로 관리하는 로컬 데스크톱 앱이다.",
+      "why_now": "에이전트 간 파일 공유와 브라우저 제어, 공동 작업을 하나의 로컬 인터페이스에서 처리한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/nightly-labs/openbot",
+      "published_at": "2026-10-27T23:47:12.000Z"
+    },
+    {
+      "headline": "mw00/project-maya",
+      "lede": "GLM-5.3-Flash, DeepSeek-V4.1-Flash 등 대형 MoE 모델을 단일/다중 GPU 환경에서 자체 호스팅하는 서버 엔진이다.",
+      "why_now": "OpenAI 및 Anthropic 호환 API와 양자화 도구를 내장해 로컬 추론 환경 구성을 돕는다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-10-27T23:26:00.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI 도입 후 업무 부담이 늘어난 현실 분석",
+    "lede": "생산성 향상을 도모했으나 오히려 처리해야 할 작업량이 증가하여 업무 과중이 발생하는 현상을 다룬 글이다.",
+    "why_now": "AI 도입이 개별 현장에서 노동 효율성에 미치는 실제적 역설을 제기한다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://oioannou.com/blog/ai-promised-less-work",
+    "published_at": "2026-10-27T11:08:14.000Z"
+  }
+}
