@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-29",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "구글 딥마인드가 새로운 에이전트 중심 프론티어 모델 Gemini 4 Carbon을 기습 공개했다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "구글 딥마인드, 'Gemini 4 Carbon' 공개",
+    "lede": "구글 딥마인드가 에이전트 워크플로우와 사이버 보안 대응에 특화된 플래그십 모델 Gemini 4 Carbon을 발표했다.",
+    "why_now": "이전 모델 공개 불과 2주 만에 주요 AI 벤치마크 1위를 바꾸며 새로 출시되었다.",
+    "kind": "announcement",
+    "source_name": "DeepMind",
+    "canonical_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+    "published_at": "2026-10-28T17:00:58.000Z",
+    "body": "Gemini 4 Carbon은 장기 에이전트 실행 및 방어적 사이버 보안 수명주기 전반을 처리하도록 설계되었다. Artificial Analysis Intelligence Index v5에서 59점을 기록하며 최고 순위를 경신했다. 구글은 향상된 인프라 효율성을 바탕으로 높은 추론 정밀도를 제공한다고 설명했다. 다만 가용 범위와 구체적인 API 요금 체계는 차차 적용될 예정이다.",
+    "also_see": [
+      {
+        "title": "Introducing Gemini 4 Carbon (Google Blog)",
+        "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, 서비스나우와 제휴 확대",
+      "lede": "OpenAI 모델과 에이전트가 서비스나우 엔터프라이즈 워크플로우 및 ChatGPT, Codex 연동으로 확대된다.",
+      "why_now": "기업용 자동화 플랫폼과의 에이전트 연동을 위한 대형 연합이 발표되었다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/openai-servicenow-partnership-expansion",
+      "published_at": "2026-10-28T13:15:00.000Z"
+    },
+    {
+      "headline": "구글 딥마인드, 'Genie 4' 발표",
+      "lede": "구글 딥마인드가 실시간 시뮬레이션 및 그래픽 생성을 지원하는 신규 월드 모델 Genie 4를 공개했다.",
+      "why_now": "에이전트 훈련과 인터랙티브 환경을 위한 상호작용형 월드 모델이 업데이트되었다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation",
+      "published_at": "2026-10-27T16:01:38.000Z"
+    },
+    {
+      "headline": "앤트로픽, 정부용 Claude 40% 할인",
+      "lede": "앤트로픽이 미국 연방총무청(GSA)과의 협조 아래 공공 기관 대상 Claude Enterprise 및 API 40% 할인 혜택을 제공한다.",
+      "why_now": "공공 부문 AI 도입 확대를 목표로 한 구체적 파트너십 조건이 공개되었다.",
+      "kind": "announcement",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/partnerships",
+      "published_at": "2026-10-27T00:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "엔비디아, Nemotron 3.5 Transcribe 공개",
+      "lede": "엔비디아가 프롬프트 제어와 조율이 가능한 오픈 다국어 음성 인식 모델 및 Granary v2 유틸리티를 배포했다.",
+      "why_now": "허깅페이스를 통해 실시간 맞춤 음성 처리가 가능한 오픈 모델을 이용할 수 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "published_at": "2026-10-28T14:58:17.000Z"
+    },
+    {
+      "headline": "Liquid AI, LFM3 오픈 모델 출시",
+      "lede": "Liquid AI가 영역 특화 멀티모달 에이전트 구축을 위한 LFM3 가중치를 커뮤니티에 공개했다.",
+      "why_now": "비전-언어 통합 모델을 직접 커스텀할 수 있는 기반 모델 세트가 추가되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/LiquidAI/lfm3",
+      "published_at": "2026-10-27T17:16:52.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Multiscale Policy Optimization for Long-Horizon LLM Agents",
+      "lede": "장기 호흡 LLM 에이전트의 피드백 불균형을 줄이기 위해 턴 단위 보상과 토큰 단위 강화를 결합한 최적화 기법을 제시한다.",
+      "why_now": "긴 단계의 에이전트 수행 시 발생하는 신호 노이즈와 신뢰 할당 문제를 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.35013",
+      "published_at": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "headline": "ChronoReplay: One Answer Interface Is Not Enough for Streaming Spatial Intelligence",
+      "lede": "공간 VLM을 단일 단답형 출력에만 맞추어 학습할 경우 연속적 거리 및 기하 정보 보존력이 하락한다는 점을 지적한다.",
+      "why_now": "스트리밍 시각 지능 모델의 사후 학습 구조적 한계를 수치로 측정했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.34283",
+      "published_at": "2026-10-28T00:00:00.000Z"
+    },
+    {
+      "headline": "Memory Tax: Dissecting the Net Value of Agent Memory",
+      "lede": "복잡한 에이전트 전용 메모리 시스템이 전원 검색(RAG) 대비 실질적 이점이 적거나 오버헤드가 크다는 점을 분석한다.",
+      "why_now": "장기 에이전트 구축 시 메모리 설계 방식의 실질 유효성을 종합 평가했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.34073",
+      "published_at": "2026-10-28T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "Ephemeral-AI-Lab/layerfs",
+      "lede": "공유된 기반 기록을 복사하지 않고 각 에이전트에게 휘발성 작업 공간을 제공하는 병렬 파일시스템 라이브러리다.",
+      "why_now": "멀티 에이전트 작업 공간의 체크포인트 생성과 병합을 파일 수준에서 처리한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Ephemeral-AI-Lab/layerfs",
+      "published_at": "2026-10-28T20:37:28.000Z"
+    },
+    {
+      "headline": "mw00/project-maya",
+      "lede": "GLM-5.3-Flash, DeepSeek-V4.1, MiniMax 등 대형 MoE 모델을 사설 GPU 인프라에서 구동하는 추론 엔진이다.",
+      "why_now": "오픈 대형 MoE 모델을 단일/다중 카드로 자체 서비스하기 위한 도구다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-10-28T21:10:11.000Z"
+    },
+    {
+      "headline": "davidondrej/cloudroom",
+      "lede": "Claude Code, Codex, Pi 등을 클라우드 독립 환경에서 실행하도록 지원하는 Rust 기반 오픈소스 런타임이다.",
+      "why_now": "코딩 에이전트용 원격 실행 샌드박스를 직접 호스팅할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/davidondrej/cloudroom",
+      "published_at": "2026-10-29T00:27:11.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "앤트로픽, 미 SEC에 S-1 보고서 제출",
+    "lede": "앤트로픽이 보통주 상장을 위한 증권등록신청서(Form S-1)를 미국 증권거래위원회에 제출했다.",
+    "why_now": "주요 AI 기업의 기업공개(IPO) 추진 수순이 공식 확인되었다.",
+    "kind": "announcement",
+    "source_name": "Anthropic",
+    "canonical_url": "https://www.anthropic.com/news/s1-sec",
+    "published_at": "2026-10-27T00:00:00.000Z"
+  }
+}
