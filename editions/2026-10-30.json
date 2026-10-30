@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-30",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "구글 딥마인드의 차세대 프론티어 모델 Gemini 4 Carbon 발표와 미스트랄 AI의 대형 오픈 코딩 모델 출시가 아침을 연다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "구글 딥마인드, 차세대 프론티어 모델 Gemini 4 Carbon 공개",
+    "lede": "구글 딥마인드가 차세대 프론티어 AI 모델인 Gemini 4 Carbon을 공개하며 인텔리전스 인덱스 1위에 올랐다.",
+    "why_now": "Artificial Analysis Intelligence Index v5 벤치마크 종합 1위를 차지하며 최신 성능 기준을 새로 설정했다.",
+    "kind": "announcement",
+    "source_name": "DeepMind",
+    "canonical_url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model",
+    "published_at": "2026-10-28T17:00:58.000Z",
+    "body": "구글 딥마인드가 플래그십 AI 모델 시리즈의 신작인 Gemini 4 Carbon을 정식 발표했다. 공개 직후 진행된 Artificial Analysis 인덱스 v5 평가에서 기존 대표 프론티어 모델들을 제치고 선두를 차지했다. 추론 능력 및 멀티모달 처리 효율을 다방면으로 고도화하여 최신 성능 지표 전반을 갱신했다.",
+    "also_see": [
+      {
+        "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+        "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, 모델 가이드라인 개정 및 에이전트 미스얼라인먼트 감지 체계 공개",
+      "lede": "OpenAI가 핵심 가치 5가지를 담은 Model Spec 개정판을 발표하고, 자율 에이전트의 오작동 및 이탈을 모니터링하는 실시간 레이어 감지 시스템을 공개했다.",
+      "why_now": "에이전트 제어권 이탈 및 오작동 위험성이 높아짐에 따라 실시간 통제 체계를 명시적으로 제시했다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/updated-model-spec",
+      "published_at": "2026-10-29T17:00:00.000Z"
+    },
+    {
+      "headline": "미스트랄 AI, 1조 파라미터 오픈 코딩 모델 Mistral Large 4 출시",
+      "lede": "미스트랄 AI가 유럽 환경에서 자체 훈련한 오픈 가중치 모델 Mistral Large 4(코드명 Le Chonk)를 허깅페이스에 공개했다.",
+      "why_now": "오픈소스 생태계에서 독자적인 코딩 특화 모델 가중치를 전격 개방했다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/mistral-large4",
+      "published_at": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "headline": "OpenAI, 유료 플랜 사용량 제한 2배 상향 및 API 크레딧 혜택 추가",
+      "lede": "OpenAI가 Pro 요금제를 포함한 유료 플랜의 이용 한도를 기존 대비 2배로 확대하고 구독 대상 API 크레딧을 연동 지원한다.",
+      "why_now": "사용자 피드백 반영과 시장 경쟁 대응을 위해 컴퓨팅 할당량을 전격 늘렸다.",
+      "kind": "announcement",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up",
+      "published_at": "2026-10-29T20:01:27.000Z"
+    },
+    {
+      "headline": "애플 플랫폼용 오픈 모델 AnySpeechRecognizer 및 AnyDecisionModel 공개",
+      "lede": "애플 온디바이스 환경에 특화된 오픈 음성 인식 모델 및 의사결정 모델이 허깅페이스를 통해 배포되었다.",
+      "why_now": "애플 생태계 내 경량 에이전트 및 음성 기능을 빌드할 수 있는 오픈 가중치가 확장되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/anydecisionmodel",
+      "published_at": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "headline": "IBM, 모듈식 패치 방식을 적용한 Granite Switch 4.1.1 발표",
+      "lede": "IBM이 일반 소프트웨어 업데이트처럼 모델을 유연하게 교체 및 업데이트할 수 있는 Granite Switch 4.1.1을 공개했다.",
+      "why_now": "기업용 LLM 운용 과정에서 재훈련 부담을 줄이는 모듈형 파이프라인 방식을 제시했다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "published_at": "2026-10-29T13:37:07.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "엔비디아, 프롬프트 조정 가능한 Nemotron 3.5 Transcribe 공개",
+      "lede": "엔비디아와 허깅페이스가 프롬프트 제어로 도메인 적응이 가능한 다국어 음성 인식 모델 Nemotron 3.5 Transcribe와 Granary v2를 선보였다.",
+      "why_now": "단순 음성 전사를 넘어 사용자 프롬프트를 수용하는 제어형 음성 파이프라인 도구가 배포되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+      "published_at": "2026-10-28T14:58:17.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Efficient Streaming Audio-Visual Target Speaker Extraction for Real-World Acoustic Scenes",
+      "lede": "시각 및 음향 정보를 결합해 복잡한 소음과 잔향이 존재하는 실제 환경에서도 저지연으로 특정 화자의 음성을 추출하는 스트리밍 구조를 제안한다.",
+      "why_now": "실시간 반응이 중요한 실생활 음성 에이전트 서비스의 지연 시간 및 잡음 제어 문제를 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.32749",
+      "published_at": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "headline": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+      "lede": "다각도 참조 이미지를 입력받아 시점 이동 시 가려진 영역까지 일관되게 생성하는 피사체 유지 비디오 생성 기법을 제시한다.",
+      "why_now": "단일 이미지 기반 비디오 생성이 가진 시점 변화 시 피사체 붕괴 한계를 다각도 참조 프레임워크로 해결한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.35684",
+      "published_at": "2026-10-29T00:00:00.000Z"
+    },
+    {
+      "headline": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "lede": "로봇 정책 평가 시 비용이 큰 시뮬레이션 없이 비전-언어-행동 표현의 정렬 정도만으로 오프라인 성능을 예측하는 평가 프록시를 제안한다.",
+      "why_now": "엠보디드 AI 모델의 오프라인 롤아웃 평가 비용을 줄일 수 있는 메트릭 방안을 제시한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.31670",
+      "published_at": "2026-10-29T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "mw00/project-maya",
+      "lede": "GLM-5.3-Flash, DeepSeek-V4.1-Flash 등 대형 MoE 모델을 단일/다중 GPU 환경에서 자체 호스팅할 수 있는 엔진 및 대시보드를 제공한다.",
+      "why_now": "수천억 파라미터급 오픈 MoE 모델을 사설 인프라에서 직접 운용하기 위한 호환 API 서빙 툴셋이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-10-30T00:02:08.000Z"
+    },
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code, Codex 등 개발 에이전트의 터미널 상태를 웹 및 모바일 브라우저에서 원격으로 모니터링하고 제어하는 인터페이스다.",
+      "why_now": "백그라운드에서 동작하는 여러 자율 개발 에이전트를 모바일과 웹에서 통합 관제하도록 돕는다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-10-30T00:46:44.000Z"
+    },
+    {
+      "headline": "soumatheusgomes/vibe-coding-toolkit",
+      "lede": "실제 개발 환경에서 검증된 Claude Code 플러그인, 서브에이전트 오케스트레이션 및 코드 품질 검증 프롬프트 툴킷을 제공한다.",
+      "why_now": "에이전트 기반 자동화 코딩 흐름을 구축할 때 활용할 수 있는 모듈화된 파이프라인을 모아두었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/soumatheusgomes/vibe-coding-toolkit",
+      "published_at": "2026-10-30T00:45:50.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "앤트로픽, 전문가들이 AI 에이전트의 무작위 의견을 본인 판단으로 신뢰함을 확인",
+    "lede": "앤트로픽 연구진이 전문가 대상 실증 결과, 무작위로 설정된 AI 에이전트의 선호도를 전문가들이 추종하고 자신의 결정으로 인식함을 밝혔다.",
+    "why_now": "AI 에이전트 수용 과정에서 인간 전문가가 자율적 주관을 잃는 편향 위험을 실험으로 규명했다.",
+    "kind": "analysis",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds",
+    "published_at": "2026-10-29T19:33:37.000Z"
+  }
+}
