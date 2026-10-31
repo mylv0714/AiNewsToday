@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-31",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI의 웹 데이터 수집 신호 표준 지원과 모델 안전 지침 개정이 발표되었고, 악성 확장 프로그램 이슈와 다양한 개발자 도구가 공유되었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, 웹사이트 AI 학습 거부 신호 통합 지원",
+    "lede": "OpenAI가 웹사이트 운영자가 AI 모델 학습 거부 의사를 통합하여 표시할 수 있도록 공통 robots.txt 규약을 존중하기로 밝혔다.",
+    "why_now": "웹 데이터 수집 투명성에 대한 요구가 커지는 상황에서 주요 AI 제공업체 간 공통 수집 신호 적용이 확산되고 있다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+    "published_at": "2026-10-30T09:30:00.000Z",
+    "body": "웹사이트 제작자는 이제 개별 모델별 설정 외에도 공유된 robots.txt 신호를 통해 AI 학습 데이터 수집 참여 여부를 제어할 수 있다. 그동안 서비스별로 파편화되어 있던 웹 크롤링 거부 수단을 일원화하려는 목적이다. OpenAI는 파트너 제공업체들과 함께 해당 거부 의사를 준수할 방침이다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "Cursor 마켓플레이스 내 악성 Claude Code 확장 프로그램 발견",
+      "lede": "Cursor 마켓플레이스에 등록된 위조 Claude Code 확장 프로그램이 원격 제어 및 데이터 탈취를 시도한 정황이 확인되어 마켓플레이스가 일시 중단되었다.",
+      "why_now": "약 11시간 동안 노출되며 최대 5,000명의 사용자가 영향을 받았다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/malicious-claude-code-extension-in-cursors-marketplace-attempted-remote-access-and-data-theft",
+      "published_at": "2026-10-30T18:16:10.000Z"
+    },
+    {
+      "headline": "OpenAI, 모델 행동 지침 'Model Spec' 업데이트",
+      "lede": "OpenAI가 AI 행동 기준을 정립하는 Model Spec을 개정하여 인간의 의도 파악과 수정 가능성 등 5가지 핵심 가치를 재정의했다.",
+      "why_now": "복잡도가 높아지는 최신 모델의 제어 가능성과 신뢰성을 확보하기 위한 체계적인 가이드라인을 제시한다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/updated-model-spec",
+      "published_at": "2026-10-29T17:00:00.000Z"
+    },
+    {
+      "headline": "AI 투자 비용 증가 우려에 기술주 하락세",
+      "lede": "빅테크 기업들의 인프라 및 AI 설비 투자 비용 지속으로 인한 주가 하락세가 시장 전반에 나타났다.",
+      "why_now": "주요 기업들의 실적 발표 이후 수익성 회수 시점에 대한 의문이 시장 가격에 반영되었다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo",
+      "published_at": "2026-10-30T16:13:02.000Z"
+    },
+    {
+      "headline": "Microsoft Research, 합성 데이터 기반 Copilot 평가 체계 공개",
+      "lede": "마이크로소프트 연구진이 기업 민감 데이터를 보호하면서 엔터프라이즈 환경의 복잡성을 측정하는 합성 데이터 평가 방식을 발표했다.",
+      "why_now": "실제 민감 정보를 직접 활용하지 않고도 Copilot의 성능과 안전성을 평가할 수 있는 대안이다.",
+      "kind": "announcement",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence",
+      "published_at": "2026-10-30T13:05:28.000Z"
+    },
+    {
+      "headline": "OpenAI, 청소년 보호 강화 및 안전 보고서 공개",
+      "lede": "OpenAI가 ChatGPT 내 폭력 관련 안전장치를 강화하고 조기 개입 조치 및 안전 보고서를 공개했다.",
+      "why_now": "모델 상용화 확대에 따라 사회적 안전 기준에 맞춘 보호 대책을 내놓았다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
+      "published_at": "2026-10-30T09:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "Granite Switch 4.1.1 릴리스",
+      "lede": "IBM이 일반 소프트웨어 업데이트처럼 오픈소스 모델의 효율적 전환 및 배포를 지원하는 Granite Switch 4.1.1을 공개했다.",
+      "why_now": "다양한 크기와 기능의 오픈소스 모델을 워크플로우 내에서 유연하게 관리할 수 있도록 돕는다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "published_at": "2026-10-29T13:37:07.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Intrinsic Distribution Matching",
+      "lede": "score 차이를 활용해 생성 분포를 목표 참조 분포에 맞추는 Distribution Matching Distillation 개선 기법을 제시한다.",
+      "why_now": "소수 단계 적은 텍스트-이미지 생성 모델에서 세부 묘사의 품질을 안정적으로 향상시키기 위함이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.39633",
+      "published_at": "2026-10-30T00:00:00.000Z"
+    },
+    {
+      "headline": "A-RSI: Adaptive Task Refresh for Zero-Data Multimodal Self-Improvement",
+      "lede": "다중 모달 모델의 재귀적 자기 개선 과정에서 과거 경험의 유효성을 측정하고 적절한 시점에 새로운 데이터/과제를 도입하는 프레임워크를 정립했다.",
+      "why_now": "자율적인 학습 데이터 생성 및 전환 타이밍을 최적화하여 효과적인 성능 향상을 도모한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.38568",
+      "published_at": "2026-10-30T00:00:00.000Z"
+    },
+    {
+      "headline": "Your Benchmark Is an Empirical Measure Over Difficulty",
+      "lede": "벤치마크 평가를 문제 난이도 측도로 정형화하고 난이도 분포 왜곡으로 발생하는 평가 오류 패턴을 분석한다.",
+      "why_now": "실제 평가 데이터셋의 난이도 치우침 현상과 이로 인한 모델 성능 착시를 극복하기 위함이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.29927",
+      "published_at": "2026-10-30T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "autonomous-ai/openharness",
+      "lede": "코딩 에이전트부터 CAD, 회로 설계, 로봇 제어까지 멀티 디바이스 환경에서 통합 관제하는 오케스트레이션 프레임워크다.",
+      "why_now": "에이전트의 수행 영역을 소프트웨어 개발을 넘어 다양한 이종 작업으로 넓히는 도구를 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/autonomous-ai/openharness",
+      "published_at": "2026-10-31T00:42:09.000Z"
+    },
+    {
+      "headline": "scenario-labs/skills",
+      "lede": "이미지, 비디오, 3D 생성 시 모델 선택과 비용 예측 및 브랜드 시각 일관성을 다루는 AI 에이전트용 스킬 모음집이다.",
+      "why_now": "Blender, Maya, Unreal 엔진 등 상용 툴과의 에이전트 연동을 돕는 커넥터를 포함한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/scenario-labs/skills",
+      "published_at": "2026-10-30T23:53:34.000Z"
+    },
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code, Codex 등 다중 에이전트 터미널 패널을 웹과 모바일 환경에서 원격 제어할 수 있는 오픈소스 UI 프로젝트다.",
+      "why_now": "SSH 원격 서버 연동 및 푸시 알림으로 백그라운드 코딩 에이전트의 작업 상황을 용이하게 모니터링한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-10-30T23:09:31.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI 도입이 SRE 숙련도에 미치는 영향 논란",
+    "lede": "엔지니어링 현장에서 생성형 AI의 도입이 SRE(시스템 신뢰성 엔지니어)를 대체하기보다 기술적 숙련도를 낮추는 결과를 낳고 있다는 분석이 제기되었다.",
+    "why_now": "자동화 도구 확산에 따라 현장 인력의 실무 역량 유지 및 교육 방식에 관한 논의가 이어지고 있다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://newsletter.signoz.io/p/ai-isnt-replacing-sres-its-deskilling",
+    "published_at": "2026-10-30T15:52:18.000Z"
+  }
+}
