@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-03",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "Anthropic의 수정 S-1 실적 공개와 중국의 AI 수출 통제 발표 등 주요 변화를 정돈했다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "Anthropic, 수정 S-1 제출하며 3분기 실적 공개",
+    "lede": "Anthropic이 상장을 앞두고 수정된 S-1 신고서를 제출하며 3분기 170억 달러의 매출과 대규모 손실 지표를 공개했다.",
+    "why_now": "상장을 준비하는 대표 AI 기업의 재무 상태와 장기 서비스 약정 규모가 공식 서류로 구체화되었기 때문이다.",
+    "kind": "announcement",
+    "source_name": "CNBC",
+    "canonical_url": "https://www.cnbc.com/2026/11/02/anthropic-ant-s-1-quarter-financials.html",
+    "published_at": "2026-11-02T14:38:45.000Z",
+    "body": "Anthropic이 미국 증권거래위원회에 제출한 수정 S-1 서류에 따르면 3분기 매출은 170억 달러를 기록했다. 연구개발과 대규모 컴퓨팅 인프라 투자가 이어지며 영업 손실 역시 함께 늘어났다. 기업 간 장기 컴퓨팅 계약이 수천억 달러 규모로 확장되는 상황에서 이번 공개는 프론티어 AI 기업의 수익 구조와 비용 부담을 명확히 보여준다.",
+    "also_see": [
+      {
+        "title": "Anthropic grows revenue twelvefold but posts $23 billion loss",
+        "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, 전력망 보호 Grid Protectors 발표",
+      "lede": "OpenAI가 컴퓨팅 캠퍼스 구축 시 지역 전력망의 안정성을 유지하고 전기 요금 상승을 방지하기 위한 프로그램을 시작했다.",
+      "why_now": "AI 데이터센터 급증으로 인한 전력 공급 부담을 완화하기 위해 전력 회사와의 직접 협력 모델을 제시했기 때문이다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/grid-protectors-program",
+      "published_at": "2026-11-02T15:00:00.000Z"
+    },
+    {
+      "headline": "중국 상무부, 첨단 AI 수출 통제 규정 발표",
+      "lede": "중국 상무부가 Announcement No. 48을 통해 프론티어 AI 기술 및 관련 소프트웨어의 해외 수출을 통제하는 규정을 고시했다.",
+      "why_now": "중국 정부가 프론티어 인공지능 기술의 국외 유출을 제한하는 공식 규제 장치를 처음으로 마련했기 때문이다.",
+      "kind": "announcement",
+      "source_name": "Cloud Security Alliance",
+      "canonical_url": "https://labs.cloudsecurityalliance.org/research/csa-research-note-china-ai-export-controls-announcement-48-2",
+      "published_at": "2026-11-02T07:27:28.000Z"
+    },
+    {
+      "headline": "OpenAI, GPT-Rosalind-6 시스템 카드 보충안 공개",
+      "lede": "OpenAI가 배포 안전 웹사이트를 통해 GPT-Rosalind-6 모델의 시스템 카드 추가 문서를 공개했다.",
+      "why_now": "최신 프론티어 모델의 안전성 평가 결과 및 위험 완화 조치 사항이 지속적으로 업데이트되고 있기 때문이다.",
+      "kind": "announcement",
+      "source_name": "OpenAI Deployment Safety",
+      "canonical_url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+      "published_at": "2026-11-02T14:44:02.000Z"
+    },
+    {
+      "headline": "LongCat-2.5, 멀티모달 에이전트 전용 모델 발표",
+      "lede": "에이전트 작업을 위해 원시 멀티모달 처리 능력을 강화한 LongCat-2.5 모델이 블로그를 통해 공개되었다.",
+      "why_now": "텍스트와 시각 정보를 정교하게 결합하여 복잡한 에이전트 업무를 처리하는 모델 개발이 이어지고 있기 때문이다.",
+      "kind": "release",
+      "source_name": "LongCat",
+      "canonical_url": "https://longcat.ai/blog/longcat-2.5",
+      "published_at": "2026-11-02T15:00:26.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "cheap-ag, Claude Code 비용 절감 MCP 서버",
+      "lede": "Claude 사용 시 비용이 저렴한 모델로 코드 생성과 테스트를 처리하여 API 사용 한도를 절약하는 MCP 서버다.",
+      "why_now": "에이전틱 코딩 도구의 토큰 소비량을 효율적으로 관리하고자 하는 개발자의 니즈를 반영했기 때문이다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/muaaz9329/cheap-ag",
+      "published_at": "2026-11-02T15:30:15.000Z"
+    },
+    {
+      "headline": "scenario-labs/skills, 에이전트용 에셋 생성 도구",
+      "lede": "AI 에이전트가 캐릭터 일관성을 유지하며 이미지, 비디오, 3D 에셋을 생성하도록 돕는 MCP 스킬 모음이다.",
+      "why_now": "에이전트를 3D 및 미디어 제작 소프트웨어 워크플로우에 직접 연동하기 위한 도구가 출시되었기 때문이다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/scenario-labs/skills",
+      "published_at": "2026-11-02T14:45:33.000Z"
+    },
+    {
+      "headline": "AnyModelBot, 70개 이상 모델 지원 로컬 봇",
+      "lede": "GPT, Claude, Gemini, DeepSeek 등 다양한 모델을 연결하여 사용 가능한 로컬 중심 인터페이스 도구다.",
+      "why_now": "단일 API 키 기반으로 여러 모델을 통합 관리하는 에이전트 런타임에 대한 수요가 높아지고 있기 때문이다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/modelflare-ai/AnyModelBot",
+      "published_at": "2026-11-02T12:31:13.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "R^2Orch: Recursive Self-Improvement for Agent Orchestration via Self-Play within a Skill-Internalization Loop",
+      "lede": "수동 커리큘럼 없이 자기 플레이와 스킬 내재화 루프를 통해 에이전트 오케스트레이션을 재귀적으로 자가 개선하는 기법을 제안한다.",
+      "why_now": "에이전트 오케스트레이션 학습 시 발생하는 성능 정체와 불확실한 평가 신호 문제를 해결하기 위함이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.22740",
+      "published_at": "2026-11-02T00:00:00.000Z"
+    },
+    {
+      "headline": "FrameForge: Harnessing Priors of Video Foundation Models for Unified Image Generation",
+      "lede": "비디오 파운데이션 모델의 시간적 변환 사전 지식을 활용해 조건부 이미지 생성을 수행하는 FrameForge를 제시한다.",
+      "why_now": "고정된 시간 위치에 조건이 할당되던 기존 비디오 모델 기반 이미지 생성 방식의 한계를 개선했기 때문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.36545",
+      "published_at": "2026-11-02T00:00:00.000Z"
+    },
+    {
+      "headline": "Does Scaling Toward AGI Depend on What System-1 Lets System-2 Execute?",
+      "lede": "자원 집중적인 System-2 추론 모델과 경량 예측 모델인 System-1을 공동 설계하여 AGI 확장 효율성을 검토한다.",
+      "why_now": "단순 연산 자원 증대 위주의 에이전트 확장 한계를 효율적인 연산 제어 아키텍처로 극복하고자 하기 때문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.39497",
+      "published_at": "2026-11-02T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "mw00/project-maya",
+      "lede": "단일 카드부터 16개 GPU까지 대형 MoE 모델을 로컬 환경에서 구동하는 추론 엔진 및 서버다.",
+      "why_now": "GLM, DeepSeek 등 최근 공개된 대형 MoE 모델을 프라이빗 환경에서 효율적으로 실행하는 소프트웨어가 공개되었기 때문이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-11-02T16:35:08.000Z"
+    },
+    {
+      "headline": "wangzan101/Mika",
+      "lede": "안드로이드 기기에서 앱과 웹을 자동 조작하여 사용자의 업무를 대신 수행하는 온디바이스 에이전트다.",
+      "why_now": "모바일 환경에서 직접 화면을 인식하고 앱을 실행하는 온디바이스 자동화 구현체에 관심이 모이고 있기 때문이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/wangzan101/Mika",
+      "published_at": "2026-11-02T15:17:00.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "아폴로 경제학자, 기업의 AI 재무적 성과 부재 지적",
+    "lede": "아폴로 수석 경제학자가 대다수 기업이 AI 기술 도입을 통해 실질적인 재무적 이익을 얻지 못하고 있다고 분석했다.",
+    "why_now": "막대한 AI 자본 지출 대비 기업 현장의 실질 수익성에 대한 검증 시각이 늘어나고 있기 때문이다.",
+    "kind": "analysis",
+    "source_name": "TechCrunch",
+    "canonical_url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+    "published_at": "2026-11-01T22:10:45.000Z"
+  }
+}
