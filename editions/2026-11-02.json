@@ -1,0 +1,123 @@
+{
+  "date": "2026-11-02",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "주요 프론티어 모델의 대형 발표는 없었으며, 악성코드의 LLM 활용 보안 분석과 대형 오픈소스 모델 추론 툴 위주로 골라 두었다.",
+  "quiet_night": true,
+  "hero": null,
+  "overnight": [
+    {
+      "headline": "악성코드가 LLM으로 피해자 자산 평가",
+      "lede": "Volta 악성코드가 탈취한 데이터의 가치를 자동 평가하고 공격 우선순위를 정하는 데 LLM을 결합한 정황이 확인되었다.",
+      "why_now": "시스코 탈로스 연구진이 사이버 공격 프로세스 자동화에 생성형 AI가 직접 통합된 실사례를 공개했다.",
+      "kind": "analysis",
+      "source_name": "Cisco Talos",
+      "canonical_url": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer",
+      "published_at": "2026-10-31T14:29:03.000Z"
+    },
+    {
+      "headline": "OpenAI, 기기·결제 카드당 구독 계정 제한",
+      "lede": "OpenAI가 동일한 디바이스 및 결제 수단에서 등록해 사용하는 유료 ChatGPT 계정 수에 제한을 두기 시작했다.",
+      "why_now": "무제한 대화 및 API 어뷰징을 우회하려는 다중 계정 편법 이용을 차단하기 위한 조치가 확인되었다.",
+      "kind": "announcement",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage",
+      "published_at": "2026-11-01T12:05:04.000Z"
+    },
+    {
+      "headline": "기업 AI 투자의 재무적 성과 부재 지적",
+      "lede": "아폴로 글로벌 매니지먼트 수석 경제학자가 대부분의 기업이 AI 도입으로 명확한 재무적 수익을 얻지 못하고 있다고 분석했다.",
+      "why_now": "빅테크의 지속적인 설비 투자 속에서 일반 기업의 실제 ROI 창출 한계가 논쟁으로 떠올랐다.",
+      "kind": "analysis",
+      "source_name": "TechCrunch",
+      "canonical_url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist",
+      "published_at": "2026-11-01T22:10:45.000Z"
+    },
+    {
+      "headline": "Adobe, 포토샵 도구 조작용 에이전트 실험",
+      "lede": "Adobe Research와 UC 샌디에이고 연구진이 포토샵의 전문 편집 도구를 단계별로 제어하는 EditAgent를 선보였다.",
+      "why_now": "단순 이미지 생성을 넘어 기존 그래픽 툴의 정교한 하위 전용 기능을 에이전트가 다루는 연구 결과가 나와 주목받았다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would",
+      "published_at": "2026-11-01T14:56:44.000Z"
+    },
+    {
+      "headline": "Anthropic 미공개 모델 유출 루머 확산",
+      "lede": "Hugging Face에 Anthropic의 차세대 미공개 가중치라는 주장과 함께 파일이 등록되어 커뮤니티의 진위 여부 논쟁이 일었다.",
+      "why_now": "공식 발표나 확증 없이 익명 저장소를 통해 프론티어 체크포인트 유출 소문이 확산했다.",
+      "kind": "rumor",
+      "source_name": "Hacker News",
+      "canonical_url": "https://news.ycombinator.com/item?id=50326727",
+      "published_at": "2026-11-01T15:45:10.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+      "lede": "서로 다른 모달리티 모델이 스케일링에 따라 동일한 세계 표현으로 수렴한다는 플라톤 표현 가설을 수식으로 정리하고 JEPA 기반 구조로 강화했다.",
+      "why_now": "얀 르쿤 연구진이 직관적 관찰에 머물던 모달리티 간 수렴 가설을 이론적 정리로 확장했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.39302",
+      "published_at": "2026-10-30T00:00:00.000Z"
+    },
+    {
+      "headline": "Look Only When Needed: Certificate-Guided Visual Routing for Efficient Diffusion VLMs",
+      "lede": "디퓨전 시각-언어 모델에서 매 디노이징 단계마다 시각 토큰 전체를 반복 처리하는 연산 비효율을 줄이는 가이디드 루팅 방식을 제안했다.",
+      "why_now": "시각 토큰이 연산 자원의 대부분을 점유하는 문제를 단계별 선택적 접근으로 개선했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.36671",
+      "published_at": "2026-10-30T00:00:00.000Z"
+    },
+    {
+      "headline": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+      "lede": "잠재 3D 가우시안 메모리를 도입해 상호작용형 월드 모델의 공간 일관성을 실시간으로 유지하는 연구를 공개했다.",
+      "why_now": "장시간 생성 시 메모리 연산량이 급증하던 한계를 효율적인 메모리 구조로 해결했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.40614",
+      "published_at": "2026-10-30T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "mw00/project-maya",
+      "lede": "GLM-5.3, DeepSeek-V4.1, MiniMax-M3.1 등 대형 MoE 오픈 모델을 단일 카드부터 multi-GPU 환경까지 로컬에서 추론하는 오픈소스 엔진.",
+      "why_now": "최신 300B~700B 수치 수준의 오픈소스 프론티어 모델을 사설 GPU 인프라에서 호스팅할 수 있는 대안이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-11-02T00:20:09.000Z"
+    },
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code, Codex 및 커맨드라인 터미널 에이전트를 웹과 모바일 앱에서 모니터링하고 제어하는 오픈소스 인터페이스.",
+      "why_now": "터미널 중심의 코딩 에이전트 구동 상태를 디바이스 제약 없이 모바일과 브라우저로 가져온다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-02T00:35:57.000Z"
+    },
+    {
+      "headline": "kgoedecke/doop",
+      "lede": "인간과 AI 에이전트가 동일한 캔버스에서 실시간으로 협업 디자인을 수행할 수 있도록 MCP를 내장한 협업 툴.",
+      "why_now": "에이전트 통신 표준인 MCP를 디자인 인터페이스 및 캔버스 작업 환경에 적용한 구현체다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kgoedecke/doop",
+      "published_at": "2026-11-01T21:14:48.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "마인크래프트 AI 에이전트의 관료주의",
+    "lede": "마인크래프트 세계에 투입된 50개 팀 규모의 AI 에이전트 군집이 문명 건설 대신 복잡한 상호 관료 절차에 갇혀 실패한 실험 결과가 전달되었다.",
+    "why_now": "에이전트 수가 늘어날 때 내부 조율 비효율이 작업 생산성보다 빠르게 증가함을 보여주는 흥미로운 사례다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+    "published_at": "2026-11-01T13:47:24.000Z"
+  }
+}
