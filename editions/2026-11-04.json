@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-04",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "개발 도구의 무단 AI 기능 적용 논란과 함께 오픈소스 에이전트 및 하드웨어 공학용 AI 확장 발표가 이어진 날이다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "Postman, AI 플러그인 무단 설치 및 데이터 공유 논란",
+    "lede": "API 개발 도구 Postman이 사용자 승인 없이 AI 플러그인을 자동 설치하고 API 요청 데이터를 수집하려 했다는 의혹이 제기되었다.",
+    "why_now": "개발자 커뮤니티에서 해당 동작을 포착한 이슈가 작성되어 폭넓은 반발이 일어났다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+    "published_at": "2026-11-03T17:22:37.000Z",
+    "body": "Postman 업데이트 과정에서 일부 AI 플러그인이 암묵적으로 설치되고 데이터 공유 설정이 변경되는 현상이 관측되었다. 이로 인해 사내 민감한 API 엔드포인트와 인증 토큰이 외부로 전송될 수 있다는 보안 우려가 커졌다. 엄격한 데이터 규정을 적용받는 개발팀을 중심으로 불만이 분출하며 대체 도구 전환 움직임도 관측된다. 보안 리스크를 줄이기 위해 자동 업데이트 차단 및 계정 권한 재점검이 권장된다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, CAD 및 PCB 설계 등 물리 공학으로 Codex 적용 확대",
+      "lede": "OpenAI가 ChatGPT와 Codex를 하드웨어, PCB 설계, 시뮬레이션 등 물리 제품 개발 워크플로에 적용하는 방안을 공유했다.",
+      "why_now": "소프트웨어 작성을 넘어 물리적 제품 엔지니어링 분야로 AI 에이전트 범위를 넓히고 있다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "published_at": "2026-11-03T12:00:00.000Z"
+    },
+    {
+      "headline": "OpenAI, 대규모 코딩 트래픽 처리용 Git 백엔드 Pando 구축",
+      "lede": "OpenAI가 AI 에이전트 기반 코드 생성 급증으로 발생하는 버전 관리 병목을 해결하기 위해 Git 호환 백엔드 Pando를 도입했다.",
+      "why_now": "Codex 사용량 증가에 대응하여 기존 Git 서버 구조의 한계를 직접 재설계했다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/scaling-git-at-openai",
+      "published_at": "2026-11-02T15:30:00.000Z"
+    },
+    {
+      "headline": "구글 딥마인드, Antigravity 기반 화학정보학 에이전트 도구 공개",
+      "lede": "구글 딥마인드가 화합물 탐색 및 분자 구조 제안을 자동화하는 화학정보학 스킬과 워크플로를 발표했다.",
+      "why_now": "신약 개발 자율화 실험의 일환으로 바이오 분야 전문 도구를 선보였다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+      "published_at": "2026-11-03T17:01:49.000Z"
+    },
+    {
+      "headline": "구글, AI 기능 차단 학교 대상 검색 서비스 중단 고지",
+      "lede": "구글이 학내 AI 기능 이용을 제한하는 교육 기관을 대상으로 구글 검색 서비스 제공을 중단하겠다는 방침을 전달했다.",
+      "why_now": "교육 현장의 AI 통제 정책과 플랫폼 기업의 서비스 제공 조건이 충돌하고 있다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+      "published_at": "2026-11-03T15:25:47.000Z"
+    },
+    {
+      "headline": "구글 딥마인드 연구진, AI 비판 금지 조항 철회 요구",
+      "lede": "구글 딥마인드 직원들이 퇴사 후에도 회사 AI 사업을 비판하지 못하도록 하는 서약을 철회하라고 항의했다.",
+      "why_now": "내부 연구원들의 외부 발언권과 투명성 확보 요구가 서명 운동 형태로 드러났다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.washingtonpost.com/technology/2026/11/03/google-deepmind-staff-protest-lifetime-ban-criticizing-company",
+      "published_at": "2026-11-03T17:55:26.000Z"
+    },
+    {
+      "headline": "OpenAI, Codex 대화의 모델 학습 활용 설정 재활성화 제보",
+      "lede": "OpenAI가 Codex 이용자의 대화 데이터를 모델 학습에 활용하도록 설정을 변경했다는 주장이 제기되었다.",
+      "why_now": "개발자 커뮤니티에서 데이터 수집 동의 옵션을 재확인하는 과정에서 논란이 발생했다.",
+      "kind": "rumor",
+      "source_name": "Hacker News",
+      "canonical_url": "https://news.ycombinator.com/item?id=50352757",
+      "published_at": "2026-11-03T14:53:41.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "Advances in Agentic Computer Graphics",
+      "lede": "LLM 에이전트가 그래픽스 코드를 생성하고 피드백을 수용해 반복 개선하는 새로운 그래픽스 설계 흐름을 분석한다.",
+      "why_now": "기존 그래픽스 알고리즘을 자율 에이전트 중심 구조로 전환하려는 연구 경향을 정리했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.01860",
+      "published_at": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "headline": "Wave Forcing: Towards Speed-of-Light Streaming Video Generation",
+      "lede": "연속적인 실시간 비디오 스트리밍 생성 시 디노이징 효율과 장기 품질 저하를 줄이는 추론 기법을 제시한다.",
+      "why_now": "청크 기반 자기회귀 생성의 속도 병목과 일관성 문제를 개선하고자 제안되었다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.00859",
+      "published_at": "2026-11-03T00:00:00.000Z"
+    },
+    {
+      "headline": "CUA-Master: Scaling Computer-use Agents through Open-World Recursive Improvements",
+      "lede": "오픈월드 재귀적 개선 구조를 통해 스크린 제어 에이전트의 피드백 수집과 정밀도를 확장하는 프레임워크를 설명한다.",
+      "why_now": "단일 에이전트 탐색의 한계를 넘어 장기 컴퓨터 제어 작업 성공률을 개선하려는 시도다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.03126",
+      "published_at": "2026-11-03T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "kgoedecke/doop",
+      "lede": "사람과 AI 에이전트가 실시간으로 함께 디자인 작업을 수행하는 MCP 내장 협업 캔버스다.",
+      "why_now": "Paper.design의 오픈소스 대안을 목표로 공개되어 주목받았다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kgoedecke/doop",
+      "published_at": "2026-11-04T01:15:22.000Z"
+    },
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code 및 Codex 등 다양한 에이전트 창과 터미널을 브라우저나 모바일에서 원격 관리하는 클라이언트다.",
+      "why_now": "여러 코딩 에이전트 세션을 통합 제어하려는 개발 수요로 저장소 작업이 활발하다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-04T01:15:20.000Z"
+    },
+    {
+      "headline": "mw00/project-maya",
+      "lede": "GLM-5.3-Flash, DeepSeek-V4.1-Flash 등 대형 오픈소스 모델을 로컬 GPU 환경에서 구동하는 서빙 엔진이다.",
+      "why_now": "단일 카드부터 다중 GPU 구축까지 지원하는 온프레미스 LLM 서버 환경 구축 도구다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/mw00/project-maya",
+      "published_at": "2026-11-03T17:50:42.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "스탠퍼드 연구진 \"LLM 한계 논문 44% 유효기간 만료\"",
+    "lede": "모델 발전 속도가 빨라지면서 기존 연구가 지적했던 모델 한계 주장 중 다수가 1년여 만에 무효화된다는 실증 분석이 나왔다.",
+    "why_now": "주요 논문의 주장 50개를 최신 모델 20종에서 다시 벤치마크한 평가 결과가 공개되었다.",
+    "kind": "analysis",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/rapid-llm-development-is-outrunning-the-research-meant-to-explain-it-study-finds",
+    "published_at": "2026-11-03T19:41:43.000Z"
+  }
+}
