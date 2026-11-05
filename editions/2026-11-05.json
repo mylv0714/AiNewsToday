@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-05",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "OpenAI의 피에르 인수 및 보안 패치 자동화 발표와 함께 에이전트 연동 도구들이 다수 공개되었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, 피에르 인수해 코덱스 도구 확장",
+    "lede": "OpenAI가 개발자 도구 스타트업 피에르(Pierre Computer Company)를 인수한다.",
+    "why_now": "Codex와 개발자 협업 인프라 구축을 강화하기 위한 공식 인수 발표다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/openai-to-acquire-pierre",
+    "published_at": "2026-11-04T14:30:00.000Z",
+    "body": "OpenAI가 코드 이해, 생성, 검토 도구를 다루는 피에르 컴퓨터 컴퍼니를 인수한다고 발표했다. 피에르의 기술은 OpenAI의 AI 코딩 에이전트 서비스인 Codex에 탑재될 예정이다. 최근 선보인 Git 백엔드 Pando와 연동하여 AI 에이전트와 개발자가 함께 작업하는 인프라를 확장할 계획이다.",
+    "also_see": [
+      {
+        "title": "OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents",
+        "url": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, 리눅스 커널 취약점 948개 자동 패치",
+      "lede": "OpenAI가 자율형 파이프라인을 구축해 리눅스 커널의 권한 상승 취약점 948개를 발견하고 패치를 생성했다.",
+      "why_now": "AI 에이전트를 활용한 대규모 보안 취약점 점검 및 자동 패치 성과를 공개했다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "published_at": "2026-11-04T08:00:00.000Z"
+    },
+    {
+      "headline": "OpenAI, Images 2.6 출시… GIF 생성 지원",
+      "lede": "OpenAI가 더 빠른 생성과 GIF 제작, 세밀한 편집을 지원하는 Images 2.6 모델을 공개했다.",
+      "why_now": "ChatGPT, Codex, API 전반에 신규 이미지 및 GIF 제어 기능이 적용되었다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/introducing-images-2-6",
+      "published_at": "2026-11-04T00:00:00.000Z"
+    },
+    {
+      "headline": "Ripple-65B Preview 모델 공개",
+      "lede": "오픈 웨이트 에이전트 코딩 모델 Ripple-65B 프리뷰가 공개되었다.",
+      "why_now": "에이전트 기반 코딩 성능을 목표로 하는 오픈 웨이트 모델이 새로 등장했다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.ricursive.com/ripple",
+      "published_at": "2026-11-04T18:53:29.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "Dharma Field Extractor, 문서 JSON 추출",
+      "lede": "비구조화된 문서에서 정의된 필드를 추출해 JSON 구조체로 출력하는 도구가 허깅페이스에 공개되었다.",
+      "why_now": "문서 전처리 파이프라인에서 구조화 데이터 생성을 간소화한다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "published_at": "2026-11-04T17:50:10.000Z"
+    },
+    {
+      "headline": "OpenAI, AWS GovCloud에 Daybreak Red 제공",
+      "lede": "OpenAI가 Amazon Bedrock을 통해 승인된 정부 고객용 사이버보안 AI 제품 Daybreak Red를 제공한다.",
+      "why_now": "규제 및 보안 요구사항이 높은 클라우드 환경으로 GPT 모델 적용 범위가 확장되었다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "published_at": "2026-11-04T07:00:00.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+      "lede": "단일 대형 모델 대신 다변화된 모델과 도구를 동적으로 라우팅하여 종합 AI 시스템을 구성하는 접근법을 다룬다.",
+      "why_now": "특화 모델 간의 효율적 연동 및 라우팅 프레임워크 필요성이 늘어나고 있다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.05275",
+      "published_at": "2026-11-04T00:00:00.000Z"
+    },
+    {
+      "headline": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+      "lede": "추론 과정에서 정보가 충분히 확보된 시점을 판단하는 국소 선호 학습 기법으로 추론 비용을 절감하는 방안을 제안한다.",
+      "why_now": "긴 추론 체인에 따른 연산 비용 증가를 조기에 차단하려는 연구다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.04814",
+      "published_at": "2026-11-04T00:00:00.000Z"
+    },
+    {
+      "headline": "Axion 1.0: Open Agent Foundation Models, Simplified",
+      "lede": "복잡한 중간 파인튜닝 단계를 생략하고 지도 학습과 강화 학습만으로 훈련한 오픈 에이전트 파운데이션 모델을 소개한다.",
+      "why_now": "에이전트 모델 학습 절차의 구조적 단순화를 검증한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.03233",
+      "published_at": "2026-11-04T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code, Codex 등 에이전트 실행 세션과 터미널을 웹 및 모바일에서 제어하는 오픈소스 클라이언트다.",
+      "why_now": "원격 개발 환경과 에이전트 터미널을 직관적으로 모니터링할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-05T01:25:21.000Z"
+    },
+    {
+      "headline": "scenario-labs/skills",
+      "lede": "AI 에이전트가 MCP를 통해 미디어 모델을 선택하고 3D 소프트웨어 작업 연동을 돕는 스킬 도구 모음이다.",
+      "why_now": "에이전트와 미디어 생성 파이프라인의 연결을 보장한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/scenario-labs/skills",
+      "published_at": "2026-11-05T01:05:19.000Z"
+    },
+    {
+      "headline": "simplexai-labs/PolyStrata",
+      "lede": "로컬 PC에서 최신 오픈 LLM을 실행하고 오프라인 호스트 API를 제공하는 온디바이스 추론 엔진이다.",
+      "why_now": "로컬 환경에서 대형 모델을 직접 구동하려는 개발 수요를 반영한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/simplexai-labs/PolyStrata",
+      "published_at": "2026-11-05T00:00:25.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "Anthropic, LLM 증명 가능 추론 연구 공개",
+    "lede": "Anthropic이 언어 모델 추론 결과의 논리적·수학적 검증 가능성을 확보하기 위한 연구 현황을 제시했다.",
+    "why_now": "모델 출력의 신뢰도를 보장하기 위한 원천 연구 방향을 가늠할 수 있다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.anthropic.com/research/provable-inference",
+    "published_at": "2026-11-04T17:17:46.000Z"
+  }
+}
