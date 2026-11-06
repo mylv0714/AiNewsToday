@@ -1,0 +1,148 @@
+{
+  "date": "2026-11-06",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "OpenAI가 보안 전문 에이전트 GPT-6 Cyber를 발표하고 비디오 및 시뮬레이션 모델 릴리스가 이어졌다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, 보안 특화 모델 GPT-6 Cyber 공개",
+    "lede": "OpenAI가 시스템 취약점 탐지 및 수정안 제시를 전담하는 보안 에이전트 모델 GPT-6 Cyber를 공개했다.",
+    "why_now": "취약점 발견부터 패치 생성까지 에이전트가 자동 수행하는 능력이 실체화되었기 때문이다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/introducing-gpt-6-cyber",
+    "published_at": "2026-11-05T09:00:00.000Z",
+    "body": "GPT-6 Cyber는 인가된 범위 내에서 사이버 보안 공격 경로를 탐지하고 해소 방안을 도출하도록 훈련되었다. OpenAI는 사전 테스트에서 파이어폭스의 미알려진 취약점 81개를 발견하고 리눅스 커널의 권한 상승 취약점 948개에 대한 익스플로잇 및 패치를 자동 생성했다고 밝혔다. 방어자와 공격자 모두의 도구로 쓰일 수 있는 만큼 안전 가이드라인 적용 여부가 핵심 과제로 꼽힌다.",
+    "also_see": [
+      {
+        "title": "A thousand fewer paths to root",
+        "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "구글, Gemini Omni 1.2 Flash 출시",
+      "lede": "최대 15초 비디오 생성과 단계별 편집을 지원하고 단가를 30% 낮춘 Gemini Omni 1.2 Flash를 정식 출시했다.",
+      "why_now": "멀티모달 비디오 생성 모델의 속도 개선과 가격 인하 경쟁이 격화되었기 때문이다.",
+      "kind": "release",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash",
+      "published_at": "2026-11-05T17:00:00.000Z"
+    },
+    {
+      "headline": "엔비디아, Cosmos 3 오픈 모델 공개",
+      "lede": "대화형 월드 시뮬레이션을 가능하게 하는 오픈 파운데이션 모델 NVIDIA Cosmos 3를 출시했다.",
+      "why_now": "로보틱스 및 자율주행 학습을 위한 물리 시뮬레이션 모델이 오픈소스로 확산되고 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "published_at": "2026-11-05T19:35:16.000Z"
+    },
+    {
+      "headline": "바이두, ERNIE 5.5 Flash Base 공개",
+      "lede": "33.5조 토큰으로 학습된 280B MoE 기반 미세조정 전 베이스 모델을 오픈소스로 공개했다.",
+      "why_now": "커스텀 파인튜닝이 가능한 초대형 오픈소스 베이스 모델 공급이 이어지고 있다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/baidu-releases-ernie-5-5-flash-base-with-280-billion-parameters-as-an-open-source-foundation-model",
+      "published_at": "2026-11-05T17:56:41.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "마이크로소프트, PDD Kit 공개",
+      "lede": "AI 에이전트가 작성한 코드의 의도를 Verus 정식 명세로 변환해 정확성을 검증하는 도구이다.",
+      "why_now": "에이전트 생성 코드의 자동 검증 및 안정성 확보 요구가 빠르게 커지고 있다.",
+      "kind": "release",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
+      "published_at": "2026-11-05T16:00:00.000Z"
+    },
+    {
+      "headline": "Phonon TTS 온디바이스 음성 모델 공개",
+      "lede": "주요 벤치마크 상위 수준 성능을 제공하는 온디바이스 텍스트-음성 변환 모델이다.",
+      "why_now": "모바일 및 에이전트 기기에서 지연 없는 고품질 음성 합성이 요구되고 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/phonon-tts",
+      "published_at": "2026-11-05T00:00:00.000Z"
+    },
+    {
+      "headline": "Dharma Field Extractor 구조화 추출기",
+      "lede": "임의의 문서 원본을 입력받아 지정된 JSON 필드 형태로 구조화 데이터를 추출한다.",
+      "why_now": "비정형 문서 파싱 작업의 정형화 요구가 증가하고 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "published_at": "2026-11-04T17:50:10.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "From Pixels to Actions - Towards Native Vision-Language-Action Policies",
+      "lede": "시각 인코더의 정보 손실을 줄이고 시각적 기하 구조와 미세 상태 변화를 직접 추론에 반영하는 네이티브 VLA 정책을 제안한다.",
+      "why_now": "로봇 조작에 필수적인 미세 시각 신호가 인코더 압축 과정에서 손실되는 문제를 해결하려는 시도이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.06918",
+      "published_at": "2026-11-05T00:00:00.000Z"
+    },
+    {
+      "headline": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "lede": "물리학자들과 제작한 56개 과제를 통해 에이전트의 엔드투엔드 연구 능력과 연구 질을 평가하는 벤치마크를 제시한다.",
+      "why_now": "단편적 수식 풀이를 넘어 실제 과학 연구 전체 과정을 에이전트가 수행할 수 있는지 검증하기 위함이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.06910",
+      "published_at": "2026-11-05T00:00:00.000Z"
+    },
+    {
+      "headline": "Turns Matter: Advancing Streaming Video RL via Turn-Level Credit",
+      "lede": "라이브 비디오 이해 모델 강화를 위해 전체 궤적 대신 턴 단위의 신용 할당 방식을 도입한다.",
+      "why_now": "스트리밍 환경에서 관찰 지속과 응답 개입 타이밍의 오류를 줄이기 위함이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.06728",
+      "published_at": "2026-11-05T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code 및 Codex를 포함한 여러 에이전트 터미널과 세션을 모바일과 브라우저에서 제어하는 오픈소스 UI이다.",
+      "why_now": "여러 코딩 에이전트를 원격 환경에서 동시에 제어하려는 수요가 늘었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-06T01:29:38.000Z"
+    },
+    {
+      "headline": "kgoedecke/doop",
+      "lede": "MCP 기반으로 에이전트와 인간이 실시간 캔버스에서 함께 디자인 작업을 수행하는 오픈소스 협업 도구이다.",
+      "why_now": "에이전트를 인터랙티브 그래픽 작업 공간에 통합하는 시도가 이어지고 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kgoedecke/doop",
+      "published_at": "2026-11-06T01:05:59.000Z"
+    },
+    {
+      "headline": "sahenjp/RustXNG",
+      "lede": "SearXNG 기반의 Rust 구현체로 AI 에이전트 검색 및 그라운딩을 지원하는 셀프호스팅 메타검색 엔진이다.",
+      "why_now": "에이전트에 독립적인 웹 검색 API 환경을 구축하려는 수요가 늘었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/sahenjp/RustXNG",
+      "published_at": "2026-11-06T01:25:58.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "Claude Code 사용자 이메일 전송 논란",
+    "lede": "Claude Code가 웹사이트 요청 과정에서 사용자 이메일 주소를 외부 서버로 전달한다는 이슈가 제기되었다.",
+    "why_now": "터미널 에이전트 도구의 개인정보 처리 파이프라인과 투명성에 대한 우려가 커졌기 때문이다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://github.com/anthropics/claude-code/issues/107757",
+    "published_at": "2026-11-05T22:17:15.000Z"
+  }
+}
