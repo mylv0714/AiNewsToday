@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-07",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "Gemini Omni 1.2 Flash와 퍼플렉시티의 상시 에이전트 출시, 오픈AI의 바이오 벤치마크 공개가 잇따랐다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "구글, Gemini Omni 1.2 Flash 공개",
+    "lede": "구글 딥마인드가 네이티브 15초 비디오 생성 및 편집 기능을 지원하는 Gemini Omni 1.2 Flash를 발표했다.",
+    "why_now": "비디오 생성 기능 추가와 함께 API 가격을 30% 인하하여 멀티모달 서비스 도입 장벽을 낮추었다.",
+    "kind": "announcement",
+    "source_name": "DeepMind",
+    "canonical_url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips",
+    "published_at": "2026-11-05T17:05:16.000Z",
+    "body": "구글 딥마인드는 비디오 생성과 편집 성능을 강화한 Gemini Omni 1.2 Flash 모델을 선보였다. 기존 대비 캐릭터와 장면 일관성을 높였으며 최대 15초 길이의 클립을 네이티브로 출력한다. 이전 버전보다 30% 낮아진 가격으로 출시되어 영상 생성 및 멀티모달 에이전트 구축에 쓰일 수 있다.",
+    "also_see": [
+      {
+        "title": "Google AI Blog",
+        "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "퍼플렉시티, 상시 실행형 에이전트 Teammates 출시",
+      "lede": "퍼플렉시티가 전용 가상 머신에서 장기 프로젝트를 진행하는 항시 가동형 AI 에이전트를 선보였다.",
+      "why_now": "월 200달러 Max 플랜 독점 기능으로 엔터프라이즈 에이전트 시장 경쟁에 본격 참가했다.",
+      "kind": "release",
+      "source_name": "Perplexity",
+      "canonical_url": "https://www.perplexity.ai/en-GB/hub/blog/teammates-are-agents-for-complex-ongoing-work",
+      "published_at": "2026-11-06T17:59:41.000Z"
+    },
+    {
+      "headline": "오픈AI, 바이오 실험 데이터 평가용 BioBasicsBench 발표",
+      "lede": "오픈AI가 AI 에이전트가 기초 생명과학 실험 데이터를 해석하는 성능을 측정하는 100개 과제 벤치마크를 공개했다.",
+      "why_now": "실험실 데이터 분석 에이전트의 객관적 표준 평가 체계를 제안했다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "published_at": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "headline": "리커시브, 코딩 전용 오픈 모델 Ripple-65B Preview 공개",
+      "lede": "Ricursive Intelligence가 TerminalBench 2.1에서 상위 성적을 낸 650억 파라미터 Apache 2.0 모델을 공개했다.",
+      "why_now": "상용 코드 에이전트에 대항할 수 있는 완전 개방형 미국산 인프라 모델 릴리스다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model",
+      "published_at": "2026-11-06T19:47:04.000Z"
+    },
+    {
+      "headline": "마이크로소프트, 오라클 AI 클라우드 용량 임대 축소",
+      "lede": "마이크로소프트가 오라클로부터 인프라를 임대해 AI 연산 용량을 채우던 계약 규모를 단계적으로 줄이고 있다.",
+      "why_now": "자사 데이터센터 확충에 따라 외부 클라우드 의존도를 조절하기 시작했다.",
+      "kind": "analysis",
+      "source_name": "Reuters",
+      "canonical_url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06",
+      "published_at": "2026-11-06T18:04:06.000Z"
+    },
+    {
+      "headline": "METR, 엔트로픽 내부 AI 연구 가속화 현황 감사 결과 발표",
+      "lede": "비영리 평가기관 METR이 엔트로픽의 연구 속도가 2배 빨라졌으며 속도 향상의 80%가 AI 도구 덕분이라고 밝혔다.",
+      "why_now": "AI가 AI 연구 자체를 가속하는 실증적 데이터가 수집되었다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july",
+      "published_at": "2026-11-06T13:40:07.000Z"
+    },
+    {
+      "headline": "오픈AI, 보안 시스템 검증을 위해 Hacktron과 파트너십 체결",
+      "lede": "오픈AI가 외부 제3자 서비스 연결 부위의 취약점을 탐지하고 인프라 방어를 강화하기 위해 Hacktron과 손을 잡았다.",
+      "why_now": "커넥터 기반 에이전트의 보안 위험 제어를 위한 공식 파트너십이다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/partnering-with-hacktron",
+      "published_at": "2026-11-06T08:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "PDD Kit: 에이전트 생성 웹 앱 형식 검증 도구",
+      "lede": "마이크로소프트 연구소가 에이전트가 생성한 코드를 Verus 명세로 변환해 검증하는 PDD Kit을 발표했다.",
+      "why_now": "대규모 에이전트 코드 생성을 사람이 직접 검수하기 어려워진 문제를 해결한다.",
+      "kind": "release",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
+      "published_at": "2026-11-05T16:00:00.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+      "lede": "에이전트의 의사결정을 공유 예측 모델의 조건부 예측 문제로 재정의하여 환경 내 이질적 과제 적응력을 높였다.",
+      "why_now": "프롬프트나 정적 묘사로 해결하기 어려운 배포 시점의 경험적 관계를 체계적으로 다루고자 했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.02075",
+      "published_at": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "headline": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "lede": "시각 계획 단주를 디코딩하여 자율주행과 로보틱스에서 자동회귀 시각 언어 모델의 속도 저하를 극복했다.",
+      "why_now": "점·바운딩 박스·궤적을 1토큰씩 텍스트로 생성하던 비효율을 줄인다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.08449",
+      "published_at": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "headline": "Harness-S: Learning from Sibling Harnesses for Generalizable Agent Training",
+      "lede": "여러 동종 하네스 변종의 실패 복구 결과를 선별 전달하여 에이전트 실행 시스템의 범용 성능을 향상했다.",
+      "why_now": "에이전트 정책 학습에 맞춰 하네스 유용성이 바뀌는 국소성과 비정상성 문제를 해결한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.04277",
+      "published_at": "2026-11-06T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code와 Codex 등 에이전트 창, 실시간 터미널, 원격 SSH 연결을 제어하는 오픈소스 클라이언트다.",
+      "why_now": "모바일과 브라우저에서 여러 터미널 에이전트를 관제하는 웹 UI를 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-07T00:45:20.000Z"
+    },
+    {
+      "headline": "davidondrej/cloudroom",
+      "lede": "Claude Code, Codex, Pi 등을 격리된 샌드박스 환경에서 실행하고 로컬과 클라우드 간 세션을 전환한다.",
+      "why_now": "로컬 작업 환경과 클라우드 에이전트 하네스 간 이동을 원활하게 돕는다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/davidondrej/cloudroom",
+      "published_at": "2026-11-07T00:27:04.000Z"
+    },
+    {
+      "headline": "kgoedecke/doop",
+      "lede": "사람과 AI 에이전트가 MCP를 통해 실시간 협업 디자이너로 참여하는 멀티플레이어 디자인 캔버스다.",
+      "why_now": "캔버스 기반 인터페이스에 에이전트 프로토콜을 결합한 오픈소스 솔루션이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kgoedecke/doop",
+      "published_at": "2026-11-07T00:08:12.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "엔트로픽, 연구자들의 Claude 활용 패턴 분석 보고서 발표",
+    "lede": "20만 건 이상의 연구 세션을 분석해 연구 분야별 AI 활용 양상과 가속화 요인을 정리했다.",
+    "why_now": "실제 학술 및 과학 연구 현장에서 LLM이 적용되는 방식을 정량 분석했다.",
+    "kind": "analysis",
+    "source_name": "Anthropic",
+    "canonical_url": "https://www.anthropic.com/research/team/economics",
+    "published_at": "2026-11-05T00:00:00.000Z"
+  }
+}
