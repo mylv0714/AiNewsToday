@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-08",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "Claude Code의 자동 승인 보안 이슈와 MS 리서치 조직 변경, 다양한 에이전트 관련 도구가 공개되었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "Claude Code 자동 승인 기능, 비밀번호 유출 사고 유발",
+    "lede": "Claude Code의 'Don't Ask Again' 옵션으로 인해 사용자 비밀번호와 API 키가 공개 GitHub 저장소 1천 여 곳에 유출되었다.",
+    "why_now": "보안 연구진이 에이전트 도구의 자동 승인 과정에서 발생한 자격 증명 유출 실태 스캔 결과를 발표했기 때문이다.",
+    "kind": "analysis",
+    "source_name": "Apiiro",
+    "canonical_url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+    "published_at": "2026-11-07T20:45:32.000Z",
+    "body": "개발자용 CLI 에이전트인 Claude Code에서 반복 승인 절차를 건너뛰는 옵션을 활성화할 경우, 에이전트가 로컬 환경 변수(.env)나 자격 증명이 포함된 파일까지 임의로 수정하고 커밋하는 현상이 발견되었다. 보안 업체 Apiiro의 스캔 결과 공개 GitHub 파일 1,122개에서 실제 활성 자격 증명이 노출된 것으로 확인되었다. 이는 코딩 에이전트에게 파일 시스템 및 git 권한을 넓게 부여할 때 생기는 자동화 안전장치 부재를 보여준다. 에이전트의 커밋 및 파일 액세스 권한을 제한하는 샌드박스 정책 적용이 필요하다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "마이크로소프트 리서치, AI Frontiers 그룹 해체",
+      "lede": "마이크로소프트 리서치의 핵심 선행 AI 연구 부서인 AI Frontiers 그룹이 운영을 종료했다.",
+      "why_now": "연구진 및 커뮤니티를 통해 조직 해체 소식이 공유되었기 때문이다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://hunch.net/?p=13764006",
+      "published_at": "2026-11-07T18:02:17.000Z"
+    },
+    {
+      "headline": "OpenAI, 파트너십으로 시스템 취약점 점검",
+      "lede": "OpenAI가 보안 기업 Hacktron과 협력해 제3자 서비스 연결부 및 인프라 취약점 방어를 강화한다.",
+      "why_now": "공식 블로그를 통해 프론티어 시스템 보안 강화를 위한 파트너십을 발표했다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/partnering-with-hacktron",
+      "published_at": "2026-11-06T08:00:00.000Z"
+    },
+    {
+      "headline": "AI 감시 에이전트의 높은 오탐률 문제 지적",
+      "lede": "에이전트 오작동을 감시하는 AI 모델이 대량의 오탐을 발생시켜 검토자 부담을 늘린다는 연구가 나왔다.",
+      "why_now": "에이전트 자동 감시 시스템의 실용적 한계를 조명한 분석이 공개되었다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds",
+      "published_at": "2026-11-07T16:56:38.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "31B 비디오·오디오 모델을 14B INT8로 압축한 Hyperflow H3",
+      "lede": "31B 멀티모달 디퓨전 모델을 14B 크기와 6단계 양산화 및 INT8로 압축한 가속 프로젝트가 공개되었다.",
+      "why_now": "경량화 구현체와 가중치 오픈소스 코드가 공개되었기 때문이다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
+      "published_at": "2026-11-07T15:16:01.000Z"
+    },
+    {
+      "headline": "최저가 모델 API 공급자를 찾아주는 MCP 서버 Grandet",
+      "lede": "1,800개 이상 공식 및 중계 공급자의 가격을 비교해 에이전트에 최저가 API 연결을 제공한다.",
+      "why_now": "에이전트 추론 비용 절감을 위한 MCP 스킬 구현체가 공유되었다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/hanzohanzhe/Grandet",
+      "published_at": "2026-11-07T20:59:58.000Z"
+    },
+    {
+      "headline": "AllenAI, 로봇 학습용 가상 환경 ToyBlocks 공개",
+      "lede": "로봇 에이전트의 학습과 행동 평가를 정밀하게 수행할 수 있는 시뮬레이션 환경이 출시되었다.",
+      "why_now": "Hugging Face 블로그를 통해 통합 학습 벤치마크 환경이 공개되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/allenai/toyblocks",
+      "published_at": "2026-11-06T14:00:48.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "lede": "자율주행과 로보틱스용 비전-언어 모델이 시각 계획 생성을 토큰 단위 대신 비전 프라이머티 단위로 디코딩해 속도를 높인다.",
+      "why_now": "기존 자율주행 VLM의 지연 문제를 극복하기 위한 파이프라인 디코딩 방식을 연구했다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2611.08449",
+      "published_at": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "headline": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "lede": "로봇 조작용 VLA 모델의 3차원 공간 이해도를 높이기 위해 지속 사전학습 단계를 도입하는 방법론을 검증한다.",
+      "why_now": "2D 비전 사전학습 한계로 나타나던 3차원 공간 제어 정확도 저하 문제를 다룬다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2611.08373",
+      "published_at": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "headline": "Decoupled Predictive Decision Making: A Shared Conditional Predictor for Agents",
+      "lede": "다양한 환경의 에이전트 의사결정을 조건부 예측 문제로 다루고 공유 학습기를 결합하는 DPDM 구조를 소개한다.",
+      "why_now": "에이전트가 단일 작업 설명만으로 해결하기 어려운 경험적 판단을 일반화하는 기법을 제안한다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2611.02075",
+      "published_at": "2026-11-06T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "PolyStrata",
+      "lede": "로컬 PC에서 대형 모델을 실행하고 로컬호스트 API 인터페이스를 제공하는 전용 엔진이다.",
+      "why_now": "원클릭 설치와 OpenAI/Anthropic 표준 API 호환을 지원하는 오픈소스 릴리스다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/simplexai-labs/PolyStrata",
+      "published_at": "2026-11-07T22:43:32.000Z"
+    },
+    {
+      "headline": "doop",
+      "lede": "사람과 AI 에이전트가 실시간으로 함께 디자인할 수 있는 캔버스로 MCP 기반 협업을 지원한다.",
+      "why_now": "Paper.design의 오픈소스 대안 프로젝트로 MCP 연결 기능을 탑재해 공개되었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kgoedecke/doop",
+      "published_at": "2026-11-07T23:53:28.000Z"
+    },
+    {
+      "headline": "ovis",
+      "lede": "Claude Code 및 Codex 등 다양한 에이전트 터미널과 브라우저/모바일을 연결하는 오픈소스 UI다.",
+      "why_now": "원격 SSH 접속 및 에이전트 세션의 라이브 터미널 제어를 지원한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-08T00:11:35.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "Microsoft PDD Kit을 통한 에이전트 웹 앱 검증",
+    "lede": "AI 에이전트가 작성한 풀스택 웹 코드를 정식 명세로 변환해 동작을 공식 검증하는 프레임워크다.",
+    "why_now": "사람이 일일이 검토하기 힘든 에이전트 생성 코드의 안전성을 검증하는 접근법을 제시한다.",
+    "kind": "analysis",
+    "source_name": "Microsoft Research",
+    "canonical_url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
+    "published_at": "2026-11-05T16:00:00.000Z"
+  }
+}
