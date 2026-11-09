@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-10",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "엔비디아가 한국 대표 오픈 모델의 다이나모 배포 최적화 레시피를 공개하고 무단 AI 학습에 맞선 라이선스 전환 소식이 이어졌다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "엔비디아, 한국 주요 오픈 모델 최적화 레시피 공개",
+    "lede": "엔비디아가 한국 소버린 AI 생태계 구축을 위해 과기정통부 및 국내 주요 기업과의 협력을 확대하고 다이나모 최적화 배포 레시피를 발표했다.",
+    "why_now": "단일 GPU 용량을 넘어서는 국내 거대 오픈 모델의 추론 및 배포 효율을 극대화하는 전용 인프라 솔루션이 제공된다.",
+    "kind": "announcement",
+    "source_name": "NVIDIA",
+    "canonical_url": "https://blogs.nvidia.com/blog/nvidia-dynamo-korea-open-models",
+    "published_at": "2026-11-09T05:00:00.000Z",
+    "body": "엔비디아는 SK텔레콤의 A.X K2, LG AI연구원의 K-EXAONE 2.0, 업스테이지의 Solar Open 2 등 국내 주요 오픈 모델을 효율적으로 분할 배포할 수 있는 다이나모 기반 레시피를 선보였다. 이번 협력에는 컴퓨팅 인프라 지원뿐만 아니라 에이전틱 AI 보안 기술 적용도 포함된다. 현대자동차그룹과 AIM 인텔리전업은 에이전트 실행 환경의 보안성을 높이기 위해 엔비디아의 NemoClaw 블루프린트와 OpenShell 런타임 검증에 착수했다. 반도체 공급부터 안전한 에이전트 구동 환경까지 전반적인 국내 AI 기술 인프라 지원 체계가 구체화되고 있다.",
+    "also_see": [
+      {
+        "title": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+        "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai"
+      },
+      {
+        "title": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+        "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "구글, 보안·성능 강화한 TPU 8 변종 2종 출시",
+      "lede": "구글이 메모리 암호화 기능을 가진 TPU 8tx와 연산 성능 및 메모리를 두 배로 늘린 TPU 8i Max를 새로 선보였다.",
+      "why_now": "엔비디아 GPU 수급난에 대응하여 1년 사이 4개의 TPU 변종 라인업을 투입하며 자체 반도체 생태계를 확대하고 있다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/google-ships-four-tpu-variants-in-one-year-as-it-ramps-up-competition-with-nvidia",
+      "published_at": "2026-11-09T12:59:02.000Z"
+    },
+    {
+      "headline": "골드만삭스, 트레이더 대상 클로드 코드 사용 중단",
+      "lede": "골드만삭스가 보안 및 규제 대응을 이유로 트레이더와 뱅커 부서 내 클로드 코드 사용 권한을 철회했다.",
+      "why_now": "금융권 내 코드 생성 에이전트 도입 시 데이터 유출 위험과 정책 준수 검증 기준이 한층 엄격해졌다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+      "published_at": "2026-11-08T18:16:07.000Z"
+    },
+    {
+      "headline": "아사히 리눅스, AI 코드 무단 학습 방지 위해 라이선스 변경",
+      "lede": "아사히 리눅스 프로젝트가 미공개 코드가 AI 학습에 무단 수집된 정황을 확인하고 라이선스를 MIT에서 GPL로 교체했다.",
+      "why_now": "오픈소스 개발자들이 데이터 긁어가기 방식의 AI 모델 학습으로부터 자사 코드를 보호하기 위해 강경책을 적용하기 시작했다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://itsfoss.com/news/asahi-linux-drops-mit-for-gpl",
+      "published_at": "2026-11-09T03:06:55.000Z"
+    },
+    {
+      "headline": "애플, 엔지니어 1인당 일일 AI 사용 예산 200달러 제한",
+      "lede": "애플이 내부 엔지니어들이 사용하는 사외 AI API 일일 한도를 200달러로 제한하는 비용 관리 정책을 시행했다.",
+      "why_now": "개발 생산성 도구 활용 비용이 폭증함에 따라 대기업 차원의 실시간 자금 사용 통제가 본격화되고 있다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
+      "published_at": "2026-11-09T05:30:11.000Z"
+    },
+    {
+      "headline": "엔비디아, 일본 금융·인구 통계 합성 데이터셋 공개",
+      "lede": "엔비디아가 일본의 인구 구조와 금융 맥락을 반영한 합성 데이터셋 Nemotron-Personas-Finance-Japan을 허깅페이스에 출시했다.",
+      "why_now": "지역별 금융 법규 및 특수성을 반영한 에이전트 훈련용 특화 데이터의 필요성이 높아지고 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "published_at": "2026-11-09T15:05:57.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "SplatAnything: Gaussian Spacing Normalization for Feed-forward 3DGS across Arbitrary Scenes",
+      "lede": "장면의 규모나 카메라 위치가 달라져도 입체 복원 품질을 유지하는 가우시안 간격 정규화 구조를 제시한다.",
+      "why_now": "기존 피드포워드 3D 가우시안 스플래팅이 복잡한 3D 환경에서 카메라 구도에 따라 왜곡되던 한계를 극복한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.08264",
+      "published_at": "2026-11-09T00:00:00.000Z"
+    },
+    {
+      "headline": "LowRAM: Low-Rank Keys and Amortised Values for Composable KV Cache Compression at Test-Time",
+      "lede": "어텐션 헤드 내 값 벡터의 예측 가능성을 기반으로 추가 훈련 없이 테스트 시점에 KV 캐시 메모리를 압축하는 기법을 소개한다.",
+      "why_now": "긴 컨텍스트 모델 운용 시 발생하는 메모리 점유율 한계와 처리량 저하를 현장에서 직관적으로 해결한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.07025",
+      "published_at": "2026-11-09T00:00:00.000Z"
+    },
+    {
+      "headline": "The Last Mile to the Real World: Agent-Native Primitives as Reusable Building Blocks for Solving Real-World Tasks",
+      "lede": "실제 터미널 작업 환경에서 최첨단 에이전트들이 자원 접근 후 실행 단계에서 겪는 실패를 줄이기 위한 빌딩 블록 모듈을 제안한다.",
+      "why_now": "에이전트가 벤치마크 평가 수준을 넘어 실제 운용 환경에 안착하는 과정의 병목 지점을 정교하게 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.07461",
+      "published_at": "2026-11-09T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code 및 Codex 등 터미널 기반 에이전트 세션을 모바일과 웹에서 원격 모니터링하고 제어하는 오픈소스 UI다.",
+      "why_now": "백그라운드에서 장시간 구동되는 에이전트의 작업 진행 상황을 푸시 알림과 함께 원격 조종할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-09T16:47:04.000Z"
+    },
+    {
+      "headline": "kgoedecke/doop",
+      "lede": "MCP 연동을 통해 사람과 AI 에이전트가 단일 캔버스에서 실시간으로 함께 디자인 작업을 수행하는 협업 도구다.",
+      "why_now": "에이전트를 디자인 및 UI 작업 도구로 직접 참여시킬 수 있는 멀티플레이어 작업 환경을 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kgoedecke/doop",
+      "published_at": "2026-11-09T13:34:44.000Z"
+    },
+    {
+      "headline": "sahenjp/RustXNG",
+      "lede": "SearXNG를 바탕으로 구축되어 AI 에이전트에게 웹 검색 결과와 본문 텍스트를 제공하는 러스트 기반 전용 검색 서버다.",
+      "why_now": "에이전트 시스템 구축 시 독립적인 셀프호스팅 그라운딩 엔드포인트를 손쉽게 연결할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/sahenjp/RustXNG",
+      "published_at": "2026-11-09T11:52:35.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI 버블론에 대한 반론과 시장 관점 분석",
+    "lede": "현재 AI 산업 투입 자본 비율과 기업 실제 매출 통계를 바탕으로 AI 거품론의 전제를 비판적으로 검토한다.",
+    "why_now": "인프라 과잉 투자 경고와 실질 수익성 우려가 공존하는 가운데 데이터 중심의 시각을 보여준다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
+    "published_at": "2026-11-08T23:44:36.000Z"
+  }
+}
