@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-09",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "골드만삭스의 코딩 에이전트 사용 차단과 마이크로소프트의 선행 연구팀 해체 등 실무 적용과 조직 재편 소식이 이끌었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "골드만삭스, 금융 인력 대상 Claude Code 사용 차단",
+    "lede": "골드만삭스가 트레이더와 은행원 조직에서 Anthropic의 코딩 에이전트 Claude Code 사용을 차단했다.",
+    "why_now": "보안 및 규제 리스크가 수면 위로 떠오르며 금융권 내 에이전트 도구 도입에 제동이 걸렸다.",
+    "kind": "announcement",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
+    "published_at": "2026-11-08T18:16:07.000Z",
+    "body": "골드만삭스가 내부 데이터 유출 방지와 통제력 확보를 이유로 현업 조직의 Claude Code 활용 정책을 변경했다. 샌드박스를 벗어나 로컬 인프라 실행 권한을 갖는 코딩 에이전트가 엔터프라이즈 보안 기준과 충돌하는 양상을 보여준다. 로컬 파일 접근 권한 및 외부 네트워크 통제 수단이 완전히 정립되기 전까지 대형 금융 기관의 에이전트 도입은 신중한 기조를 유지할 것으로 전망된다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "마이크로소프트, AI 프론티어 연구 조직 해체",
+      "lede": "마이크로소프트 리서치의 대표적 선행 AI 연구 조직인 AI Frontiers 그룹이 공식 해체됐다.",
+      "why_now": "기초 과학 중심의 연구 조직이 상용 제품 개발과 직접적 가치 창출 중심으로 재편되는 흐름을 반영한다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://hunch.net/?p=13764006",
+      "published_at": "2026-11-07T18:02:17.000Z"
+    },
+    {
+      "headline": "실전 코딩 벤치마크서 에이전트 해결률 26.4% 기록",
+      "lede": "알리바바가 공개한 Co-Design Bench 평가에서 최상위 모델도 실제 사용자 차단 이슈 기반 과제의 약 26.4%만 해결했다.",
+      "why_now": "기존 벤치마크 99% 달성 수치와 달리 실제 엔지니어링 실패 사례에서는 에이전트의 한계가 명확함을 나타낸다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test",
+      "published_at": "2026-11-08T09:50:59.000Z"
+    },
+    {
+      "headline": "앤트로픽, 과학자들의 Claude 활용 패턴 보고서 발표",
+      "lede": "앤트로픽이 207,000건의 연구 세션을 분석해 논문 작성 및 코드 실행 등 실제 과학 현장에서의 사용 양상을 정량화했다.",
+      "why_now": "챗봇 형태를 넘어 학술 연구 환경에서 AI가 실질적으로 기여하는 하위 작업 범위를 파악할 수 있다.",
+      "kind": "analysis",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/research/team/economics",
+      "published_at": "2026-11-05T00:00:00.000Z"
+    },
+    {
+      "headline": "앤트로픽, 데이터센터 전력 확보 위해 34억 달러 계약",
+      "lede": "앤트로픽이 AI 데이터센터 전력 공급을 위해 가스 발전 기반 34억 달러 규모의 신규 장기 계약을 체결했다.",
+      "why_now": "차세대 대형 모델 인프라 구축을 위한 전력망 확보 경쟁이 전력 대규모 구매 계약 형태로 구체화되고 있다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.ft.com/content/41bf5c6a-9735-4f1a-a8e3-2bcccad58ba0",
+      "published_at": "2026-11-08T12:41:25.000Z"
+    },
+    {
+      "headline": "애플 경영진, 에이전트 중심 Siri 전략 강화 지시",
+      "lede": "팀 쿡 애플 CEO가 소프트웨어 수장에게 보다 대담한 에이전트 형태의 AI 로드맵 추진을 요구한 것으로 전해졌다.",
+      "why_now": "단순 대화형 응답 방식에서 벗어나 OS 차원의 에이전트 조작 기술로 주도권을 잡으려는 목적이다.",
+      "kind": "rumor",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
+      "published_at": "2026-11-08T15:19:51.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "VFlash: Fast, Accurate Visual Planning via Flash Primitive Decoding",
+      "lede": "로봇 및 자율주행 시각 계획에서 텍스트 기반 시퀀스 생성을 벗어나 플래시 프리미티브 디코딩으로 공간 목표를 빠르게 디코딩하는 방식을 제안한다.",
+      "why_now": "기존 자급귀형 시각언어모델의 토큰 단위 디코딩 지연 문제를 해결해 실시간 제어 계획 속도를 향상시킨다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.08449",
+      "published_at": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "headline": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "lede": "2D 비전 사전학습에 의존하던 로봇 VLA 모델에 공간 지도 학습을 지속 사전학습 단계로 통합해 3차원 공간 제어력을 극대화한다.",
+      "why_now": "태스크별 미세조정에만 의존하던 기존 정밀 조작 한계를 전역 공간 표현 학습으로 극복하는 파이프라인을 제시한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.08373",
+      "published_at": "2026-11-06T00:00:00.000Z"
+    },
+    {
+      "headline": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "lede": "완전 자율 에이전트 방식 대신 인간의 기억과 주의, 의사결정 과정을 실시간으로 도우며 보완하는 인지 공생체로서의 AI 구조를 제안한다.",
+      "why_now": "에이전트 자율성에 집중된 기존 패러다임에 반해 인간과 AI 간 인터랙션 설계 원칙을 다시 세우는 논문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.05376",
+      "published_at": "2026-11-06T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code, Codex 등 다중 코딩 에이전트의 터미널과 세션을 웹 및 모바일 환경에서 통합 관리하는 클라이언트다.",
+      "why_now": "SSH 원격 접속 및 웹 푸시 알림을 제공하여 여러 디바이스에서 개발 에이전트를 모니터링할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-09T00:26:12.000Z"
+    },
+    {
+      "headline": "kgoedecke/doop",
+      "lede": "MCP 프로토콜이 내장되어 인간과 AI 에이전트가 동시 접속해 실시간으로 공동 디자인 작업을 진행하는 캔버스 도구다.",
+      "why_now": "Paper.design 스타일 작업 환경을 오픈소스로 구현하여 에이전트와의 협업 디자인 인터페이스를 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kgoedecke/doop",
+      "published_at": "2026-11-09T00:41:11.000Z"
+    },
+    {
+      "headline": "soumatheusgomes/vibe-coding-toolkit",
+      "lede": "Claude Code 전용 플러그인과 서브에이전트 오케스트레이션 구성을 모아놓은 프로덕션용 툴킷이다.",
+      "why_now": "실무 코드베이스 검증을 거친 품질 게이트와 바로 적용 가능한 프롬프트를 번들 형태로 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/soumatheusgomes/vibe-coding-toolkit",
+      "published_at": "2026-11-08T17:34:10.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "제약사 CEO들이 바라보는 AI 신약 개발의 현실",
+    "lede": "빅테크의 AI 질병 퇴치 선언과 달리 제약사 최고경영자들은 신약 개발의 임상 및 생물학적 검증 난도를 이유로 신중론을 견지하고 있다.",
+    "why_now": "기술적 기대치와 바이오 산업 실무 현장의 가치 창출 주기 사이의 온도 차를 짚어낸 분석이다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.wsj.com/tech/ai/silicon-valley-promises-ai-will-cure-disease-drugmaker-ceos-arent-buying-it-5218511c",
+    "published_at": "2026-11-08T18:43:07.000Z"
+  }
+}
