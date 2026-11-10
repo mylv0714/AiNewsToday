@@ -1,0 +1,170 @@
+{
+  "date": "2026-11-11",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "앤스로픽의 Fable 5.2 출시와 조 단위 IPO 로드쇼 개시, 그리고 딥마인드의 AlphaProof Code가 아침 뉴스의 중심을 차지했다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "앤스로픽, Fable 5.2 공개와 함께 1조 달러 규모 IPO 로드쇼 돌입",
+    "lede": "앤스로픽이 신형 모델 Fable 5.2와 Mythos 5.2를 공개하는 동시에 기업공개(IPO) 로드쇼를 시작했다.",
+    "why_now": "최신 모델 성능 갱신과 대규모 상장 절차가 동시에 맞물리며 업계의 이목이 집중되는 시점이기 때문이다.",
+    "kind": "announcement",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "published_at": "2026-11-09T18:56:29.000Z",
+    "body": "새로 공개된 Claude Fable 5.2는 원격 노동 벤치마크에서 뛰어난 작업 완수율을 기록하며 주목받고 있다. 동시에 앤스로픽은 신규 주식 공모를 위한 로드쇼를 시작하며 막대한 기업 가치를 목표로 제시했다. 구글과 엔비디아 등 주요 테크 기업들이 참여하는 대규모 프라이빗 플래스먼트도 함께 진행된다. 모델 성능 경쟁이 실제 자본 시장의 대형 이벤트로 직결되는 국면을 보여준다.",
+    "also_see": [
+      {
+        "title": "Anthropic launches roadshow for proposed initial public offering",
+        "url": "https://www.anthropic.com/news/roadshow-launch"
+      },
+      {
+        "title": "Anthropic's Fable 5.2 completes 41 percent of real freelance jobs",
+        "url": "https://the-decoder.com/anthropics-fable-5-2-completes-41-percent-of-real-freelance-jobs-up-from-2-5-percent-a-year-ago"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "딥마인드, AlphaProof Code로 시그널 암호화 검증",
+      "lede": "AlphaProof Code 에이전트가 Lean 언어로 3백만 줄의 정형 증명을 작성해 시그널의 핵심 암호화를 검증했다.",
+      "why_now": "복잡한 소프트웨어와 암호 프로토콜의 정밀 검증에 AI 에이전트가 실질적으로 활용되기 시작했음을 보여주는 대표적 사례다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/introducing-alphaproof-code",
+      "published_at": "2026-11-10T12:02:28.000Z"
+    },
+    {
+      "headline": "구글, 크리에이티브 툴과 헬스케어용 Gemini 출시",
+      "lede": "어도비와의 파트너십을 통해 구글 앱에 창작 및 생산성 도구가 통합되며, 헬스케어 전용 Gemini도 공개됐다.",
+      "why_now": "일상적인 오피스 환경과 임상 데이터 워크플로 전반으로 생성형 AI의 적용 범위가 넓어지고 있기 때문이다.",
+      "kind": "announcement",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
+      "published_at": "2026-11-10T14:00:00.000Z"
+    },
+    {
+      "headline": "오픈에이아이, ChatGPT Enterprise를 AWS 마켓플레이스에 제공",
+      "lede": "기업 고객들이 기존 AWS 구매 및 청구 관계를 통해 ChatGPT Enterprise를 쉽게 조달할 수 있게 되었다.",
+      "why_now": "기업용 AI 도입 과정의 구매 및 조달 마찰을 줄이는 실질적인 유통망 확장 조치다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace",
+      "published_at": "2026-11-09T19:00:00.000Z"
+    },
+    {
+      "headline": "엔비디아, 한국 과학기술정보통신부와 소버린 AI 협력 확대",
+      "lede": "MSIT-NVIDIA AI 스타트업 파트너십 포럼을 통해 국내 스타트업 투자와 오픈 모델 배포 레시피를 대거 발표했다.",
+      "why_now": "한국의 소버린 AI 생태계와 인프라, 에이전트 보안 영역에서 다각적인 협력이 구체화되었기 때문이다.",
+      "kind": "announcement",
+      "source_name": "NVIDIA",
+      "canonical_url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration",
+      "published_at": "2026-11-09T05:00:04.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "PolyStrata",
+      "lede": "로컬 PC에서 Qwen, GLM, DeepSeek 등 대형 AI 모델을 실행할 수 있는 자체 엔진과 원클릭 설치 도구.",
+      "why_now": "고성능 오픈 모델을 개인 하드웨어에서 직접 구동하려는 수요가 늘고 있기 때문이다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/simplexai-labs/PolyStrata",
+      "published_at": "2026-11-10T06:01:31.000Z"
+    },
+    {
+      "headline": "doop",
+      "lede": "MCP가 내장된 멀티플레이어 디자인 캔버스로, 인간과 AI 에이전트가 실시간으로 함께 디자인 작업을 수행한다.",
+      "why_now": "에이전트 기반 인터페이스와 협업 툴의 결합이 디자인 영역으로 확장되고 있다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kgoedecke/doop",
+      "published_at": "2026-11-10T10:50:00.000Z"
+    },
+    {
+      "headline": "ovis",
+      "lede": "Claude Code 및 각종 에이전트 창의 채팅과 터미널을 원격으로 관리할 수 있는 오픈소스 브라우저·폰 클라이언트.",
+      "why_now": "코딩 에이전트의 활용이 늘어나면서 모바일 및 원격 모니터링 도구의 필요성이 대두되었다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-10T14:53:43.000Z"
+    },
+    {
+      "headline": "easyread",
+      "lede": "로컬 PDF 영문 논문 번역,原文对照, 그리고 읽으면서 AI에게 질문할 수 있는 기능을 제공하는 도구.",
+      "why_now": "최신 연구 논문을 빠르게 소화해야 하는 연구자들의 로컬 환경 독서 수요를 겨냥한다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Edwardxlai/easyread",
+      "published_at": "2026-11-10T06:05:40.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "WorldFoundry: Towards Unified Infrastructure for World Intelligence",
+      "lede": "시각 생성 모델을 넘어 지속적인 상태와 물리적 동력을 갖춘 통합 월드 모델 인프라를 제안한다.",
+      "why_now": "단순 시각적 유사성을 넘어 인과적으로 일관된 환경 시뮬레이션의 필요성이 커졌기 때문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.10771",
+      "published_at": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "headline": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+      "lede": "과학적 발견을 가이드하기 위해 증거와 가정, 미결 과제를 메타인지적으로 모니터링하고 수정하는 아키텍처.",
+      "why_now": "자율적인 과학 연구 수행을 위한 AI의 상위 수준 제어 기제가 주목받고 있다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.12762",
+      "published_at": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "headline": "Learning Heterogeneous Tactile Representation for General Dexterous Manipulation",
+      "lede": "접촉 기반 정교한 조작을 위해 서로 다른 장단점을 지닌 이종 촉각 센서의 표현을 학습하는 방법론.",
+      "why_now": "로보틱스 분야에서 범용 손재주 구현을 위한 촉각 모달리티 통합이 중요한 과제이기 때문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.12806",
+      "published_at": "2026-11-10T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "Sandflow-ai/sand3d",
+      "lede": "LLM이 직접 활용할 수 있도록 설계된 파이썬 기반 3D 모델링 라이브러리.",
+      "why_now": "텍스트 기반 언어 모델을 3D 그래픽 및 CAD 작업과 직접 연동하려는 시도가 늘고 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Sandflow-ai/sand3d",
+      "published_at": "2026-11-10T10:20:46.000Z"
+    },
+    {
+      "headline": "shinyobjectz/raea",
+      "lede": "사용자 GPU에서 비디오와 3D, 게임을 React 및 TypeScript 코드로 렌더링하는 렌더링 엔진.",
+      "why_now": "AI가 생성한 비주얼 콘텐츠를 로컬 환경에서 고성능으로 직접 시각화하는 도구가 필요해졌기 때문이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/shinyobjectz/raea",
+      "published_at": "2026-11-10T14:26:37.000Z"
+    },
+    {
+      "headline": "amitshekhariitbhu/ai-system-design",
+      "lede": "LLM, RAG, AI 에이전트 기반의 시스템 설계 방법을 단계별로 학습할 수 있는 가이드 저장소.",
+      "why_now": "실무에서 아키텍처 설계 지식을 체계적으로 정리하려는 엔지니어들에게 유용하다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/amitshekhariitbhu/ai-system-design",
+      "published_at": "2026-11-10T04:14:37.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "에코시스템 전반으로 확산되는 AI 코드 생성의 부채 논란",
+    "lede": "개발 현장에서 AI 의존도가 높아지면서 코드베이스의 취약성과 가독성 저하를 우려하는 목소리가 커지고 있다.",
+    "why_now": "생산성 향상 이면에 누적되는 아키텍처 부채가 엔지니어링 커뮤니티의 주요 화두로 떠올랐기 때문이다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase",
+    "published_at": "2026-11-10T10:25:58.000Z"
+  }
+}
