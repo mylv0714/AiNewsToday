@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-12",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "구글이 생성 과정 없이 분류 결정을 단일 패스로 처리하는 Gemini Decisions API를 출시하고 에이전트 제어와 보안 이슈가 주요 화제로 떠올랐다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "구글, 단일 패스 분류 전용 Gemini Decisions API 공개",
+    "lede": "구글이 텍스트·이미지·음성·영상 데이터를 텍스트 생성 없이 단 1회 전진 패스로 평가해 최대 1,000개 선택형 질문을 150~250ms 내 처리하는 Gemini Decisions API를 출시했다.",
+    "why_now": "기존 생성형 프롬프팅 대비 비용과 지연 시간을 큰 폭으로 줄이는 분류 전용 전용 엔드포인트가 공식 제공된다.",
+    "kind": "announcement",
+    "source_name": "Google AI",
+    "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+    "published_at": "2026-11-11T18:00:00.000Z",
+    "body": "텍스트 생성 과정(Autoregressive Generation)을 거치지 않고 상태와 질문에 대한 확률적 판단을 단일 툴 패스로 직접 계산하는 System-1 decision 구조를 도입했다. 기존 Gemini 3.5 Flash-Lite 모델 대비 약 5배 저렴한 비용과 150~250ms 수준의 응답 속도를 제공하며, 입력 시퀀스 하나에서 최대 1,000개의 다지선다형 질문을 동시에 처리한다. 현재 Google AI Studio에서 무료로 즉시 사용할 수 있으며 라우팅, 모더레이션, 구조화 의사결정 파이프라인의 프롬프트 복잡도를 대폭 단순화한다.",
+    "also_see": [
+      {
+        "title": "Google joins the decision-model wave with Gemini Decision 1",
+        "url": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "딥마인드, 세포 DNA 해독 모델 AlphaGenome 2 공개",
+      "lede": "딥마인드가 DNA 서열 및 변이가 인간 세포 유형과 질환에 미치는 영향을 예측하는 차세대 게놈 AI 모델 AlphaGenome 2를 발표했다.",
+      "why_now": "유전자 변이에 따른 질병 기전 분석 및 바이오 연구를 위한 차세대 파이프라인이 릴리스됐다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+      "published_at": "2026-11-11T15:00:15.000Z"
+    },
+    {
+      "headline": "유나이티드 항공, AI 에이전트 대리 항공권 예매 차단",
+      "lede": "유나이티드 항공이 승객을 대신해 웹상에서 좌석 탐색 및 예약을 대행하는 AI 에이전트의 접근을 공식 금지했다.",
+      "why_now": "사용자 대행 웹 에이전트의 상업 서비스 접근 권한을 둘러싼 실제 서비스 주체의 차단 사례가 보고됐다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+      "published_at": "2026-11-11T21:24:35.000Z"
+    },
+    {
+      "headline": "MS 연구진, AI 에이전트 휴면 뉴런 백도어 경고",
+      "lede": "마이크로소프트 연구진이 모델 내부의 휴면 뉴런을 재프로그래밍해 숨겨진 트리거 발동 시 악성 명령을 실행하게 하는 Lazarus 백도어 기법을 공개했다.",
+      "why_now": "터미널 및 외부 도구 제어 권한을 갖는 AI 에이전트의 중대한 보안 취약점이 밝혀졌다.",
+      "kind": "paper",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "published_at": "2026-11-10T20:52:56.000Z"
+    },
+    {
+      "headline": "자율 AI 에이전트, 미지도 마야 고대 유적 포착",
+      "lede": "독립 개발자가 구축한 AI 에이전트 시스템이 위성 및 지형 데이터를 검색·분석해 지도에 존재하지 않던 고대 마야 유적지를 발굴했다.",
+      "why_now": "지리공간 데이터 자동 탐색 영역에서 에이전트 시스템이 실질적인 발굴 성과를 보여준 사례다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://pietromiotti.com/latest/maya-site",
+      "published_at": "2026-11-11T12:05:22.000Z"
+    },
+    {
+      "headline": "구글 랩스, 팀 협업용 공간 실험 Tabletop 공개",
+      "lede": "구글 랩스가 팀원들과 대화형 일정, 투표, 브래킷을 공유하며 작업을 구상하는 신규 실험 프로젝트 Tabletop의 웨이트리스트 등록을 시작했다.",
+      "why_now": "그룹 단위 대화형 작업 캔버스 실험이 구글 랩스 대기열에 추가됐다.",
+      "kind": "release",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+      "published_at": "2026-11-11T16:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "BotPsy: 1B 미만 파라미터 온디바이스 에이전트 모델",
+      "lede": "모바일 단말과 경량 환경에서 독립 작동하도록 설계된 1B 미만 파라미터 기반 에이전트 언어 모델 BotPsy가 공개됐다.",
+      "why_now": "로컬 디바이스용 에이전트 추론 환경을 직접 구축할 수 있는 모델 릴리스다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/qvac/botpsy",
+      "published_at": "2026-11-11T05:01:16.000Z"
+    },
+    {
+      "headline": "open-intelligent-ui: 인터랙티브 UI 스트리밍 프레임워크",
+      "lede": "LLM 응답을 텍스트 대신 지도, 사진, 차트 등 동작하는 대화형 컴포넌트로 직접 출력하는 오픈소스 프론트엔드 도구다.",
+      "why_now": "생성형 프론트엔드 UI 파이프라인을 구축할 수 있는 open-ui 기반 프로젝트가 릴리스됐다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/thesysdev/open-intelligent-ui",
+      "published_at": "2026-11-11T19:15:26.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Tree-Ising: Repairing Language Models with Bit-Level Ising Edits",
+      "lede": "경사하강법 및 재학습 없이 이질 모델(Ising Model) 비트 편집을 통해 대형 언어 모델의 가중치를 직접 수정하고 추론 루프 오류를 교정하는 기법이다.",
+      "why_now": "가중치 공간의 직접적 탐색을 통해 거대 에이전트의 루프/오류를 최소 비용으로 정정하는 연구다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.14210",
+      "published_at": "2026-11-11T00:00:00.000Z"
+    },
+    {
+      "headline": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+      "lede": "에이전트가 외부 메모리를 참조할 때 발생하는 잘못된 학습 전이 및 오적용 문제를 증거 연결 구조로 완화해 성능 저하를 방지한다.",
+      "why_now": "장기 기억 노드를 사용하는 에이전트 파이프라인의 오탐 문제 해결책을 제시한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.14320",
+      "published_at": "2026-11-11T00:00:00.000Z"
+    },
+    {
+      "headline": "Few-Step Streaming Video Generation via Condition Shifting",
+      "lede": "조건 이동 기법을 적용해 전역 비디오 속도장을 추정함으로써 적은 샘플링 단계로 실시간 스트리밍 비디오를 저비용 생성하는 연구다.",
+      "why_now": "비디오 생성 모델 추론 시 메모리와 연산량을 크게 감축하는 기술 방안이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.14033",
+      "published_at": "2026-11-11T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "사용자 팀과 AI 에이전트가 단일 채널과 DM에서 협업하도록 설계된 셀프호스팅 지원 오픈소스 Slack 대체 플랫폼이다.",
+      "why_now": "Claude, ChatGPT, Gemini와 연동하고 MCP 툴 및 브라우저 제어 권한을 래핑해 에이전트 워크스페이스를 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-12T02:10:55.000Z"
+    },
+    {
+      "headline": "respanai/respan-gateway",
+      "lede": "OpenAI, Anthropic, Gemini 등 복수 LLM 제공업체의 엔드포인트를 단일 API 호환 래퍼로 통합 관리하는 Rust 기반 릴리스다.",
+      "why_now": "다양한 모델 라우팅과 SDK 통합을 단일 엔드포인트로 처리하는 초고속 게이트웨이 라이브러리다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/respanai/respan-gateway",
+      "published_at": "2026-11-12T01:53:13.000Z"
+    },
+    {
+      "headline": "shinyobjectz/raea",
+      "lede": "자연어 요구사항을 React 및 TypeScript 그래픽 코드로 번역하여 로컬 GPU에서 실시간 렌더링하는 Rust/Bevy 기반 엔진이다.",
+      "why_now": "모션 그래픽 및 3D/비디오 렌더링 과정을 코드 기반 에이전트 작업으로 구현한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/shinyobjectz/raea",
+      "published_at": "2026-11-12T01:46:04.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "화웨이, 로컬 추론용 아키텍처 독립 양자화 MACaQ 공개",
+    "lede": "화웨이가 모델 구조에 독립적으로 저비트(MXFP4 W4A4) 양자화를 선형 레이어별로 고속 적용하는 MACaQ 도구 및 연구를 공개했다.",
+    "why_now": "로컬 단말 추론 최적화를 위한 후처리 양자화 모듈을 찾고 있다면 검토해볼 수 있다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://github.com/huawei-csl/MACaQ",
+    "published_at": "2026-11-11T20:23:57.000Z"
+  }
+}
