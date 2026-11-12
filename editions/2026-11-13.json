@@ -1,0 +1,157 @@
+{
+  "date": "2026-11-13",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "구글이 다중모달 의사결정 전용 Gemini Decisions API를 공개했으며, 앤트로픽이 기업공개 로드쇼를 시작했다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "구글, 멀티모달 의사결정 전용 Gemini Decisions API 공개",
+    "lede": "구글이 다중모달 입력을 바탕으로 실시간 확률적 선택을 수행하는 Gemini Decisions API를 출시했다.",
+    "why_now": "텍스트 추론 생성 과정을 거치지 않고 단일 포워드 패스로 정형화된 결정을 내리는 결정 모델 전용 API가 상용화됐다.",
+    "kind": "announcement",
+    "source_name": "Google AI",
+    "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+    "published_at": "2026-11-11T18:00:00.000Z",
+    "body": "기존 대형 언어 모델은 질문을 입력받으면 텍스트 생성과 추론 과정을 거쳐 답변을 냈다. 반면 Gemini Decision 모델은 제시된 선택지에 대한 보정된 확률값을 직접 반환한다. 이를 통해 응답 지연시간을 낮추고 이미지와 텍스트가 섞인 데이터를 실시간 액션으로 빠르게 변환할 수 있다. 로봇 제어, 분류기, 낮은 지연시간이 필수적인 에이전트 제어 시스템 구축에 직접적인 대안이 된다.",
+    "also_see": [
+      {
+        "title": "[AINews] D-Day (Decision Models Day)",
+        "url": "https://latent.space/p/ainews-d-day-decision-models-day"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "일레븐랩스, 음성 간섭을 다루는 Scribe v3 Live 공개",
+      "lede": "일레븐랩스가 주변 소음과 동시 발화를 구분해 음성 에이전트의 중간 끊김을 방지하는 Scribe v3 및 Scribe v3 Live 모델을 공개했다.",
+      "why_now": "실시간 전화 통화 환경에서 상대방 말을 중간에 끊지 않고 정교하게 인지하는 음성 모델이 상용 수준으로 제공된다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/elevenlabs-scribe-v3-live-uses-conversational-context-to-stop-voice-agents-from-cutting-off-callers-mid-sentence",
+      "published_at": "2026-11-12T13:48:19.000Z"
+    },
+    {
+      "headline": "딥마인드, 단일 세포 단위 DNA 분석 모델 AlphaGenome 2 발표",
+      "lede": "구글 딥마인드가 조직 전체 단위가 아닌 개별 세포 유형별로 유전자 변이 영향을 예측하는 AlphaGenome 2를 발표했다.",
+      "why_now": "1억 700만 개 이상의 세포 프로필을 학습해 기존 모델보다 질환 관련 유전자 변화를 더 높은 분해능으로 탐지한다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+      "published_at": "2026-11-11T15:00:15.000Z"
+    },
+    {
+      "headline": "앤트로픽, 상장을 위한 투자자 로드쇼 일정 개시",
+      "lede": "앤트로픽이 클래스 A 보통주 공모를 위한 공식 투자자 설명회(로드쇼) 절차를 시작했다.",
+      "why_now": "주요 프론티어 AI 모델 개발사 중 처음으로 기업공개(IPO) 상장 절차가 구체적 일정에 들어갔다.",
+      "kind": "announcement",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/roadshow-launch",
+      "published_at": "2026-11-10T00:00:00.000Z"
+    },
+    {
+      "headline": "MS, 휴면 뉴런을 재프로그래밍하는 백도어 공격 'Lazarus' 공개",
+      "lede": "마이크로소프트 연구진이 모델 내부의 휴면 뉴런을 조작해 은닉 트리거 입력 시 악성 명령을 실행시키는 기술을 공개했다.",
+      "why_now": "도구 호출과 터미널 제어 권한을 가진 AI 에이전트 시스템을 대상으로 한 가중치 수준 공격 가능성이 확인됐다.",
+      "kind": "paper",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "published_at": "2026-11-10T20:52:56.000Z"
+    },
+    {
+      "headline": "유나이티드 항공, 승객 대리 AI 에이전트의 예매 금지",
+      "lede": "유나이티드 항공이 승객을 대신해 승권 검색 및 결제를 자동 수행하는 AI 에이전트의 시스템 접속을 차단했다.",
+      "why_now": "사용자 대리형 자율 에이전트의 서비스 이용에 대해 대형 항공사가 공식 약관 제재를 적용했다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
+      "published_at": "2026-11-11T21:24:35.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "허깅페이스, 3D 생성 모델 LoRA 파인튜닝 가이드 공개",
+      "lede": "허깅페이스가 3D 자산 생성 모델의 LoRA 파인튜닝 과정과 데이터 세팅 튜토리얼을 정립해 배포했다.",
+      "why_now": "2D 이미지 파인튜닝 기법에 이어 3D 데이터셋 파인튜닝 워크플로우가 가이드 형태로 표준화됐다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "published_at": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "headline": "화웨이, 포스트 트레이닝 양산화 도구 MACaQ 오픈소스 공개",
+      "lede": "화웨이가 레이어 독립적으로 MXFP4 수준의 가중치 및 활성화 양자화를 적용하는 MACaQ 도구를 라이브러리로 배포했다.",
+      "why_now": "복잡한 네트워크 전역 최적화 없이 개별 선형 레이어 단위로 저전력 고속 양자화를 진행할 수 있다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/huawei-csl/MACaQ",
+      "published_at": "2026-11-11T20:23:57.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Scaling Mathematical Proof Supervision from Structured Textbooks",
+      "lede": "대학 수학 교재 2,118권의 단원 구조와 증명 체계를 보존한 데이터셋 TOME-Math를 구축해 언어 모델의 증명 지도 성능을 향상시켰다.",
+      "why_now": "파편화된 단문 문제-답변 학습의 한계를 넘어 교재 고유의 체계적인 증명 구조를 학습시키는 데이터 방식을 검증했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2610.40394",
+      "published_at": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "headline": "SteerDistill: Quantizing LLM Agents via Closed-Loop Teacher Steering",
+      "lede": "저비율 양자화 모델이 환경 요구사항을 놓치고 탈선하는 현상을 교사 모델의 폐루프 유도로 교정하는 증류 기법을 제안했다.",
+      "why_now": "에이전트 모델 양자화 시 발생하는 행동 이탈 현상을 오프라인 데이터 수집 방식보다 높은 효율로 복원했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.13410",
+      "published_at": "2026-11-12T00:00:00.000Z"
+    },
+    {
+      "headline": "Don't Just Trust Your Memory: Evidence-Linked Memory Reduces Memory-Induced Degradation in LLM Agents",
+      "lede": "외부 기억을 활용하는 에이전트가 오염되거나 오적용된 교훈으로 인해 성능이 오히려 저하되는 현상을 방지하는 증거 연결형 메모리 구조를 제시했다.",
+      "why_now": "에이전트 메모리가 늘어날 때 잘못된 경험 추출로 발생하는 태스크 실패율 상승 문제를 해결하고자 했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.14320",
+      "published_at": "2026-11-11T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code 및 Codex 터미널 에이전트 실행 화면과 원격 SSH 접속을 브라우저와 모바일에서 제어하는 오픈소스 UI 패널.",
+      "why_now": "터미널 기반 코딩 에이전트의 작업 현황과 콘솔 출력을 원격에서 실시간으로 확인하고 조율할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-12T15:33:24.000Z"
+    },
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "인간 팀원과 MCP 기반 AI 에이전트가 일반 채널 및 DM에서 함께 작업하는 오픈소스 자체 호스팅 협업 플랫폼.",
+      "why_now": "Claude, ChatGPT, Gemini 등을 도구 호출과 브라우저 제어 권한을 갖춘 협업 에이전트로 슬랙 형태 채널에 상주시킨다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-12T15:24:14.000Z"
+    },
+    {
+      "headline": "respanai/respan-gateway",
+      "lede": "OpenAI, Anthropic, Gemini 등 다양한 AI 벤더 API 요청을 표준 규격 단일 엔드포인트로 추상화하는 Rust 기반 게이트웨이.",
+      "why_now": "복수의 벤더 모델과 도구를 연결하는 애플리케이션 개발 시 엔드포인트 제어 레이어를 경량화할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/respanai/respan-gateway",
+      "published_at": "2026-11-12T14:33:08.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "구글 랩스, 팀 협업 공간 실험 프로젝트 Tabletop 공개",
+    "lede": "팀 단위로 인터랙티브 일정 수립, 투표, 브래킷 조성을 함께 진행하는 구글 랩스의 협업 실험 프로젝트 Tabletop이 대기열 등록을 시작했다.",
+    "why_now": "생성형 모델 기반의 공유 작업 공간 UI를 그룹 단위 협업 도구로 확장하는 실험이 이어지고 있다.",
+    "kind": "release",
+    "source_name": "Google AI",
+    "canonical_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+    "published_at": "2026-11-11T16:00:00.000Z"
+  }
+}
