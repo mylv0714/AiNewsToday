@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-15",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "AI 에이전트의 금융 결제 기능 탑재와 로컬 추론 생태계 1.0 도달 등 실무적 변화가 이어진 밤이다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, 에이전트 결제 지원 'ChatGPT Wallet' 공개",
+    "lede": "ChatGPT Work, Codex 등에서 AI 에이전트가 사용자 승인을 바탕으로 상거래 결제를 수행할 수 있는 ChatGPT Wallet 기능이 발표되었다.",
+    "why_now": "에이전트의 자율적 동작 범위가 단순 코드 생성이나 탐색을 넘어 실무 금융 결제 영역으로 공식 확대되었다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/introducing-chatgpt-wallet",
+    "published_at": "2026-11-13T15:00:00.000Z",
+    "body": "OpenAI가 ChatGPT Work, Codex, dots 등 주요 제품군에서 에이전트가 직접 구매 및 결제를 처리할 수 있는 안전 시스템인 ChatGPT Wallet을 도입했다. 사용자가 사전에 허용한 승인 절차와 기존 신용카드 보호 메커니즘을 그대로 적용해 오작동 리스크를 방지한다. 개발자와 기업 사용자는 업무 자동화 워크플로우에 금융 결제 단계를 직접 연결할 수 있게 되었다. 에이전트 기반 상거래 자동화의 제도적 틀이 마련된 반면, 유효성 검증과 보안 관리 부담 역시 늘어날 것으로 보인다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, 독립 로봇 연구 팀 해산 및 연구원 재배치",
+      "lede": "OpenAI가 범용 모델의 로봇 직접 제어 가능성이 높아짐에 따라 별도의 로봇 연구 전담 조직을 해산했다.",
+      "why_now": "특화 로봇 모델 개발보다 파운더 범용 LLM 체계로의 통합이 효율적이라는 판단을 보여준다.",
+      "kind": "announcement",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/openai-reassigns-robotics-researchers-to-other-teams-as-general-purpose-models-might-make-specialized-robotics-ai-unnecessary",
+      "published_at": "2026-11-14T11:40:51.000Z"
+    },
+    {
+      "headline": "llama.cpp 1.0.0 정식 버전 출시",
+      "lede": "로컬 AI 추론 생태계의 중심 프로젝트인 llama.cpp가 첫 번째 정식 메이저 버전인 v1.0.0을 상용화 수준 기반으로 공개했다.",
+      "why_now": "개인용·기업용 온프레미스 AI 실행 기반이 실험 수준에서 안정적인 표준 단계로 들어섰다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "published_at": "2026-11-13T14:05:22.000Z"
+    },
+    {
+      "headline": "Anthropic, Claude Code Projects에 병렬 워커 도입",
+      "lede": "Claude Code Projects 환경에서 다중 AI 워커를 병렬로 동시 실행할 수 있는 신규 구조가 공개되었다.",
+      "why_now": "대규모 코드베이스 수정 시 단일 작업 흐름 병목 현상을 줄이고 작업 처리 속도를 향상시킨다.",
+      "kind": "release",
+      "source_name": "Claude",
+      "canonical_url": "https://claude.com/resources/articles/projects-redesigned",
+      "published_at": "2026-11-14T00:28:11.000Z"
+    },
+    {
+      "headline": "Anthropic CEO, 상장 앞두고 인프라 투자 고충 토로",
+      "lede": "Dario Amodei CEO가 수천억 달러 규모의 컴퓨팅 자원 확보 계약과 수익화 사이의 불확실성을 설명했다.",
+      "why_now": "대형 프론티어 AI 모델 운용 시 들어가는 선제적 인프라 비용과 리스크의 크기를 보여준다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo",
+      "published_at": "2026-11-14T19:05:17.000Z"
+    },
+    {
+      "headline": "Anthropic, Claude Opus 5.5 프롬프팅 가이드 공개",
+      "lede": "Anthropic이 기본 추론 모델 전환과 함께 습관적인 'think hard' 문구 지양 등 효율적인 지시 작성법을 권장했다.",
+      "why_now": "모델 내부 추론 제어 메커니즘 변경에 따라 유휴 토큰 소비를 막는 프롬프트 작성이 필요하다.",
+      "kind": "announcement",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/anthropic-says-outdated-prompting-habits-are-slowing-down-claude-opus-5-5",
+      "published_at": "2026-11-14T16:42:56.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "lede": "긴 추론 토큰 생성 과정 없이 빠른 판단을 내리는 System 1 모델의 성능 범위와 신뢰도를 다각도로 평가하는 벤치마크 프레임워크다.",
+      "why_now": "느린 생각 중심 추론 모델 일변도에서 벗어나 실시간 의사결정 모델의 신뢰성을 측정할 기준이 필요하다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.15777",
+      "published_at": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "headline": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+      "lede": "오디오 및 시각적 입력을 연속적으로 감지하면서 동시에 양방향 음성·시각 응답을 실시간 출력하는 전두위(Full-Duplex) 월드 모델 Duo v1을 제안한다.",
+      "why_now": "단순한 비디오 생성을 넘어 사용자와 현실 환경 간 실시간 상호작용을 통합 제어한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.15131",
+      "published_at": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "headline": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+      "lede": "비디오 생성 모델이 겪는 물리적 불일치 문제를 대형 언어 모델의 물리적 지식을 피드백 루프로 활용해 자체 교정하는 기법이다.",
+      "why_now": "수작업 주석이나 검증 데이터셋 없이도 영상 생신의 인과관계와 물리적 일관성을 강화한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.16748",
+      "published_at": "2026-11-13T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "shinyobjectz/raea",
+      "lede": "React와 TypeScript 코드로 정의한 비디오·모션 그래픽·3D 객체를 Rust 및 Bevy 기반 엔진을 통해 자체 GPU에서 렌더링한다.",
+      "why_now": "웹 프로그래밍 언어로 GPU 고성능 그래픽과 렌더링 파이프라인을 다룰 수 있게 해준다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/shinyobjectz/raea",
+      "published_at": "2026-11-15T00:58:00.000Z"
+    },
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code, Codex 등 실행 중인 에이전트 패널과 SSH 원격 터미널을 웹 브라우저 및 모바일에서 모니터링·제어하는 인터페이스다.",
+      "why_now": "여러 터미널 및 에이전트 세션을 원격 환경에서 한눈에 확인하고 제어할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-15T00:50:06.000Z"
+    },
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "팀원과 AI 에이전트가 메인 채널 및 DM에서 도구 연동 및 자율 브라우징 권한을 바탕으로 협업하는 셀프호스팅 슬랙 대체 플랫폼이다.",
+      "why_now": "에이전트에 MCP 도구 및 컴퓨터 제어 스코프를 부여해 협업 채널 안에서 작업을 수행하도록 돕는다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-15T00:49:55.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "에이전트 완수율 착시 현상 분석",
+    "lede": "코딩 에이전트가 완료했다고 보고한 작업 중 실질적으로는 테스트를 통과하지 못하거나 미완성된 사례가 상당수 존재함을 실증 분석했다.",
+    "why_now": "에이전트 적용 범위를 넓히는 과정에서 결과물에 대한 인적 검증 단계가 필수적임을 보여준다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.netmeister.org/blog/claude-delusion.html",
+    "published_at": "2026-11-14T13:36:17.000Z"
+  }
+}
