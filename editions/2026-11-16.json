@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-16",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "OpenAI의 과학 전용 블로그 개설과 국산 칩 기반 1.6조 파라미터 에이전트 모델 공개가 눈에 띄는 아침이다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, 과학 연구 전용 블로그 개설 및 Astra 성과 공개",
+    "lede": "OpenAI가 AI를 활용한 기초 과학 연구 성과를 공유하는 전용 블로그를 개설하고 첫 사례로 GPT-6 Astra의 물리학 수식화 증명 지원 결과를 발표했다.",
+    "why_now": "11월 15일 저녁 OpenAI 공식 블로그를 통해 과학 연구 부문의 전용 채널 개설과 주요 연구 결과가 함께 공개되었다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/our-new-blog-for-science",
+    "published_at": "2026-11-15T22:00:00.000Z",
+    "body": "OpenAI는 과학 연구자들과의 협업 및 모델 활용 사례를 다루는 신규 블로그 채널을 시작했다. 첫 게시물로는 비섭동적(nonperturbative) 격자 표준 모형의 수학적 정의를 다루는 연구를 공개하며, 이 과정에서 GPT-6 Astra가 정밀한 증명 도출을 도왔다고 설명했다. 단순 벤치마크 경쟁을 넘어 기초 과학 연구 도구로서 프론티어 모델의 적용 가능성을 직접 제시하려는 시도로 해석된다. 모델이 제시한 수식의 정밀 검증 방식과 한계에 대해서도 추가 연구 논의를 이어갈 예정이다.",
+    "also_see": [
+      {
+        "title": "A step toward defining the Standard Model on a lattice",
+        "url": "https://openai.com/index/step-toward-defining-the-standard-model"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "메이퇀, 국산 칩 기반 1.6조 파라미터 LongCat-2.5 공개",
+      "lede": "메이퇀이 엔비디아 GPU 없이 화웨이 승등(Ascend) 칩 194대로 학습·배포한 1.6조 파라미터 에이전트 모델 LongCat-2.5의 가중치를 공개했다.",
+      "why_now": "11월 15일 메이퇀이 가중치 릴리스와 함께 Terminal Bench 88.4점 달성 기록을 발표했다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu",
+      "published_at": "2026-11-15T10:06:06.000Z"
+    },
+    {
+      "headline": "Claude Fable 5.2, 파이썬 붓터치 렌더링 방식 채택",
+      "lede": "앤트로픽의 Claude Fable 5.2가 직접 픽셀을 생성하는 대신 수십만 번의 붓터치를 시뮬레이션하는 파이썬 코드를 작성해 이미지를 그리는 방식을 사용함이 확인되었다.",
+      "why_now": "기존 생성 모델과 차별화되는 Claude Fable 5.2의 이미지 렌더링 구동 메커니즘 분석이 15일 보도되었다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
+      "published_at": "2026-11-15T15:42:03.000Z"
+    },
+    {
+      "headline": "호주 중앙은행, AI 도입 후 청년 기술직 고용 감소 발표",
+      "lede": "호주 중앙은행 보고서에 따르면 ChatGPT 출시 이후 소프트웨어 개발 및 고객 서비스 분야의 15–24세 채용 공고와 고용률이 타 분야 대비 가파르게 감소했다.",
+      "why_now": "중앙은행 차원의 AI 노동시장 영향 실증 분석 결과가 15일 공개되었다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service",
+      "published_at": "2026-11-15T10:45:58.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "lede": "긴 토큰 생성 없이 빠르게 의사결정을 내리는 System 1 AI 모델들의 기능 범위와 의사결정 신뢰도를 측정하는 벤치마크 프레임워크를 제안한다.",
+      "why_now": "단순 성능 수치를 넘어 속도 중심 모델의 판단 신뢰성을 검증하기 위해 제시되었다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.15777",
+      "published_at": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "headline": "PhysLoop: Harnessing LLMs' Physics Awareness for Self-Improving Video Generation Models",
+      "lede": "비디오 생성 모델의 물리적 일관성 부족 문제를 해결하기 위해 LLM 내부의 물리 지식을 피드백 루프로 활용해 품질을 자체 개선하는 기법을 제안한다.",
+      "why_now": "생성 영상의 시각적 화질 대비 물리 법칙 불일치 문제를 정밀 제어하려는 연구다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.16748",
+      "published_at": "2026-11-13T00:00:00.000Z"
+    },
+    {
+      "headline": "Duo: A Reciprocal World Model for Full-Duplex Interaction",
+      "lede": "시청각 입력을 실시간으로 계속 인지하면서 지연 없이 응답을 동시에 생성하는 풀듀플렉스 상호작용 세계 모델 Duo v1을 선보인다.",
+      "why_now": "물리 환경 시뮬레이션을 넘어 사용자와의 실시간 양방향 상호작용을 통합한 세계 모델 연구다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.15131",
+      "published_at": "2026-11-13T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "슬랙 형태의 채널 및 DM 환경에서 팀원과 AI 에이전트가 MCP 도구 및 브라우저 제어권으로 함께 작업하는 오픈소스 셀프호스팅 플랫폼.",
+      "why_now": "에이전트 런타임과 슬랙 협업 환경을 AGPL-3.0 오픈소스로 직접 구축할 수 있게 공개되었다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-16T00:57:27.000Z"
+    },
+    {
+      "headline": "davidondrej/cloudroom",
+      "lede": "Claude Code, Codex, OpenCode 등 다양한 에이전트를 격리된 샌드박스에서 실행하고 로컬 맥과 클라우드 간 세션을 이관하는 툴.",
+      "why_now": "다양한 에이전트 하네스의 실행 환경 분리와 클라우드 샌드박스 핸드오프를 지원한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/davidondrej/cloudroom",
+      "published_at": "2026-11-16T00:49:07.000Z"
+    },
+    {
+      "headline": "simplexai-labs/PolyStrata",
+      "lede": "Qwen3.8, GLM 5.3 Flash, DeepSeek V4 Flash 등 대형 AI 모델을 로컬 PC에서 1-클릭으로 구동하고 OpenAI API 호환 호스트를 제공하는 엔진.",
+      "why_now": "최신 프론티어급 오픈 가중치 모델의 로컬 추론 및 엔드포인트 제공 환경을 다룬다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/simplexai-labs/PolyStrata",
+      "published_at": "2026-11-16T00:17:44.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "AI 생성 코드의 오픈소스 의무화에 대한 커뮤니티 논쟁",
+    "lede": "AI 모델이 생성한 코드의 저작권 및 라이선스 귀속 문제와 관련해, 이를 전면 오픈소스화해야 한다는 주장이 개발자 사이에서 큰 토론을 일으켰다.",
+    "why_now": "15일 해커뉴스에서 1,000점 이상의 추천과 500개 이상의 댓글을 기록하며 집중 논의되었다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://jakub.jankiewicz.org/blog/ai-code-open-source",
+    "published_at": "2026-11-15T14:46:58.000Z"
+  }
+}
