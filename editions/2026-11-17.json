@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-17",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "NVIDIA의 SC26 신규 플랫폼 발표와 OpenAI의 헬스케어 에이전트 확장, 그리고 에이전트 중심의 연구들이 쏟아진 하루였다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "NVIDIA, Vera Rubin 플랫폼 및 Rubin HPC 공개",
+    "lede": "SC26에서 과학 및 엔지니어링 시뮬레이션을 가속하는 차세대 GPU인 Rubin HPC와 Vera Rubin 플랫폼을 발표했다.",
+    "why_now": "AI 인프라의 차세대 표준을 제시하며 MLPerf 벤치마크 전 부문을 석권했기 때문이다.",
+    "kind": "announcement",
+    "source_name": "NVIDIA",
+    "canonical_url": "https://blogs.nvidia.com/blog/rubin-hpc",
+    "published_at": "2026-11-16T16:00:01.000Z",
+    "body": "Vera Rubin 플랫폼은 에이전트 추론과 대규모 학습에서 업계 최고 성능을 기록했다. 특히 Rubin HPC는 시뮬레이션과 데이터 집약적 워크플로우에 최적화된 설계를 갖췄다. 이번 발표는 AI가 단순 언어 모델을 넘어 과학적 발견을 위한 에이전트 시스템으로 진화하고 있음을 시사한다. CUDA 20주년과 맞물려 컴퓨팅 패러다임의 전환을 예고했다.",
+    "also_see": [
+      {
+        "title": "NVIDIA Sweeps MLPerf Training and Endpoints",
+        "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, 헬스케어용 에이전트 및 기능 확장",
+      "lede": "컴퓨터 사용 에이전트와 개선된 임상 답변 기능을 통해 의료 소프트웨어 워크플로우 자동화를 지원한다.",
+      "why_now": "의료 현장의 실무 효율을 높이는 에이전트 기술의 구체적인 적용 사례이기 때문이다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/more-ways-to-move-care-forward-with-chatgpt-for-healthcare",
+      "published_at": "2026-11-16T06:00:00.000Z"
+    },
+    {
+      "headline": "LVMH 미디어 부문, OpenAI와 전략적 파트너십",
+      "lede": "저널리즘의 AI 활용을 지원하고 ChatGPT를 통해 콘텐츠 접근성을 높이는 협력을 시작한다.",
+      "why_now": "미디어 산업과 AI 기업 간의 새로운 협력 모델을 보여주기 때문이다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/lvmh-media-division-partnership",
+      "published_at": "2026-11-16T09:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "Google Maps, 연휴 여행 준비 기능 추가",
+      "lede": "Ask Maps를 통해 여행 경로 팁, 지역 예약, 저장된 목록 검색 등 연휴 준비를 돕는 기능을 업데이트했다.",
+      "why_now": "사용자 경험 중심의 에이전트 기능이 실생활 서비스에 통합되고 있기 때문이다.",
+      "kind": "release",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026",
+      "published_at": "2026-11-16T14:00:00.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Envisioning Agentic Robotics: A New Era of Robotic Systems",
+      "lede": "GPT-6 Astra 기반의 에이전트가 로봇 제어 정책을 대체하며 범용 로봇 시스템의 새로운 패러다임을 제시한다.",
+      "why_now": "에이전트가 특정 작업 중심에서 범용 로봇 제어로 확장되는 흐름을 보여주기 때문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.18359",
+      "published_at": "2026-11-16T00:00:00.000Z"
+    },
+    {
+      "headline": "Gamer: A Generalist Vision-Language-Action Foundation Model",
+      "lede": "복잡한 2D/3D 환경에서 장기적인 작업을 수행하기 위한 지각, 기억, 추론 통합 에이전트 프레임워크를 제안한다.",
+      "why_now": "게임 환경을 넘어 복잡한 상호작용 환경에서의 에이전트 성능을 다루기 때문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.18397",
+      "published_at": "2026-11-16T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "팀과 AI 에이전트가 채널과 DM에서 협업하는 오픈소스 Slack 대안 플랫폼이다.",
+      "why_now": "에이전트가 실제 업무 도구와 결합하여 협업하는 환경을 구축할 수 있기 때문이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-16T15:19:06.000Z"
+    },
+    {
+      "headline": "wici-ai/inferssd",
+      "lede": "SSD를 활용해 RAM/VRAM 용량을 초과하는 대규모 MoE 모델을 스트리밍 방식으로 실행하는 도구다.",
+      "why_now": "로컬 환경에서 대형 모델을 구동하려는 수요를 해결하는 실용적인 접근이기 때문이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/wici-ai/inferssd",
+      "published_at": "2026-11-16T16:11:30.000Z"
+    }
+  ],
+  "if_time": null
+}
