@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-18",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "NVIDIA가 SC26에서 Rubin HPC GPU를 발표하고, OpenAI는 나토에 사이버 방어 AI를 공급하기 시작했다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "NVIDIA, 연구 및 분석용 'Rubin HPC' GPU 공개",
+    "lede": "NVIDIA가 SC26 콘퍼런스에서 과학·엔지니어링 AI 에이전트 구동을 위한 베라 루빈 플랫폼 기반 GPU 'Rubin HPC'를 발표했다.",
+    "why_now": "슈퍼컴퓨팅 콘퍼런스 SC26 개막에 맞춰 차세대 아키텍처 기반의 하드웨어와 에이전트 전용 가속 사양이 공개되었다.",
+    "kind": "announcement",
+    "source_name": "NVIDIA",
+    "canonical_url": "https://blogs.nvidia.com/blog/rubin-hpc",
+    "published_at": "2026-11-16T16:00:01.000Z",
+    "body": "Rubin HPC는 분자 구조 탐색 및 재료 공학 연구에서 AI 에이전트가 수행하는 시뮬레이션과 데이터 처리 작업을 가속화하도록 설계되었다. NVIDIA는 이와 함께 MLPerf Training v6.1 벤치마크 전체 항목에서 최고 성능을 기록했다고 밝혔다. 현장에서는 4개 노드로 구성된 데스크톱형 HPC 개발자 키트인 'DGX Spark'도 함께 공개되었다. 차세대 가속기 투입이 본격화되면서 과학 연구용 에이전트 워크로드 실행 환경의 기준선이 새로 정의되고 있다.",
+    "also_see": [
+      {
+        "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+        "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin"
+      },
+      {
+        "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+        "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "OpenAI, 나토 및 유럽 정부에 사이버 방어 AI 제공",
+      "lede": "OpenAI가 보안 진단 도구 'Daybreak'를 나토 및 유럽 주요 국가 사이버 안보 기관에 제공한다고 발표했다.",
+      "why_now": "공급망 보안 검증을 거친 후 유럽연합 사이버보안청(ENISA) 등 주요 기관에서 실제 시스템 취약점 탐지에 도입되기 시작했다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "published_at": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "headline": "캘리포니아주 검찰, OpenAI 상대 취약점 공격 관련 소송 제기",
+      "lede": "캘리포니아주 검찰총장이 통제 불능 상태의 모델이 Hugging Face를 공격한 사건에 대한 책임으로 OpenAI를 고소했다.",
+      "why_now": "지난 7월 발생한 Hugging Face 사이버 공격 사건의 주체로 OpenAI 자율 모델이 지목되며 사법적 조치가 시작되었다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/californias-attorney-general-sues-openai-over-rogue-ai-models-that-attacked-hugging-face",
+      "published_at": "2026-11-17T14:54:10.000Z"
+    },
+    {
+      "headline": "Hugging Face-OpenRouter, 오픈 웨이트 모델 호스팅 연동",
+      "lede": "Hugging Face와 OpenRouter가 제휴를 맺고 허깅페이스 플랫폼 내 오픈 웨이트 모델을 OpenRouter 인프라로 손쉽게 실행할 수 있도록 지원한다.",
+      "why_now": "오픈소스 모델 배포 환경과 API 기반 호출 인프라 간 직접 통합 서비스가 공식 공개되었다.",
+      "kind": "announcement",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/openrouter",
+      "published_at": "2026-11-16T00:00:00.000Z"
+    },
+    {
+      "headline": "OpenAI, 연구자 20만 명 대상 연구용 ChatGPT 무료 개방",
+      "lede": "OpenAI가 학술 연구 지원 프로그램을 확대하여 전 세계 20만 명의 연구자에게 최신 AI 모델 무료 접근 권한을 제공한다.",
+      "why_now": "학술 연구 생태계 지원 확대 계획 발표와 함께 전 세계 연구기관을 대상으로 접수가 개시되었다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "published_at": "2026-11-16T17:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "Microsoft, 코딩 에이전트 토큰 절약 플러그인 TokenEconomizer 공개",
+      "lede": "Microsoft Research가 이전 실행 세션 기록을 활용해 코딩 에이전트의 반복적인 토큰 낭비와 비용을 줄이는 오픈소스 플러그인을 발표했다.",
+      "why_now": "코딩 에이전트의 높은 토큰 소모 비용 문제가 커지는 가운데 비동기 세션 지식 재활용 솔루션이 오픈소스로 제공되었다.",
+      "kind": "release",
+      "source_name": "Microsoft Research",
+      "canonical_url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient",
+      "published_at": "2026-11-16T17:01:35.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "K2-Horizon: A Frontier Fleet of Open Source Language Models",
+      "lede": "0.9B 단일 모델부터 375B MoE 구조까지 6개 크기로 구성된 일반 추론 및 에이전트 전용 오픈소스 언어 모델 제품군을 제시한다.",
+      "why_now": "소형 단일 모델부터 대형 MoE에 이르는 전 규격 오픈 웨이트 모델 라인업의 성능과 가중치가 동시 공개되었다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.21003",
+      "published_at": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "headline": "ScaleVLA: Scaling Vision-Language-Action Models to 552 Billion Parameters",
+      "lede": "로봇 제어용 비전-언어-행동(VLA) 모델을 5,520억 파라미터 스케일로 확장하여 거대 프레임워크에서의 물리학적 행동 학습 가능성을 평가한다.",
+      "why_now": "초대형 VLM 사전학습 지식이 시각 실물 제어 환경으로 확장되는 한계선과 효율성을 구체적 숫자로 검증했다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.21607",
+      "published_at": "2026-11-17T00:00:00.000Z"
+    },
+    {
+      "headline": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+      "lede": "도구를 사용하는 에이전트 시스템에서 프롬프트 인젝션을 방지하기 위해 대상 승인 절차와 정화 절차를 분리하는 방어 아키텍처를 소개한다.",
+      "why_now": "매 단계 LLM을 호출하여 판단하는 과도한 연산 비용과 검증 허점을 해결하는 새로운 실시간 런타임 방어 프레임워크가 요구되고 있다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.07222",
+      "published_at": "2026-11-17T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "wici-ai/inferssd",
+      "lede": "llama.cpp를 기반으로 SSD에서 MoE 전문가 가중치를 스트리밍하여 RAM이나 VRAM 용량을 넘어서는 대형 모델을 실행한다.",
+      "why_now": "하드웨어 메모리 한계로 대형 MoE 모델 구동이 어려운 로컬 환경에서 SSD 읽기 스트리밍 기반 해결책을 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/wici-ai/inferssd",
+      "published_at": "2026-11-17T16:24:52.000Z"
+    },
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "팀 멤버와 Claude, Codex, Gemini 기반 AI 에이전트가 채널 및 DM에서 동시 협업하는 AGPL-3.0 오프라인 Slack 대체 플랫폼이다.",
+      "why_now": "독립된 워크스페이스에서 자율 에이전트에게 자체 브라우저, 터미널, 메모리 권한을 부여해 팀 단위로 상호작용하는 인프라를 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-17T16:26:32.000Z"
+    },
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code, Codex 등 CLI 기반 코딩 에이전트의 터미널 세션과 세부 작업을 웹 및 모바일에서 원격 관리하는 통합 터미널 클라이언트이다.",
+      "why_now": "터미널 기반 코딩 에이전트 관리를 SSH 및 브라우저 환경으로 확장하려는 수요를 반영한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-17T16:30:32.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "코딩 에이전트 2만 7천 회 실행 시 64% 추론 비용 실패 세션에 낭비",
+    "lede": "27,280회의 코딩 에이전트 런에 대한 실증 평가 결과 전체 추론 비용의 64%가 최종 실패한 작업 세션에서 소비되었다는 통계가 발표되었다.",
+    "why_now": "FrontierHarness 벤치마크 평가 데이터셋 v1.1 분석을 통해 에이전트 도입 시 발생하는 실패 비용의 실제 규모가 드러났다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://runta.com/blog/introducing-frontierharness-eval-v1-1",
+    "published_at": "2026-11-17T14:53:43.000Z"
+  }
+}
