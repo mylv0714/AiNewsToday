@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-19",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "OpenAI의 GPT-6.2 신규 모델 출시와 함께 로컬 모델 연산 도구 및 에이전트 관련 연구가 잇달아 공개되었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, GPT-6.2 Astra·Sol 모델 공개",
+    "lede": "OpenAI가 전문 업무 성능을 높이고 연산 비용을 절감한 신규 모델 GPT-6.2 Astra와 Sol을 출시했다.",
+    "why_now": "ChatGPT Work, Codex, API에 동시 적용되어 바로 업무에 투입할 수 있게 되었다.",
+    "kind": "announcement",
+    "source_name": "OpenAI",
+    "canonical_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+    "published_at": "2026-11-17T17:45:00.000Z",
+    "body": "Astra는 코딩, 컴퓨터 사용, 전문 업무 출력 정확도 개선에 중점을 두었으며, Sol은 대량 작업 처리를 위한 가성비 중심 모델이다. 기존 대비 벤치마크 구동 비용을 20%에서 최대 600%까지 낮췄다. 현장 사용자들 사이에서는 실제 응답 품질에 대한 체감 반응이 다소 갈리고 있으나, 24개 법률 분야 평가 1위를 기록한 Astra for Law 등 엔터프라이즈 특화 버전도 함께 배포되기 시작했다.",
+    "also_see": [
+      {
+        "title": "Latent Space의 GPT-6.2 초기 반응 분석",
+        "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "구글, Tasks in Gemini 무료 제공 확대",
+      "lede": "구글이 Gemini 앱 내 작업 수행 기능인 Tasks in Gemini를 6개국에 무료로 개방하고 Workspace 연동을 강화했다.",
+      "why_now": "무료 사용자도 구글 생태계 앱과 직접 연동되는 에이전틱 동작을 테스트할 수 있게 되었다.",
+      "kind": "release",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+      "published_at": "2026-11-17T17:00:00.000Z"
+    },
+    {
+      "headline": "OpenAI, ChatGPT for Sales 출시",
+      "lede": "OpenAI가 잠재 고객 조사와 CRM 업데이트를 지원하는 영업 전용 플러그인 30여 개를 추가했다.",
+      "why_now": "영업 업무 파이프라인 전반을 ChatGPT 인터페이스 내부로 연동하는 흐름이 구체화되었다.",
+      "kind": "release",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "published_at": "2026-11-17T08:00:00.000Z"
+    },
+    {
+      "headline": "엔비디아, 데스크톱용 DGX Spark 클러스터 공개",
+      "lede": "엔비디아가 SC26 행사에서 4개 노드로 구성된 DGX Spark HPC 개발자 키트를 발표했다.",
+      "why_now": "연구원 개인 책상 위에서 직접 소형 슈퍼컴퓨팅 워크로드를 구축하고 실험할 수 있게 되었다.",
+      "kind": "release",
+      "source_name": "NVIDIA",
+      "canonical_url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26",
+      "published_at": "2026-11-16T23:00:05.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "40개 언어 지원 경량 음성 모델 Rumble-2-Flash",
+      "lede": "Hugging Face가 40개 이상 언어를 지원하는 0.5B 파라미터 경량 오픈 음성 모델 Rumble-2-Flash를 공개했다.",
+      "why_now": "적은 연산 자원으로 온디바이스 음성 인식 및 처리를 구현할 수 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/rumble-2-flash",
+      "published_at": "2026-11-18T00:00:00.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Weight-Space Programming Doesn't Need Transformers",
+      "lede": "가중치를 직접 작성하는 Weight-Space Programming 환경에서는 트랜스포머 구조가 필수적이지 않음을 입증한 연구다.",
+      "why_now": "경사하강법 학습이 아닌 조건에서 모델 아키텍처를 재설계해야 하는 이유를 제시한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.22055",
+      "published_at": "2026-11-18T00:00:00.000Z"
+    },
+    {
+      "headline": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+      "lede": "Ascend NPU 인프라 환경에서 학습 및 포스트 트레이닝을 거친 에이전트 모델 시리즈 Xing 4의 아키텍처와 엔지니어링 보고서다.",
+      "why_now": "비-NVIDIA 칩 환경에서 프론티어 급 에이전트 모델을 구축하는 구체적인 실사례를 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.22115",
+      "published_at": "2026-11-18T00:00:00.000Z"
+    },
+    {
+      "headline": "Multi-Branch Transformer",
+      "lede": "트랜스포머를 더 넓히거나 깊게 쌓는 대신 블록을 병렬 분기 구조로 배치해 연산 효율을 극대화하는 Multi-Branch Transformer 아키텍처를 제시한다.",
+      "why_now": "LLM 스케일링 방식에서 깊이와 폭 이외의 3번째 확장 축을 실험한 논문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.19800",
+      "published_at": "2026-11-18T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "wici-ai/inferssd",
+      "lede": "SSD에서 MoE 전문가 레이어를 실시간 스트리밍해 RAM이나 VRAM 용량을 넘어서는 대형 모델을 실행하는 llama.cpp 기반 엔진이다.",
+      "why_now": "메모리가 부족한 로컬 환경에서도 초대형 MoE 모델을 구동 가능하게 해준다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/wici-ai/inferssd",
+      "published_at": "2026-11-18T15:37:11.000Z"
+    },
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "인간 팀원과 AI 에이전트가 단널 및 DM에서 함께 협업하도록 설계된 셀프호스팅 오픈소스 슬랙 대체 플랫폼이다.",
+      "why_now": "에이전트에게 자체 브라우저, 메모리, 승인 절차를 부여해 협업 툴 중심으로 일하는 방식을 구현한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-18T15:58:54.000Z"
+    },
+    {
+      "headline": "kgoedecke/doop",
+      "lede": "사람과 AI 에이전트가 실시간으로 함께 인터랙티브 디자인을 작성하는 캔버스 형태의 오픈소스 협업 도구다.",
+      "why_now": "MCP 연동을 기반으로 멀티플레이어 디자인 인터페이스에서 에이전트와 직접 협업할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/kgoedecke/doop",
+      "published_at": "2026-11-18T12:02:51.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "구글 AI 답변 도입 후 웹 트래픽 40% 감소 영향",
+    "lede": "구글의 AI Overviews로 인해 전통적인 검색 웹사이트 유입 트래픽이 최대 40% 감소했다는 분석 보고서가 관심을 끌고 있다.",
+    "why_now": "AI 기반 정보 요약 기능이 기존 웹 생태계 유입 구조를 직접 축소시키는 현상이 집계되기 시작했다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://revscope.co/blog/search-seo-geo-2026",
+    "published_at": "2026-11-18T00:17:58.000Z"
+  }
+}
