@@ -1,0 +1,129 @@
+{
+  "date": "2026-11-20",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "Google DeepMind의 Gemini 4 Neon 공개와 에이전트 실행·협업 도구들이 다수 정리된 아침이다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "구글 딥마인드, Gemini 4 Neon 공개",
+    "lede": "구글 딥마인드가 이전 라인업 대비 추론 속도를 높이고 단가를 낮춘 Gemini 4 Neon을 공개했다.",
+    "why_now": "주요 AI 모델 및 에이전트의 구동 비용 경쟁이 가열되는 상황에서 나온 신규 모델 릴리스다.",
+    "kind": "announcement",
+    "source_name": "DeepMind",
+    "canonical_url": "https://deepmind.google/blog/introducing-gemini-4-neon",
+    "published_at": "2026-11-18T21:35:43.000Z",
+    "body": "구글 딥마인드가 Gemini 4 라인업의 신규 모델인 Gemini 4 Neon을 발표했다. 이번 모델은 기존 Carbon 모델 대비 처리 속도가 약 2배 빨라졌으며, 벤치마크 성적을 개선하면서도 서비스 제공 비용을 낮춘 것이 특징이다. 개발자 및 기업 환경에서 향상된 응답 속도와 절감된 비용으로 멀티모달 및 코딩 작업에 활용할 수 있다. Anthropic과 OpenAI의 주요 라인업에 대응하는 구글의 가격·성능 효율화 전략을 보여준다.",
+    "also_see": [
+      {
+        "title": "Gemini 4 Neon looks like an Opus 5.5 competitor",
+        "url": "https://micjm.com/blog/gemini-4-neon-looks-like-a-top-model"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "구글 딥마인드, Genie 4 정식 공개",
+      "lede": "구글 딥마인드가 대화형 상호작용 및 시각적 생성을 지원하는 월드 모델 Genie 4를 정식 출시했다.",
+      "why_now": "가상 환경 시뮬레이션 및 월드 모델 연구가 실제 응용 단계로 이행하고 있다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/genie-4-is-now-available",
+      "published_at": "2026-11-18T18:13:42.000Z"
+    },
+    {
+      "headline": "OpenAI, Codex 샌드박스 메커니즘 공개",
+      "lede": "OpenAI가 macOS, Linux, Windows 전반에서 파일시스템과 네트워크 구성을 격리하며 명령어를 실행하는 Codex 샌드박스 구조를 설명했다.",
+      "why_now": "로컬 장치에서 실행되는 에이전트의 보안 및 자원 제한 메커니즘 구축이 중요해졌다.",
+      "kind": "analysis",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/inside-the-codex-sandbox",
+      "published_at": "2026-11-18T08:00:00.000Z"
+    },
+    {
+      "headline": "OpenAI, 에이전트의 AI 연구 가속 보고서 발표",
+      "lede": "OpenAI가 코딩 에이전트가 자체 AI 연구를 가속하는 양상과 불균일한 성능 한계를 분석한 결과를 공개했다.",
+      "why_now": "재귀적 자기 개선의 현주소와 불확실성을 가늠하는 실증 분석이다.",
+      "kind": "analysis",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "published_at": "2026-11-18T08:00:00.000Z"
+    },
+    {
+      "headline": "DaisyRose-27B 공개",
+      "lede": "사후 학습(post-training) 효율성을 극대화한 27B 매개변수 규모의 DaisyRose-27B 모델 블로그가 공개되었다.",
+      "why_now": "오픈소스 모델 진영에서 매개변수 효율과 후속 학습 성능을 개선하려는 시도가 이어지고 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "published_at": "2026-11-18T19:54:56.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "Jeveration: System One Models Now Generate",
+      "lede": "동결된 비전-언어 모델의 지식을 재활용하여 단일 순방향 패스만으로 고품질 이미지를 생성하는 방법을 제시한다.",
+      "why_now": "다단계 확산 과정을 거치지 않는 빠른 시각 생성 구조의 가능성을 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.24738",
+      "published_at": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "headline": "The Resolution Hypothesis: Agent Evolution's Key Is Identifying Improvements",
+      "lede": "에이전트 진화 루프가 특정 과제에서 진전하지 못하는 원인을 해상도 가설 관점에서 분석한다.",
+      "why_now": "에이전트의 자동 성능 개선 메커니즘이 가진 평가 딜레마를 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.23068",
+      "published_at": "2026-11-19T00:00:00.000Z"
+    },
+    {
+      "headline": "ALIVE: Making Streaming Video Models Interactive",
+      "lede": "연속 비디오 스트림을 관찰하며 실시간 모니터링, 과제 조율, 피드백 요청이 가능한 대화형 스트리밍 비디오 모델을 다룬다.",
+      "why_now": "수동적 비디오 관찰을 넘어 사용자 반응형 비전 에이전트로의 확장을 시도한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.21366",
+      "published_at": "2026-11-19T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "Claude, ChatGPT, Gemini 등 다양한 LLM 에이전트와 팀원이 채널 및 DM에서 함께 작업할 수 있는 자호스팅 플랫폼이다.",
+      "why_now": "조직 내부 서버에서 MCP 도구 및 에이전트 협업 환경을 구축하려는 수요를 반영한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-19T16:06:24.000Z"
+    },
+    {
+      "headline": "wici-ai/inferssd",
+      "lede": "llama.cpp 기반으로 SSD에서 MoE 전문가 가중치를 스트리밍하여 RAM 또는 VRAM 용량을 초과하는 모델을 구동한다.",
+      "why_now": "제한된 메모리 환경에서 초대형 MoE 모델을 실행하는 실용적 해법을 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/wici-ai/inferssd",
+      "published_at": "2026-11-19T15:57:52.000Z"
+    },
+    {
+      "headline": "davidondrej/cloudroom",
+      "lede": "Claude Code, Codex 등 격리된 에이전트 샌드박스 세션을 맥과 클라우드 사이에서 자유롭게 이동시키는 도구다.",
+      "why_now": "로컬 개발 환경과 클라우드 샌드박스를 연동하려는 에이전트 하네스 시도다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/davidondrej/cloudroom",
+      "published_at": "2026-11-19T12:57:59.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "LLM을 활용한 역공학 실무 관점 분석",
+    "lede": "대형 언어 모델을 바이너리 분석 및 소프트웨어 역공학 작업의 보조 도구로 적용해 본 결과와 한계를 다룬다.",
+    "why_now": "보안 및 바이너리 분석 분야에서 언어 모델 활용 범주를 살펴보기 좋다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+    "published_at": "2026-11-18T22:29:13.000Z"
+  }
+}
