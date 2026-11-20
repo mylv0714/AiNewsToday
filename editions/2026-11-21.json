@@ -1,0 +1,139 @@
+{
+  "date": "2026-11-21",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "Anthropic의 IPO 공식 마감과 더불어 Gemini API의 도구 호출 효율화 및 SSD 기반 모델 스트리밍이 주목받았다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "Anthropic, 기업공개(IPO) 절차 최종 완료",
+    "lede": "Anthropic이 주당 83달러에 클래스 A 보통주 11억 2,700만 주 발행을 포함한 기업공개 절차를 공식 마무리했다.",
+    "why_now": "인수단의 추가 주식 매수 옵션 행사와 동시 사모 발행 결제가 모두 마감되어 상장이 완료되었다.",
+    "kind": "announcement",
+    "source_name": "Anthropic",
+    "canonical_url": "https://www.anthropic.com/news/ipo-close",
+    "published_at": "2026-11-20T00:00:00.000Z",
+    "body": "Anthropic은 이번 상장을 통해 총 11억 2,700만 주의 클래스 A 보통주 발행을 종료했다고 발표했다. 이번 공모에는 인수단 옵션의 전액 행사 및 동시 사모 투자가 함께 포함되었다. 시장에서는 상장 완료 직후 AI 기업 가치 평가와 주가 변동성에 높은 관심을 보이고 있다.",
+    "also_see": [
+      {
+        "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+        "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+      }
+    ]
+  },
+  "overnight": [
+    {
+      "headline": "Gemini API, 대규모 도구 호출 효율화 기능 공개",
+      "lede": "Google이 Gemini API 사용 시 토큰 소비를 줄이면서 수백 개 도구에 접근할 수 있는 Tool Retrieval 프리뷰를 출시했다.",
+      "why_now": "복잡한 에이전트 구축 시 프롬프트 컨텍스트를 과도하게 사용하던 문제를 줄이는 API 기능이 추가되었다.",
+      "kind": "release",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval",
+      "published_at": "2026-11-19T18:00:00.000Z"
+    },
+    {
+      "headline": "OpenAI, Codex 활용한 자동 성능 유지 체계 공개",
+      "lede": "OpenAI가 ChatGPT 성능 저하를 감지하고 자동으로 해결하는 Codex 파이프라인 기반의 Performance Factory 구조를 설명했다.",
+      "why_now": "대규모 인프라 운영 시 수동 성능 최적화 한계를 극복하는 내부 시스템 사례가 공개되었다.",
+      "kind": "analysis",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "published_at": "2026-11-19T08:00:00.000Z"
+    },
+    {
+      "headline": "Nvidia, 디퓨전 언어모델 스타트업 인수 검토",
+      "lede": "Nvidia가 디퓨전 기반 언어모델을 개발하는 스타트업 Inception을 최소 5억 달러에 인수하는 방안을 논의 중이다.",
+      "why_now": "오픈소스 Nemotron 모델 라인업에 토큰 단위 생성을 대체할 디퓨전 기술을 이식하려는 움직임이 보도되었다.",
+      "kind": "rumor",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup",
+      "published_at": "2026-11-20T14:53:50.000Z"
+    },
+    {
+      "headline": "Apple, 디바이스 제어형 AI 에이전트 개발 착수",
+      "lede": "Apple이 사용자의 기기 제어를 수행하는 AI 에이전트 기술을 내부 개발 중인 것으로 전해졌다.",
+      "why_now": "외부 에이전트의 OS 접근 제약은 강화하면서 자체 시스템 수준 에이전트를 구축하려는 비공식 정황이 확인되었다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/apple-joins-the-race-for-ai-agents-that-control-your-device-while-raising-new-barriers-for-competitors",
+      "published_at": "2026-11-20T15:03:25.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "Hugging Face, 평가 프레임워크 맞춤형 어댑터 공개",
+      "lede": "Hugging Face가 평가 하네스 환경에 모델을 쉽게 맞춰 성능 및 비용을 개선하는 harness adapters를 공개했다.",
+      "why_now": "다양한 벤치마크 도구에 개별 모델을 신속히 연동하는 표준 어댑터 패턴이 정립되었다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/harness-adapters-at-scale",
+      "published_at": "2026-11-20T00:00:00.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "lede": "로봇 조작 상황에서 이성적 추론과 물리적 실행, 환경 피드백 결합 능력을 측정하는 진단형 벤치마크를 제시한다.",
+      "why_now": "기존 평가 도구들이 피드백 루프나 동적 실행 대신 정적 평가에 치우쳐 있던 문제를 바로잡고자 한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.26444",
+      "published_at": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "headline": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+      "lede": "자체 진화형 에이전트를 도입해 AI 생성 비디오의 세부 아티팩트와 시각적 포렌식 증거를 탐지하는 프레임워크를 발표했다.",
+      "why_now": "단일 경로 추론만으로 구별하기 힘든 미세 왜곡 영상 검증 한계를 다룬다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.21373",
+      "published_at": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "headline": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+      "lede": "텍스트와 이미지뿐만 아니라 오디오-비디오를 함께 추론하는 중한 양어 옴니모달 멀티모달 모델 파이프라인을 다룬다.",
+      "why_now": "시각적 입력과 동반 오디오 정보의 결합 이해 성능을 높인 오픈소스 모델군을 제시한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.26409",
+      "published_at": "2026-11-20T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "wici-ai/inferssd",
+      "lede": "RAM 및 VRAM 용량을 초과하는 대형 MoE 모델의 엑스퍼트를 SSD에서 오프로딩하여 스트리밍 구동하는 llama.cpp 기반 도구이다.",
+      "why_now": "자원이 부족한 단말 환경에서 거대 모델 실습 및 테스트 시 활용도가 높다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/wici-ai/inferssd",
+      "published_at": "2026-11-20T15:38:15.000Z"
+    },
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "Claude, ChatGPT, Gemini 등 다양한 AI 에이전트와 사람 인력이 채널 내에서 함께 협업하도록 돕는 오픈소스 셀프호스팅 메신저이다.",
+      "why_now": "단순 대화창을 넘어 MCP 도구 승인과 자동화 루틴 실행이 가능한 팀 워크스페이스 구축용이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-20T15:46:46.000Z"
+    },
+    {
+      "headline": "flohoeller/affectui",
+      "lede": "에이전트 실행 트리, 도구 호출 시각화, 승인 워크플로 등 에이전트 인터페이스 전용 독립형 React UI 컴포넌트 모음집이다.",
+      "why_now": "에이전트 중심 웹 애플리케이션 프론트엔드를 신속하게 디자인할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/flohoeller/affectui",
+      "published_at": "2026-11-20T09:43:35.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "미 법원, AI 기반 영장 상당한 이유 입증 부인",
+    "lede": "미국 법원이 수사 기관이 AI 분석 단서만을 바탕으로 구속·수색 영장의 '상당한 이유'를 주장하는 것은 제4수정헌법 위반이라고 판단했다.",
+    "why_now": "AI 생성 추론을 자동 입증 근거로 채택하려는 사법 및 치안 기관의 시도에 법원 판례가 제동을 걸었다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause",
+    "published_at": "2026-11-19T22:56:59.000Z"
+  }
+}
