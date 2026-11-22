@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-22",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "GPT-6.2 모델 활용 지침 공개와 함께 AI의 수학 증명 검증 및 거대 컨텍스트 윈도 한계 논의가 이어졌다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, GPT-6.2 프롬프트 지침 공개",
+    "lede": "OpenAI가 GPT-6.2 Astra와 Sol 모델의 응답 축약 문제 및 불필요한 질의를 교정하기 위한 프롬프트 가이드를 공개했다.",
+    "why_now": "대화 이력 편집 시 컨텍스트가 파기되는 API 사양 변경에 맞춰 연동 코드 점검이 필요하다.",
+    "kind": "announcement",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions",
+    "published_at": "2026-11-21T13:32:35.000Z",
+    "body": "OpenAI가 GPT-6.2 Astra와 Sol 모델 특유의 과도한 응답 요약 및 코딩 시 지연 질문을 방지하는 공식 템플릿을 안내했다. 모델이 코드 작성 과정에서 단순 확인성 질의나 중복 테스트를 반복하는 패턴을 줄이는 구체적 지침이 제시됐다. 대화 히스토리를 수정할 경우 기존 컨텍스트가 삭제될 수 있도록 API 동작 방식이 조정되어 파이프라인 수정을 점검해야 한다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "Claude 리만 가설 증명 주장에 스탠포드 대응",
+      "lede": "Anthropic이 Claude를 활용해 리만 가설을 증명했다고 발표하자 스탠포드 연구진이 인간 독자 초안으로 맞대응했다.",
+      "why_now": "Lean 형식화 검증 코드의 완성도와 AI 수학 추론 성과를 둘러싼 신뢰성 논쟁이 수면 위로 올랐다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
+      "published_at": "2026-11-21T11:19:49.000Z"
+    },
+    {
+      "headline": "엔비디아 \"거대 컨텍스트 윈도는 한계 명확\"",
+      "lede": "엔비디아 연구진이 무제한에 가까운 컨텍스트 확장 대신 주기적 요약과 키워드 검색을 조합하는 방식을 대안으로 제안했다.",
+      "why_now": "컨텍스트 크기 증가에 따른 지연시간 및 비용 상승, 정보 환각 문제를 대체할 프롬프트 구조 설계 방향을 제시한다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/nvidia-researchers-argue-huge-ai-context-windows-are-a-dead-end",
+      "published_at": "2026-11-21T16:23:45.000Z"
+    },
+    {
+      "headline": "OpenAI, 모델 적대적 증류 방어 체계 발표",
+      "lede": "OpenAI가 모델의 핵심 기능 추출 및 무단 증류를 막기 위한 다층 방어 기법을 정리해 공개했다.",
+      "why_now": "프론티어 모델 무단 복제 및 모델 가중치 유출 시도에 대응하는 보안 표준 기준이 강화되고 있다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/combatting-adversarial-distillation",
+      "published_at": "2026-11-20T10:00:00.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "wici-ai/inferssd",
+      "lede": "메모리 용량을 초과하는 대형 MoE 모델을 SSD에서 직접 스트리밍해 실행하는 llama.cpp 기반 도구다.",
+      "why_now": "고성능 GPU VRAM 부족 환경에서도 하드디스크 대역폭을 이용해 로컬 LLM 추론을 시도할 수 있다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/wici-ai/inferssd",
+      "published_at": "2026-11-21T22:01:34.000Z"
+    },
+    {
+      "headline": "RunanywhereAI/trnrt",
+      "lede": "AWS Trainium 가속기 환경에서 1M 토큰 컨텍스트와 OpenAI 규격 API를 지원하는 오픈소스 추론 엔진이다.",
+      "why_now": "AWS 전용 칩셋 기반 인프라에서 프론티어 모델 서빙을 자체 구축할 수 있는 엔진 선택지가 늘었다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/RunanywhereAI/trnrt",
+      "published_at": "2026-11-21T19:26:40.000Z"
+    },
+    {
+      "headline": "flohoeller/affectui",
+      "lede": "에이전트 실행 트리, 도구 호출, 상태 전달 및 승인 단계를 시각화하는 React 컴포넌트 라이브러리다.",
+      "why_now": "에이전틱 서비스 개발 시 내부 수행 과정을 모니터링하는 대시보드 화면을 빠르게 제작할 수 있다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/flohoeller/affectui",
+      "published_at": "2026-11-21T16:54:55.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+      "lede": "단일 프레임의 선명도와 다중 프레임의 시간적 일관성을 동시에 유지하는 고해상도 단일 영상 깊이 추정 방식을 제안한다.",
+      "why_now": "비디오 3D 복원 도중 생기는 경계선 블러 현상과 프레임 간 깜빡임 오류를 줄이려는 접근이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.26603",
+      "published_at": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "headline": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+      "lede": "텍스트, 이미지, 오디오, 비디오를 하나의 모델 내에서 통합 처리하는 오픈소스 비디오 옴니모달 파이프라인이다.",
+      "why_now": "오디오와 시각 매체를 별도 분리하지 않고 동시에 추론하는 비디오 이해 모델 연구 흐름을 보여준다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.26409",
+      "published_at": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "headline": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "lede": "로봇 조작 과제에서 추론 능력, 물리적 실행력, 환경 피드백 결합력을 구분하여 측정하는 진단형 벤치마크다.",
+      "why_now": "고차원 계획 수립과 하위 물리 동작 간 연계 실패 원인을 정밀하게 분류하기 위한 기준이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.26444",
+      "published_at": "2026-11-20T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "respanai/respan-gateway",
+      "lede": "OpenAI, Anthropic, Gemini 등 다양한 모델 공급자를 단일 API 엔드포인트로 통합하는 Rust 기반 게이트웨이다.",
+      "why_now": "멀티 LLM 인프라 연동 시 발생하는 인증, 라우팅, 프록시 관리 복잡도를 완화한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/respanai/respan-gateway",
+      "published_at": "2026-11-22T01:12:39.000Z"
+    },
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "팀원과 AI 에이전트가 채널 및 DM 환경에서 함께 소통하며 작업을 수행하는 오픈소스 셀프호스팅 메신저다.",
+      "why_now": "MCP 도구와 브라우저 제어 권한을 갖춘 에이전트를 사내 소통 인터페이스와 연동할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-22T01:10:34.000Z"
+    },
+    {
+      "headline": "davidondrej/cloudroom",
+      "lede": "Claude Code, Codex 등 에이전트를 격리된 샌드박스에서 실행하고 세션을 로컬과 클라우드 간에 이동시키는 도구다.",
+      "why_now": "개발 에이전트 작업 환경을 클라우드로 위임하여 개발기 자원 소모를 방지할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/davidondrej/cloudroom",
+      "published_at": "2026-11-21T23:44:30.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "MCP 기반 유럽 AI 법안 조회 도구",
+    "lede": "유럽 규제 법률 전문을 에이전트가 직접 참조할 수 있도록 MCP 형태로 연동하는 오픈 프로젝트다.",
+    "why_now": "서비스 개발 시 규제 준수 가이드라인을 모델 컨텍스트에 포함해 자동 검토할 수 있다.",
+    "kind": "release",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.pandex.io/",
+    "published_at": "2026-11-21T20:47:41.000Z"
+  }
+}
