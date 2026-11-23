@@ -1,0 +1,180 @@
+{
+  "date": "2026-11-24",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "요약 모델에 실패해 원문 제목만 모았습니다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "RoboTrack: Point tracking for real-world",
+    "lede": "RoboTrack: Point tracking for real-world robotic manipulation",
+    "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+    "kind": "announcement",
+    "source_name": "Hugging Face",
+    "canonical_url": "https://huggingface.co/blog/allenai/robotrack",
+    "published_at": "2026-11-23T17:20:37.000Z",
+    "body": "RoboTrack: Point tracking for real-world robotic manipulation",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "A more tailored Google Search that’s uni",
+      "lede": "Get more helpful Search responses by securely opting in to connect Google Wallet, Drive, and the Gemini app to Personal Intelligence in AI Mode.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Google AI",
+      "canonical_url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps",
+      "published_at": "2026-11-23T17:00:00.000Z"
+    },
+    {
+      "headline": "Finding faster quantum algorithms with a",
+      "lede": "Using agent teams and formal verification to improve quantum algorithms for fusion and chemistry.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "DeepMind",
+      "canonical_url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification",
+      "published_at": "2026-11-23T16:59:40.000Z"
+    },
+    {
+      "headline": "How to build and maintain an agentic eva",
+      "lede": "How to build and maintain an agentic evaluation",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/agentic-evals",
+      "published_at": "2026-11-23T00:00:00.000Z"
+    },
+    {
+      "headline": "GLM-5.4: Toward generalized coding with ",
+      "lede": "HN 851 points, 301 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://z.ai/blog/glm-5.4",
+      "published_at": "2026-11-23T10:06:43.000Z"
+    },
+    {
+      "headline": "Perplexity and Intelligence",
+      "lede": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/perplexity-and-intelligence",
+      "published_at": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "headline": "Amodei reportedly suggested games could ",
+      "lede": "HN 67 points, 76 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "announcement",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.theverge.com/ai-artificial-intelligence/1039745/dario-amodei-video-games-ai-joblessness",
+      "published_at": "2026-11-23T12:41:14.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "Anthropic announces closing of initial p",
+      "lede": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Anthropic",
+      "canonical_url": "https://www.anthropic.com/news/announcements",
+      "published_at": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "headline": "Buckle Up the AI Bubble Is Popping",
+      "lede": "HN 23 points, 49 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://mathbabe.org/2026/11/23/buckle-up-the-ai-bubble-is-popping",
+      "published_at": "2026-11-23T16:01:20.000Z"
+    },
+    {
+      "headline": "A Beginner's Guide to Local AI with Inkl",
+      "lede": "HN 698 points, 280 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+      "published_at": "2026-11-22T21:01:16.000Z"
+    },
+    {
+      "headline": "87% of the Anthropic power will come fro",
+      "lede": "HN 1015 points, 995 comments",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
+      "published_at": "2026-11-22T08:57:34.000Z"
+    },
+    {
+      "headline": "OpenAI warns that upcoming AI systems co",
+      "lede": "OpenAI chief scientist Jakub Pachocki has released internal perplexity scores for the entire GPT series for the first time, up to an unreleased model beyond the current generation.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "release",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits",
+      "published_at": "2026-11-23T18:42:38.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "cmHC: Balancing Stream Mixing in Hyper-C",
+      "lede": "Manifold-constrained Hyper-Connections (mHC) extends residual connections to multiple streams and stabilizes residual propagation by constraining stream-mixing residual matrices to",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.27193",
+      "published_at": "2026-11-23T00:00:00.000Z"
+    },
+    {
+      "headline": "Non-penetrating World Models",
+      "lede": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that e",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.27963",
+      "published_at": "2026-11-23T00:00:00.000Z"
+    },
+    {
+      "headline": "Clover-35B-A3B-Preview Technical Report",
+      "lede": "We introduce Clover-35B-A3B-Preview (Clover), a mixture-of-experts diffusion language model with 35 billion total parameters and 3 billion activated parameters, supporting thinking",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.24636",
+      "published_at": "2026-11-23T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "yjid/kensaku",
+      "lede": "Search inside documents, code, and even screenshots - instantly and locally. A free, open-source file launcher with OCR, semantic search, and MCP agent access.",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/yjid/kensaku",
+      "published_at": "2026-11-23T18:47:18.000Z"
+    },
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, the",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-23T18:41:28.000Z"
+    },
+    {
+      "headline": "alexgaoth/awesome-reverse-engineered",
+      "lede": "Don't reverse engineer it twice. 17,000+ open-source tools built by reverse engineering closed apps, APIs, devices, protocols, file formats, games and AI tools. Search site + agent",
+      "why_now": "요약 모델 없이 원문을 그대로 올렸다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/alexgaoth/awesome-reverse-engineered",
+      "published_at": "2026-11-23T18:39:48.000Z"
+    }
+  ],
+  "if_time": null
+}
