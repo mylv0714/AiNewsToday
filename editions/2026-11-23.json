@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-23",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "대형 모델 발표는 없었으나, 로컬 추론 엔진과 에이전트 협업 도구가 다수 등장했다.",
+  "quiet_night": true,
+  "hero": null,
+  "overnight": [
+    {
+      "headline": "OpenAI, Perplexity 평가 지표 포지션 발표",
+      "lede": "OpenAI가 모델 성능 측정 및 평가 기준 수립을 위한 Perplexity 지표의 역할과 한계를 설명하는 분석글을 공개했다.",
+      "why_now": "차세대 모델 평가 프레임워크 표준화에 대한 개발사 차원의 관점을 공식 발표했다.",
+      "kind": "announcement",
+      "source_name": "OpenAI",
+      "canonical_url": "https://openai.com/index/perplexity-and-intelligence",
+      "published_at": "2026-11-22T00:00:00.000Z"
+    },
+    {
+      "headline": "OpenRouter, 추론 인프라 데이터 처리 장애 공유",
+      "lede": "OpenRouter가 서드파티 추론 호스팅 파트너 단에서 발생한 데이터 처리 인시던트 내역을 투명하게 공개했다.",
+      "why_now": "추론 API 서비스 제공 업체의 보안 및 데이터 처리 안정성 점검 결과가 공유되었다.",
+      "kind": "announcement",
+      "source_name": "OpenRouter",
+      "canonical_url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers",
+      "published_at": "2026-11-22T02:14:14.000Z"
+    },
+    {
+      "headline": "Anthropic 전력의 가스·석탄 의존도 분석",
+      "lede": "2028년 Anthropic 전력 소모의 87%가 가스, 11%가 석탄에 의존할 것이라는 수치 분석 보고서가 관심을 받았다.",
+      "why_now": "AI 전용 데이터센터 확충에 따른 화석연료 전력망 인프라 의존 문제가 수치로 확인되었다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
+      "published_at": "2026-11-22T08:57:34.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "AWS Trainium 전용 오픈소스 추론 엔진 trnrt",
+      "lede": "NKI 메가커널과 100만 토큰 컨텍스트를 지원하는 AWS Trainium 전용 OpenAI 호환 추론 엔진이 출시되었다.",
+      "why_now": "AWS 인프라 기반에서 고성능 추론 서빙을 직접 구축하려는 선택지가 마련되었다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/RunanywhereAI/trnrt",
+      "published_at": "2026-11-22T22:04:36.000Z"
+    },
+    {
+      "headline": "로컬 LLM 원클릭 구동 엔진 PolyStrata",
+      "lede": "Qwen3.8, GLM 5.3, DeepSeek V4 등 최신 오픈 모델을 로컬 환경에서 원클릭으로 구동하는 엔진이 공개되었다.",
+      "why_now": "개인 PC에서 로컬 엔드포인트를 열어 최신 LLM을 연동할 수 있는 런타임이 공개되었다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/simplexai-labs/PolyStrata",
+      "published_at": "2026-11-22T18:14:46.000Z"
+    },
+    {
+      "headline": "Blender용 AI 협업 MCP 서버 애드온",
+      "lede": "3D 모델링 환경에서 시각적 대화와 스크립팅 자동화를 제공하는 Blender 전용 MCP 서버 애드온이 등장했다.",
+      "why_now": "MCP 프레임워크의 도구가 그래픽 엔지니어링 영역으로 확장되는 사례다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+      "published_at": "2026-11-22T13:29:36.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "WeMM-Video: Pushing the Frontiers of Open-Source Omni-Modal Video Understanding",
+      "lede": "오디오와 비디오 지각을 하나로 통합하여 다중 모달 시공간 추론을 수행하는 옴니모달 파운데이션 모델을 다룬다.",
+      "why_now": "시각 중심 접근에서 벗어나 음성 기반 멀티모달 비디오 이해 범주를 확대하려는 시도다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.26409",
+      "published_at": "2026-11-20T00:00:00.000Z"
+    },
+    {
+      "headline": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
+      "lede": "갈등 상황에서 성별 프레임 변주가 대형 언어 모델의 윤리 판단 지침에 미치는 편향 효과를 평가한다.",
+      "why_now": "LLM이 생성하는 정서 판단 문맥의 성별 비대칭적 평가 편향을 고찰할 필요성이 제시되었다.",
+      "kind": "paper",
+      "source_name": "arXiv",
+      "canonical_url": "https://arxiv.org/abs/2606.14068",
+      "published_at": "2026-11-22T09:18:36.000Z"
+    },
+    {
+      "headline": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
+      "lede": "전역 작업공간 이론을 적용해 비전-언어 모델 내부의 멀티모달 정보 선택과 통합 구조를 탐침한다.",
+      "why_now": "멀티모달 모델의 내부 신경 표상 과정을 뇌과학 이론 구조로 풀어내는 분석 기법이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.26590",
+      "published_at": "2026-11-20T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "사람과 AI 에이전트가 채널과 DM에서 함께 작업하는 오픈소스 셀프호스팅 슬랙 대체 플랫폼이다.",
+      "why_now": "에이전트가 직접 터미널과 브라우저를 제어하며 협업하는 팀 메신저 환경을 제공한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-23T01:36:38.000Z"
+    },
+    {
+      "headline": "devswha/ovis",
+      "lede": "Claude Code 및 Codex 세션을 모바일과 웹 브라우저에서 원격 제어하는 오픈소스 클라이언트이다.",
+      "why_now": "터미널 AI 코딩 에이전트의 실행 상태를 원격 단말에서 모니터링할 수 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-23T01:07:20.000Z"
+    },
+    {
+      "headline": "davidondrej/cloudroom",
+      "lede": "코딩 에이전트를 격리된 샌드박스에서 실행하고 세션을 로컬과 클라우드 간 이동하게 해주는 오케스트레이터다.",
+      "why_now": "에이전트 실행 환경을 안전하게 격리하려는 보안 패턴이 반영되어 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/davidondrej/cloudroom",
+      "published_at": "2026-11-22T22:57:45.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "Inkling·Qwen 기반 로컬 AI 구축 가이드",
+    "lede": "로컬 장비 환경에서 오픈소스 모델을 파인튜닝하고 직접 추론 파이프라인을 구축하는 튜토리얼이다.",
+    "why_now": "외부 API 경유 없이 자체 개발 장비에서 경량 모델을 커스텀하려는 입문자에게 유용하다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+    "published_at": "2026-11-22T21:01:16.000Z"
+  }
+}
