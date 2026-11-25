@@ -1,0 +1,133 @@
+{
+  "date": "2026-11-26",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "격리된 추론 서버 측채널 통신 취약점 연구와 에이전트 평가 논문, 로컬 추론 및 테스트용 오픈소스 도구가 공유되었다.",
+  "quiet_night": false,
+  "hero": null,
+  "overnight": [
+    {
+      "headline": "격리된 AI 모델의 추론 서버 측채널 통신 위험",
+      "lede": "샌드박스 환경에 격리된 모델이 동일한 공유 추론 서버의 측채널을 활용해 정보를 주고받을 수 있다는 연구 결과가 공유되었다.",
+      "why_now": "멀티테넌트 AI 추론 인프라의 격리 신뢰성과 보안 취약점을 직접 지적한다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://www.lesswrong.com/posts/7wzWuLP3HhyBLmKfo/models-can-communicate-via-inference-servers-despite-being",
+      "published_at": "2026-11-25T02:34:21.000Z"
+    },
+    {
+      "headline": "딥마인드, 제미나이 실험 관리에 자율 에이전트 도입",
+      "lede": "딥마인드가 차세대 제미나이 모델 실험 일부를 에이전트가 자율 제어하도록 운영 중이나, 자가 개선 단계와는 여전히 거리가 멀다고 밝혔다.",
+      "why_now": "프론티어 연구소의 내부 연구 자동화 현황과 통제 방식을 보여준다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant",
+      "published_at": "2026-11-25T13:23:36.000Z"
+    },
+    {
+      "headline": "앤트로픽 기업 AI 도입 조사, 20%가 성과 미달",
+      "lede": "미국 58개 기업의 AI 도입 사례 연구 결과, 도구 사용법보다는 무거운 검토 절차와 내부 병목이 성과 창출을 방해하는 것으로 조사되었다.",
+      "why_now": "기업 현장에서의 실제 장애물이 기술 자질보다 조직 프로세스에 있음을 시사한다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/anthropic-study-shows-the-hardest-part-of-adopting-ai-at-work-has-little-to-do-with-learning-the-tools",
+      "published_at": "2026-11-25T13:14:27.000Z"
+    },
+    {
+      "headline": "미 금융범죄단속국 및 정보기관 사이버 침해 정황",
+      "lede": "미국 금융범죄단속국과 주요 정보기관에서 AI 보안 방어 도구 악용이 의심되는 미인가 접근 사고가 발생해 인프라 조치가 취해졌다.",
+      "why_now": "정부 기관 인프라에서 AI 방어 솔루션 운용 시의 잠재 위험을 나타낸다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/back-to-back-cyber-incidents-at-us-financial-investigators-and-spy-agencies-follow-a-string-of-federal-hacks-and-outages",
+      "published_at": "2026-11-25T13:07:44.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "새피어, 내년 1월까지 MCP 도구 호출 무료 개방",
+      "lede": "새피어가 외부 앱과 AI 에이전트를 연결하는 MCP 도구 호출 기능을 2027년 1월 5일까지 무료로 제공한다.",
+      "why_now": "에이전트 인프라 확장을 위한 전용 프로토콜 연동 기회를 제공한다.",
+      "kind": "release",
+      "source_name": "Hacker News",
+      "canonical_url": "https://zapier.com/mcp",
+      "published_at": "2026-11-25T16:07:19.000Z"
+    },
+    {
+      "headline": "RTX PRO 6000 1대로 Inkling 2 Mini 추론 달성",
+      "lede": "단일 RTX PRO 6000 환경에서 Inkling 2 Mini 모델 추론 속도를 최적화하는 힐클라이밍 방법론이 안내되었다.",
+      "why_now": "단일 워크스테이션 환경에서 소형 모델 추론 효율을 향상시키는 가이드를 다룬다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "published_at": "2026-11-25T00:00:00.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+      "lede": "장기 작업 에이전트가 신념 단계에서 확신이 부족함에도 조기 답변하는 게으름 문제를 검증 가능한 신념 강화학습으로 교정하는 파이프라인을 제시한다.",
+      "why_now": "최종 결과 보상만으로는 에이전트의 성급한 조기 확정을 방지할 수 없다는 한계를 해결한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.32884",
+      "published_at": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "headline": "Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents",
+      "lede": "스크린샷 캡처 기반 컴퓨터 사용 에이전트의 실시간 반응 지연을 극복하기 위해 능동적 시각 감지 프레임워크를 제안한다.",
+      "why_now": "동적으로 변하는 데스크톱 및 웹 환경에서 에이전트의 인지 지연 문제를 개선한다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.28947",
+      "published_at": "2026-11-25T00:00:00.000Z"
+    },
+    {
+      "headline": "Rewirable Circuits in Transformers with Loom Attention",
+      "lede": "토큰 축 어텐션과 이전 헤드 출력 간 어텐션을 교차하여 토큰 단위로 트랜스포머 내부 회로를 동적 재구성하는 Loom Attention을 제안한다.",
+      "why_now": "고정된 고층 아키텍처 한계를 선형 어텐션 기반 동적 재구성 기법으로 풀었다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.30634",
+      "published_at": "2026-11-25T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "agentes-chat/agentes-chat",
+      "lede": "Claude, ChatGPT 등 에이전트와 인간 팀원이 채널에서 함께 연동되어 작업하는 셀프호스팅 슬랙 대체 도구다.",
+      "why_now": "에이전트 메모리 및 브라우저 실행 권한을 갖춘 협업 플랫폼을 셀프호스팅으로 구축한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-25T17:28:40.000Z"
+    },
+    {
+      "headline": "wici-ai/inferssd",
+      "lede": "llama.cpp 기반으로 RAM과 VRAM 용량을 초과하는 MoE 전문가 레이어를 SSD에서 스트리밍하여 실행한다.",
+      "why_now": "하드웨어 메모리가 부족한 상태에서 초대형 MoE 모델을 로컬 구동하기 위한 유용한 접근이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/wici-ai/inferssd",
+      "published_at": "2026-11-25T15:06:05.000Z"
+    },
+    {
+      "headline": "pierridotite/mobile-agent-testers",
+      "lede": "GitHub 무료 러너 환경에서 20대의 가상 모바일 기기에 Claude Code 에이전트를 병렬로 올려 UI 및 레이아웃 버그를 자동 탐지한다.",
+      "why_now": "모바일 CI/CD 테스트 파이프라인을 자율 에이전트 병렬화로 자동화한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/pierridotite/mobile-agent-testers",
+      "published_at": "2026-11-25T17:18:37.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "PenGPT: 손글씨 및 스케치 생성을 위한 트랜스포머",
+    "lede": "텍스트 생성을 넘어 필적 스트로크와 스케치 드로잉을 직접 생성하는 생성형 트랜스포머 아키텍처 실험이다.",
+    "why_now": "텍스트 모달리티 외 물리적 스트로크 데이터를 다루는 독효한 모델링 방식을 보여준다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://greydanus.github.io/2026/11/12/pengpt",
+    "published_at": "2026-11-25T00:54:49.000Z"
+  }
+}
