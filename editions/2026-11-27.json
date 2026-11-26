@@ -1,0 +1,106 @@
+{
+  "date": "2026-11-27",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "Nvidia의 서버 출하 중단 조치와 AMD용 llama.cpp 벤치마크 대시보드가 공개되었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "미국 수출 통제 여파로 엔비디아 동남아 서버 출하 중단",
+    "lede": "미국의 강화된 수출 통제 조치에 따라 엔비디아가 말레이시아, 싱가포르, 태국, 인도네시아 등 동남아 주요 국가로의 서버 출하를 전면 중단했다.",
+    "why_now": "아시아 인프라 시장의 공급망 재편과 중동·아시아 지역 클라우드 접근성에 즉각적인 차질을 빚고 있기 때문이다.",
+    "kind": "announcement",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls",
+    "published_at": "2026-11-26T11:21:16.000Z",
+    "body": "엔비디아는 델과 슈퍼마이크로 등 주요 파트너사에 해당 국가로의 서버 배송을 멈추도록 지시했다. 새로운 대중국 클라우드 우회 차단 규정의 연장선으로 해석되며, 딜러들은 이미 고성능 칩에 대한 대체 수요처를 찾고 있다. 지역 내 클라우드 사업자들의 인프라 수급 계획에 상당한 타격이 불가피하다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "AMD 라이젠·라데온용 llama.cpp 벤치마크 대시보드 공개",
+      "lede": "허깅페이스가 AMD 라이젠 프로세서와 라데온 그래픽스 환경에서 llama.cpp 성능을 측정할 수 있는 공식 벤치마크 대시보드를 선보였다.",
+      "why_now": "로컬 하드웨어에서 오픈소스 모델 구동 시 플랫폼별 성능 비교 기준을 제공하기 때문이다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "published_at": "2026-11-26T11:37:17.000Z"
+    },
+    {
+      "headline": "오픈데이터와 미세조정 다룬 Nemotron 3.5 Parse 가이드",
+      "lede": "엔비디아가 오픈 데이터셋과 미세조정을 결합해 Nemotron 3.5 Parse의 추론 속도를 높이는 아키텍처 가이드를 공개했다.",
+      "why_now": "문서 파싱 및 구조화 작업에서 오픈 모델의 효율을 극대화하는 방법을 보여주기 때문이다.",
+      "kind": "announcement",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "published_at": "2026-11-26T05:05:36.000Z"
+    }
+  ],
+  "tools": [],
+  "papers": [
+    {
+      "headline": "Mixture-of-Loops Transformer",
+      "lede": "인접 루프 간의 연결 메커니즘을 재설계하여 순환 레이어 재사용에 따른 효율성 저하를 극복하는 MoLT 구조를 제안한다.",
+      "why_now": "고효율 고표현력 트랜스포머 아키텍처 설계에 대한 새로운 대안을 제시하기 때문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.34923",
+      "published_at": "2026-11-26T00:00:00.000Z"
+    },
+    {
+      "headline": "Sage-Med: Scaling Medical Multimodal Intelligence",
+      "lede": "의료 멀티모달 대형 언어 모델의 스케일링 법칙을 체계적으로 평가하고, 모델 크기 확장이 멀티모달 능력보다 텍스트 능력 향상에 집중되는 한계를 분석한다.",
+      "why_now": "의료 AI 분야에서 기존 스케일링 방식의 한계와 실증적 개선 방향을 다루기 때문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.34575",
+      "published_at": "2026-11-26T00:00:00.000Z"
+    },
+    {
+      "headline": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+      "lede": "실제 세계의 관측 데이터로부터 시뮬레이션 프로그램을 통합 생성하고 평가하기 위한 플랫폼을 제안한다.",
+      "why_now": "로보틱스와 시뮬레이션 전송 연구에서 분산되어 있던 벤치마크와 입력을 하나로 묶기 때문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.34849",
+      "published_at": "2026-11-26T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "inferssd",
+      "lede": "라마(llama.cpp) 기반으로 SSD에서 MoE 전문가를 실시간 스트리밍하여 RAM/VRAM 용량보다 큰 모델을 구동하는 저장소.",
+      "why_now": "하드웨어 제약을 우회해 대형 모델을 로컬에서 실행할 수 있는 실용적 대안이기 때문이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/wici-ai/inferssd",
+      "published_at": "2026-11-26T16:36:44Z"
+    },
+    {
+      "headline": "agentes-chat",
+      "lede": "채널과 DM에서 팀원과 AI 에이전트가 함께 협업할 수 있는 오픈소스 자체 호스팅 슬랙 대안.",
+      "why_now": "멀티 에이전트 환경을 사내 인프라에 직접 구축하려는 수요를 겨냥하기 때문이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-26T17:19:29Z"
+    },
+    {
+      "headline": "sand3d",
+      "lede": "LLM이 직접 활용할 수 있도록 파이썬 환경에서 3D 모델링을 수행하는 오픈소스 도구.",
+      "why_now": "텍스트 기반 에이전트의 생성 영역을 3D 그래픽 제어로 확장하기 때문이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Sandflow-ai/sand3d",
+      "published_at": "2026-11-26T14:54:47Z"
+    }
+  ],
+  "if_time": {
+    "headline": "멀티 에이전트 시스템 빌드 및 평가 가이드",
+    "lede": "허깅페이스가 복잡한 멀티 에이전트 생태계를 구축하고 훈련 및 평가하는 방법론을 종합적으로 정리했다.",
+    "why_now": "단일 모델 호출을 넘어 에이전트 간 상호작용을 설계하는 실무 지침이 중요해졌기 때문이다.",
+    "kind": "analysis",
+    "source_name": "Hugging Face",
+    "canonical_url": "https://huggingface.co/blog/training-swarms",
+    "published_at": "2026-11-26T00:00:00.000Z"
+  }
+}
