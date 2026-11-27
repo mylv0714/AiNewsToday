@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-28",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 9,
+  "one_liner": "OpenAI의 에이전트 데이터 플랫폼 Athena 개발 소식과 함께, 컴퓨터 제어 에이전트 및 리니어 어텐션 관련 연구가 공개되었다.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "OpenAI, 에이전트 정확도 높이는 데이터 플랫폼 'Athena' 개발",
+    "lede": "OpenAI가 ChatGPT Work 내 AI 에이전트의 비즈니스 수치 계산 오류를 줄이기 위한 시맨틱 데이터 레이어 'Athena'를 구축 중이다.",
+    "why_now": "기업용 에이전트의 데이터 분석 정확도 부족이 실무 도입의 주요 과제로 떠오르면서 지표 정의 표준화 필요성이 커졌다.",
+    "kind": "rumor",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/openai-is-building-athena-data-platform-to-cut-down-on-ai-agent-guesswork",
+    "published_at": "2026-11-27T16:05:23.000Z",
+    "body": "OpenAI는 내부 코드명 'Athena'로 불리는 데이터 플랫폼을 구축하여 AI 에이전트에게 지표에 관한 표준화된 정의를 제공하려 한다. 에이전트가 기업 데이터베이스를 다룰 때 발생하는 모호한 추측과 잘못된 수치 계산을 줄이는 것이 주요 목표다. 시스템이 완성되면 업무용 에이전트의 정밀도가 크게 향상될 것으로 기대되며, 기존 데이터 분석 인프라 기업인 Snowflake나 Databricks와의 직접 경쟁 구도도 예상된다. 현재 프로젝트는 내부 개발 단계로 구체적인 출시 시점은 공식 명시되지 않았다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "Hugging Face, Trainium3 기반 LTX-2.5 비디오 생성 시연",
+      "lede": "AWS의 3세대 맞춤형 AI 칩인 Trainium3 환경에서 LTX-2.5 비디오 생성 모델 파이프라인을 작동시킨 결과를 공개했다.",
+      "why_now": "클라우드 AI 하드웨어의 다변화 흐름 속에서 엔비디아 외 가속기의 실용 파이프라인 적용 사례가 등장했다.",
+      "kind": "announcement",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/video-trainium3",
+      "published_at": "2026-11-27T00:00:00.000Z"
+    },
+    {
+      "headline": "Meta·AMI Labs, JEPA 월드 모델 성능 증명 논문 3편 발표",
+      "lede": "Yann LeCun 연구진이 로봇 계획 수립과 학습 효율 측면에서 JEPA 아키텍처의 우수성을 입증한 신규 연구 3편을 발표했다.",
+      "why_now": "대형 언어 모델 중심 아키텍처의 한계를 보완하려는 비언어적 월드 모델 진영의 연구 성과가 구체화되고 있다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models",
+      "published_at": "2026-11-27T16:58:56.000Z"
+    },
+    {
+      "headline": "llama.cpp, AMD Ryzen 및 Radeon 벤치마크 대시보드 공개",
+      "lede": "ggml 팀이 AMD 프로세서 및 GPU 환경에서 llama.cpp 모델 추론 성능을 비교 분석할 수 있는 공식 대시보드를 출시했다.",
+      "why_now": "로컬 LLM 추론 성능 최적화가 엔비디아 기반 환경을 넘어 범용 칩셋으로 확산되고 있다.",
+      "kind": "release",
+      "source_name": "Hugging Face",
+      "canonical_url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "published_at": "2026-11-26T11:37:17.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "inferssd: SSD 스트리밍 기반 대형 MoE 모델 실행 도구",
+      "lede": "llama.cpp 아키텍처를 기반으로 SSD에서 전문가 레이어를 대역폭 스트리밍하여 메모리 용량을 넘어서는 대형 MoE 모델을 구동한다.",
+      "why_now": "고비용 VRAM 한계를 우회하여 일반 사용자 장비에서 수백억 파라미터급 모델을 실행하는 현실적인 대안이다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/wici-ai/inferssd",
+      "published_at": "2026-11-27T16:50:20.000Z"
+    },
+    {
+      "headline": "agentes-chat: 사람과 AI 에이전트 협업 전용 클론 슬랙",
+      "lede": "Claude, ChatGPT, Gemini 등 다양한 에이전트를 팀 채널과 DM으로 이끌어 협업할 수 있도록 돕는 오픈소스 독자 구축형 플랫폼이다.",
+      "why_now": "에이전트 단독 실행을 넘어 팀 내부 업무 워크플로우에 에이전트를 직접 상주시추는 협업 인프라 전환을 반영한다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-27T16:58:54.000Z"
+    },
+    {
+      "headline": "flohoeller/affectui: 에이전트 트리 및 툴 호출 시각화 UI 컴포넌트",
+      "lede": "에이전트의 작업 추적, 툴 호출 상태, 분기 트리 및 인간 승인 단계를 직관적으로 표현하는 React UI 컴포넌트 모음이다.",
+      "why_now": "복잡해지는 에이전트 작업 실행 과정을 사용자 화면에서 투명하게 관측하고 관리해야 할 요구가 커졌다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/flohoeller/affectui",
+      "published_at": "2026-11-27T16:32:58.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+      "lede": "Gated DeltaNet-2가 롱 콘텍스트 학습 도중 겪는 순환 상태의 불안정 원인을 수학적으로 규명하고 이를 완화하는 안정화 기법을 제안한다.",
+      "why_now": "트랜스포머의 계산 비용을 줄이기 위해 리니어 어텐션 아키텍처의 장기 문맥 학습 안정성을 개선하려는 시도가 이어지고 있다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.34051",
+      "published_at": "2026-11-27T00:00:00.000Z"
+    },
+    {
+      "headline": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+      "lede": "단일 에이전트가 웹, 데스크톱, 모바일 등 여러 운영체제와 애플리케이션을 넘나들며 복잡한 워크플로우를 완수하는지 측정하는 범용 컴퓨터 사용 에이전트 벤치마크다.",
+      "why_now": "단일 GUI 환경을 벗어나 기기 전반의 실제 사용자 업무를 대행하는 에이전트에 대한 표준화된 객관적 평가가 시급해졌다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.34232",
+      "published_at": "2026-11-27T00:00:00.000Z"
+    },
+    {
+      "headline": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+      "lede": "동영상 시각 추론 문제에서 비디오 생성 모델보다 코드를 작성해 시각 과제를 해결하는 코딩 에이전트가 더 높은 성능을 보임을 증명한다.",
+      "why_now": "시각적 추론을 프레임 생성보다 연산 코드로 전환해 해결하는 접근 방식이 더 정확한 결과를 낸다는 사실을 보여준다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.34813",
+      "published_at": "2026-11-27T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "devswha/ovis: Claude Code 및 개발 에이전트 통합 웹·모바일 UI",
+      "lede": "Claude Code 및 Codex의 CLI 라이브 터미널과 에이전트 화면을 웹 브라우저와 모바일 기기에서 원격 제어할 수 있는 인터페이스를 제공한다.",
+      "why_now": "터미널 기반 코딩 에이전트를 모바일 및 크로스 플랫폼 환경에서 모니터링하고 제어하려는 수요를 보완한다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/devswha/ovis",
+      "published_at": "2026-11-27T16:59:42.000Z"
+    },
+    {
+      "headline": "awesome-reverse-engineered: 17,000개 역공학 프로젝트 모음",
+      "lede": "비공개 소프트웨어, 프로토콜, API 및 AI 도구를 역공학하여 제작된 오픈소스 도구 17,000여 개를 검색 시스템 및 MCP 서버 형태로 제공한다.",
+      "why_now": "에이전트가 사설 API나 비공개 환경을 분석하여 자동화 도구로 활용할 수 있도록 정제된 데이터베이스를 구축했다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/alexgaoth/awesome-reverse-engineered",
+      "published_at": "2026-11-27T16:57:46.000Z"
+    },
+    {
+      "headline": "sand3d: LLM 연동을 고려한 파이썬 기반 3D 모델링 프레임워크",
+      "lede": "LLM 및 코딩 에이전트가 코드 명령어로 3D 형상 생성과 조작을 쉽게 수행하도록 돕는 파이썬 전용 3D 모델링 스크립트 도구다.",
+      "why_now": "코드 생성 에이전트의 작업 범위가 텍스트와 2D를 넘어 3D 입체 그래픽 및 에셋 편집 영역으로 확장되고 있다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/Sandflow-ai/sand3d",
+      "published_at": "2026-11-27T16:35:36.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "코딩 에이전트 전파에 따른 게임 역공학 가속화",
+    "lede": "유출된 소프트웨어 빌드를 Claude Code 등 자동화 코딩 에이전트로 순식간에 분석·해독하는 사례가 늘면서 기존의 시차 발매 전략이 도전을 받고 있다.",
+    "why_now": "고성능 코딩 에이전트가 대규모 바이너리 분석 속도를 획기적으로 낮춤에 따라 소프트웨어 리버스 엔지니어링 생태계가 변하고 있다.",
+    "kind": "analysis",
+    "source_name": "The Decoder",
+    "canonical_url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents",
+    "published_at": "2026-11-27T15:37:47.000Z"
+  }
+}
