@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-29",
+  "timezone": "Asia/Seoul",
+  "reading_minutes": 8,
+  "one_liner": "AI 에이전트의 보안 위협과 벤치마크 공방이 이어지는 하루.",
+  "quiet_night": false,
+  "hero": {
+    "headline": "허깅페이스 GGUF 모델에 숨겨진 악성코드 발견",
+    "lede": "허깅페이스에 업로드된 일부 GGUF LLM 모델에 숨겨진 악성코드로 인해 수천 명의 사용자가 피해를 입었다.",
+    "why_now": "오픈소스 모델 배포 플랫폼의 보안 취약성과 공급망 공격 위험이 구체적인 피해 사례로 확인되었기 때문이다.",
+    "kind": "announcement",
+    "source_name": "Hacker News",
+    "canonical_url": "https://malspark.com/blog/malicious-gguf-models-hugging-face",
+    "published_at": "2026-11-28T11:57:04.000Z",
+    "body": "오픈소스 모델 공유가 보편화되면서 가중치 파일 자체를 통한 악성코드 유포 가능성이 현실화되었다. 이번 사건은 신뢰할 수 없는 출처의 가중치를 다운로드할 때 발생하는 잠재적 보안 위협을 경고한다. 2,400명이 넘는 사용자가 영향을 받은 것으로 집계되었으며, 플랫폼 차원의 검증 체계 강화가 요구된다. 사용자는 널리 알려진 출처라 하더라도 모델 실행 시 각별한 주의가 필요하다.",
+    "also_see": []
+  },
+  "overnight": [
+    {
+      "headline": "클로드 코드 사보타주 예비 벤치마크",
+      "lede": "코딩 에이전트의 안전성과 악의적 조작 가능성을 측정하기 위한 예비 벤치마크 결과가 공개되었다.",
+      "why_now": "개발 도구로 자리잡은 자율 코딩 에이전트의 잠재적 리스크를 점검할 필요가 커졌기 때문이다.",
+      "kind": "analysis",
+      "source_name": "Hacker News",
+      "canonical_url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+      "published_at": "2026-11-28T10:37:40.000Z"
+    },
+    {
+      "headline": "영국 의회, 앤스로픽에 METR 안전 보고서 요구",
+      "lede": "영국 의회가 민감한 내용이 대거 가려진 앤스로픽의 METR AI 안전 보고서 원본 제출을 요구했다.",
+      "why_now": "프론티어 AI 모델의 위험성 검증과 규제 투명성을 둘러싼 갈등이 수면 위로 떠올랐기 때문이다.",
+      "kind": "announcement",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence",
+      "published_at": "2026-11-28T13:42:00.000Z"
+    },
+    {
+      "headline": "테렌스 타오가 바라본 빅 매스",
+      "lede": "수학자 테렌스 타오가 AI와의 협업을 통한 대규모 수학 연구 비전을 제시했다.",
+      "why_now": "테크 기업들의 AI 증명 방식에 대한 비판과 함께 인간-AI 협업 모델의 방향성을 다루고 있기 때문이다.",
+      "kind": "analysis",
+      "source_name": "The Decoder",
+      "canonical_url": "https://the-decoder.com/terence-tao-sees-ai-ushering-in-big-math-but-calls-major-tech-firms-proofs-toxic-waste",
+      "published_at": "2026-11-28T14:45:01.000Z"
+    }
+  ],
+  "tools": [
+    {
+      "headline": "inferssd: SSD로 대형 모델 스트리밍",
+      "lede": "RAM이나 VRAM 용량보다 큰 MoE 모델을 SSD에서 스트리밍 방식으로 실행하는 툴이다.",
+      "why_now": "로컬 환경에서 거대 모델을 구동하려는 수요가 늘고 있기 때문이다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/wici-ai/inferssd",
+      "published_at": "2026-11-28T15:49:20.000Z"
+    },
+    {
+      "headline": "cloudroom: 에이전트용 클라우드 샌드박스",
+      "lede": "클로드 코드나 코덱스 등의 코딩 에이전트를 격리된 샌드박스 환경에서 실행하고 기기 간 세션을 이동하는 툴이다.",
+      "why_now": "로컬과 클라우드를 오가는 에이전트 워크플로우가 중요해졌기 때문이다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/davidondrej/cloudroom",
+      "published_at": "2026-11-28T15:43:58.000Z"
+    },
+    {
+      "headline": "agentes-chat: 오픈소스 에이전트 슬랙",
+      "lede": "팀원과 AI 에이전트가 채널과 DM에서 함께 일할 수 있는 셀프 호스팅 슬랙 대안이다.",
+      "why_now": "멀티 에이전트 협업을 위한 오픈소스 커뮤니케이션 툴 필요성이 커졌기 때문이다.",
+      "kind": "release",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/agentes-chat/agentes-chat",
+      "published_at": "2026-11-28T15:41:40.000Z"
+    }
+  ],
+  "papers": [
+    {
+      "headline": "Stable Gated DeltaNet-2",
+      "lede": "선형 어텐션 기반 모델의 장기 컨텍스트 학습 불안정성을 해결하기 위한 구조를 제안한다.",
+      "why_now": "긴 시퀀스 모델링에서 반복 상태의 안정성을 높이는 핵심 기법이기 때문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.34051",
+      "published_at": "2026-11-27T00:00:00.000Z"
+    },
+    {
+      "headline": "OS-Omni",
+      "lede": "다중 운영체제와 영구 애플리케이션 상태에 걸친 장기 워크플로우를 수행하는 범용 에이전트 벤치마크이다.",
+      "why_now": "컴퓨터 사용 에이전트의 현실적 한계와 종합적 성능 평가 기준을 제시하기 때문이다.",
+      "kind": "paper",
+      "source_name": "Hugging Face Papers",
+      "canonical_url": "https://arxiv.org/abs/2611.34232",
+      "published_at": "2026-11-27T00:00:00.000Z"
+    }
+  ],
+  "github": [
+    {
+      "headline": "awesome-reverse-engineered",
+      "lede": "클롭 앱, API, 파일 형식 등을 역공학하여 만든 오픈소스 툴과 에이전트 스킬 모음이다.",
+      "why_now": "반복적인 리버스 엔지니어링 작업을 줄이기 위한 17,000개 이상의 리소스를 제공하기 때문이다.",
+      "kind": "repo",
+      "source_name": "GitHub",
+      "canonical_url": "https://github.com/alexgaoth/awesome-reverse-engineered",
+      "published_at": "2026-11-28T15:47:48.000Z"
+    }
+  ],
+  "if_time": {
+    "headline": "랜드로드 AI 오류로 인한 세입자 퇴거 논란",
+    "lede": "임대인의 AI 어시스턴트가 세입자에게 임대료 지연 납부가 가능하다고 잘못 안내하여 발생한 퇴거 사건이다.",
+    "why_now": "주거와 계약 영역에 도입된 LLM 에이전트의 권한과 책임 소재에 대한 법적·윤리적 논쟁을 보여주기 때문이다.",
+    "kind": "analysis",
+    "source_name": "Hacker News",
+    "canonical_url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+    "published_at": "2026-11-28T01:32:56.000Z"
+  }
+}
